@@ -36,6 +36,7 @@ static const CGFloat ORKPlaceHoleViewRotation = 45.0f;
 
 
 @interface ORKHolePegTestPlaceHoleView ()
+<CAAnimationDelegate>
 
 @property (nonatomic, strong) CAShapeLayer *checkLayer;
 @property (nonatomic, strong) CAShapeLayer *crossLayer;

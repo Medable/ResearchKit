@@ -33,6 +33,7 @@
 
 
 @interface ORKHolePegTestRemovePegView ()
+<CAAnimationDelegate>
 
 @property (nonatomic, strong) CAShapeLayer *checkLayer;
 
