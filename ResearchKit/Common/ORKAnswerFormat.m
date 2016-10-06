@@ -439,6 +439,19 @@ NSNumberFormatterStyle ORKNumberFormattingStyleConvert(ORKNumberFormattingStyle 
 
 - (ORKQuestionResult *)resultWithIdentifier:(NSString *)identifier answer:(id)answer {
     ORKQuestionResult *questionResult = [[[self questionResultClass] alloc] initWithIdentifier:identifier];
+    
+    // mirlhaq ---
+    /*
+        ContinuousScale navigation rules always evaluate to false because the result is different from what is displayed in the UI. 
+        The fraction digits have to be taken into account in self.answer as well.
+     */
+    if ([self isKindOfClass:[ORKContinuousScaleAnswerFormat class]])
+    {
+        NSNumberFormatter* formatter = [(ORKContinuousScaleAnswerFormat*)self numberFormatter];
+        answer = [formatter numberFromString:[formatter stringFromNumber:answer]];
+    }
+    // mirlhaq ---
+    
     questionResult.answer = answer;
     questionResult.questionType = self.questionType;
     return questionResult;
