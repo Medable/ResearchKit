@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   # Medable - for now, we're using a forked version of ResearchKit
   #s.version      = '1.3.1'
-  s.version      = '1.3.1.1'
+  s.version      = '1.3.1.2'
 
   s.summary      = 'ResearchKit is an open source software framework that makes it easy to create apps for medical research or for other research projects.'
   s.homepage     = 'https://www.github.com/ResearchKit/ResearchKit'
