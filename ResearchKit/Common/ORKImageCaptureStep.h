@@ -30,6 +30,7 @@
 
 
 #import <ResearchKit/ResearchKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 
 /**
@@ -84,5 +85,11 @@ ORK_CLASS_AVAILABLE
  An accessibility hint of the capture button.
  */
 @property (nonatomic, copy) NSString *accessibilityHint;
+
+/**
+ Medable --
+ Used to specify which camera should be used for the image capture.
+ */
+@property (nonatomic, readwrite) AVCaptureDevicePosition devicePosition;
 
 @end
