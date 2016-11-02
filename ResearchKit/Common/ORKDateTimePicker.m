@@ -136,6 +136,15 @@
         ORKDateAnswerFormat *dateAnswerFormat = (ORKDateAnswerFormat *)answerFormat;
         [self setDate:[dateAnswerFormat pickerDefaultDate]];
         _pickerView.calendar = [dateAnswerFormat currentCalendar];
+        
+// Medable ---
+/*
+    Even though the calendar is being assigned to the picker, the calendar's time zone is ignored. We need to set the picker's time zone as well.
+    Otherwise when date, minimumDate, maximumDate are set, they maintain the value but the UI displays them in the local time zone.
+*/
+        _pickerView.timeZone = _pickerView.calendar.timeZone;
+// Medable ---
+        
         _calendar = [dateAnswerFormat currentCalendar];
         
         [_pickerView setMinimumDate:[dateAnswerFormat pickerMinimumDate]];
