@@ -1633,6 +1633,16 @@ const NSUInteger NumberOfPaddingSpacesForIndentationLevel = 4;
     return self.dateComponentsAnswer;
 }
 
+// Medable --- Added a method to convert the TimeOfDay answer to minutes, so it's easy to create predicates for comparison.
+
+- (NSNumber*)minutesFromAnswer
+{
+    return @(self.dateComponentsAnswer.hour * 60 + self.dateComponentsAnswer.minute);
+}
+
+
+// Medable --- Added a method to convert the TimeOfDay answer to minutes, so it's easy to create predicates for comparison.
+
 @end
 
 
