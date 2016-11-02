@@ -38,6 +38,10 @@
 #import "ORKResult.h"
 #import "ORKStep.h"
 
+// Medable --- get the devicePosition from the step. Don't default to the back camera.
+#import "ORKImageCaptureStep.h"
+// Medable --- get the devicePosition from the step. Don't default to the back camera.
+
 #import "ORKHelpers_Internal.h"
 
 @import AVFoundation;
