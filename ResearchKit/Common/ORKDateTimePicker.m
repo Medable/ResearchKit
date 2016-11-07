@@ -185,6 +185,10 @@
         dfm.dateFormat = dateFormat;
         dfm.calendar = self.calendar;
         
+// Medable --- Use the calendar's time zone, otherwise there are inconsistencies between what is displayed by the date picker and the text field.
+        dfm.timeZone = self.calendar.timeZone;
+// Medable --- Use the calendar's time zone, otherwise there are inconsistencies between what is displayed by the date picker and the text field.
+        
         _labelFormatter = dfm;
     }
     
