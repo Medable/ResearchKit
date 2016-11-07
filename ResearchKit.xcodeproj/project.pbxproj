@@ -480,7 +480,6 @@
 		BCA5C0351AEC05F20092AC8D /* ORKStepNavigationRule.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA5C0331AEC05F20092AC8D /* ORKStepNavigationRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCA5C0361AEC05F20092AC8D /* ORKStepNavigationRule.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA5C0341AEC05F20092AC8D /* ORKStepNavigationRule.m */; };
 		BCAD50E81B0201EE0034806A /* ORKTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD50E71B0201EE0034806A /* ORKTaskTests.m */; };
-		BCB080A11B83EFB900A3F400 /* ORKStepNavigationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB080A01B83EFB900A3F400 /* ORKStepNavigationRule.swift */; };
 		BCB6E64A1B7D531C000D5B34 /* ORKPieChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB6E6481B7D531C000D5B34 /* ORKPieChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCB6E64B1B7D531C000D5B34 /* ORKPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB6E6491B7D531C000D5B34 /* ORKPieChartView.m */; };
 		BCB6E6501B7D533B000D5B34 /* ORKPieChartLegendCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB6E64C1B7D533B000D5B34 /* ORKPieChartLegendCollectionViewLayout.h */; };
@@ -2646,7 +2645,6 @@
 				147503B91AEE807C004B17F3 /* ORKToneAudiometryStep.h in Headers */,
 				106FF2A21B665B86004EACF2 /* ORKHolePegTestPlaceStepViewController.h in Headers */,
 				24A4DA101B8D0F21009C797A /* ORKPasscodeStepView.h in Headers */,
-				86C40C9A1A8D7C5C00081FAC /* ORKDataLogger_Private.h in Headers */,
 				2489F7B11D65214D008DEF20 /* ORKVideoCaptureStep.h in Headers */,
 				861D11AD1AA7951F003C98A7 /* ORKChoiceAnswerFormatHelper.h in Headers */,
 				86C40C461A8D7C5C00081FAC /* ORKSpatialSpanMemoryStepViewController.h in Headers */,
@@ -3057,7 +3055,6 @@
 				BF9155A81BDE8DA9007FA459 /* ORKWaitStep.m in Sources */,
 				86C40CEC1A8D7C5C00081FAC /* ORKAnswerTextField.m in Sources */,
 				86C40C441A8D7C5C00081FAC /* ORKSpatialSpanMemoryStep.m in Sources */,
-				BCB080A11B83EFB900A3F400 /* ORKStepNavigationRule.swift in Sources */,
 				24898B0E1B7186C000B0E7E7 /* ORKScaleRangeImageView.m in Sources */,
 				86C40DD81A8D7C5C00081FAC /* ORKUnitLabel.m in Sources */,
 				86C40D361A8D7C5C00081FAC /* ORKHelpers.m in Sources */,
