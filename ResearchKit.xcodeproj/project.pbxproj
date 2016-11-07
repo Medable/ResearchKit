@@ -1069,7 +1069,6 @@
 		BCA5C0331AEC05F20092AC8D /* ORKStepNavigationRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKStepNavigationRule.h; sourceTree = "<group>"; };
 		BCA5C0341AEC05F20092AC8D /* ORKStepNavigationRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKStepNavigationRule.m; sourceTree = "<group>"; };
 		BCAD50E71B0201EE0034806A /* ORKTaskTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKTaskTests.m; sourceTree = "<group>"; };
-		BCB080A01B83EFB900A3F400 /* ORKStepNavigationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORKStepNavigationRule.swift; sourceTree = "<group>"; };
 		BCB6E6481B7D531C000D5B34 /* ORKPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKPieChartView.h; path = Charts/ORKPieChartView.h; sourceTree = "<group>"; };
 		BCB6E6491B7D531C000D5B34 /* ORKPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORKPieChartView.m; path = Charts/ORKPieChartView.m; sourceTree = "<group>"; };
 		BCB6E64C1B7D533B000D5B34 /* ORKPieChartLegendCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORKPieChartLegendCollectionViewLayout.h; path = Charts/ORKPieChartLegendCollectionViewLayout.h; sourceTree = "<group>"; };
@@ -1705,7 +1704,6 @@
 				BCA5C0341AEC05F20092AC8D /* ORKStepNavigationRule.m */,
 				BC13CE3B1B0662990044153C /* ORKStepNavigationRule_Private.h */,
 				BC13CE411B066A990044153C /* ORKStepNavigationRule_Internal.h */,
-				BCB080A01B83EFB900A3F400 /* ORKStepNavigationRule.swift */,
 				86C40B771A8D7C5C00081FAC /* ORKCustomStepView.h */,
 				86C40B781A8D7C5C00081FAC /* ORKCustomStepView.m */,
 				86C40B791A8D7C5C00081FAC /* ORKCustomStepView_Internal.h */,
