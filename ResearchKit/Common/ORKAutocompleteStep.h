@@ -1,0 +1,37 @@
+//
+//  ORKAutocompleteStep.h
+//  Pods
+//
+//  Created by Guillermo Biset on 2/22/17.
+//
+//
+
+#import "ORKQuestionStep.h"
+
+@interface ORKAutocompleteStep : ORKQuestionStep
+
+/*
+ * Completion Text List
+ * c_completion_text_list
+ *
+ * List of autocomplete entries.
+ */
+@property (nonatomic) NSArray *completionTextList;
+
+/**
+ * Restrict Value
+ * c_completion_text_list_restrict
+ *
+ * When true, restrict possible values to only those matching an entry in the completion text list.
+ */
+@property (nonatomic) BOOL restrictValue;
+
+/**
+ * Match Anywhere
+ * c_match_anywhere
+ *
+ * When true, match the search term anywhere in the autocomplete value (instead of looking for a prefix only).
+ */
+@property (nonatomic) BOOL matchAnywhere;
+
+@end
