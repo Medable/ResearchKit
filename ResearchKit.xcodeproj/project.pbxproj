@@ -119,7 +119,7 @@
 		25ECC0A41AFBDD2700F3D63B /* ORKReactionTimeStimulusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ECC0A21AFBDD2700F3D63B /* ORKReactionTimeStimulusView.m */; };
 		283768901E6F4CF00002E051 /* ORKAutocompleteStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 2837688A1E6F4CF00002E051 /* ORKAutocompleteStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		283768911E6F4CF00002E051 /* ORKAutocompleteStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 2837688B1E6F4CF00002E051 /* ORKAutocompleteStep.m */; };
-		283768921E6F4CF00002E051 /* ORKAutocompleteStepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2837688C1E6F4CF00002E051 /* ORKAutocompleteStepView.h */; };
+		283768921E6F4CF00002E051 /* ORKAutocompleteStepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2837688C1E6F4CF00002E051 /* ORKAutocompleteStepView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		283768931E6F4CF00002E051 /* ORKAutocompleteStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2837688D1E6F4CF00002E051 /* ORKAutocompleteStepView.m */; };
 		283768941E6F4CF00002E051 /* ORKAutocompleteStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2837688E1E6F4CF00002E051 /* ORKAutocompleteStepViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		283768951E6F4CF00002E051 /* ORKAutocompleteStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2837688F1E6F4CF00002E051 /* ORKAutocompleteStepViewController.m */; };
@@ -2413,6 +2413,7 @@
 			files = (
 				BF5161501BE9C53D00174DDD /* ORKWaitStep.h in Headers */,
 				244EFAD21BCEFD83001850D9 /* ORKAnswerFormat_Private.h in Headers */,
+				283768921E6F4CF00002E051 /* ORKAutocompleteStepView.h in Headers */,
 				BCA5C0351AEC05F20092AC8D /* ORKStepNavigationRule.h in Headers */,
 				BF91559C1BDE8D7D007FA459 /* ORKReviewStep.h in Headers */,
 				BC13CE391B0660220044153C /* ORKNavigableOrderedTask.h in Headers */,
@@ -2503,7 +2504,6 @@
 				86C40D981A8D7C5C00081FAC /* ORKStepViewController_Internal.h in Headers */,
 				86B89ABB1AB3BECC001626A4 /* ORKStepHeaderView.h in Headers */,
 				FF36A49D1D1A15FC00DE8470 /* ORKTableStepViewController.h in Headers */,
-				283768921E6F4CF00002E051 /* ORKAutocompleteStepView.h in Headers */,
 				2489F7B51D65214D008DEF20 /* ORKVideoCaptureView.h in Headers */,
 				D42FEFB81AF7557000A124F8 /* ORKImageCaptureView.h in Headers */,
 				10FF9ADB1B7BA78400ECB5B4 /* ORKOrderedTask_Private.h in Headers */,
