@@ -49,6 +49,7 @@
 #import "ORKVideoCaptureStep.h"
 #import "ORKVisualConsentStep.h"
 #import "ORKWaitStep.h"
+#import "ORKAutocompleteStep.h"
 
 #import "ORKTask.h"
 #import "ORKOrderedTask.h"
