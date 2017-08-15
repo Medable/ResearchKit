@@ -6,8 +6,12 @@
 //
 //
 
-#import "ORKQuestionStep.h"
+@import Foundation;
+#import <ResearchKit/ORKQuestionStep.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
+ORK_CLASS_AVAILABLE
 @interface ORKAutocompleteStep : ORKQuestionStep
 
 /*
@@ -16,7 +20,7 @@
  *
  * List of autocomplete entries.
  */
-@property (nonatomic) NSArray *completionTextList;
+@property (nonatomic, nullable) NSArray *completionTextList;
 
 /**
  * Restrict Value
@@ -35,3 +39,5 @@
 @property (nonatomic) BOOL matchAnywhere;
 
 @end
+
+NS_ASSUME_NONNULL_END
