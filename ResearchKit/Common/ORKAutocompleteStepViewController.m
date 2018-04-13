@@ -19,7 +19,8 @@
 @interface ORKAutocompleteStepViewController () <ORKSurveyAnswerCellDelegate>
 
 @property (nonatomic) ORKAutocompleteStepView *autocompleteStepView;
-@property (nonatomic) NSLayoutConstraint *autocompleteStepViewHeightConstraint;
+
+@property (nonatomic) BOOL keyboardWasPresentedAtLeastOnce;
 
 @end
 
@@ -35,13 +36,33 @@
     
     self.autocompleteStepView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
     [self setCustomQuestionView:(ORKQuestionStepCustomView *)self.autocompleteStepView];
+    
+    [self registerForKeyboardNotifications:YES];
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)dealloc
 {
-    [super viewDidAppear:animated];
-    
-    if ( self.autocompleteStepViewHeightConstraint == nil )
+    [self registerForKeyboardNotifications:NO];
+}
+
+- (void)registerForKeyboardNotifications:(BOOL)shouldRegister
+{
+    NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+    if (shouldRegister)
+    {
+        [notificationCenter addObserver:self
+                               selector:@selector(keyboardWillShow:)
+                                   name:UIKeyboardWillShowNotification object:nil];
+    }
+    else
+    {
+        [notificationCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+    }
+}
+
+- (void)keyboardWillShow:(NSNotification *)notification
+{
+    if ( !self.keyboardWasPresentedAtLeastOnce )
     {
         NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self.autocompleteStepView
                                                                       attribute:NSLayoutAttributeHeight
@@ -51,9 +72,9 @@
                                                                      multiplier:1.0
                                                                        constant:self.autocompleteStepView.frame.size.height];
         [self.autocompleteStepView addConstraint:constraint];
-        self.autocompleteStepViewHeightConstraint = constraint;
     }
     
+    self.keyboardWasPresentedAtLeastOnce = YES;
 }
 
 - (ORKAutocompleteStep *)autocompleteStep
