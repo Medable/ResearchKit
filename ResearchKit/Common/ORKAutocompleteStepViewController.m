@@ -19,6 +19,7 @@
 @interface ORKAutocompleteStepViewController () <ORKSurveyAnswerCellDelegate>
 
 @property (nonatomic) ORKAutocompleteStepView *autocompleteStepView;
+@property (nonatomic) NSLayoutConstraint *autocompleteStepViewHeightConstraint;
 
 @end
 
@@ -27,13 +28,32 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    CGRect frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height * 0.48);
+    CGRect frame = self.view.bounds;
     self.autocompleteStepView = [[ORKAutocompleteStepView alloc] initWithFrame:frame];
     self.autocompleteStepView.answerDelegate = self;
     self.autocompleteStepView.autocompleteStep = [self autocompleteStep];
     
     self.autocompleteStepView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
     [self setCustomQuestionView:(ORKQuestionStepCustomView *)self.autocompleteStepView];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    if ( self.autocompleteStepViewHeightConstraint == nil )
+    {
+        NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self.autocompleteStepView
+                                                                      attribute:NSLayoutAttributeHeight
+                                                                      relatedBy:NSLayoutRelationEqual
+                                                                         toItem:nil
+                                                                      attribute:NSLayoutAttributeNotAnAttribute
+                                                                     multiplier:1.0
+                                                                       constant:self.autocompleteStepView.frame.size.height];
+        [self.autocompleteStepView addConstraint:constraint];
+        self.autocompleteStepViewHeightConstraint = constraint;
+    }
+    
 }
 
 - (ORKAutocompleteStep *)autocompleteStep

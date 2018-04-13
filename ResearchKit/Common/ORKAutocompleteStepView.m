@@ -58,6 +58,8 @@
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.stepViewFillsAvailableSpace = YES;
+    self.verticalCenteringEnabled = YES;
     
     [self filterSearchTerms];
     
