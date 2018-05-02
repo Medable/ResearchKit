@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = 'ResearchKit'
 
 # Medable - for now, we're using a forked version of ResearchKit
-  s.version      = '1.4.1.8'
+  s.version      = '1.5.2.1'
 
   s.summary      = 'ResearchKit is an open source software framework that makes it easy to create apps for medical research or for other research projects.'
   s.homepage     = 'https://www.github.com/ResearchKit/ResearchKit'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author       = { 'researchkit.org' => 'http://researchkit.org' }
 
 # Medable - for now, we're using a forked version of ResearchKit
-  s.source       = { :git => 'https://github.com/Medable/ResearchKit.git', :branch => 'Medable_1.4.1', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/Medable/ResearchKit.git', :branch => 'Medable_1.5.2', :tag => s.version.to_s }
 
 # Medable - executing ruby doesn't work in forked RK repo??
   #s.public_header_files = `./scripts/find_headers.rb --public --private`.split("\n")
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.source_files = 'ResearchKit/**/*.{h,m}'
 
   s.resources    = 'ResearchKit/**/*.{fsh,vsh}', 'ResearchKit/Animations/**/*.m4v', 'ResearchKit/Artwork.xcassets', 'ResearchKit/Localized/*.lproj'
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '8.2'
   s.requires_arc = true
 end

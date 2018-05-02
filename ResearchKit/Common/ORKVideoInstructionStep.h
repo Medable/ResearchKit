@@ -1,5 +1,5 @@
 /*
-Copyright (c) 2015, Ricardo Sánchez-Sáez.
+Copyright (c) 2017, Oliver Schaefer.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -22,23 +22,44 @@ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
 ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
 FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
 DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+         SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-import Foundation
 
-public extension ORKPredicateStepNavigationRule {
+#import <UIKit/UIKit.h>
+#import <ResearchKit/ResearchKit.h>
 
-    convenience init(resultPredicatesAndDestinationStepIdentifiers tuples: [ (resultPredicate: NSPredicate, destinationStepIdentifier: String) ], defaultStepIdentifierOrNil: String? = nil ) {
-        var resultPredicates: [NSPredicate] = []
-        var destinationStepIdentifiers: [String] = []
-        for tuple in tuples {
-            resultPredicates.append(tuple.resultPredicate)
-            destinationStepIdentifiers.append(tuple.destinationStepIdentifier)
-        }
-        self.init(resultPredicates: resultPredicates, destinationStepIdentifiers: destinationStepIdentifiers, defaultStepIdentifier: defaultStepIdentifierOrNil, validateArrays: true);
-    }
-}
+
+NS_ASSUME_NONNULL_BEGIN
+
+/**
+ An `ORKVideoInstructionStep` object gives the participant video-based instructions for a task.
+ 
+ You can use video instruction steps to present video content during a task.
+ 
+ */
+ORK_CLASS_AVAILABLE
+@interface ORKVideoInstructionStep : ORKInstructionStep
+
+/**
+ The URL of the video to play (local or remote)
+ */
+@property (nonatomic, copy, nullable) NSURL *videoURL;
+
+/**
+ The time (in seconds) at which the thumbnail image is created.
+ 
+ When presented, the step view controller will display a preview image of the video to play.
+ This property tells the step view controller at what time of the video this thumbnail image 
+ should be created.
+ 
+ Default is 0, negative values will be ignored.
+ */
+@property (nonatomic) NSUInteger thumbnailTime;
+
+@end
+
+NS_ASSUME_NONNULL_END

@@ -146,6 +146,9 @@ static const CGFloat TickViewSize = 122;
     [super stepDidChange];
     
     _completionStepView = [ORKCompletionStepView new];
+    if (self.checkmarkColor) {
+        _completionStepView.tintColor = self.checkmarkColor;
+    }
     
     UIView *viewContainer = [[UIView alloc] initWithFrame:CGRectMake(0, 0, TickViewSize, TickViewSize)];
     [viewContainer addSubview:_completionStepView];
@@ -202,17 +205,37 @@ static const CGFloat TickViewSize = 122;
     
     UILabel *captionLabel = self.stepView.headerView.captionLabel;
     UIAccessibilityPostNotification(UIAccessibilityScreenChangedNotification, captionLabel);
-    _completionStepView.accessibilityLabel = [NSString stringWithFormat:ORKLocalizedString(@"AX_IMAGE_ILLUSTRATION", nil), captionLabel.accessibilityLabel];
+    _completionStepView.accessibilityLabel = [NSString localizedStringWithFormat:ORKLocalizedString(@"AX_IMAGE_ILLUSTRATION", nil), captionLabel.accessibilityLabel];
+}
+
+- (void)setCheckmarkColor:(UIColor *)checkmarkColor {
+    _checkmarkColor = [checkmarkColor copy];
+    _completionStepView.tintColor = checkmarkColor;
+}
+
+- (void)setShouldShowContinueButton:(BOOL)shouldShowContinueButton {
+    _shouldShowContinueButton = shouldShowContinueButton;
+    
+    // Update button states
+    [self setContinueButtonItem:self.continueButtonItem];
+    [self updateNavRightBarButtonItem];
 }
 
 // Override top right bar button item
 - (void)updateNavRightBarButtonItem {
-    self.navigationItem.rightBarButtonItem = self.continueButtonItem;
+    if (self.shouldShowContinueButton) {
+        self.navigationItem.rightBarButtonItem = nil;
+    }
+    else {
+        self.navigationItem.rightBarButtonItem = self.continueButtonItem;
+    }
 }
 
 - (void)setContinueButtonItem:(UIBarButtonItem *)continueButtonItem {
     [super setContinueButtonItem:continueButtonItem];
-    self.stepView.continueSkipContainer.continueButtonItem = nil;
+    if (!self.shouldShowContinueButton) {
+        self.stepView.continueSkipContainer.continueButtonItem = nil;
+    }
     [self updateNavRightBarButtonItem];
 }
 
