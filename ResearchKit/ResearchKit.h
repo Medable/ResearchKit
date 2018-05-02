@@ -102,3 +102,10 @@
 #import <ResearchKit/ORKCollector.h>
 
 #import <ResearchKit/ORKDeprecated.h>
+
+
+// Medable ---
+// Extra headers
+#import <ResearchKit/ORKAutocompleteStep.h>
+#import <ResearchKit/ORKAutocompleteStepViewController.h>
+// Medable ---
