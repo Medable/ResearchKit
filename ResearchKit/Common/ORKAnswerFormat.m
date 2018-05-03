@@ -151,8 +151,8 @@ NSNumberFormatterStyle ORKNumberFormattingStyleConvert(ORKNumberFormattingStyle 
         }
         if (result) {
             result = @[result];
-    }
         }
+    }
     if ([[characteristicType identifier] isEqualToString:HKCharacteristicTypeIdentifierFitzpatrickSkinType]) {
         HKFitzpatrickSkinTypeObject *skinType = [_healthStore fitzpatrickSkinTypeWithError:error];
         if (skinType && skinType.skinType != HKFitzpatrickSkinTypeNotSet) {
