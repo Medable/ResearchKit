@@ -210,7 +210,7 @@
                 if (formItem.answerFormat && [questionResult isKindOfClass:formItem.answerFormat.questionResultClass] && questionResult.answer) {
                     NSString *formItemTextString = formItem.text;
                     NSString *formItemAnswerString = [formItem.answerFormat stringForAnswer:questionResult.answer];
-                    if (formItemTextString && formItemAnswerString && formItemAnswerString.length > 0 && ![formItemAnswerString isEqualToString:ORKLocalizedString(@"NULL_ANSWER", nil)])
+                    if (formItemTextString && formItemAnswerString.length && ![formItemAnswerString isEqualToString:ORKLocalizedString(@"NULL_ANSWER", nil)])
                     {
                         [answerStrings addObject:[@[formItemTextString, formItemAnswerString] componentsJoinedByString:@"\n"]];
                     }
