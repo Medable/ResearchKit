@@ -142,7 +142,7 @@
     Even though the calendar is being assigned to the picker, the calendar's time zone is ignored. We need to set the picker's time zone as well.
     Otherwise when date, minimumDate, maximumDate are set, they maintain the value but the UI displays them in the local time zone.
 */
-        _pickerView.timeZone = _pickerView.calendar.timeZone;
+        _pickerView.timeZone = [NSTimeZone localTimeZone];
 // Medable ---
         
         _calendar = [dateAnswerFormat currentCalendar];
@@ -186,7 +186,7 @@
         dfm.calendar = self.calendar;
         
 // Medable --- Use the calendar's time zone, otherwise there are inconsistencies between what is displayed by the date picker and the text field.
-        dfm.timeZone = self.calendar.timeZone;
+        dfm.timeZone = [NSTimeZone localTimeZone];
 // Medable --- Use the calendar's time zone, otherwise there are inconsistencies between what is displayed by the date picker and the text field.
         
         _labelFormatter = dfm;
