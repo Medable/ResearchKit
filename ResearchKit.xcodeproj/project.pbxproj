@@ -443,6 +443,7 @@
 		8CFA822120B4869E0057E39E /* ORKAutocompleteStepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */; };
 		8CFA822220B4869E0057E39E /* ORKAutocompleteStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA821B20B4869E0057E39E /* ORKAutocompleteStepViewController.m */; };
 		8CFA822320B4869E0057E39E /* ORKAutocompleteStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA821C20B4869E0057E39E /* ORKAutocompleteStep.m */; };
+		8CFA822420B4869E0057E39E /* ORKFormItemCell+Medable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA821D20B4869E0057E39E /* ORKFormItemCell+Medable.m */; };
 		8CFA822520B4869E0057E39E /* ORKAutocompleteStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA821E20B4869E0057E39E /* ORKAutocompleteStepView.m */; };
 		9550E6731D58DBCF00C691B8 /* ORKTouchAnywhereStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 9550E6711D58DBCF00C691B8 /* ORKTouchAnywhereStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9550E6741D58DBCF00C691B8 /* ORKTouchAnywhereStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 9550E6721D58DBCF00C691B8 /* ORKTouchAnywhereStep.m */; };
@@ -1042,6 +1043,7 @@
 		8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAutocompleteStepView.h; sourceTree = "<group>"; };
 		8CFA821B20B4869E0057E39E /* ORKAutocompleteStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKAutocompleteStepViewController.m; sourceTree = "<group>"; };
 		8CFA821C20B4869E0057E39E /* ORKAutocompleteStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKAutocompleteStep.m; sourceTree = "<group>"; };
+		8CFA821D20B4869E0057E39E /* ORKFormItemCell+Medable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ORKFormItemCell+Medable.m"; sourceTree = "<group>"; };
 		8CFA821E20B4869E0057E39E /* ORKAutocompleteStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKAutocompleteStepView.m; sourceTree = "<group>"; };
 		9550E6711D58DBCF00C691B8 /* ORKTouchAnywhereStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKTouchAnywhereStep.h; sourceTree = "<group>"; };
 		9550E6721D58DBCF00C691B8 /* ORKTouchAnywhereStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKTouchAnywhereStep.m; sourceTree = "<group>"; };
@@ -1703,6 +1705,7 @@
 				8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */,
 				8CFA821B20B4869E0057E39E /* ORKAutocompleteStepViewController.m */,
 				8CFA821C20B4869E0057E39E /* ORKAutocompleteStep.m */,
+				8CFA821D20B4869E0057E39E /* ORKFormItemCell+Medable.m */,
 				8CFA821E20B4869E0057E39E /* ORKAutocompleteStepView.m */,
 			);
 			path = "+Medable";
@@ -3151,6 +3154,7 @@
 				86C40D821A8D7C5C00081FAC /* ORKSelectionSubTitleLabel.m in Sources */,
 				86C40DCC1A8D7C5C00081FAC /* ORKTaskViewController.m in Sources */,
 				86C40E061A8D7C5C00081FAC /* ORKConsentLearnMoreViewController.m in Sources */,
+				8CFA822420B4869E0057E39E /* ORKFormItemCell+Medable.m in Sources */,
 				86C40D7A1A8D7C5C00081FAC /* ORKScaleSlider.m in Sources */,
 				244103501B966D4C00EEAB0C /* ORKPasscodeViewController.m in Sources */,
 				86C40C801A8D7C5C00081FAC /* ORKActiveStep.m in Sources */,
