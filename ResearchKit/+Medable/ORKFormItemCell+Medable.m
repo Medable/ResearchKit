@@ -23,24 +23,22 @@
     
     @try
     {
-        // in code below, use KVC, and performSelector:withObject:
+        if (![answer isKindOfClass:NSString.class]) return;
+        
+        // in code below, use KVC (valueForKeyPath:), and
+        // performSelector:withObject:, either of which could
+        // trigger exception if underyling methods not available,
         // in order to bypass compiler/linker restrictions and
         // avoid adding explicit dependencies to this module (RK)
         
         Class DBZxcvbn = NSClassFromString(@"DBZxcvbn");
         NSString* answerFormatKeyPath = @"answerFormat.";
 
-        NSString* isSecureTextEntryKeyPath =
-        [answerFormatKeyPath stringByAppendingString:@"isSecureTextEntry"];
+        NSInteger minimumPasswordStrength = // valueForKeyPath: could trigger exception
+        [[self.formItem valueForKeyPath:@"answerFormat.minimumPasswordStrength"] integerValue];
         
-        NSString* minPasswordStrengthKeyPath =
-        [answerFormatKeyPath stringByAppendingString:@"minimumPasswordStrength"];
-        
-        int minimumPasswordStrength =
-        [[self.formItem valueForKeyPath:minPasswordStrengthKeyPath] intValue];
-        
-        if (DBZxcvbn && minimumPasswordStrength &&
-            [[self.formItem valueForKeyPath:isSecureTextEntryKeyPath] boolValue])
+        if (DBZxcvbn && minimumPasswordStrength && // valueForKeyPath: could trigger exception
+            [[self.formItem valueForKeyPath::@"answerFormat.isSecureTextEntry"] boolValue])
         {
             enum { width = 30 };
             BOOL answerIsEmpty = [answer isEqual:NSNull.null];
@@ -54,13 +52,16 @@
             
             #pragma clang diagnostic push
             #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+            // theoretically this could trigger exception, but that
+            // would mean `DBZxcvbn` API has changed, we already checked
+            // for it's existence above
             id result = (!answerIsEmpty ?
                          [[DBZxcvbn new] performSelector:
                           NSSelectorFromString(@"passwordStrength:")
                                               withObject:answer] : nil);
             #pragma clang diagnostic pop
 
-            int score = [[result valueForKey:@"score"] intValue];
+            NSInteger score = [[result valueForKey:@"score"] integerValue];
             
             UIColor* __nullable (^scoreColor)(void) =
             ^{
@@ -75,21 +76,14 @@
                 
                 return (UIColor*)nil;
             };
-            //*
+            
             textField.textColor = scoreColor();
-            /*/
-            textField.layer.shadowRadius = 1;
-            textField.layer.shadowColor = scoreColor().CGColor;
-            textField.layer.shadowOpacity = !answerIsEmpty ? 1 : 0;
-            textField.layer.shadowPath = CGPathCreateWithRect
-                (CGRectMake(width, textField.frame.size.height + 5,
-                            textField.frame.size.width - 2 * width, 2), nil);
-            //*/
             indicator.text = (answerIsEmpty ? nil :
                               (minimumPasswordStrength < score) ? @"👍" : @"👎");
         }
     }
-    @catch(...) { }
+    @catch(...) { } // anticipated exceptions are due to KVC/performSelector failure,
+    // which means this functionality cannot be supported, so simply silently move on
 }
 
 @end
