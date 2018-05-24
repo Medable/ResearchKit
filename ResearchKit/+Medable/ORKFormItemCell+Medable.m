@@ -35,46 +35,43 @@
     (NSObject<MDRPasswordStrength>*)self.formItem.answerFormat;
     
     if (!(answerIsEmpty || [answer isKindOfClass:NSString.class]) ||
-        ![answerFormat respondsToSelector:@selector(passwordStrengthBlock)]) return;
+        ![answerFormat conformsToProtocol:@protocol(MDRPasswordStrength)]) return;
     
-    MDRPasswordStrengthBlock passwordStrengthBlock = answerFormat.passwordStrengthBlock;
+    enum { width = 30 };
+    UITextField* textField = self.textField;
+    UILabel* indicator = ((UILabel*)textField.leftView ?:
+                          [[UILabel alloc] initWithFrame:
+                           CGRectMake(0, 0, width, width)]);
     
-    if (passwordStrengthBlock)
+    textField.leftView = indicator;
+    textField.leftViewMode = UITextFieldViewModeAlways;
+    
+    if (answerIsEmpty)
     {
-        enum { width = 30 };
-        UITextField* textField = self.textField;
-        UILabel* indicator = ((UILabel*)textField.leftView ?:
-                              [[UILabel alloc] initWithFrame:
-                               CGRectMake(0, 0, width, width)]);
+        indicator.text = nil; // clear indicator to match cleared text
+    }
+    else
+    {
+        BOOL acceptable;
+        MDRPasswordStrength strength;
+        [answerFormat password:answer
+                  isAcceptable:&acceptable
+                  withStrength:&strength];
         
-        textField.leftView = indicator;
-        textField.leftViewMode = UITextFieldViewModeAlways;
+        UIColor* __nullable (^scoreColor)(void) =
+        ^{
+            switch (strength)
+            {
+                case MDRPasswordStrengthWeak:   return UIColor.redColor;
+                case MDRPasswordStrengthNormal: return UIColor.yellowColor;
+                case MDRPasswordStrengthStrong: return UIColor.greenColor;
+            }
+            
+            return (UIColor*)nil;
+        };
         
-        if (answerIsEmpty)
-        {
-            indicator.text = nil; // remove all "adornments" from belowl
-        }
-        else
-        {
-            BOOL passwordIsAcceptable;
-            MDRPasswordStrength strength;
-            passwordStrengthBlock(answer, &passwordIsAcceptable, &strength);
-            
-            UIColor* __nullable (^scoreColor)(void) =
-            ^{
-                switch (strength)
-                {
-                    case MDRPasswordStrengthWeak:   return UIColor.redColor;
-                    case MDRPasswordStrengthNormal: return UIColor.yellowColor;
-                    case MDRPasswordStrengthStrong: return UIColor.greenColor;
-                }
-                
-                return (UIColor*)nil;
-            };
-            
-            textField.textColor = scoreColor();
-            indicator.text = (answerIsEmpty ? nil : (passwordIsAcceptable ? @"👍" : @"👎"));
-        }
+        textField.textColor = scoreColor();
+        indicator.text = (answerIsEmpty ? nil : (acceptable ? @"👍" : @"👎"));
     }
 }
 
