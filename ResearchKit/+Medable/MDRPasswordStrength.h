@@ -16,3 +16,9 @@ typedef NS_ENUM(NSInteger, MDRPasswordStrength)
 typedef void (^MDRPasswordStrengthBlock)(NSString *password,
                                          BOOL *passwordIsAcceptable,
                                          MDRPasswordStrength *strength);
+
+@protocol MDRPasswordStrength
+
+@property (nonatomic, copy) MDRPasswordStrengthBlock passwordStrengthBlock;
+
+@end
