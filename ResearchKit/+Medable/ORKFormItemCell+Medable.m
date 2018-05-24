@@ -29,11 +29,11 @@
 {
     [super ork_setAnswer:answer];
     
+    BOOL answerIsEmpty = [answer isEqual:[NSNull null]];
+    
     NSObject<MDRPasswordStrength>* answerFormat =
     (NSObject<MDRPasswordStrength>*)self.formItem.answerFormat;
     
-    BOOL answerIsEmpty = [answer isEqual:[NSNull null]];
-
     if (!(answerIsEmpty || [answer isKindOfClass:NSString.class]) ||
         ![answerFormat respondsToSelector:@selector(passwordStrengthBlock)]) return;
     
@@ -50,24 +50,31 @@
         textField.leftView = indicator;
         textField.leftViewMode = UITextFieldViewModeAlways;
         
-        BOOL passwordIsAcceptable;
-        MDRPasswordStrength strength;
-        passwordStrengthBlock(answer, &passwordIsAcceptable, &strength);
-        
-        UIColor* __nullable (^scoreColor)(void) =
-        ^{
-            switch (strength)
-            {
-                case MDRPasswordStrengthWeak:   return UIColor.redColor;
-                case MDRPasswordStrengthNormal: return UIColor.yellowColor;
-                case MDRPasswordStrengthStrong: return UIColor.greenColor;
-            }
+        if (answerIsEmpty)
+        {
+            indicator.text = nil; // remove all "adornments" from belowl
+        }
+        else
+        {
+            BOOL passwordIsAcceptable;
+            MDRPasswordStrength strength;
+            passwordStrengthBlock(answer, &passwordIsAcceptable, &strength);
             
-            return (UIColor*)nil;
-        };
-        
-        textField.textColor = scoreColor();
-        indicator.text = (answerIsEmpty ? nil : (passwordIsAcceptable ? @"👍" : @"👎"));
+            UIColor* __nullable (^scoreColor)(void) =
+            ^{
+                switch (strength)
+                {
+                    case MDRPasswordStrengthWeak:   return UIColor.redColor;
+                    case MDRPasswordStrengthNormal: return UIColor.yellowColor;
+                    case MDRPasswordStrengthStrong: return UIColor.greenColor;
+                }
+                
+                return (UIColor*)nil;
+            };
+            
+            textField.textColor = scoreColor();
+            indicator.text = (answerIsEmpty ? nil : (passwordIsAcceptable ? @"👍" : @"👎"));
+        }
     }
 }
 
