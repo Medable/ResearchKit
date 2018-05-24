@@ -445,7 +445,7 @@
 		8CFA822320B4869E0057E39E /* ORKAutocompleteStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA821C20B4869E0057E39E /* ORKAutocompleteStep.m */; };
 		8CFA822420B4869E0057E39E /* ORKFormItemCell+Medable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA821D20B4869E0057E39E /* ORKFormItemCell+Medable.m */; };
 		8CFA822520B4869E0057E39E /* ORKAutocompleteStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA821E20B4869E0057E39E /* ORKAutocompleteStepView.m */; };
-		8CFA823B20B62D320057E39E /* MDRPasswordStrength.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA823A20B62D320057E39E /* MDRPasswordStrength.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CFA823B20B62D320057E39E /* MDRTextInputFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA823A20B62D320057E39E /* MDRTextInputFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9550E6731D58DBCF00C691B8 /* ORKTouchAnywhereStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 9550E6711D58DBCF00C691B8 /* ORKTouchAnywhereStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9550E6741D58DBCF00C691B8 /* ORKTouchAnywhereStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 9550E6721D58DBCF00C691B8 /* ORKTouchAnywhereStep.m */; };
 		9550E67C1D58DD2000C691B8 /* ORKTouchAnywhereStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9550E67A1D58DD2000C691B8 /* ORKTouchAnywhereStepViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1046,7 +1046,7 @@
 		8CFA821C20B4869E0057E39E /* ORKAutocompleteStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKAutocompleteStep.m; sourceTree = "<group>"; };
 		8CFA821D20B4869E0057E39E /* ORKFormItemCell+Medable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ORKFormItemCell+Medable.m"; sourceTree = "<group>"; };
 		8CFA821E20B4869E0057E39E /* ORKAutocompleteStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKAutocompleteStepView.m; sourceTree = "<group>"; };
-		8CFA823A20B62D320057E39E /* MDRPasswordStrength.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDRPasswordStrength.h; sourceTree = "<group>"; };
+		8CFA823A20B62D320057E39E /* MDRTextInputFeedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDRTextInputFeedback.h; sourceTree = "<group>"; };
 		9550E6711D58DBCF00C691B8 /* ORKTouchAnywhereStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKTouchAnywhereStep.h; sourceTree = "<group>"; };
 		9550E6721D58DBCF00C691B8 /* ORKTouchAnywhereStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKTouchAnywhereStep.m; sourceTree = "<group>"; };
 		9550E67A1D58DD2000C691B8 /* ORKTouchAnywhereStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKTouchAnywhereStepViewController.h; sourceTree = "<group>"; };
@@ -1702,7 +1702,7 @@
 		8CFA821720B4869E0057E39E /* +Medable */ = {
 			isa = PBXGroup;
 			children = (
-				8CFA823A20B62D320057E39E /* MDRPasswordStrength.h */,
+				8CFA823A20B62D320057E39E /* MDRTextInputFeedback.h */,
 				8CFA821920B4869E0057E39E /* ORKAutocompleteStep.h */,
 				8CFA821C20B4869E0057E39E /* ORKAutocompleteStep.m */,
 				8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */,
@@ -2601,7 +2601,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFA823B20B62D320057E39E /* MDRPasswordStrength.h in Headers */,
+				8CFA823B20B62D320057E39E /* MDRTextInputFeedback.h in Headers */,
 				8CFA822020B4869E0057E39E /* ORKAutocompleteStep.h in Headers */,
 				8CFA821F20B4869E0057E39E /* ORKAutocompleteStepViewController.h in Headers */,
 				BF1D43851D4904C6007EE90B /* ORKVideoInstructionStep.h in Headers */,

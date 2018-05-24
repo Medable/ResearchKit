@@ -9,7 +9,7 @@
 #import "ResearchKit.h"
 #import "ORKFormItemCell.h"
 #import "ORKTextFieldView.h"
-#import "MDRPasswordStrength.h"
+#import "MDRTextInputFeedback.h"
 
 // see ORKFormItemCell.m
 @interface ORKFormItemCell ()
@@ -29,49 +29,13 @@
 {
     [super ork_setAnswer:answer];
     
-    BOOL answerIsEmpty = [answer isEqual:[NSNull null]];
+    NSObject<MDRTextInputFeedback>* textInputFeedback =
+    (NSObject<MDRTextInputFeedback>*)self.formItem.answerFormat;
     
-    NSObject<MDRPasswordStrength>* answerFormat =
-    (NSObject<MDRPasswordStrength>*)self.formItem.answerFormat;
-    
-    if (!(answerIsEmpty || [answer isKindOfClass:NSString.class]) ||
-        ![answerFormat conformsToProtocol:@protocol(MDRPasswordStrength)]) return;
-    
-    enum { width = 30 };
-    UITextField* textField = self.textField;
-    UILabel* indicator = ((UILabel*)textField.leftView ?:
-                          [[UILabel alloc] initWithFrame:
-                           CGRectMake(0, 0, width, width)]);
-    
-    textField.leftView = indicator;
-    textField.leftViewMode = UITextFieldViewModeAlways;
-    
-    if (answerIsEmpty)
+    if ([textInputFeedback conformsToProtocol:@protocol(MDRTextInputFeedback)])
     {
-        indicator.text = nil; // clear indicator to match cleared text
-    }
-    else
-    {
-        BOOL acceptable;
-        MDRPasswordStrength strength;
-        [answerFormat password:answer
-                  isAcceptable:&acceptable
-                  withStrength:&strength];
-        
-        UIColor* __nullable (^scoreColor)(void) =
-        ^{
-            switch (strength)
-            {
-                case MDRPasswordStrengthWeak:   return UIColor.redColor;
-                case MDRPasswordStrengthNormal: return UIColor.yellowColor;
-                case MDRPasswordStrengthStrong: return UIColor.greenColor;
-            }
-            
-            return (UIColor*)nil;
-        };
-        
-        textField.textColor = scoreColor();
-        indicator.text = (answerIsEmpty ? nil : (acceptable ? @"👍" : @"👎"));
+        answer = [answer isKindOfClass:NSString.class] ? answer : nil;
+        [textInputFeedback updateTextField:self.textField forValue:answer];
     }
 }
 
