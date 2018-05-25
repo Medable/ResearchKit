@@ -106,7 +106,7 @@
 
 // Medable ---
 // Extra headers
-#import <ResearchKit/MDRPasswordStrength.h>
+#import <ResearchKit/MDRTextInputFeedback.h>
 #import <ResearchKit/ORKAutocompleteStep.h>
 #import <ResearchKit/ORKAutocompleteStepViewController.h>
 // Medable ---
