@@ -108,5 +108,4 @@
 // Extra headers
 #import <ResearchKit/MDRTextInputFeedback.h>
 #import <ResearchKit/ORKAutocompleteStep.h>
-#import <ResearchKit/ORKAutocompleteStepViewController.h>
 // Medable ---
