@@ -438,6 +438,13 @@
 		86CC8EBA1AC09383001CCD89 /* ORKResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EAF1AC09383001CCD89 /* ORKResultTests.m */; };
 		86CC8EBB1AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EB01AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m */; };
 		86D348021AC161B0006DB02B /* ORKRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D348001AC16175006DB02B /* ORKRecorderTests.m */; };
+		8C56CEC1210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEBA210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m */; };
+		8C56CEC2210B8F5F0062C3A0 /* ORKMDBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEBB210B8F5F0062C3A0 /* ORKMDBarcodeScanner.m */; };
+		8C56CEC3210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEBC210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C56CEC5210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEBE210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h */; };
+		8C56CEC6210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEBF210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m */; };
+		8C56CEC7210B8F5F0062C3A0 /* ORKMDBarcodeScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEC0210B8F5F0062C3A0 /* ORKMDBarcodeScanner.h */; };
+		8C56CEC9210B9E4F0062C3A0 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEC8210B9E4E0062C3A0 /* BarcodeScannerView.swift */; };
 		8CFA821F20B4869E0057E39E /* ORKAutocompleteStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821820B4869E0057E39E /* ORKAutocompleteStepViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CFA822020B4869E0057E39E /* ORKAutocompleteStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821920B4869E0057E39E /* ORKAutocompleteStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CFA822120B4869E0057E39E /* ORKAutocompleteStepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */; };
@@ -1039,6 +1046,13 @@
 		86CC8EAF1AC09383001CCD89 /* ORKResultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKResultTests.m; sourceTree = "<group>"; };
 		86CC8EB01AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKTextChoiceCellGroupTests.m; sourceTree = "<group>"; };
 		86D348001AC16175006DB02B /* ORKRecorderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ORKRecorderTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8C56CEBA210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKMDBarcodeScannerStepViewController.m; sourceTree = "<group>"; };
+		8C56CEBB210B8F5F0062C3A0 /* ORKMDBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKMDBarcodeScanner.m; sourceTree = "<group>"; };
+		8C56CEBC210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKMDBarcodeScannerStep.h; sourceTree = "<group>"; };
+		8C56CEBE210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKMDBarcodeScannerStepViewController.h; sourceTree = "<group>"; };
+		8C56CEBF210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKMDBarcodeScannerStep.m; sourceTree = "<group>"; };
+		8C56CEC0210B8F5F0062C3A0 /* ORKMDBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKMDBarcodeScanner.h; sourceTree = "<group>"; };
+		8C56CEC8210B9E4E0062C3A0 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		8CFA821820B4869E0057E39E /* ORKAutocompleteStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAutocompleteStepViewController.h; sourceTree = "<group>"; };
 		8CFA821920B4869E0057E39E /* ORKAutocompleteStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAutocompleteStep.h; sourceTree = "<group>"; };
 		8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAutocompleteStepView.h; sourceTree = "<group>"; };
@@ -1712,11 +1726,26 @@
 			path = ORKAutocompleteStep;
 			sourceTree = "<group>";
 		};
+		8C56CEB9210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep */ = {
+			isa = PBXGroup;
+			children = (
+				8C56CEC8210B9E4E0062C3A0 /* BarcodeScannerView.swift */,
+				8C56CEC0210B8F5F0062C3A0 /* ORKMDBarcodeScanner.h */,
+				8C56CEBB210B8F5F0062C3A0 /* ORKMDBarcodeScanner.m */,
+				8C56CEBC210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h */,
+				8C56CEBF210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m */,
+				8C56CEBE210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h */,
+				8C56CEBA210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m */,
+			);
+			path = ORKMDBarcodeScannerStep;
+			sourceTree = "<group>";
+		};
 		8CFA821720B4869E0057E39E /* +Medable */ = {
 			isa = PBXGroup;
 			children = (
 				8CFA823A20B62D320057E39E /* MDRTextInputFeedback.h */,
 				8C56CE9D210B8E900062C3A0 /* ORKAutocompleteStep */,
+				8C56CEB9210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep */,
 				8CFA821D20B4869E0057E39E /* ORKFormItemCell+Medable.m */,
 			);
 			path = "+Medable";
@@ -2609,6 +2638,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C56CEC3210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h in Headers */,
 				8CFA823B20B62D320057E39E /* MDRTextInputFeedback.h in Headers */,
 				8CFA822020B4869E0057E39E /* ORKAutocompleteStep.h in Headers */,
 				8CFA821F20B4869E0057E39E /* ORKAutocompleteStepViewController.h in Headers */,
@@ -2738,6 +2768,7 @@
 				2441034F1B966D4C00EEAB0C /* ORKPasscodeViewController.h in Headers */,
 				B11C549F1A9EF4A700265E61 /* ORKConsentSharingStepViewController.h in Headers */,
 				BC4A213F1C85FC0000BFC271 /* ORKBarGraphChartView.h in Headers */,
+				8C56CEC5210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h in Headers */,
 				86C40D621A8D7C5C00081FAC /* ORKQuestionStep_Internal.h in Headers */,
 				86C40D641A8D7C5C00081FAC /* ORKQuestionStepViewController.h in Headers */,
 				10BAA2CA1B5FCB4F004FE478 /* ORKProgressView.h in Headers */,
@@ -2785,6 +2816,7 @@
 				86C40DA61A8D7C5C00081FAC /* ORKSurveyAnswerCellForImageSelection.h in Headers */,
 				86C40D5E1A8D7C5C00081FAC /* ORKQuestionStep.h in Headers */,
 				6146D0A31B84A91E0068491D /* ORKLineGraphAccessibilityElement.h in Headers */,
+				8C56CEC7210B8F5F0062C3A0 /* ORKMDBarcodeScanner.h in Headers */,
 				86C40C841A8D7C5C00081FAC /* ORKActiveStepTimer.h in Headers */,
 				86B781BD1AA668ED00688151 /* ORKValuePicker.h in Headers */,
 				86C40DE21A8D7C5C00081FAC /* ORKVerticalContainerView_Internal.h in Headers */,
@@ -3284,6 +3316,7 @@
 				86C40C541A8D7C5C00081FAC /* ORKTappingIntervalStep.m in Sources */,
 				86C40D6C1A8D7C5C00081FAC /* ORKResult.m in Sources */,
 				781D54151DF886AB00223305 /* ORKTrailmakingStepViewController.m in Sources */,
+				8C56CEC2210B8F5F0062C3A0 /* ORKMDBarcodeScanner.m in Sources */,
 				86C40CD21A8D7C5C00081FAC /* ORKInstructionStepView.m in Sources */,
 				10FF9AD81B7A045E00ECB5B4 /* ORKSeparatorView.m in Sources */,
 				86C40D181A8D7C5C00081FAC /* ORKErrors.m in Sources */,
@@ -3312,6 +3345,7 @@
 				FFAE71411DAEC66200AE82B4 /* ORKFootnoteLabel.m in Sources */,
 				86C40C941A8D7C5C00081FAC /* ORKAudioRecorder.m in Sources */,
 				FF5E3CCC1D23444400ECE4B7 /* ORKPageStepViewController.m in Sources */,
+				8C56CEC6210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m in Sources */,
 				86C40C581A8D7C5C00081FAC /* ORKTappingIntervalStepViewController.m in Sources */,
 				BA0AA6971EAEC0B600671ACE /* ORKStroopStep.m in Sources */,
 				86C40E0E1A8D7C5C00081FAC /* ORKConsentReviewStepViewController.m in Sources */,
@@ -3324,6 +3358,7 @@
 				BF9155A81BDE8DA9007FA459 /* ORKWaitStep.m in Sources */,
 				86C40CEC1A8D7C5C00081FAC /* ORKAnswerTextField.m in Sources */,
 				86C40C441A8D7C5C00081FAC /* ORKSpatialSpanMemoryStep.m in Sources */,
+				8C56CEC1210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m in Sources */,
 				BCB080A11B83EFB900A3F400 /* ORKStepNavigationRule.swift in Sources */,
 				24898B0E1B7186C000B0E7E7 /* ORKScaleRangeImageView.m in Sources */,
 				86C40DD81A8D7C5C00081FAC /* ORKUnitLabel.m in Sources */,
@@ -3345,6 +3380,7 @@
 				781D54111DF886AB00223305 /* ORKTrailmakingContentView.m in Sources */,
 				FF5051F11D66908C0065E677 /* ORKNavigablePageStep.m in Sources */,
 				86C40C861A8D7C5C00081FAC /* ORKActiveStepTimer.m in Sources */,
+				8C56CEC9210B9E4F0062C3A0 /* BarcodeScannerView.swift in Sources */,
 				242C9E061BBDFDAC0088B7F4 /* ORKVerificationStep.m in Sources */,
 				B11C549B1A9EEF8800265E61 /* ORKConsentSharingStep.m in Sources */,
 				86C40DE01A8D7C5C00081FAC /* ORKVerticalContainerView.m in Sources */,
@@ -3602,7 +3638,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -3635,7 +3671,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
