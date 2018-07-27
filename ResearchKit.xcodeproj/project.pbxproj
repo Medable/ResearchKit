@@ -1699,16 +1699,24 @@
 			path = ResearchKitTests;
 			sourceTree = "<group>";
 		};
-		8CFA821720B4869E0057E39E /* +Medable */ = {
+		8C56CE9D210B8E900062C3A0 /* ORKAutocompleteStep */ = {
 			isa = PBXGroup;
 			children = (
-				8CFA823A20B62D320057E39E /* MDRTextInputFeedback.h */,
 				8CFA821920B4869E0057E39E /* ORKAutocompleteStep.h */,
 				8CFA821C20B4869E0057E39E /* ORKAutocompleteStep.m */,
 				8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */,
 				8CFA821E20B4869E0057E39E /* ORKAutocompleteStepView.m */,
 				8CFA821820B4869E0057E39E /* ORKAutocompleteStepViewController.h */,
 				8CFA821B20B4869E0057E39E /* ORKAutocompleteStepViewController.m */,
+			);
+			path = ORKAutocompleteStep;
+			sourceTree = "<group>";
+		};
+		8CFA821720B4869E0057E39E /* +Medable */ = {
+			isa = PBXGroup;
+			children = (
+				8CFA823A20B62D320057E39E /* MDRTextInputFeedback.h */,
+				8C56CE9D210B8E900062C3A0 /* ORKAutocompleteStep */,
 				8CFA821D20B4869E0057E39E /* ORKFormItemCell+Medable.m */,
 			);
 			path = "+Medable";
