@@ -21,6 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *
+ */
+- (void)didFinishConfiguration;
+
+/**
+ *
  * @param outputObjects Scanned metadata output objects.
  */
 - (void)didProduceMetadataOutput:(AVMetadataMachineReadableCodeObjectArray *)outputObjects;

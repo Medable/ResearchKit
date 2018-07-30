@@ -10,9 +10,13 @@
 
 @interface ORKMDBarcodeScanner () <AVCaptureMetadataOutputObjectsDelegate>
 
-@property (nonatomic) UIView *highlight;
 @property (nonatomic) AVCaptureSession *captureSession;
 @property (nonatomic) AVCaptureVideoPreviewLayer *previewLayer;
+@property (nonatomic) dispatch_queue_t sessionQueue;
+
+@property (nonatomic, strong) AVMetadataObjectTypeArray *supportedCodes;
+
+@property (nonatomic) UIView *highlight;
 
 @end
 
@@ -48,9 +52,59 @@
 
 - (void)commonInit
 {
+    self.supportedCodes = @[  // default to all barcodes
+                            AVMetadataObjectTypeAztecCode,
+                            AVMetadataObjectTypeCode39Code,
+                            AVMetadataObjectTypeCode39Mod43Code,
+                            AVMetadataObjectTypeCode93Code,
+                            AVMetadataObjectTypeCode128Code,
+                            AVMetadataObjectTypeDataMatrixCode,
+                            AVMetadataObjectTypeEAN8Code,
+                            AVMetadataObjectTypeEAN13Code,
+                            AVMetadataObjectTypeInterleaved2of5Code,
+                            AVMetadataObjectTypeITF14Code,
+                            AVMetadataObjectTypePDF417Code,
+                            AVMetadataObjectTypeQRCode,
+                            AVMetadataObjectTypeUPCECode
+                            ];
+    
     if (self.supportedCodes.count == 0) return;
     if (@available(iOS 10.0, *)) {} else return;
+    
+    // Capture session
+    self.captureSession = [AVCaptureSession new];
+    
+    // Initialize previewLayer and add it as a sublayer to the view's layer.
+    self.previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
+    
+    self.previewLayer.frame = CGRectMake(self.layer.bounds.origin.x, self.layer.bounds.origin.y + self.layer.bounds.size.height * 0.25f, self.layer.bounds.size.width, self.layer.bounds.size.height * 0.5f);
+    self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+    self.previewLayer.needsDisplayOnBoundsChange = YES;
+    
+    [self.layer addSublayer:self.previewLayer];
+    
+    // configure highlight
+    self.highlight = [UIView new];
+    [self addSubview:self.highlight];
+    [self bringSubviewToFront:self.highlight];
+    
+    self.highlight.layer.borderWidth = 2;
+    self.highlight.layer.borderColor = UIColor.redColor.CGColor;
+    
+    // Capture actions should be performed off the main queue to keep the UI responsive
+    self.sessionQueue = dispatch_queue_create("barcode scanning session queue", DISPATCH_QUEUE_SERIAL);
+    
+    // Setup the capture session
+    dispatch_async(self.sessionQueue, ^
+    {
+        [self queue_SetupCaptureSession];
+    });
+}
 
+- (AVCaptureDevice *)captureDevice
+{
+    if (@available(iOS 10.0, *)) {} else return nil;
+    
     // Get the back-facing camera for capturing videos
     NSArray *deviceTypes = @[ AVCaptureDeviceTypeBuiltInWideAngleCamera ];
     
@@ -59,55 +113,57 @@
                                                                mediaType:AVMediaTypeVideo
                                                                position:AVCaptureDevicePositionBack];
     
-    AVCaptureDevice *captureDevice = deviceDiscoverySession.devices.firstObject;
-    if (captureDevice)
+    return deviceDiscoverySession.devices.firstObject;
+}
+
+- (void)queue_SetupCaptureSession
+{
+    NSAssert(self.captureSession != nil, @"Capture session should be created at this point.");
+
+    [self.captureSession beginConfiguration];
+    
+    AVCaptureDevice *device = [self captureDevice];
+    if (device)
     {
         // Get an instance of the AVCaptureDeviceInput class using the previous
         // device object and set the input device on the capture session.
         NSError *deviceInputDeviceError = nil;
-        AVCaptureDeviceInput *deviceInput =
-        [AVCaptureDeviceInput deviceInputWithDevice:captureDevice
-                                              error:&deviceInputDeviceError];
+        AVCaptureDeviceInput *input = [AVCaptureDeviceInput deviceInputWithDevice:device error:&deviceInputDeviceError];
         
-        if (!deviceInputDeviceError)
+        // Initialize a AVCaptureMetadataOutput object and
+        // set it as the output device to the capture session.
+        AVCaptureMetadataOutput *output = [AVCaptureMetadataOutput new];
+        
+        if (!deviceInputDeviceError && [self.captureSession canAddInput:input] && [self.captureSession canAddOutput:output])
         {
-            // Capture session
-            self.captureSession = [AVCaptureSession new];
-            [self.captureSession addInput:deviceInput];
+            [self.captureSession addInput:input];
             
-            // Initialize a AVCaptureMetadataOutput object and
-            // set it as the output device to the capture session.
-            AVCaptureMetadataOutput *output = [AVCaptureMetadataOutput new];
-            
-            // must add to capture session first!!
             [self.captureSession addOutput:output];
-            output.metadataObjectTypes = self.supportedCodes;
+            output.metadataObjectTypes = self.supportedCodes;   // must add first before specifiying supported codes
             
             // Set delegate and use the default dispatch queue to execute the call back
             [output setMetadataObjectsDelegate:self queue:dispatch_get_main_queue()];
-
-            // Initialize previewLayer and add it as a sublayer to the view's layer.
-            self.previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
-            self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
-            self.previewLayer.frame = self.layer.bounds;
-            
-            [self.layer addSublayer:self.previewLayer];
-            
-            // configure highlight
-            self.highlight = [UIView new];
-            [self addSubview:self.highlight];
-            [self bringSubviewToFront:self.highlight];
-            
-            self.highlight.layer.borderWidth = 2;
-            self.highlight.layer.borderColor = UIColor.redColor.CGColor;
         }
         else
         {
+            self.captureSession = nil;
+            
             // TODO: error handling
-            NSString *msg = [NSString stringWithFormat:@"%@ - Couldn't initialize: %@", NSStringFromClass([self class]), deviceInputDeviceError.localizedDescription];
+            NSString *msg = [NSString stringWithFormat:@"%@ - Couldn't setup capture session: %@", NSStringFromClass([self class]), deviceInputDeviceError.localizedDescription];
             NSAssert(NO, msg);
         }
     }
+    else
+    {
+        self.captureSession = nil;
+        
+        // TODO: error handling
+        NSString *msg = [NSString stringWithFormat:@"%@ - Couldn't setup capture session.", NSStringFromClass([self class])];
+        NSAssert(NO, msg);
+    }
+    
+    [self.captureSession commitConfiguration];
+    [self.delegate didFinishConfiguration];
 }
 
 - (BOOL)isConfigured
@@ -118,64 +174,30 @@
 }
 
 
-#pragma mark - Accessors
-
-@synthesize supportedCodes = _supportedCodes;
-
-- (AVMetadataObjectTypeArray *)supportedCodes
-{
-    return _supportedCodes ?:
-    @[  // default to all barcodes
-      AVMetadataObjectTypeAztecCode,
-      AVMetadataObjectTypeCode39Code,
-      AVMetadataObjectTypeCode39Mod43Code,
-      AVMetadataObjectTypeCode93Code,
-      AVMetadataObjectTypeCode128Code,
-      AVMetadataObjectTypeDataMatrixCode,
-      AVMetadataObjectTypeEAN8Code,
-      AVMetadataObjectTypeEAN13Code,
-      AVMetadataObjectTypeInterleaved2of5Code,
-      AVMetadataObjectTypeITF14Code,
-      AVMetadataObjectTypePDF417Code,
-      AVMetadataObjectTypeQRCode,
-      AVMetadataObjectTypeUPCECode
-      ];
-}
-
-- (void)setSupportedCodes:(AVMetadataObjectTypeArray *)supportedCodes
-{
-    _supportedCodes = supportedCodes;
-    
-    AVCaptureMetadataOutput *output = ((AVCaptureMetadataOutput *)
-                                       self.captureSession.outputs.firstObject);
-    
-    if ([output isKindOfClass:[AVCaptureMetadataOutput class]])
-    {
-        output.metadataObjectTypes = supportedCodes;
-    }
-}
-
-
 #pragma mark - Scanning
 
 // Start video capture.
 - (void)startScanning
 {
-    [self.captureSession startRunning];
+    dispatch_async(self.sessionQueue, ^
+    {
+        [self.captureSession startRunning];
+    });
 }
 
 // Stop video capture.
 - (void)stopScanning
 {
-    [self.captureSession stopRunning];
+    dispatch_async(self.sessionQueue, ^
+    {
+        [self.captureSession stopRunning];
+    });
 }
 
 
 #pragma mark - AVCaptureMetadataOutputObjectsDelegate
 
-typedef NSArray<__kindof AVMetadataObject *> AVMetadataObjectArray;
-
-- (void)captureOutput:(AVCaptureOutput *)output didOutputMetadataObjects:(AVMetadataObjectArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection
+- (void)captureOutput:(AVCaptureOutput *)output didOutputMetadataObjects:(NSArray<__kindof AVMetadataObject *> *)metadataObjects fromConnection:(AVCaptureConnection *)connection
 {
     self.highlight.frame = CGRectZero;
     
