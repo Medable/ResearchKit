@@ -28,6 +28,11 @@
 
 @implementation ORKAutocompleteStepViewController
 
+- (void)dealloc
+{
+    [self registerForKeyboardNotifications:NO];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -52,10 +57,38 @@
     }
 }
 
-- (void)dealloc
+- (ORKAutocompleteStep *)autocompleteStep
 {
-    [self registerForKeyboardNotifications:NO];
+    return (ORKAutocompleteStep *)self.step;
 }
+
+- (BOOL)continueButtonEnabled
+{
+    NSString *answer = [self performSelector:@selector(answer)];
+    if (![answer isKindOfClass:[NSString class]])
+    {
+        return NO;
+    }
+    
+    if (self.autocompleteStep.restrictValue)
+    {
+        for (NSString *possibleAnswer in self.autocompleteStep.completionTextList)
+        {
+            if ([possibleAnswer caseInsensitiveCompare:answer] == NSOrderedSame)
+            {
+                return YES;
+            }
+        }
+        
+        return NO;
+    }
+    
+    BOOL enabled = (answer.length > 0 || (self.autocompleteStep.optional && !self.skipButtonItem));
+    return enabled;
+}
+
+
+#pragma mark - Keyboard notifications
 
 - (void)registerForKeyboardNotifications:(BOOL)shouldRegister
 {
@@ -111,37 +144,6 @@
 {
     self.autocompleteStepViewHeightConstraint.constant = self.lastValidAutocompleteViewHeight;
     [self.view layoutIfNeeded];
-}
-
-- (ORKAutocompleteStep *)autocompleteStep
-{
-    return (ORKAutocompleteStep *)self.step;
-}
-
-- (BOOL)continueButtonEnabled
-{
-    NSString *answer = [self performSelector:@selector(answer)];
-    if ( ! [answer isKindOfClass:[NSString class] ] )
-    {
-        return NO;
-    }
-    
-    if ( self.autocompleteStep.restrictValue )
-    {
-        for ( NSString *possibleAnswer in self.autocompleteStep.completionTextList )
-        {
-            if ( [possibleAnswer caseInsensitiveCompare:answer] == NSOrderedSame )
-            {
-                return YES;
-            }
-        }
-        
-        return NO;
-    }
-
-    BOOL enabled = ( answer.length > 0 || (self.autocompleteStep.optional && !self.skipButtonItem));
-    
-    return enabled;
 }
 
 @end

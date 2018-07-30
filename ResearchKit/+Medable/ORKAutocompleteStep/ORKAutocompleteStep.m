@@ -10,6 +10,7 @@
 #import "ORKAnswerFormat.h"
 #import "ORKAutocompleteStepViewController.h"
 
+
 @implementation ORKAutocompleteStep
 
 + (Class)stepViewControllerClass
@@ -28,6 +29,5 @@
     
     return answerFormat;
 }
-
 
 @end
