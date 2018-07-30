@@ -6,16 +6,25 @@
 //
 //
 
-#import <ResearchKit/ResearchKit.h>
-
 #import "ORKMDBarcodeScannerStep.h"
 #import "ORKMDBarcodeScannerStepViewController.h"
+
 
 @implementation ORKMDBarcodeScannerStep
 
 + (Class)stepViewControllerClass
 {
     return [ORKMDBarcodeScannerStepViewController class];
+}
+
+- (instancetype)copyWithZone:(NSZone *)zone
+{
+    ORKMDBarcodeScannerStep *step = [super copyWithZone:zone];
+    step.templateImage = self.templateImage;
+    step.templateImageInsets = self.templateImageInsets;
+    step.accessibilityHint = self.accessibilityHint;
+    step.accessibilityInstructions = self.accessibilityInstructions;
+    return step;
 }
 
 @end
