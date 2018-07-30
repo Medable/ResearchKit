@@ -1,5 +1,5 @@
 //
-//  ORKMDBarcodeScanner.h
+//  ORKMDBarcodeScannerView.h
 //  ResearchKit
 //
 //  Copyright © 2018 medable, inc. All rights reserved.
@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *
  */
-@interface ORKMDBarcodeScanner : UIView
+@interface ORKMDBarcodeScannerView : UIView
 
 /**
  *

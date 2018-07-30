@@ -1,14 +1,14 @@
 //
-//  ORKMDBarcodeScanner.m
+//  ORKMDBarcodeScannerView.m
 //  ResearchKit
 //
 //  Copyright © 2018 medable, inc. All rights reserved.
 //
 
-#import "ORKMDBarcodeScanner.h"
+#import "ORKMDBarcodeScannerView.h"
 
 
-@interface ORKMDBarcodeScanner () <AVCaptureMetadataOutputObjectsDelegate>
+@interface ORKMDBarcodeScannerView () <AVCaptureMetadataOutputObjectsDelegate>
 
 @property (nonatomic) AVCaptureSession *captureSession;
 @property (nonatomic) AVCaptureVideoPreviewLayer *previewLayer;
@@ -23,7 +23,7 @@
 
 #pragma mark - Implementation
 
-@implementation ORKMDBarcodeScanner
+@implementation ORKMDBarcodeScannerView
 
 
 #pragma mark - Initialization

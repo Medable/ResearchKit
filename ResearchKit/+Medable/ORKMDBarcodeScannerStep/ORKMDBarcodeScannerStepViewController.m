@@ -8,8 +8,8 @@
 
 #import "ORKMDBarcodeScannerStepViewController.h"
 
-#import "ORKMDBarcodeScanner.h"
 #import "ORKMDBarcodeScannerStep.h"
+#import "ORKMDBarcodeScannerView.h"
 
 #import "ORKInstructionStepView.h"
 #import "ORKNavigationContainerView.h"
@@ -20,7 +20,7 @@
 @interface ORKMDBarcodeScannerStepViewController () <ORKMDBarcodeScannerViewDelegate>
 
 @property (nonatomic, strong) ORKInstructionStepView *instructionStepView;
-@property (nonatomic, strong) ORKMDBarcodeScanner *scannerView;
+@property (nonatomic, strong) ORKMDBarcodeScannerView *scannerView;
 
 @property (nonatomic, readonly) ORKNavigationContainerView *navigation;
 
@@ -52,7 +52,7 @@
     self.instructionStepView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
     [self.view addSubview:self.instructionStepView];
     
-    self.scannerView = [[ORKMDBarcodeScanner alloc] initWithFrame:self.view.bounds];
+    self.scannerView = [[ORKMDBarcodeScannerView alloc] initWithFrame:self.view.bounds];
     self.scannerView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
     self.scannerView.delegate = self;
     [self.view addSubview:self.scannerView];
