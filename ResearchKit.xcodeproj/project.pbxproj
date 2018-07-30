@@ -441,10 +441,10 @@
 		8C56CEC1210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEBA210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m */; };
 		8C56CEC2210B8F5F0062C3A0 /* ORKMDBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEBB210B8F5F0062C3A0 /* ORKMDBarcodeScanner.m */; };
 		8C56CEC3210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEBC210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C56CEC5210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEBE210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h */; };
+		8C56CEC5210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEBE210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8C56CEC6210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEBF210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m */; };
-		8C56CEC7210B8F5F0062C3A0 /* ORKMDBarcodeScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEC0210B8F5F0062C3A0 /* ORKMDBarcodeScanner.h */; };
-		8CFA821F20B4869E0057E39E /* ORKAutocompleteStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821820B4869E0057E39E /* ORKAutocompleteStepViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C56CEC7210B8F5F0062C3A0 /* ORKMDBarcodeScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEC0210B8F5F0062C3A0 /* ORKMDBarcodeScanner.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8CFA821F20B4869E0057E39E /* ORKAutocompleteStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821820B4869E0057E39E /* ORKAutocompleteStepViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8CFA822020B4869E0057E39E /* ORKAutocompleteStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821920B4869E0057E39E /* ORKAutocompleteStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CFA822120B4869E0057E39E /* ORKAutocompleteStepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */; };
 		8CFA822220B4869E0057E39E /* ORKAutocompleteStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA821B20B4869E0057E39E /* ORKAutocompleteStepViewController.m */; };

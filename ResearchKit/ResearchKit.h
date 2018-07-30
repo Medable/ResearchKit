@@ -105,7 +105,12 @@
 
 
 // Medable ---
-// Extra headers
+// Text input
 #import <ResearchKit/MDRTextInputFeedback.h>
+
+// Autocomplete step
 #import <ResearchKit/ORKAutocompleteStep.h>
+
+// Barcode scanner step
+#import <ResearchKit/ORKMDBarcodeScannerStep.h>
 // Medable ---
