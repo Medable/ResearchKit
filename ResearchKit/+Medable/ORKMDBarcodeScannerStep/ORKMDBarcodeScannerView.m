@@ -77,10 +77,10 @@
     // Initialize previewLayer and add it as a sublayer to the view's layer.
     self.previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
     
-    self.previewLayer.frame = CGRectMake(self.layer.bounds.origin.x, self.layer.bounds.origin.y + self.layer.bounds.size.height * 0.25f, self.layer.bounds.size.width, self.layer.bounds.size.height * 0.5f);
-    self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+    self.previewLayer.frame = self.layer.bounds;
     self.previewLayer.needsDisplayOnBoundsChange = YES;
-    
+    self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+
     [self.layer addSublayer:self.previewLayer];
     
     // configure highlight
