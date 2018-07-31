@@ -105,10 +105,8 @@
 
 // Medable ---
 // Autocomplete step
-//#import <ResearchKit/ORKAutocompleteStepView.h>
 #import <ResearchKit/ORKAutocompleteStepViewController.h>
 
 // Barcode scanner step
-#import <ResearchKit/ORKMDBarcodeScannerView.h>
 #import <ResearchKit/ORKMDBarcodeScannerStepViewController.h>
 // Medable ---
