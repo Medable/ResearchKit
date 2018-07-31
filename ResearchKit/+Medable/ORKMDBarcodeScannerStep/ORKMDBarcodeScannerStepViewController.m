@@ -66,6 +66,19 @@
     // to do the right thing when these values are set later.
     self.instructionStepView.headerView.captionLabel.text = @" ";
     self.instructionStepView.headerView.instructionLabel.text = @" ";
+
+    if (self.barcodeScannerStep.templateImage)
+    {
+        UIImageView *overlayImage = [[UIImageView alloc] initWithImage:
+                                     self.barcodeScannerStep.templateImage];
+        
+        [self.scannerView addSubview:overlayImage];
+        overlayImage.frame = self.scannerView.bounds;
+        overlayImage.backgroundColor = UIColor.clearColor;
+        overlayImage.contentMode = UIViewContentModeScaleAspectFill;
+    }
+    
+    self.scannerView.accessibilityHint = self.barcodeScannerStep.accessibilityInstructions;
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -82,6 +95,10 @@
     [self.scannerView stopScanning];
 }
 
+- (ORKMDBarcodeScannerStep *)barcodeScannerStep
+{
+    return (ORKMDBarcodeScannerStep *)self.step;
+}
 
 #pragma mark -
 
