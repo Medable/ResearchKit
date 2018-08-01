@@ -17,6 +17,7 @@
 
 #import "ORKStepHeaderView_Internal.h"
 #import "ORKStepViewController_Internal.h"
+#import "ORKNavigationContainerView_Internal.h"
 
 @interface ORKMDBarcodeScannerStepViewController () <ORKMDBarcodeScannerViewDelegate>
 
@@ -212,6 +213,10 @@
          }
          else
          {
+             self.instructionStepView.continueSkipContainer.optional = YES;
+             self.instructionStepView.continueSkipContainer.skipEnabled = YES;
+             [self.instructionStepView.continueSkipContainer updateContinueAndSkipEnabled];
+
              self.instructionStepView.headerView.captionLabel.text = @"Unable to Scan";
              
              [self.instructionStepView.headerView.instructionLabel setText:

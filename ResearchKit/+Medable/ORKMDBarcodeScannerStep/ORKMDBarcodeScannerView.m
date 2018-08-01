@@ -146,20 +146,24 @@
         }
         else
         {
-            self.captureSession = nil;
+            [self.previewLayer removeFromSuperlayer];
             
-            // TODO: error handling
-            NSString *msg = [NSString stringWithFormat:@"%@ - Couldn't setup capture session: %@", NSStringFromClass([self class]), deviceInputDeviceError.localizedDescription];
-            NSAssert(NO, msg);
+            self.captureSession = nil;
+            self.previewLayer = nil;
+            
+            // we've cleaned up, inability to configure is reported
+            // by the owning VC, so there's nothing more to do here
         }
     }
     else
     {
-        self.captureSession = nil;
+        [self.previewLayer removeFromSuperlayer];
         
-        // TODO: error handling
-        NSString *msg = [NSString stringWithFormat:@"%@ - Couldn't setup capture session.", NSStringFromClass([self class])];
-        NSAssert(NO, msg);
+        self.captureSession = nil;
+        self.previewLayer = nil;
+        
+        // we've cleaned up, inability to configure is reported
+        // by the owning VC, so there's nothing more to do here
     }
     
     [self.captureSession commitConfiguration];
