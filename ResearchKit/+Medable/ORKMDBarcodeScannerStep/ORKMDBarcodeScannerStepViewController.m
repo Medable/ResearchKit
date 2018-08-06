@@ -148,23 +148,24 @@
     checkmarkView.translatesAutoresizingMaskIntoConstraints = NO;
     
     [self.instructionStepView addConstraints:
-     [NSLayoutConstraint constraintsWithVisualFormat:
-      [NSString stringWithFormat:@"V:[checkmarkView(%f)]",
-       checkmarkView.tickViewSize] options:0 metrics:nil views:
-      NSDictionaryOfVariableBindings(checkmarkView)]];
+     [NSLayoutConstraint constraintsWithVisualFormat: // set height to checkmarkView.tickViewSize
+      [NSString stringWithFormat:@"V:[checkmarkView(%f)]", checkmarkView.tickViewSize] options:0 metrics:nil
+                                               views:NSDictionaryOfVariableBindings(checkmarkView)]];
     
     [self.instructionStepView addConstraints:
      @[
+       // keep horizontally centered to 
        [NSLayoutConstraint constraintWithItem:checkmarkView
                                     attribute:NSLayoutAttributeCenterX
                                     relatedBy:NSLayoutRelationEqual toItem:self.instructionStepView
                                     attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:1.0],
        
+       // keep 40 pts below instructionLabel
        [NSLayoutConstraint constraintWithItem:checkmarkView
                                     attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual
                                        toItem:self.instructionStepView.headerView.instructionLabel
                                     attribute:NSLayoutAttributeBottom multiplier:1.0 constant:40.0],
-       
+       // keep the width == height
        [NSLayoutConstraint constraintWithItem:checkmarkView attribute:NSLayoutAttributeWidth
                                     relatedBy:NSLayoutRelationEqual toItem:checkmarkView
                                     attribute:NSLayoutAttributeHeight multiplier:1.0 constant:1.0],
