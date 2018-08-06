@@ -208,6 +208,8 @@
      {
          if (self.scannerView.isConfigured)
          {
+             // these are temporary strings
+             // TODO: get final copy from product
              self.instructionStepView.headerView.captionLabel.text = @"Find a barcode/qrcode to capture";
              self.instructionStepView.headerView.instructionLabel.text = @"do it...do it now!";
          }
