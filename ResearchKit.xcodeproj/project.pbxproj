@@ -438,7 +438,6 @@
 		86CC8EBA1AC09383001CCD89 /* ORKResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EAF1AC09383001CCD89 /* ORKResultTests.m */; };
 		86CC8EBB1AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC8EB01AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m */; };
 		86D348021AC161B0006DB02B /* ORKRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D348001AC16175006DB02B /* ORKRecorderTests.m */; };
-		8C3E222F210FCA7700633E5B /* ORKAnimatedCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E222E210FCA7700633E5B /* ORKAnimatedCheckmarkView.m */; };
 		8C56CEC1210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEBA210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m */; };
 		8C56CEC2210B8F5F0062C3A0 /* ORKMDBarcodeScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEBB210B8F5F0062C3A0 /* ORKMDBarcodeScannerView.m */; };
 		8C56CEC3210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEBC210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1046,8 +1045,6 @@
 		86CC8EAF1AC09383001CCD89 /* ORKResultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKResultTests.m; sourceTree = "<group>"; };
 		86CC8EB01AC09383001CCD89 /* ORKTextChoiceCellGroupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKTextChoiceCellGroupTests.m; sourceTree = "<group>"; };
 		86D348001AC16175006DB02B /* ORKRecorderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ORKRecorderTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		8C3E222E210FCA7700633E5B /* ORKAnimatedCheckmarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORKAnimatedCheckmarkView.m; sourceTree = "<group>"; };
-		8C3E2230210FCE0600633E5B /* ORKAnimatedCheckmarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKAnimatedCheckmarkView.h; sourceTree = "<group>"; };
 		8C56CEBA210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKMDBarcodeScannerStepViewController.m; sourceTree = "<group>"; };
 		8C56CEBB210B8F5F0062C3A0 /* ORKMDBarcodeScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKMDBarcodeScannerView.m; sourceTree = "<group>"; };
 		8C56CEBC210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKMDBarcodeScannerStep.h; sourceTree = "<group>"; };
@@ -1734,8 +1731,6 @@
 				8C56CEBF210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m */,
 				8C56CEC0210B8F5F0062C3A0 /* ORKMDBarcodeScannerView.h */,
 				8C56CEBB210B8F5F0062C3A0 /* ORKMDBarcodeScannerView.m */,
-				8C3E2230210FCE0600633E5B /* ORKAnimatedCheckmarkView.h */,
-				8C3E222E210FCA7700633E5B /* ORKAnimatedCheckmarkView.m */,
 				8C56CEBE210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h */,
 				8C56CEBA210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.m */,
 			);
@@ -3400,7 +3395,6 @@
 				781D54131DF886AB00223305 /* ORKTrailmakingStep.m in Sources */,
 				FA7A9D301B083DD3005A2BEA /* ORKConsentSectionFormatter.m in Sources */,
 				86C40D2A1A8D7C5C00081FAC /* ORKFormTextView.m in Sources */,
-				8C3E222F210FCA7700633E5B /* ORKAnimatedCheckmarkView.m in Sources */,
 				242C9E0E1BBE03F90088B7F4 /* ORKVerificationStepViewController.m in Sources */,
 				86C40DD41A8D7C5C00081FAC /* ORKTextButton.m in Sources */,
 				86C40C981A8D7C5C00081FAC /* ORKDataLogger.m in Sources */,
