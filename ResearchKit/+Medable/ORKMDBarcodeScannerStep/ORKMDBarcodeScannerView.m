@@ -69,7 +69,7 @@
                             ];
     
     if (self.supportedCodes.count == 0) return;
-    if (@available(iOS 10.0, *)) {} else return;
+    if (self.class.isSuppported) {} else return;
     
     // Capture session
     self.captureSession = [AVCaptureSession new];
@@ -103,7 +103,7 @@
 
 - (AVCaptureDevice *)captureDevice
 {
-    if (@available(iOS 10.0, *)) {} else return nil;
+    if (self.class.isSuppported) {} else return nil;
     
     // Get the back-facing camera for capturing videos
     NSArray *deviceTypes = @[ AVCaptureDeviceTypeBuiltInWideAngleCamera ];
@@ -177,6 +177,12 @@
             (self.captureSession.outputs.count == 1));
 }
 
++ (BOOL)isSuppported
+{
+    // I'd prefer to just `return @available(...)`
+    // but the compiler gives a warning about that
+    if (@available(iOS 10.0, *)) return YES; else return NO;
+}
 
 #pragma mark - Scanning
 

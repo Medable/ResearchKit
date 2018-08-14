@@ -24,6 +24,7 @@
 @property (nonatomic, strong) ORKMDBarcodeScannerView *scannerView;
 
 @property (nonatomic, copy) NSString *scannerOutput;
+@property (nonatomic, assign) BOOL configurationDone;
 
 @end
 
@@ -53,18 +54,33 @@
     self.instructionStepView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
     [self.view addSubview:self.instructionStepView];
     
-    self.scannerView = [[ORKMDBarcodeScannerView alloc] initWithFrame:self.view.bounds];
-    self.scannerView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-    self.scannerView.delegate = self;
-    self.scannerView.hidden = YES;
-    [self.view addSubview:self.scannerView];
+    if (ORKMDBarcodeScannerView.isSuppported)
+    {
+        CGRect scannerFrame = self.view.bounds;
+        scannerFrame.size.height *= 0.6;
+        
+        self.scannerView = [[ORKMDBarcodeScannerView alloc] initWithFrame:scannerFrame];
+        self.scannerView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+        self.scannerView.delegate = self;
+        [self.view addSubview:self.scannerView];
 
-    // if we don't set these text labels of ORKInstructionStepView
-    // to _something_ here in viewDidLoad, it isn't smart enough
-    // to do the right thing when these values are set later.
-    self.instructionStepView.headerView.captionLabel.text = @" ";
-    self.instructionStepView.headerView.instructionLabel.text = @" ";
-
+        // if we don't set these text labels of ORKInstructionStepView
+        // to _something_ here in viewDidLoad, it isn't smart enough
+        // to do the right thing when these values are set later.
+        self.instructionStepView.headerView.captionLabel.text = @" ";
+        self.instructionStepView.headerView.instructionLabel.text = @" ";
+    }
+    else
+    {
+        [self enableSkip];
+        self.configurationDone = YES;
+        
+        self.instructionStepView.headerView.captionLabel.text = @"Scanning Unavailble";
+        
+        [self.instructionStepView.headerView.instructionLabel setText:
+         @"You are using an older version of iOS which does not support barcode scanning. Please update your device."];
+    }
+    
     if (self.barcodeScannerStep.templateImage)
     {
         UIImageView *overlayImage = [[UIImageView alloc] initWithImage:
@@ -75,14 +91,6 @@
         overlayImage.backgroundColor = UIColor.clearColor;
         overlayImage.contentMode = UIViewContentModeScaleAspectFill;
     }
-    else
-    {
-        UIView* line = [[UIView alloc] initWithFrame:
-                        CGRectMake(0, self.scannerView.bounds.size.height/2,
-                                   self.scannerView.bounds.size.width, 2)];
-        line.backgroundColor = UIColor.redColor;
-        [self.scannerView addSubview:line];
-    }
     
     self.scannerView.accessibilityHint = self.barcodeScannerStep.accessibilityInstructions;
 }
@@ -91,14 +99,25 @@
 {
     [super viewDidAppear:animated];
     
-    [self.scannerView startScanning];
+    if (self.configurationDone)
+    {
+        if (self.scannerView.isConfigured)
+        {
+            [self.scannerView startScanning];
+        }
+        else [self enableSkip]; // back navigation
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
     
-    [self.scannerView stopScanning];
+    if (self.configurationDone &&
+        self.scannerView.isConfigured)
+    {
+        [self.scannerView stopScanning];
+    }
 }
 
 - (ORKMDBarcodeScannerStep *)barcodeScannerStep
@@ -127,6 +146,13 @@
     return stepResult;
 }
 
+- (void)enableSkip
+{
+    self.instructionStepView.continueSkipContainer.optional = YES;
+    self.instructionStepView.continueSkipContainer.skipEnabled = YES;
+    [self.instructionStepView.continueSkipContainer updateContinueAndSkipEnabled];
+}
+
 - (void)stepDidChange
 {
     [super stepDidChange];
@@ -150,9 +176,7 @@
 
 - (void)setContinueButtonItem:(UIBarButtonItem *)continueButtonItem
 {
-    [super setContinueButtonItem:continueButtonItem];
-    
-    self.instructionStepView.continueSkipContainer.continueButtonItem = continueButtonItem;
+    // we don't want the "Next" button to be visible, so ignore
 }
 
 - (void)setLearnMoreButtonItem:(UIBarButtonItem *)learnMoreButtonItem
@@ -171,23 +195,50 @@
 
 - (void)didFinishConfiguration
 {
+    __weak typeof(self) me = self;
     [[NSOperationQueue mainQueue] addOperationWithBlock:^
      {
-         if (self.scannerView.isConfigured)
+         typeof(me) this = me;
+         this.configurationDone = YES;
+         
+         if (this.scannerView.isConfigured)
          {
-             self.scannerView.hidden = NO;
-         }
+             [this.scannerView startScanning];
+             
+             // add label to display the instructions
+             UILabel *instructions = [[UILabel alloc]
+                                      initWithFrame:CGRectZero];
+             
+             [this.view addSubview:instructions];
+             
+             [instructions setText: this.step.text ?:
+              @"Position barcode or QR code in the frame"];
+             
+             instructions.numberOfLines = 0; // unlimited
+             instructions.textAlignment = NSTextAlignmentCenter;
+             instructions.lineBreakMode = NSLineBreakByWordWrapping;
+             instructions.translatesAutoresizingMaskIntoConstraints = NO;
+
+             NSDictionary* views = NSDictionaryOfVariableBindings(instructions, _scannerView);
+             
+             [this.view addConstraints: // vertically below _scannerView
+              [NSLayoutConstraint constraintsWithVisualFormat:
+               @"V:[_scannerView][instructions]|" options:0 metrics:nil views:views]];
+            
+             [this.view addConstraints: // horizontally stretched to fill view
+              [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[instructions]|"
+                                                      options:0 metrics:nil views:views]];
+             
+             instructions.font = this.instructionStepView.headerView.instructionLabel.font;
+        }
          else
          {
-             self.instructionStepView.continueSkipContainer.optional = YES;
-             self.instructionStepView.continueSkipContainer.skipEnabled = YES;
-             [self.instructionStepView.continueSkipContainer updateContinueAndSkipEnabled];
-
-             self.instructionStepView.headerView.captionLabel.text = @"Unable to Scan";
+             [this enableSkip];
              
-             [self.instructionStepView.headerView.instructionLabel setText:
-              @"There was a problem using the camera,\nor this device does not support"
-              " scanning. Please try updating this device to use the latest version of iOS."];
+             this.instructionStepView.headerView.captionLabel.text = @"Unable to Scan";
+             
+             [this.instructionStepView.headerView.instructionLabel setText:
+              @"There was a problem using the camera,\nor this device does not support scanning."];
          }
      }];
 }

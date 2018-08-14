@@ -41,6 +41,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ORKMDBarcodeScannerView : UIView
 
 /**
+ * return YES if the device has the required OS support
+ */
+@property (nonatomic, readonly, class) BOOL isSuppported;
+
+/**
  * returns YES if the scanner was successfully self-configured, otherwise NO
  */
 @property (nonatomic, readonly) BOOL isConfigured;
