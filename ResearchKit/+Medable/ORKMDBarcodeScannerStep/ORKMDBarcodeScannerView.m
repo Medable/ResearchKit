@@ -122,19 +122,19 @@
 
     [self.captureSession beginConfiguration];
     
+    NSError *error = nil;
     AVCaptureDevice *device = [self captureDevice];
     if (device)
     {
         // Get an instance of the AVCaptureDeviceInput class using the previous
         // device object and set the input device on the capture session.
-        NSError *deviceInputDeviceError = nil;
-        AVCaptureDeviceInput *input = [AVCaptureDeviceInput deviceInputWithDevice:device error:&deviceInputDeviceError];
+        AVCaptureDeviceInput *input = [AVCaptureDeviceInput deviceInputWithDevice:device error:&error];
         
         // Initialize a AVCaptureMetadataOutput object and
         // set it as the output device to the capture session.
         AVCaptureMetadataOutput *output = [AVCaptureMetadataOutput new];
         
-        if (!deviceInputDeviceError && [self.captureSession canAddInput:input] && [self.captureSession canAddOutput:output])
+        if (!error && [self.captureSession canAddInput:input] && [self.captureSession canAddOutput:output])
         {
             [self.captureSession addInput:input];
             
@@ -167,7 +167,7 @@
     }
     
     [self.captureSession commitConfiguration];
-    [self.delegate didFinishConfiguration];
+    [self.delegate didFinishConfiguration:error];
 }
 
 - (BOOL)isConfigured

@@ -130,14 +130,13 @@
 - (ORKStepResult *)result
 {
     ORKStepResult *stepResult = [super result];
-    NSDate *now = stepResult.endDate;
 
     NSMutableArray *results = [NSMutableArray arrayWithArray:stepResult.results];
     
     ORKTextQuestionResult *result = [[ORKTextQuestionResult alloc] initWithIdentifier:self.step.identifier];
     result.textAnswer = self.scannerOutput;
     result.questionType = ORKQuestionTypeText;
-    result.endDate = now;
+    result.endDate = stepResult.endDate;
     result.startDate = stepResult.startDate;
     
     [results addObject:result];
@@ -193,7 +192,7 @@
 
 #pragma mark - ORKMDBarcodeScannerViewDelegate
 
-- (void)didFinishConfiguration
+- (void)didFinishConfiguration:(NSError* __nullable)error
 {
     __weak typeof(self) me = self;
     [[NSOperationQueue mainQueue] addOperationWithBlock:^
@@ -230,15 +229,43 @@
                                                       options:0 metrics:nil views:views]];
              
              instructions.font = this.instructionStepView.headerView.instructionLabel.font;
-        }
+         }
          else
          {
-             [this enableSkip];
-             
-             this.instructionStepView.headerView.captionLabel.text = @"Unable to Scan";
-             
-             [this.instructionStepView.headerView.instructionLabel setText:
-              @"There was a problem using the camera,\nor this device does not support scanning."];
+             if (!error)
+             {
+                 [this enableSkip];
+                 
+                 this.instructionStepView.headerView.captionLabel.text = @"";
+                 
+                 [this.instructionStepView.headerView.instructionLabel
+                  setText:@"Error has occurred, please retake the task."];
+             }
+             else
+             {
+                 NSString* message = @"Camera access was disabled for this"
+                 " app, please tap settings to enable the camera for this app";
+                 
+                 UIAlertController *alert = [UIAlertController 
+                                             alertControllerWithTitle:@"Camera Unavailable"
+                                             message:message preferredStyle:UIAlertControllerStyleAlert];
+                 
+                 [alert addAction:
+                  [UIAlertAction actionWithTitle:@"Settings"
+                                           style:UIAlertActionStyleDefault
+                                         handler: ^(UIAlertAction * _Nonnull action)
+                   {
+                       [me goBackward];
+                       [UIApplication.sharedApplication openURL:
+                        [NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+                   }]];
+
+                 [alert addAction:
+                  [UIAlertAction actionWithTitle:@"Skip" style:UIAlertActionStyleDefault
+                                         handler: ^(UIAlertAction * _Nonnull action) { [me goForward]; }]];
+                 
+                 [this presentViewController:alert animated:YES completion:nil];
+             }
          }
      }];
 }

@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
  * notification that the scannerView has finished self-configuration,
  * use `isConfigured` to determine if that configuration succeeded
  */
-- (void)didFinishConfiguration;
+- (void)didFinishConfiguration:(NSError* __nullable)error;
 
 /**
  * notification that barcode(s) have been detected
