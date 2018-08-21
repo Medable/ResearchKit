@@ -78,7 +78,7 @@
         self.instructionStepView.headerView.captionLabel.text = @"Scanning Unavailble";
         
         [self.instructionStepView.headerView.instructionLabel setText:
-         @"You are using an older version of iOS which does not support barcode scanning. Please update your device."];
+         @"Barcode scanning is supported on iOS 10 and above.  Please update your iOS version on your device."];
     }
     
     if (self.barcodeScannerStep.templateImage)
