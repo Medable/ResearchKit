@@ -16,8 +16,6 @@
 
 @property (nonatomic, strong) AVMetadataObjectTypeArray *supportedCodes;
 
-@property (nonatomic) UIView *highlight;
-
 @end
 
 
@@ -82,14 +80,6 @@
     self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
 
     [self.layer addSublayer:self.previewLayer];
-    
-    // configure highlight
-    self.highlight = [UIView new];
-    [self addSubview:self.highlight];
-    [self bringSubviewToFront:self.highlight];
-    
-    self.highlight.layer.borderWidth = 2;
-    self.highlight.layer.borderColor = UIColor.redColor.CGColor;
     
     // Capture actions should be performed off the main queue to keep the UI responsive
     self.sessionQueue = dispatch_queue_create("barcode scanning session queue", DISPATCH_QUEUE_SERIAL);
@@ -209,8 +199,6 @@
 
 - (void)captureOutput:(AVCaptureOutput *)output didOutputMetadataObjects:(NSArray<__kindof AVMetadataObject *> *)metadataObjects fromConnection:(AVCaptureConnection *)connection
 {
-    self.highlight.frame = CGRectZero;
-    
     NSMutableArray<AVMetadataMachineReadableCodeObject*>* outputObjects = [NSMutableArray new];
     
     for (AVMetadataMachineReadableCodeObject *metadataObject in metadataObjects)
@@ -218,8 +206,6 @@
         if ([self.supportedCodes containsObject:metadataObject.type])
         {
             [outputObjects addObject:metadataObject];
-            
-            self.highlight.frame = [self.previewLayer transformedMetadataObjectForMetadataObject:metadataObject].bounds;
         }
     }
     
