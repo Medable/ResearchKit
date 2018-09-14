@@ -14,6 +14,7 @@
 #import "ORKInstructionStepView.h"
 #import "ORKNavigationContainerView.h"
 
+#import "ORKHelpers_Internal.h"
 #import "ORKStepHeaderView_Internal.h"
 #import "ORKStepViewController_Internal.h"
 #import "ORKNavigationContainerView_Internal.h"
@@ -81,31 +82,20 @@
          @"Barcode scanning is supported on iOS 10 and above.  Please update your iOS version on your device."];
     }
     
-    if (self.barcodeScannerStep.templateImage)
-    {
-        CGRect imageFrame = self.scannerView.bounds;
-        UIEdgeInsets insets = self.barcodeScannerStep.templateImageInsets;
-        
-        // interpret insets as percentages of the width
-        // (for left/right) and the height (for top/bottom)
-        imageFrame.origin.x += imageFrame.size.width * insets.left;
-        imageFrame.origin.y += imageFrame.size.height * insets.top;
-        
-        imageFrame.size.width *= 1.0 - insets.right;
-        imageFrame.size.width -= imageFrame.origin.x;
-        
-        imageFrame.size.height *= 1.0 - insets.bottom;
-        imageFrame.size.height -= imageFrame.origin.y;
-        
-        UIImageView *overlayImage = [[UIImageView alloc] initWithImage:
-                                     self.barcodeScannerStep.templateImage];
-        
-        overlayImage.frame = imageFrame;
-        [self.scannerView addSubview:overlayImage];
-        
-        overlayImage.backgroundColor = UIColor.clearColor;
-        overlayImage.contentMode = UIViewContentModeScaleAspectFill;
-    }
+    UIImage* image = [UIImage imageNamed:@"barcode overlay"
+                                inBundle:ORKBundle()
+                                compatibleWithTraitCollection:nil];
+    
+    UIImageView *overlayImage = [[UIImageView alloc] initWithImage:
+                                 [image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
+    
+    [self.scannerView addSubview:overlayImage];
+    overlayImage.frame = self.scannerView.bounds;
+    overlayImage.backgroundColor = UIColor.clearColor;
+    overlayImage.tintColor = [UIColor colorWithRed:1.0
+                                             green:204.0/255.0
+                                              blue:0 alpha:1.0];
+    overlayImage.contentMode = UIViewContentModeScaleAspectFill;
     
     self.scannerView.accessibilityHint = self.barcodeScannerStep.accessibilityInstructions;
 }

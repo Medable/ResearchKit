@@ -444,6 +444,7 @@
 		8C56CEC5210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEBE210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8C56CEC6210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56CEBF210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m */; };
 		8C56CEC7210B8F5F0062C3A0 /* ORKMDBarcodeScannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56CEC0210B8F5F0062C3A0 /* ORKMDBarcodeScannerView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C72F7DC214C4159000B732A /* ORKMDBarcodeAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C72F7DB214C4159000B732A /* ORKMDBarcodeAssets.xcassets */; };
 		8CFA821F20B4869E0057E39E /* ORKAutocompleteStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821820B4869E0057E39E /* ORKAutocompleteStepViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8CFA822020B4869E0057E39E /* ORKAutocompleteStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821920B4869E0057E39E /* ORKAutocompleteStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CFA822120B4869E0057E39E /* ORKAutocompleteStepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */; };
@@ -1051,6 +1052,7 @@
 		8C56CEBE210B8F5F0062C3A0 /* ORKMDBarcodeScannerStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKMDBarcodeScannerStepViewController.h; sourceTree = "<group>"; };
 		8C56CEBF210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKMDBarcodeScannerStep.m; sourceTree = "<group>"; };
 		8C56CEC0210B8F5F0062C3A0 /* ORKMDBarcodeScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKMDBarcodeScannerView.h; sourceTree = "<group>"; };
+		8C72F7DB214C4159000B732A /* ORKMDBarcodeAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ORKMDBarcodeAssets.xcassets; sourceTree = "<group>"; };
 		8CFA821820B4869E0057E39E /* ORKAutocompleteStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAutocompleteStepViewController.h; sourceTree = "<group>"; };
 		8CFA821920B4869E0057E39E /* ORKAutocompleteStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAutocompleteStep.h; sourceTree = "<group>"; };
 		8CFA821A20B4869E0057E39E /* ORKAutocompleteStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAutocompleteStepView.h; sourceTree = "<group>"; };
@@ -1727,6 +1729,7 @@
 		8C56CEB9210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep */ = {
 			isa = PBXGroup;
 			children = (
+				8C72F7DB214C4159000B732A /* ORKMDBarcodeAssets.xcassets */,
 				8C56CEBC210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.h */,
 				8C56CEBF210B8F5F0062C3A0 /* ORKMDBarcodeScannerStep.m */,
 				8C56CEC0210B8F5F0062C3A0 /* ORKMDBarcodeScannerView.h */,
@@ -3084,6 +3087,7 @@
 				B1A860EB1A9693C400EA57B7 /* consent_02@2x.m4v in Resources */,
 				B1A860F61A9693C400EA57B7 /* consent_06@3x.m4v in Resources */,
 				B1A860F01A9693C400EA57B7 /* consent_07@2x.m4v in Resources */,
+				8C72F7DC214C4159000B732A /* ORKMDBarcodeAssets.xcassets in Resources */,
 				B1A860EF1A9693C400EA57B7 /* consent_06@2x.m4v in Resources */,
 				B1A860EC1A9693C400EA57B7 /* consent_03@2x.m4v in Resources */,
 				B1A860F41A9693C400EA57B7 /* consent_04@3x.m4v in Resources */,
