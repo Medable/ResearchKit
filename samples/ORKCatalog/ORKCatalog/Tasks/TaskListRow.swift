@@ -105,6 +105,11 @@ enum TaskListRow: Int, CustomStringConvertible {
     case trailMaking
     case videoInstruction
     
+    // --- Medable
+    case autocomplete
+    case barcodeScanner
+    // --- Medable
+    
     class TaskListRowSection {
         var title: String
         var rows: [TaskListRow]
@@ -118,6 +123,13 @@ enum TaskListRow: Int, CustomStringConvertible {
     /// Returns an array of all the task list row enum cases.
     static var sections: [ TaskListRowSection ] {
         return [
+            // --- Medable
+            TaskListRowSection(title: "Medable", rows:
+                [
+                    .autocomplete,
+                    .barcodeScanner,
+                    ]),
+            // --- Medable
             TaskListRowSection(title: "Surveys", rows:
                 [
                     .form,
@@ -314,6 +326,13 @@ enum TaskListRow: Int, CustomStringConvertible {
             
         case .trailMaking:
             return NSLocalizedString("Trail Making Test", comment: "")
+            
+        // --- Medable
+        case .autocomplete:
+            return NSLocalizedString("Autocomplete test", comment: "")
+        case .barcodeScanner:
+            return NSLocalizedString("Barcode scanner test", comment: "")
+        // --- Medable
         }
     }
     
@@ -479,6 +498,14 @@ enum TaskListRow: Int, CustomStringConvertible {
         // Video instruction tasks.
         case videoInstructionTask
         case videoInstructionStep
+        
+        // --- Medable
+        case autocompleteTask
+        case autocompleteStep
+        
+        case barcodeScannerTask
+        case barcodeScannerStep
+        // --- Medable
     }
     
     // MARK: Properties
@@ -616,6 +643,14 @@ enum TaskListRow: Int, CustomStringConvertible {
         
         case .videoInstruction:
             return videoInstruction
+            
+        // --- Medable
+        case .autocomplete:
+            return autocompleteTask
+            
+        case .barcodeScanner:
+            return barcodeScannerTask
+        // --- Medable
         }
     }
 
@@ -1395,6 +1430,64 @@ enum TaskListRow: Int, CustomStringConvertible {
         videoInstructionStep.thumbnailTime = 2 // Customizable thumbnail timestamp
         return ORKOrderedTask(identifier: String(describing: Identifier.videoInstructionTask), steps: [videoInstructionStep])
     }
+    
+    // --- Medable
+    /// This task presents an autocomplete step
+    private var autocompleteTask: ORKTask {
+        let autocompleteStep = ORKAutocompleteStep(identifier: String(describing: Identifier.autocompleteStep))
+        autocompleteStep.title = NSLocalizedString("Autocomplete step", comment: "")
+        
+        // List of autocomplete entries.
+        autocompleteStep.completionTextList = [ "foo", "bar", "autocomplete" ]
+        
+        // When true, restrict possible values to only those matching an entry in the completion text list.
+        autocompleteStep.restrictValue = true
+        
+        // When true, match the search term anywhere in the autocomplete value (instead of looking for a prefix only).
+        autocompleteStep.matchAnywhere = true
+        
+        return ORKOrderedTask(identifier: String(describing: Identifier.autocompleteTask), steps: [ autocompleteStep ])
+    }
+    
+    /// This task presents a barcode scanner step
+    private var barcodeScannerTask: ORKTask {
+        let barcodeScannerStep = ORKMDBarcodeScannerStep(identifier: String(describing: Identifier.barcodeScannerStep))
+        barcodeScannerStep.title = NSLocalizedString("Barcode scanner step", comment: "")
+        
+        /**
+         An image to be displayed over the camera preview.
+         
+         The image is stretched to fit the available space while retaining its aspect ratio.
+         When choosing a size for this asset, be sure to take into account the variations in device
+         form factors.
+         */
+        barcodeScannerStep.templateImage = UIImage(named: "hand_outline_big")!
+        
+        /**
+         Insets to be used in positioning and sizing the `templateImage`.
+         
+         The insets are interpreted as percentages relative to the preview frame size.  The left
+         and right insets are relative to the width of the preview frame.  The top and bottom
+         insets are relative to the height of the preview frame.
+         */
+        barcodeScannerStep.templateImageInsets = UIEdgeInsets(top: 0.05, left: 0.05, bottom: 0.05, right: 0.05)
+        
+        /**
+         The accessibility hint for the barcode scanner.
+         
+         This property can be used to specify accessible instructions for scanning.
+         The use of this property can assist when the `templateImage` may not be visible
+         to the user.
+         
+         For example, if you want to scan the user's prescription bottle, you may use a template
+         image that displays the outline of a bottle.  You may also want to set this property
+         to a string such as @"Hold your prescription bottle with the barcode visible, a few inches from your device."
+         */
+        barcodeScannerStep.accessibilityInstructions = "Accessibility instructions here"
+        
+        return ORKOrderedTask(identifier: String(describing: Identifier.autocompleteTask), steps: [ barcodeScannerStep ])
+    }
+    // --- Medable
     
     // MARK: Consent Document Creation Convenience
     

@@ -102,3 +102,11 @@
 
 // For custom steps
 #import <ResearchKit/ORKCustomStepView.h>
+
+// Medable ---
+// Autocomplete step
+#import <ResearchKit/ORKAutocompleteStepViewController.h>
+
+// Barcode scanner step
+#import <ResearchKit/ORKMDBarcodeScannerStepViewController.h>
+// Medable ---
