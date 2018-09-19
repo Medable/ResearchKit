@@ -61,6 +61,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) AVMetadataObjectTypeArray *supportedCodes;
 
 /**
+ * configure for usage, delegate sould be set before calling this
+ */
+- (void)configure;
+
+/**
  * enable looking for codes
  */
 - (void)startScanning;

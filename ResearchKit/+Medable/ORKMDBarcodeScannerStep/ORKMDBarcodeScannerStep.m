@@ -20,6 +20,7 @@
 - (instancetype)copyWithZone:(NSZone *)zone
 {
     ORKMDBarcodeScannerStep *step = [super copyWithZone:zone];
+    step.optional = self.isOptional;
     step.templateImage = self.templateImage;
     step.templateImageInsets = self.templateImageInsets;
     step.accessibilityHint = self.accessibilityHint;
