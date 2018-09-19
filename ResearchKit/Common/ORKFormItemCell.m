@@ -593,7 +593,16 @@ static const CGFloat HorizontalMargin = 15.0;
     self.textField.keyboardType = answerFormat.keyboardType;
     self.textField.secureTextEntry = answerFormat.secureTextEntry;
     
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self selector:@selector(inputValueDidChange)
+     name:UITextFieldTextDidChangeNotification object:self.textField];
+
     [self answerDidChange];
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)inputValueDidChange {
