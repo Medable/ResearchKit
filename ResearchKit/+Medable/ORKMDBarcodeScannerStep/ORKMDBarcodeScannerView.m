@@ -83,12 +83,6 @@
     
     // Capture actions should be performed off the main queue to keep the UI responsive
     self.sessionQueue = dispatch_queue_create("barcode scanning session queue", DISPATCH_QUEUE_SERIAL);
-    
-    // Setup the capture session
-    dispatch_async(self.sessionQueue, ^
-    {
-        [self queue_SetupCaptureSession];
-    });
 }
 
 - (AVCaptureDevice *)captureDevice
@@ -158,6 +152,14 @@
     
     [self.captureSession commitConfiguration];
     [self.delegate didFinishConfiguration:error];
+}
+
+- (void)configure
+{    // Setup the capture session
+    dispatch_async(self.sessionQueue, ^
+                   {
+                       [self queue_SetupCaptureSession];
+                   });
 }
 
 - (BOOL)isConfigured

@@ -21,8 +21,9 @@
 
 @interface ORKMDBarcodeScannerStepViewController () <ORKMDBarcodeScannerViewDelegate>
 
-@property (nonatomic, strong) ORKInstructionStepView *instructionStepView;
+@property (nonatomic, strong) ORKStepHeaderView *headerView;
 @property (nonatomic, strong) ORKMDBarcodeScannerView *scannerView;
+@property (nonatomic, strong) ORKNavigationContainerView *continueSkipContainer;
 
 @property (nonatomic, copy) NSString *scannerOutput;
 @property (nonatomic, assign) BOOL configurationDone;
@@ -48,56 +49,96 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self stepDidChange];
     
-    self.instructionStepView = [[ORKInstructionStepView alloc] initWithFrame:self.view.bounds];
-    self.instructionStepView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-    [self.view addSubview:self.instructionStepView];
-    
-    if (ORKMDBarcodeScannerView.isSuppported)
-    {
-        CGRect scannerFrame = self.view.bounds;
-        scannerFrame.size.height *= 0.6;
-        
-        self.scannerView = [[ORKMDBarcodeScannerView alloc] initWithFrame:scannerFrame];
-        self.scannerView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-        self.scannerView.delegate = self;
-        [self.view addSubview:self.scannerView];
+    const CGFloat scannerViewProportion = 0.6;
 
-        // if we don't set these text labels of ORKInstructionStepView
-        // to _something_ here in viewDidLoad, it isn't smart enough
-        // to do the right thing when these values are set later.
-        self.instructionStepView.headerView.captionLabel.text = @" ";
-        self.instructionStepView.headerView.instructionLabel.text = @" ";
-    }
-    else
+    // create ORKStepHeaderView at top
+    CGRect headerViewFrame = self.view.bounds;
+    headerViewFrame.size.height *= scannerViewProportion;
+    [self.view addSubview:self.headerView =
+     [[ORKStepHeaderView alloc] initWithFrame:headerViewFrame]];
+    self.headerView.autoresizingMask = (UIViewAutoresizingFlexibleWidth |
+                                        UIViewAutoresizingFlexibleBottomMargin);
+    
+    // add ORKNavigationContainerView and place at the bottom
+    [self.view addSubview:
+     self.continueSkipContainer = [ORKNavigationContainerView new]];
+    self.continueSkipContainer.translatesAutoresizingMaskIntoConstraints = NO;
+    
+    // magic #'s copied from imageCaptureView
+    self.continueSkipContainer.topMargin = 5;
+    self.continueSkipContainer.bottomMargin = 15;
+    
+    self.continueSkipContainer.neverHasContinueButton = YES;
+    self.continueSkipContainer.optional = self.step.isOptional;
+    
+    [self.view addConstraints:
+     [NSLayoutConstraint constraintsWithVisualFormat:
+      @"H:|[_continueSkipContainer]|" options:0 metrics:nil views:
+      NSDictionaryOfVariableBindings(_continueSkipContainer)]];
+    
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:_continueSkipContainer
+                                                          attribute:NSLayoutAttributeHeight
+                                                          relatedBy:NSLayoutRelationEqual
+                                                             toItem:self.view
+                                                          attribute:NSLayoutAttributeHeight
+                                                         multiplier:(1.0-scannerViewProportion)
+                                                           constant:0.0]];
+    
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:_continueSkipContainer
+                                                          attribute:NSLayoutAttributeBottom
+                                                          relatedBy:NSLayoutRelationEqual
+                                                             toItem:self.view
+                                                          attribute:NSLayoutAttributeBottom
+                                                         multiplier:1.0
+                                                           constant:0.0]];
+    if (!ORKMDBarcodeScannerView.isSuppported)
     {
         [self enableSkip];
         self.configurationDone = YES;
         
-        self.instructionStepView.headerView.captionLabel.text = @"Scanning Unavailble";
-        
-        [self.instructionStepView.headerView.instructionLabel setText:
-         @"Barcode scanning is supported on iOS 10 and above.  Please update your iOS version on your device."];
+        [self.headerView.instructionLabel setText:
+         @"Barcode scanning is supported on iOS 10 and above. "
+         "Please update your iOS version on your device."];
+        self.headerView.captionLabel.text = @"Scanning Unavailble";
     }
-    
-    UIImage* image = [UIImage imageNamed:@"barcode overlay"
-                                inBundle:ORKBundle()
-                                compatibleWithTraitCollection:nil];
-    
-    UIImageView *overlayImage = [[UIImageView alloc] initWithImage:
-                                 [image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
-    
-    [self.scannerView addSubview:overlayImage];
-    overlayImage.frame = self.scannerView.bounds;
-    overlayImage.backgroundColor = UIColor.clearColor;
-    overlayImage.tintColor = [UIColor colorWithRed:1.0
-                                             green:204.0/255.0
-                                              blue:0 alpha:1.0];
-    overlayImage.contentMode = UIViewContentModeScaleAspectFill;
-    
-    self.scannerView.accessibilityHint = self.barcodeScannerStep.accessibilityInstructions;
+    else
+    {
+        // if we don't set these text labels of ORKInstructionStepView
+        // to _something_ here in viewDidLoad, it isn't smart enough
+        // to do the right thing when these values are set later.
+        self.headerView.captionLabel.text = @" ";
+        self.headerView.instructionLabel.text = @" ";
+        
+        CGRect scannerFrame = self.view.bounds;
+        scannerFrame.size.height *= 0.6;
+        [self.view addSubview:self.scannerView =
+         [[ORKMDBarcodeScannerView alloc] initWithFrame:scannerFrame]];
+        self.scannerView.delegate = self;
+        [self.scannerView configure];
+
+        // add overlay imageView
+        UIImage* image = [UIImage imageNamed:@"barcode overlay"
+                                    inBundle:ORKBundle()
+               compatibleWithTraitCollection:nil];
+        
+        UIImageView *overlayImage = [[UIImageView alloc]
+                                     initWithImage:[image imageWithRenderingMode:
+                                                    UIImageRenderingModeAlwaysTemplate]];
+        
+        [self.scannerView addSubview:overlayImage];
+        overlayImage.frame = self.scannerView.bounds;
+        overlayImage.backgroundColor = UIColor.clearColor;
+        overlayImage.tintColor = [UIColor colorWithRed:1.0
+                                                 green:204.0/255.0
+                                                  blue:0 alpha:1.0];
+        overlayImage.contentMode = UIViewContentModeScaleAspectFill;
+        overlayImage.autoresizingMask = (UIViewAutoresizingFlexibleWidth |
+                                         UIViewAutoresizingFlexibleHeight);
+        
+        self.scannerView.accessibilityHint = self.barcodeScannerStep.accessibilityInstructions;
+    }
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -152,30 +193,28 @@
 
 - (void)enableSkip
 {
-    self.instructionStepView.continueSkipContainer.optional = YES;
-    self.instructionStepView.continueSkipContainer.skipEnabled = YES;
-    [self.instructionStepView.continueSkipContainer updateContinueAndSkipEnabled];
+    self.continueSkipContainer.optional = YES;
+    self.continueSkipContainer.skipEnabled = YES;
+    self.continueSkipContainer.skipButton.alpha = 1.0;
+    [self.continueSkipContainer updateContinueAndSkipEnabled];
 }
 
 - (void)stepDidChange
 {
     [super stepDidChange];
-    
+
     if (self.step && self.isViewLoaded)
     {
-        self.instructionStepView.continueSkipContainer.hidden = NO;
-        self.instructionStepView.continueSkipContainer.continueEnabled = YES;
-        self.instructionStepView.headerView.learnMoreButtonItem = self.learnMoreButtonItem;
-        self.instructionStepView.continueSkipContainer.continueButtonItem = self.continueButtonItem;
+        self.continueSkipContainer.hidden = NO;
+        self.continueSkipContainer.optional = self.step.isOptional;
+        self.continueSkipContainer.skipEnabled = self.step.isOptional;
     }
 }
 
 - (void)setSkipButtonItem:(UIBarButtonItem *)skipButtonItem
 {
     [super setSkipButtonItem:skipButtonItem];
-    
-    self.instructionStepView.continueSkipContainer.skipButtonItem = skipButtonItem;
-    self.instructionStepView.continueSkipContainer.skipEnabled = self.step.isOptional;
+    self.continueSkipContainer.skipButtonItem = skipButtonItem;
 }
 
 - (void)setContinueButtonItem:(UIBarButtonItem *)continueButtonItem
@@ -186,8 +225,7 @@
 - (void)setLearnMoreButtonItem:(UIBarButtonItem *)learnMoreButtonItem
 {
     [super setLearnMoreButtonItem:learnMoreButtonItem];
-    
-    self.instructionStepView.headerView.learnMoreButtonItem = learnMoreButtonItem;
+    self.headerView.learnMoreButtonItem = learnMoreButtonItem;
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
@@ -209,41 +247,40 @@
          {
              [this.scannerView startScanning];
              
-             // add label to display the instructions
-             UILabel *instructions = [[UILabel alloc]
-                                      initWithFrame:CGRectZero];
-             
-             [this.view addSubview:instructions];
-             
-             [instructions setText: this.step.text ?:
-              @"Position barcode or QR code in the frame"];
-             
-             instructions.numberOfLines = 0; // unlimited
-             instructions.textAlignment = NSTextAlignmentCenter;
-             instructions.lineBreakMode = NSLineBreakByWordWrapping;
-             instructions.translatesAutoresizingMaskIntoConstraints = NO;
+             this.headerView.captionLabel.text = nil;
+             [this.headerView.instructionLabel setText:
+              this.step.text ?: @"Position barcode or QR code in the frame"];
 
-             NSDictionary* views = NSDictionaryOfVariableBindings(instructions, _scannerView);
+             [this.continueSkipContainer addSubview:this.headerView];
              
-             [this.view addConstraints: // vertically below _scannerView
+             NSDictionary* headerAndSkipBtn =
+             @{
+               @"headerView" : this.headerView,
+               @"skipButton" : this.continueSkipContainer.skipButton
+               };
+
+             [this.continueSkipContainer addConstraints:
               [NSLayoutConstraint constraintsWithVisualFormat:
-               @"V:[_scannerView][instructions]|" options:0 metrics:nil views:views]];
-            
-             [this.view addConstraints: // horizontally stretched to fill view
-              [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[instructions]|"
-                                                      options:0 metrics:nil views:views]];
+               @"V:|[headerView]-[skipButton]|" options:0 metrics:nil
+                                                        views:headerAndSkipBtn]];
              
-             instructions.font = this.instructionStepView.headerView.instructionLabel.font;
+             [this.continueSkipContainer addConstraints:
+              [NSLayoutConstraint constraintsWithVisualFormat:
+               @"H:|[headerView]|" options:0 metrics:nil views:headerAndSkipBtn]];
+             
+             this.headerView.translatesAutoresizingMaskIntoConstraints = NO;
          }
          else
          {
+             this.scannerView.hidden = YES;
+             
              if (!error)
              {
                  [this enableSkip];
                  
-                 this.instructionStepView.headerView.captionLabel.text = @"";
+                 this.headerView.captionLabel.text = @"";
                  
-                 [this.instructionStepView.headerView.instructionLabel
+                 [this.headerView.instructionLabel
                   setText:@"Error has occurred, please retake the task."];
              }
              else
@@ -272,7 +309,9 @@
                  [this presentViewController:alert animated:YES completion:nil];
              }
          }
-     }];
+         
+         [this.headerView setNeedsLayout];
+    }];
 }
 
 - (void)didProduceMetadataOutput:(AVMetadataMachineReadableCodeObjectArray *)output
