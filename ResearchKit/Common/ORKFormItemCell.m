@@ -593,23 +593,8 @@ static const CGFloat HorizontalMargin = 15.0;
     self.textField.keyboardType = answerFormat.keyboardType;
     self.textField.secureTextEntry = answerFormat.secureTextEntry;
     
-    // **** Medable: PAT-135
-    // this is the correct way to detect change, not inside
-    // textField:shouldChangeCharactersInRange:replacementString:
-    [[NSNotificationCenter defaultCenter]
-     addObserver:self selector:@selector(answerDidChange)
-     name:UITextFieldTextDidChangeNotification object:self.textField];
-    // **** Medable: PAT-135
-
     [self answerDidChange];
 }
-
-// **** Medable: PAT-135
-- (void)dealloc
-{
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
-// **** Medable: PAT-135
 
 - (void)inputValueDidChange {
     NSString *text = self.textField.text;
@@ -619,17 +604,6 @@ static const CGFloat HorizontalMargin = 15.0;
 }
 
 - (void)answerDidChange {
-#if 1 // *** Medable: PAT-135
-    // see note in cellInit
-    id answer = self.textField.text;
-    
-    if (answer != ORKNullAnswerValue()) {
-        [self inputValueDidChange];
-    } else {
-        self.textField.text = nil;
-    }
-#else // *** Medable: PAT-135
-    // this is the original RK implementation, kept for ref when merging latest RK -> MedableRK
     id answer = self.answer;
     
     ORKTextAnswerFormat *answerFormat = (ORKTextAnswerFormat *)[self.formItem impliedAnswerFormat];
@@ -648,7 +622,6 @@ static const CGFloat HorizontalMargin = 15.0;
     } else {
         self.textField.text = nil;
     }
-#endif
 }
 
 #pragma mark UITextFieldDelegate
@@ -682,10 +655,8 @@ static const CGFloat HorizontalMargin = 15.0;
         }
     }
     
-// *** Medable: PAT-135
-// this isn't where the value should be changed! (see note in cellInit)
-//    [self ork_setAnswer:text.length ? text : ORKNullAnswerValue()];
-//    [super inputValueDidChange];
+    [self ork_setAnswer:text.length ? text : ORKNullAnswerValue()];
+    [super inputValueDidChange];
     
     return YES;
 }
