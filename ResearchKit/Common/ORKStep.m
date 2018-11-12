@@ -39,11 +39,35 @@
 
 #import "ORKHelpers_Internal.h"
 
+static float s_TitleSizeMultiplierOverride = 0.0;
+float kSizeMultiplierInvalidMin = 0.0;
+float kSizeMultiplierInvalidMax = 1.5;
 
 @implementation ORKStep
 
 + (instancetype)new {
     ORKThrowMethodUnavailableException();
+}
+
++ (void)setTitleSizeMultiplierOverride:(float)overrideValue
+{
+    if (overrideValue > kSizeMultiplierInvalidMin && overrideValue < kSizeMultiplierInvalidMax )
+    {
+        s_TitleSizeMultiplierOverride = overrideValue;
+    }
+}
+
+- (float)titleSizeMultiplierOverride
+{
+    //Return the step's individual value if available. Otherwise return the study wide value
+    if (_titleSizeMultiplierOverride > kSizeMultiplierInvalidMin && _titleSizeMultiplierOverride < kSizeMultiplierInvalidMax )
+    {
+        return _titleSizeMultiplierOverride;
+    }
+    else
+    {
+        return s_TitleSizeMultiplierOverride;
+    }
 }
 
 - (instancetype)init {
@@ -55,6 +79,7 @@
     if (self) {
         ORKThrowInvalidArgumentExceptionIfNil(identifier);
         _identifier = [identifier copy];
+        _titleSizeMultiplierOverride = kSizeMultiplierInvalidMin;
     }
     return self;
 }

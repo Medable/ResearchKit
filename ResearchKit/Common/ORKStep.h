@@ -67,6 +67,10 @@ ORK_CLASS_AVAILABLE
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;
 
++ (void)setTitleSizeMultiplierOverride:(float)overrideValue;
+
+@property (nonatomic) float titleSizeMultiplierOverride;
+
 /**
  Returns a new step initialized with the specified identifier.
  

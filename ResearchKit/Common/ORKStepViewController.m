@@ -142,13 +142,27 @@ static const CGFloat iPadStepTitleLabelFontSize = 50.0;
     [_iPadBackgroundView addSubview:_iPadContentView];
 }
 
+- (CGFloat)iPadTitleFontSize
+{
+    float override = self.step.titleSizeMultiplierOverride;
+    if (override != 1.0 &&
+        override > 0.0 &&
+        override < 1.5)
+    {
+        return iPadStepTitleLabelFontSize * override;
+    }
+
+    return iPadStepTitleLabelFontSize;
+}
+
 - (void)setupiPadStepTitleLabel {
     if (!_iPadStepTitleLabel) {
         _iPadStepTitleLabel = [UILabel new];
     }
     _iPadStepTitleLabel.numberOfLines = 0;
     _iPadStepTitleLabel.textAlignment = NSTextAlignmentNatural;
-    [_iPadStepTitleLabel setFont:[UIFont systemFontOfSize:iPadStepTitleLabelFontSize weight:UIFontWeightBold]];
+    CGFloat titleSize = [self iPadTitleFontSize];
+    [_iPadStepTitleLabel setFont:[UIFont systemFontOfSize:titleSize weight:UIFontWeightBold]];
     [_iPadStepTitleLabel setAdjustsFontSizeToFitWidth:YES];
     [_iPadStepTitleLabel setText:self.step.title];
     [_iPadBackgroundView addSubview:_iPadStepTitleLabel];
