@@ -48,6 +48,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSTimeInterval timeLeft;
 
+- (void)setDistanceViewisHidden:(BOOL)hidden;
+
 @end
 
 NS_ASSUME_NONNULL_END

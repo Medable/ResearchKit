@@ -323,6 +323,11 @@
     [self distanceView].value = distanceString;
 }
 
+- (void)setDistanceViewisHidden:(BOOL)hidden
+{
+    [self distanceView].hidden = hidden;
+}
+
 - (void)setTimeLeft:(NSTimeInterval)timeLeft {
     _timeLeft = timeLeft;
     [self updateTimerLabel];

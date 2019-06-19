@@ -62,6 +62,7 @@
     self = [super initWithStep:step];
     if (self) {
         self.suspendIfInactive = NO;
+        self.distanceViewIsHidden = NO;
     }
     return self;
 }
@@ -84,6 +85,7 @@
     _contentView = [ORKFitnessContentView new];
     _contentView.image = self.fitnessStep.image;
     _contentView.timeLeft = self.fitnessStep.stepDuration;
+    [_contentView setDistanceViewisHidden:_distanceViewIsHidden];
     self.activeStepView.activeCustomView = _contentView;
     self.activeStepView.stepViewFillsAvailableSpace = YES;
 }

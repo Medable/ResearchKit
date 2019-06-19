@@ -45,6 +45,13 @@ NS_ASSUME_NONNULL_BEGIN
 ORK_CLASS_AVAILABLE
 @interface ORKFitnessStepViewController : ORKActiveStepViewController
 
+/**
+ Assign true/false to boolean distanceViewIsHidden.
+ 
+ Defaults to false. Assigning true will suppress the display of the distance in the UI.
+ */
+@property (assign, readwrite) BOOL distanceViewIsHidden;
+
 @end
 
 NS_ASSUME_NONNULL_END
