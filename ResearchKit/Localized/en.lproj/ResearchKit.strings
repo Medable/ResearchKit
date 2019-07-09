@@ -29,14 +29,14 @@
  */
 
 /* Informed consent process. */
-"CONSENT_NAME_TITLE" = "Consent";
+"CONSENT_NAME_TITLE" = "%@ Consent";
 "CONSENT_NAME_GIVEN" = "First Name";
 "CONSENT_NAME_FAMILY" = "Last Name";
 "CONSENT_NAME_PLACEHOLDER" = "Required";
 "CONSENT_REVIEW_TITLE" = "Review";
 "CONSENT_REVIEW_INSTRUCTION" = "Review the form below, and tap Agree if you\'re ready to continue.";
 "CONSENT_REVIEW_ALERT_TITLE" = "Review";
-"CONSENT_SIGNATURE_TITLE" = "Signature";
+"CONSENT_SIGNATURE_TITLE" = "%@ Signature";
 "CONSENT_SIGNATURE_INSTRUCTION" = "Please sign using your finger in the box below.";
 "CONSENT_SIGNATURE_PLACEHOLDER" = "Sign Here";
 "CONSENT_PAGE_NUMBER_FORMAT" = "Page %1$ld of %2$ld";
