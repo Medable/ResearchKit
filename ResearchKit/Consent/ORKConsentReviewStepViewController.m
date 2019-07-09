@@ -167,9 +167,18 @@ static NSString *const _GivenNameIdentifier = @"given";
 static NSString *const _FamilyNameIdentifier = @"family";
 
 - (ORKFormStepViewController *)makeNameFormViewController {
+    NSString *titlePrefix = nil;
+    
+    if ([_currentSignature.identifier isEqualToString:@"ConsentDocumentParticipantSignature"]) {
+        titlePrefix = @"Participant";
+    } else if ([_currentSignature.identifier isEqualToString:@"ConsentDocumentHCPSignature"]) {
+        titlePrefix = @"RCC";
+    }
+    
+    NSString *consentText = [NSString localizedStringWithFormat:(ORKLocalizedString(@"CONSENT_NAME_TITLE", nil)),titlePrefix];
     ORKFormStep *formStep = [[ORKFormStep alloc] initWithIdentifier:_NameFormIdentifier
-                                                            title:self.step.title ? : ORKLocalizedString(@"CONSENT_NAME_TITLE", nil)
-                                                             text:self.step.text];
+                                                              title:self.step.title ? : consentText
+                                                             text: consentText];
     formStep.useSurveyMode = NO;
     
     ORKTextAnswerFormat *nameAnswerFormat = [ORKTextAnswerFormat textAnswerFormat];
@@ -245,7 +254,14 @@ static NSString *const _SignatureStepIdentifier = @"signatureStep";
 
 - (ORKSignatureStepViewController *)makeSignatureViewController {
     ORKSignatureStep *step = [[ORKSignatureStep alloc] initWithIdentifier:_SignatureStepIdentifier];
-    step.optional = NO;
+    if ([_currentSignature.identifier isEqualToString:@"ConsentDocumentHCPSignature"]) {
+        step.title = [NSString stringWithFormat:ORKLocalizedString(@"CONSENT_SIGNATURE_TITLE", nil),@"RCC"];
+        step.optional = NO;
+    } else {
+        step.title = [NSString stringWithFormat:ORKLocalizedString(@"CONSENT_SIGNATURE_TITLE", nil),@""];
+        step.optional = YES;
+    }
+    
     ORKSignatureStepViewController *signatureController = [[ORKSignatureStepViewController alloc] initWithStep:step];
     signatureController.delegate = self;
     return signatureController;
