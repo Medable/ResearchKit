@@ -166,19 +166,20 @@ static NSString *const _NameFormIdentifier = @"nameForm";
 static NSString *const _GivenNameIdentifier = @"given";
 static NSString *const _FamilyNameIdentifier = @"family";
 
+static NSString *const _ConsentDocumentHCPTitle = @"Registry Study Staff member obtaining consent";
+
 - (ORKFormStepViewController *)makeNameFormViewController {
-    NSString *titlePrefix = nil;
+    NSString *consentText = nil;
     
     if ([_currentSignature.identifier isEqualToString:@"ConsentDocumentParticipantSignature"]) {
-        titlePrefix = @"Participant";
+        consentText = [NSString localizedStringWithFormat:(ORKLocalizedString(@"CONSENT_NAME_TITLE", nil)), @"Participant"];
     } else if ([_currentSignature.identifier isEqualToString:@"ConsentDocumentHCPSignature"]) {
-        titlePrefix = @"RCC";
+        consentText = _ConsentDocumentHCPTitle;
     }
     
-    NSString *consentText = [NSString localizedStringWithFormat:(ORKLocalizedString(@"CONSENT_NAME_TITLE", nil)),titlePrefix];
     ORKFormStep *formStep = [[ORKFormStep alloc] initWithIdentifier:_NameFormIdentifier
                                                               title:self.step.title ? : consentText
-                                                             text: consentText];
+                                                             text: nil];
     formStep.useSurveyMode = NO;
     
     ORKTextAnswerFormat *nameAnswerFormat = [ORKTextAnswerFormat textAnswerFormat];
@@ -255,7 +256,7 @@ static NSString *const _SignatureStepIdentifier = @"signatureStep";
 - (ORKSignatureStepViewController *)makeSignatureViewController {
     ORKSignatureStep *step = [[ORKSignatureStep alloc] initWithIdentifier:_SignatureStepIdentifier];
     if ([_currentSignature.identifier isEqualToString:@"ConsentDocumentHCPSignature"]) {
-        step.title = [NSString stringWithFormat:ORKLocalizedString(@"CONSENT_SIGNATURE_TITLE", nil),@"RCC"];
+        step.title = _ConsentDocumentHCPTitle;
         step.optional = NO;
     } else {
         step.title = [NSString stringWithFormat:ORKLocalizedString(@"CONSENT_SIGNATURE_TITLE", nil),@""];
