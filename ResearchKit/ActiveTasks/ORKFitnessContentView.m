@@ -334,6 +334,7 @@
 }
 
 - (void)updateTimerLabel {
+    /*
     static NSDateComponentsFormatter *formatter = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -344,6 +345,11 @@
     });
     
     NSString *labelString = [formatter stringFromTimeInterval:MAX(round(_timeLeft),0)];
+    */
+    NSInteger minutes = (NSInteger) round(floor(_timeLeft / 60.0));
+    
+    NSInteger seconds = (NSInteger) round(_timeLeft - (minutes * 60));
+    NSString *labelString = [NSString stringWithFormat:@"%02ld:%02ld",minutes,seconds];
     _timerLabel.text = labelString;
     _timerLabel.hidden = (labelString == nil);
 }
