@@ -204,7 +204,7 @@ NSDateFormatter *ORKResultDateTimeFormatter() {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         dateTimeformatter = [[NSDateFormatter alloc] init];
-        [dateTimeformatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZ"];
+        [dateTimeformatter setDateFormat:@"yyyy-MM-dd'T'hh:mm:ss a"];
         dateTimeformatter.calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
     });
     return dateTimeformatter;
