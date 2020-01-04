@@ -483,7 +483,7 @@
 }
 
 - (NSUInteger)currentTextChoiceIndex {
-    return _currentNumberValue.unsignedIntegerValue - 1;
+    return _currentNumberValue.unsignedIntegerValue;
 }
 
 - (void)updateCurrentValueLabel {
