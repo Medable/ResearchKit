@@ -89,6 +89,7 @@
         self.layoutMargins = ORKStandardLayoutMarginsForTableViewCell(self);
         
         self.textView = [[ORKAnswerTextView alloc] initWithFrame:CGRectZero];
+        self.textView.textAlignment = NSTextAlignmentNatural;
         
         self.textView.delegate = self;
         self.textView.editable = YES;

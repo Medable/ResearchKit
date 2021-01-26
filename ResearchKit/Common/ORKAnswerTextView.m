@@ -71,6 +71,7 @@
     _placeholderTextView.textColor = [UIColor ork_midGrayTintColor];
     _placeholderTextView.userInteractionEnabled = NO;
     _placeholderTextView.translatesAutoresizingMaskIntoConstraints = NO;
+    _placeholderTextView.textAlignment = NSTextAlignmentNatural;
     [self insertSubview:_placeholderTextView atIndex:0];
     
     [self setUpConstraints];
