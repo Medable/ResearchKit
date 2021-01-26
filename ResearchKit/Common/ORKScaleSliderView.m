@@ -42,6 +42,7 @@
 #import "ORKAnswerFormat_Internal.h"
 
 #import "ORKSkin.h"
+#import "ORKHelpers_Internal.h"
 
 
 // #define LAYOUT_DEBUG 1
@@ -68,6 +69,11 @@
         _slider = [[ORKScaleSlider alloc] initWithFrame:CGRectZero];
         _slider.userInteractionEnabled = YES;
         _slider.contentMode = UIViewContentModeRedraw;
+        
+        if (ORKCurrentLocaleRTL()) {
+            _slider.transform = CGAffineTransformMakeScale(-1.0, 1.0);
+        }
+        
         [self addSubview:_slider];
         
         _slider.maximumValue = [formatProvider maximumNumber].floatValue;
@@ -138,22 +144,28 @@
             _leftRangeDescriptionLabel.backgroundColor = [UIColor yellowColor];
             _rightRangeDescriptionLabel.backgroundColor = [UIColor yellowColor];
 #endif
-            
+
             if ([formatProvider minimumImage]) {
-                _leftRangeView = [[ORKScaleRangeImageView alloc] initWithImage:[formatProvider minimumImage]];
+                UIImage *image = ORKCurrentLocaleRTL() ? [formatProvider maximumImage] : [formatProvider minimumImage];
+                _leftRangeView = [[ORKScaleRangeImageView alloc] initWithImage:image];
             } else {
                 ORKScaleRangeLabel *leftRangeLabel = [[ORKScaleRangeLabel alloc] initWithFrame:CGRectZero];
                 leftRangeLabel.textAlignment = NSTextAlignmentCenter;
-                leftRangeLabel.text = [formatProvider localizedStringForNumber:[formatProvider minimumNumber]];
+                
+                NSNumber *valueNumber = ORKCurrentLocaleRTL() ? [formatProvider maximumNumber] : [formatProvider minimumNumber];
+                leftRangeLabel.text = [formatProvider localizedStringForNumber:valueNumber];
                 _leftRangeView = leftRangeLabel;
             }
             
             if ([formatProvider maximumImage]) {
-                _rightRangeView = [[ORKScaleRangeImageView alloc] initWithImage:[formatProvider maximumImage]];
+                UIImage *image = ORKCurrentLocaleRTL() ? [formatProvider minimumImage] : [formatProvider maximumImage];
+                _rightRangeView = [[ORKScaleRangeImageView alloc] initWithImage:image];
             } else {
                 ORKScaleRangeLabel *rightRangeLabel = [[ORKScaleRangeLabel alloc] initWithFrame:CGRectZero];
                 rightRangeLabel.textAlignment = NSTextAlignmentCenter;
-                rightRangeLabel.text = [formatProvider localizedStringForNumber:[formatProvider maximumNumber]];
+                
+                NSNumber *valueNumber = ORKCurrentLocaleRTL() ? [formatProvider minimumNumber] : [formatProvider maximumNumber];
+                rightRangeLabel.text = [formatProvider localizedStringForNumber:valueNumber];
                 _rightRangeView = rightRangeLabel;
             }
             
@@ -168,8 +180,8 @@
                 _rightRangeDescriptionLabel.textAlignment = NSTextAlignmentRight;
             }
             
-            _leftRangeDescriptionLabel.text = [formatProvider minimumValueDescription];
-            _rightRangeDescriptionLabel.text = [formatProvider maximumValueDescription];
+            _leftRangeDescriptionLabel.text = ORKCurrentLocaleRTL() ? [formatProvider maximumValueDescription] : [formatProvider minimumValueDescription];
+            _rightRangeDescriptionLabel.text = ORKCurrentLocaleRTL() ? [formatProvider minimumValueDescription] : [formatProvider maximumValueDescription];
 
             _valueLabel.translatesAutoresizingMaskIntoConstraints = NO;
             _leftRangeView.translatesAutoresizingMaskIntoConstraints = NO;
@@ -234,13 +246,17 @@
             
             for (int i = 0; i < _textChoiceLabels.count; i++) {
                 // Put labels to the right side of the slider.
+                NSLayoutAttribute attribute = _textChoiceLabels[i].textAlignment == NSTextAlignmentRight ?
+                    NSLayoutAttributeLeft : NSLayoutAttributeLeading;
+                CGFloat constant = _textChoiceLabels[i].textAlignment == NSTextAlignmentRight ?
+                    SideLabelMargin / 2 : SideLabelMargin;
                 [constraints addObject:[NSLayoutConstraint constraintWithItem:_textChoiceLabels[i]
-                                                                 attribute:NSLayoutAttributeLeading
+                                                                 attribute:attribute
                                                                  relatedBy:NSLayoutRelationEqual
                                                                     toItem:_slider
                                                                  attribute:NSLayoutAttributeCenterX
                                                                 multiplier:1.0
-                                                                  constant:SideLabelMargin]];
+                                                                  constant:constant]];
                 
                 if (i == 0) {
                     // First label
