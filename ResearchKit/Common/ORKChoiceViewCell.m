@@ -241,6 +241,7 @@ static const CGFloat cardTopBottomMargin = 2.0;
 - (ORKSelectionTitleLabel *)shortLabel {
     if (_shortLabel == nil ) {
         _shortLabel = [ORKSelectionTitleLabel new];
+        _shortLabel.textAlignment = NSTextAlignmentLeft;
         _shortLabel.numberOfLines = 0;
         [self.containerView addSubview:_shortLabel];
     }
@@ -297,6 +298,7 @@ static const CGFloat cardTopBottomMargin = 2.0;
         static ORKSelectionTitleLabel *shortLabel;
         if (shortLabel == nil) {
             shortLabel = [ORKSelectionTitleLabel new];
+            shortLabel.textAlignment = NSTextAlignmentLeft;
             shortLabel.numberOfLines = 0;
         }
         

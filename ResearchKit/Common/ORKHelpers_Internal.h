@@ -267,6 +267,8 @@ extern const CGFloat ORKCGFloatInvalidValue;
 
 void ORKAdjustPageViewControllerNavigationDirectionForRTL(UIPageViewControllerNavigationDirection *direction);
 
+BOOL ORKCurrentLocaleRTL(void);
+
 NSString *ORKPaddingWithNumberOfSpaces(NSUInteger numberOfPaddingSpaces);
 
 NSNumberFormatter *ORKDecimalNumberFormatter(void);

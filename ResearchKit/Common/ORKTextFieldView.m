@@ -240,7 +240,8 @@ static NSString *const FilledBulletString = @"\u25CF";
     _unit = unit;
     
     if (_unit.length > 0) {
-        _unitWithNumber = [NSString stringWithFormat:@" %@", unit];
+        NSString *formatText = (self.textAlignment == NSTextAlignmentRight) ? @"%@ " : @" %@";
+        _unitWithNumber = [NSString stringWithFormat:formatText, unit];
         _unitRegularColor = [UIColor blackColor];
         _unitActiveColor = [UIColor ork_midGrayTintColor];
     } else {
@@ -322,6 +323,10 @@ static const UIEdgeInsets paddingGuess = (UIEdgeInsets){.left = 2, .right = 6};
         if (suffixWidth > 0) {
             suffixWidth += paddingGuess.right;
         }
+        
+        if (self.textAlignment == NSTextAlignmentRight) {
+            suffixWidth = paddingGuess.right;
+        }
         textRect.size.width = MAX(0, textRect.size.width - suffixWidth);
     }
     return textRect;
@@ -336,6 +341,10 @@ static const UIEdgeInsets paddingGuess = (UIEdgeInsets){.left = 2, .right = 6};
         CGFloat suffixWidth = [self suffixWidthForBounds:bounds];
         if (suffixWidth > 0) {
             suffixWidth += paddingGuess.right;
+        }
+        
+        if (self.textAlignment == NSTextAlignmentRight) {
+            suffixWidth = 0;
         }
         rect.size.width = MAX(0, rect.size.width - suffixWidth);
     }
@@ -357,6 +366,11 @@ static const UIEdgeInsets paddingGuess = (UIEdgeInsets){.left = 2, .right = 6};
     
     // Take padding into account
     CGFloat xMaximum = CGRectGetMaxX(textFrame);
+
+    if (self.textAlignment == NSTextAlignmentRight) {
+        xMaximum = CGRectGetMaxX(textFrame) - suffixFrame.size.width - paddingGuess.right - paddingGuess.left;
+    }
+    
     if (sizeOfText.width < (textFrame.size.width - (paddingGuess.left + paddingGuess.right))) {
         // Adjust the rectangle to include the padding
         textFrame.origin.x += paddingGuess.left;
@@ -370,6 +384,10 @@ static const UIEdgeInsets paddingGuess = (UIEdgeInsets){.left = 2, .right = 6};
     // Calculate position for alignment
     CGFloat xOffset = CGRectGetMinX(textFrame) + sizeOfText.width;
     
+    if (self.textAlignment == NSTextAlignmentRight) {
+        CGFloat offset = self.isEditing ? paddingGuess.right : suffixFrame.size.width;
+        xOffset = self.bounds.size.width - CGRectGetMinX(textFrame) - sizeOfText.width - offset - paddingGuess.right - paddingGuess.left;
+    }
     // Make sure it can't escape out the right of the view
     suffixFrame.origin.x = MIN(xOffset, xMaximum);
     
@@ -418,6 +436,7 @@ static const UIEdgeInsets paddingGuess = (UIEdgeInsets){.left = 2, .right = 6};
         _textField = [[ORKUnitTextField alloc] init];
         _textField.clearButtonMode = UITextFieldViewModeWhileEditing;
         _textField.translatesAutoresizingMaskIntoConstraints = NO;
+        _textField.textAlignment = NSTextAlignmentNatural;
         [self addSubview:_textField];
         [self setUpConstraints];
     }
@@ -459,7 +478,8 @@ static const UIEdgeInsets paddingGuess = (UIEdgeInsets){.left = 2, .right = 6};
     NSString *textAndUnit = self.textField.text;
     
     if (self.textField.unit.length > 0) {
-        NSString *unitString = [NSString stringWithFormat:@"  %@", self.textField.unit];
+        NSString *formatText = (self.textField.textAlignment == NSTextAlignmentRight) ? @"%@  " : @"  %@";
+        NSString *unitString = [NSString stringWithFormat:formatText, self.textField.unit];
         placeholderAndUnit = [placeholderAndUnit stringByAppendingString:unitString];
         textAndUnit = [textAndUnit stringByAppendingString:unitString];
     }

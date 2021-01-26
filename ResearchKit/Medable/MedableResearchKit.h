@@ -26,3 +26,13 @@
 #import <ResearchKit/ORKSurveyCardHeaderView.h>
 #import <ResearchKit/ORKCaption1Label.h>
 #import <ResearchKit/ORKFormItem_Internal.h>
+
+#import <ResearchKit/ORKSelectionTitleLabel.h>
+#import <ResearchKit/ORKSelectionSubTitleLabel.h>
+#import <ResearchKit/ORKBodyLabel.h>
+#import <ResearchKit/ORKBodyLabel.h>
+#import <ResearchKit/ORKFormSectionTitleLabel.h>
+#import <ResearchKit/ORKTextFieldView.h>
+
+#import <ResearchKit/ORKAnswerTextView.h>
+#import <ResearchKit/ORKFormTextView.h>
