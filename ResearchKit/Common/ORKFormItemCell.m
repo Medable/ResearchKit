@@ -893,7 +893,6 @@ static const CGFloat HorizontalMargin = 15.0;
     _textView = [[ORKFormTextView alloc] init];
     _textView.keyboardDismissMode = UIScrollViewKeyboardDismissModeInteractive;
     _textView.delegate = self;
-    _textView.contentInset = UIEdgeInsetsMake(-5.0, -4.0, -5.0, 0.0);
     _textView.textAlignment = NSTextAlignmentNatural;
     _textView.scrollEnabled = NO;
     _textView.placeholder = self.formItem.placeholder;
