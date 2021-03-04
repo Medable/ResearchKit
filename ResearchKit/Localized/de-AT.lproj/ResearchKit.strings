@@ -479,7 +479,7 @@
 "ENVIRONMENTSPL_INTRO_TEXT" = "Diese Aktivität misst den Umgebungsschalldruckpegel. Wenn die Geräuschpegel zu hoch sind, können Sie nicht fortfahren. Bitte gehen Sie an einen ruhigeren Ort, um diese Aufgabe zu erledigen oder wiederholen Sie diese Aktivität zu einem späteren Zeitpunkt.";
 
 /* (No Comment) */
-"ENVIRONMENTSPL_THRESHOLD" = "Schwelle: % @ dBA";
+"ENVIRONMENTSPL_THRESHOLD" = "Schwelle: %@ dBA";
 
 /* Environment SPL */
 "ENVIRONMENTSPL_TITLE" = "SPL-Messgerät";
@@ -968,10 +968,10 @@
 "SPATIAL_SPAN_MEMORY_CALL_TO_ACTION" = "Tippen Sie zunächst auf Erste Schritte und schauen Sie genau hin.";
 
 /* (No Comment) */
-"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_%@" = "Einige der % @ leuchten nacheinander auf. Tippen Sie auf die % @ in der gleichen Reihenfolge, in der sie aufleuchteten.";
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_%@" = "Einige der %@ leuchten nacheinander auf. Tippen Sie auf die %@ in der gleichen Reihenfolge, in der sie aufleuchteten.";
 
 /* (No Comment) */
-"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_REVERSE_%@" = "Einige der % @ leuchten nacheinander auf. Tippen Sie auf %@ in der umgekehrten Reihenfolge, in der sie aufleuchteten.";
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_REVERSE_%@" = "Einige der %@ leuchten nacheinander auf. Tippen Sie auf %@ in der umgekehrten Reihenfolge, in der sie aufleuchteten.";
 
 /* (No Comment) */
 "SPATIAL_SPAN_MEMORY_INTRO_TEXT_%@" = "Diese Aktivität misst Ihr räumliches Kurzzeitgedächtnis, indem Sie aufgefordert werden, die Reihenfolge zu wiederholen, in der %@ aufleuchtet.";
