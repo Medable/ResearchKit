@@ -41,6 +41,7 @@
 
 + (NSString * _Nonnull)continueButton { return @"Step Continue button"; }
 + (NSString * _Nonnull)skipButton { return @"Step Skip button"; }
++ (NSString * _Nonnull)doneButton { return @"Step Done button"; }
 + (NSString * _Nonnull)cancelButton { return @"Step Cancel button"; }
 
 @end
