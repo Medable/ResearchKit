@@ -93,6 +93,10 @@
         cell.shortLabel.text = textChoice.text;
         cell.longLabel.text = textChoice.detailText;
         
+        // Accessibility
+        cell.isAccessibilityElement = YES;
+        cell.accessibilityIdentifier = textChoice.accessibilityIdentifier ? : textChoice.text;
+        
         _cells[@(index)] = cell;
         
         [self setSelectedIndexes:[_helper selectedIndexesForAnswer:_answer]];
