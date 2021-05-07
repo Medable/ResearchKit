@@ -49,9 +49,13 @@
 @implementation ORKStepViewControllerAccessibility
 
 + (NSString * _Nonnull)backButton { return @"Step Navigation Back Button"; }
-+ (NSString * _Nonnull)continueButton { return @"Step Navigation Continue Button"; }
-+ (NSString * _Nonnull)doneButton { return @"Step Navigation Done Button"; }
-+ (NSString * _Nonnull)skipButton { return @"Step Navigation Skip Button"; }
++ (NSString * _Nonnull)continueButton { return @"Step Continue Button"; }
++ (NSString * _Nonnull)doneButton { return @"Step Done Button"; }
++ (NSString * _Nonnull)skipButton { return @"Step Skip Button"; }
+
++ (NSString * _Nonnull)stepTitle { return @"Step Title"; }
++ (NSString * _Nonnull)stepDescription { return @"Step Description"; }
++ (NSString * _Nonnull)stepQuestion { return @"Step Question"; }
 
 @end
 
@@ -261,6 +265,8 @@ static const CGFloat iPhoneStepTitleLabelFontSize = 28.0;
     [_iPadStepTitleLabel setAdjustsFontSizeToFitWidth:YES];
     [_iPadStepTitleLabel setText:self.step.title];
     [_iPadBackgroundView addSubview:_iPadStepTitleLabel];
+    
+    _iPadStepTitleLabel.accessibilityIdentifier = ORKStepViewControllerAccessibility.stepTitle;
 }
 
 - (void)setiPadStepTitleLabelText:(NSString *)text {
