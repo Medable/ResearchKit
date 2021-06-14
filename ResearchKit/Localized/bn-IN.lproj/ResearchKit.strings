@@ -101,7 +101,7 @@
 "CAMERA_UNAVAILABLE_MESSAGE" = "Camera not available in split screen.";
 
 /* Registration step */
-"EMAIL_FORM_ITEM_TITLE" = "Email";
+"EMAIL_FORM_ITEM_TITLE" = "ইমেইল";
 "EMAIL_FORM_ITEM_PLACEHOLDER" = "jappleseed@example.com";
 "PASSWORD_FORM_ITEM_TITLE" = "Password";
 "PASSWORD_FORM_ITEM_PLACEHOLDER" = "Enter password";
@@ -204,7 +204,7 @@
 "BUTTON_APPLY" = "Apply";
 "BUTTON_DISAGREE" = "Disagree";
 "BUTTON_DONE" = "Done";
-"BUTTON_GET_STARTED" = "বাতিল করুন";
+"BUTTON_GET_STARTED" = "শুরু করুন";
 "BUTTON_LEARN_MORE" = "Learn more";
 "BUTTON_NEXT" = "Next";
 "BUTTON_SKIP" = "Skip";
@@ -219,7 +219,7 @@
 "BUTTON_COPYRIGHT" = "Copyright";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "Starting activity in";
+"COUNTDOWN_LABEL" = "অ্যাক্টিভিটি শুরু হতে বাকি আছে";
 "TASK_COMPLETE_TITLE" = "Activity Complete";
 "TASK_COMPLETE_TEXT" = "Your data will be analyzed and you will be notified when your results are ready.";
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ seconds remaining.";
