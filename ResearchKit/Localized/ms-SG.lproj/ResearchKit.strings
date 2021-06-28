@@ -175,8 +175,8 @@
 "GENDER_OTHER" = "Other";
 
 /* Boolean answer strings */
-"BOOL_NO" = "No";
-"BOOL_YES" = "Yes";
+"BOOL_NO" = "Tidak";
+"BOOL_YES" = "Ya";
 
 /* Measuring unit abbreviations */
 "MEASURING_UNIT_CM" = "cm";
