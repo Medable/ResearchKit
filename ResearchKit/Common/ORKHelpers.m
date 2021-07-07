@@ -542,6 +542,10 @@ void ORKAdjustPageViewControllerNavigationDirectionForRTL(UIPageViewControllerNa
     }
 }
 
+BOOL ORKCurrentLocaleRTL() {
+    return [NSLocale characterDirectionForLanguage:[NSLocale currentLocale].localeIdentifier] == NSLocaleLanguageDirectionRightToLeft;
+}
+
 NSString *ORKPaddingWithNumberOfSpaces(NSUInteger numberOfPaddingSpaces) {
     return [@"" stringByPaddingToLength:numberOfPaddingSpaces withString:@" " startingAtIndex:0];
 }

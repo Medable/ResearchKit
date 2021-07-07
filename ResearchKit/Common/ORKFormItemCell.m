@@ -368,6 +368,7 @@ static const CGFloat HorizontalMargin = 15.0;
     if (self != nil) {
         UILabel *label = self.labelLabel;
         label.isAccessibilityElement = NO;
+        label.textAlignment = NSTextAlignmentNatural;
         UITextField *textField = self.textFieldView.textField;
         textField.isAccessibilityElement = YES;
         textField.accessibilityLabel = label.text;

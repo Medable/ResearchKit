@@ -40,7 +40,8 @@
     NSString *regularImageName = @"arrowLeft";
     NSString *landscapeImageName = @"arrowLeftLandscape";
 
-    if ([UIApplication sharedApplication].userInterfaceLayoutDirection == UIUserInterfaceLayoutDirectionRightToLeft ) {
+    // Locale is overriden on the app level.
+    if (ORKCurrentLocaleRTL()) {
         regularImageName = @"arrowRight";
         landscapeImageName = @"arrowRightLandscape";
     }
