@@ -242,7 +242,7 @@
 "BLOOD_TYPE_O+" = "ଓ+";
 
 /* Boolean answer strings */
-"BOOL_NO" = "ନାଁ";
+"BOOL_NO" = "ନା";
 
 /* (No Comment) */
 "BOOL_YES" = "ହଁ";
