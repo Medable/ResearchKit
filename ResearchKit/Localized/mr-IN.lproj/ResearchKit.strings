@@ -794,7 +794,7 @@
 "PASSCODE_AUTHENTICATED_MESSAGE" = "पासकोडचे प्रमाणीकरण झाले";
 
 /* (No Comment) */
-"PASSCODE_CONFIRM_MESSAGE" = "पासकोडची पुष्टी करा";
+"PASSCODE_CONFIRM_MESSAGE" = "पासवर्डची पुष्टी करा";
 
 /* (No Comment) */
 "PASSCODE_CONFIRM_NEW_ENTRY_MESSAGE" = "आपल्या नवीन पासकोडची पुष्टी करा";
