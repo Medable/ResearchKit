@@ -192,7 +192,7 @@
 
 /* Default placeholders to request answers in a questionnaire. */
 "PLACEHOLDER_TEXT_OR_NUMBER" = "Pulsa para contestar";
-"NULL_ANSWER" = "Selecciona una respuesta";
+"NULL_ANSWER" = "Seleccione una respuesta";
 "PLACEHOLDER_IMAGE_CHOICES" = "Pulsa para seleccionar";
 "PLACEHOLDER_LONG_TEXT" = "Pulsa para escribir";
 
