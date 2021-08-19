@@ -78,13 +78,13 @@
 "STEP_PROGRESS_FORMAT" = "%1$@ of %2$@";
 
 /* Alert for out of range values. */
-"RANGE_ALERT_TITLE" = "Invalid value";
+"RANGE_ALERT_TITLE" = "Di-wastong halaga";
 "RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ exceeds the maximum allowed value (%2$@).";
 "RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ is less than the minimum allowed value (%2$@).";
 "RANGE_ALERT_MESSAGE_OTHER" = "%@ is not a valid value.";
 
 /* Alert for invalid email address value */
-"INVALID_EMAIL_ALERT_MESSAGE" = "Invalid email address: %@";
+"INVALID_EMAIL_ALERT_MESSAGE" = "Mali ang format ng email address: %@";
 
 /* Alerts for invalid location coordinates */
 "LOCATION_QUESTION_PLACEHOLDER" = "Enter an address";
