@@ -78,7 +78,7 @@
 "STEP_PROGRESS_FORMAT" = "%1$@ of %2$@";
 
 /* Alert for out of range values. */
-"RANGE_ALERT_TITLE" = "Invalid value";
+"RANGE_ALERT_TITLE" = "无效值";
 "RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ exceeds the maximum allowed value (%2$@).";
 "RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ is less than the minimum allowed value (%2$@).";
 "RANGE_ALERT_MESSAGE_OTHER" = "%@ is not a valid value.";
