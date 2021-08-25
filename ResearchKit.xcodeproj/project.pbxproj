@@ -1246,6 +1246,9 @@
 		959A2C0C1D68C91400841B04 /* ORKShoulderRangeOfMotionStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKShoulderRangeOfMotionStep.m; sourceTree = "<group>"; };
 		95E11E531D73396300BF865B /* ORKShoulderRangeOfMotionStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKShoulderRangeOfMotionStepViewController.h; sourceTree = "<group>"; };
 		95E11E541D73396300BF865B /* ORKShoulderRangeOfMotionStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKShoulderRangeOfMotionStepViewController.m; sourceTree = "<group>"; };
+		A968818E26D6E905006A2008 /* ms-SG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ms-SG"; path = "ms-Latn-SG.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
+		A968819526D6E9ED006A2008 /* fil-PH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fil-PH"; path = "tl-PH.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
+		A968819626D6EA07006A2008 /* zh-Hans-SG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-SG"; path = "zh-Hans-SG.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		B11C54961A9EEF8800265E61 /* ORKConsentSharingStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKConsentSharingStep.h; sourceTree = "<group>"; };
 		B11C54971A9EEF8800265E61 /* ORKConsentSharingStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKConsentSharingStep.m; sourceTree = "<group>"; };
 		B11C549C1A9EF4A700265E61 /* ORKConsentSharingStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKConsentSharingStepViewController.h; sourceTree = "<group>"; };
@@ -3532,6 +3535,9 @@
 				"en-GB",
 				"en-AU",
 				nb,
+				"ms-SG",
+				"fil-PH",
+				"zh-Hans-SG",
 			);
 			mainGroup = 3FFF18341829DB1D00167070;
 			productRefGroup = 3FFF183E1829DB1D00167070 /* Products */;
@@ -4016,6 +4022,9 @@
 				B1B34A051AA10EDF005FAD66 /* ca */,
 				B1B34A061AA10EE4005FAD66 /* ar */,
 				B1B34A061AABBCCDDEEFFAAA /* no */,
+				A968818E26D6E905006A2008 /* ms-SG */,
+				A968819526D6E9ED006A2008 /* fil-PH */,
+				A968819626D6EA07006A2008 /* zh-Hans-SG */,
 			);
 			name = ResearchKit.strings;
 			sourceTree = "<group>";
