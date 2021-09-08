@@ -1292,6 +1292,7 @@
 		A347501C26DFE1C70080A69C /* zh-Hans-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans-CN"; path = "zh-Hans-CN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		A347501D26DFE1CE0080A69C /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		A3A972A426DFBD40002A27A0 /* cs-CZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "cs-CZ"; path = "cs-CZ.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
+		A3D4160726E89DCC00D8A42C /* vi-VN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "vi-VN"; path = "vi-VN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		A3E409F725A9198600D5EF3B /* de-AT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "de-AT"; path = "de-AT.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		A3E40A0B25A91A4600D5EF3B /* bn-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bn-IN"; path = "bn-IN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		A3F7DDC726D8C81C00935382 /* ar-IL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-IL"; path = "ar-IL.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
@@ -3734,6 +3735,7 @@
 				"ur-Arab-IN",
 				"zh-Hans-CN",
 				"zh-Hant-TW",
+				"vi-VN",
 			);
 			mainGroup = 3FFF18341829DB1D00167070;
 			productRefGroup = 3FFF183E1829DB1D00167070 /* Products */;
@@ -4316,6 +4318,7 @@
 				A347501B26DFE1BB0080A69C /* ur-Arab-IN */,
 				A347501C26DFE1C70080A69C /* zh-Hans-CN */,
 				A347501D26DFE1CE0080A69C /* zh-Hant-TW */,
+				A3D4160726E89DCC00D8A42C /* vi-VN */,
 			);
 			name = ResearchKit.strings;
 			sourceTree = "<group>";
