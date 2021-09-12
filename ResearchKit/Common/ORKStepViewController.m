@@ -41,6 +41,7 @@
 
 #import "ORKHelpers_Internal.h"
 #import "ORKSkin.h"
+#import "ORKCompletionStepViewController.h"
 
 static const CGFloat iPadStepTitleLabelFontSize = 34.0;
 static const CGFloat iPhoneStepTitleLabelFontSize = 28.0;
@@ -147,7 +148,13 @@ static const CGFloat iPhoneStepTitleLabelFontSize = 28.0;
     _internalBackButtonItem = [UIBarButtonItem ork_backBarButtonItemWithTarget:self action:@selector(goBackward)];
     _internalBackButtonItem.accessibilityLabel = ORKLocalizedString(@"AX_BUTTON_BACK", nil);
     _internalContinueButtonItem = [[UIBarButtonItem alloc] initWithTitle:ORKLocalizedString(@"BUTTON_NEXT", nil) style:UIBarButtonItemStylePlain target:self action:@selector(goForward)];
-    _internalDoneButtonItem = [[UIBarButtonItem alloc] initWithTitle:ORKLocalizedString(@"BUTTON_DONE", nil) style:UIBarButtonItemStyleDone target:self action:@selector(goForward)];
+    
+    NSString *completionButtonText = ORKLocalizedString(@"BUTTON_DONE", nil);
+    
+    if ([self isKindOfClass:[ORKCompletionStepViewController class]]) {
+        completionButtonText = ORKLocalizedString(@"BUTTON_DONE_COMPLETION", nil) ? : ORKLocalizedString(@"BUTTON_DONE", nil);
+    }
+    _internalDoneButtonItem = [[UIBarButtonItem alloc] initWithTitle:completionButtonText style:UIBarButtonItemStyleDone target:self action:@selector(goForward)];
     _internalSkipButtonItem = [[UIBarButtonItem alloc] initWithTitle:ORKLocalizedString(@"BUTTON_SKIP", nil) style:UIBarButtonItemStylePlain target:self action:@selector(skip:)];
     _backButtonItem = _internalBackButtonItem;
 }
