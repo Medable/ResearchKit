@@ -151,8 +151,10 @@ static const CGFloat iPhoneStepTitleLabelFontSize = 28.0;
     
     NSString *completionButtonText = ORKLocalizedString(@"BUTTON_DONE", nil);
     
+    BOOL hasTranslation = ![ORKLocalizedString(@"BUTTON_DONE_COMPLETION", nil) isEqualToString:@"BUTTON_DONE_COMPLETION"];
+    
     if ([self isKindOfClass:[ORKCompletionStepViewController class]]) {
-        completionButtonText = ORKLocalizedString(@"BUTTON_DONE_COMPLETION", nil) ? : ORKLocalizedString(@"BUTTON_DONE", nil);
+        completionButtonText = hasTranslation ? ORKLocalizedString(@"BUTTON_DONE_COMPLETION", nil) : ORKLocalizedString(@"BUTTON_DONE", nil);
     }
     _internalDoneButtonItem = [[UIBarButtonItem alloc] initWithTitle:completionButtonText style:UIBarButtonItemStyleDone target:self action:@selector(goForward)];
     _internalSkipButtonItem = [[UIBarButtonItem alloc] initWithTitle:ORKLocalizedString(@"BUTTON_SKIP", nil) style:UIBarButtonItemStylePlain target:self action:@selector(skip:)];
