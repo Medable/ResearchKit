@@ -85,12 +85,6 @@
 /* (No Comment) */
 "AX_COMPLETION_ILLUSTRATION" = "Illustration d’une coche dans un cercle bleu indiquant une réussite";
 
-/* This contains the visual text, followed by a VoiceOver-specific description. */
-"AX_dBHL_TONE_AUDIOMETRY_INTRO_TEXT" = "%@ Avec VoiceOver, vous pouvez taper directement sur le bouton. Il sera situé au centre de l’écran.";
-
-/* (No Comment) */
-"AX_DISMISS_KEYBOARD_CUSTOM_ACTION" = "Rejeter le clavier";
-
 /* (No Comment) */
 "AX_GRAPH_AND_SEPARATOR" = " et ";
 
@@ -134,39 +128,6 @@
 "AX_SPEECH_RECOGNITION_WAVEFORM" = "Forme d’ondes de l’énonciation";
 
 /* (No Comment) */
-"AX_TAP_BUTTON_1_LABEL" = "Tapez pour activer un doigt";
-
-/* (No Comment) */
-"AX_TAP_BUTTON_2_LABEL" = "Tapez pour activer un autre doigt";
-
-/* (No Comment) */
-"AX_TAP_BUTTON_DIRECT_TOUCH_ANNOUNCEMENT" = "Vous pouvez maintenant taper directement sur les boutons.";
-
-/* (No Comment) */
-"AX_TAP_BUTTON_DIRECT_TOUCH_AREA" = "Boutons activés";
-
-/* (No Comment) */
-"AX_TAP_BUTTON_HINT" = "Activez ceci pour pouvoir taper directement sur les boutons.";
-
-/* This contains the visual text, followed by a VoiceOver-specific description. */
-"AX_TAPPING_INSTRUCTION_VOICEOVER" = "%@Avec VoiceOver, explorez l’écran au toucher en apprenant où sont situés les boutons. Activez l’un des boutons pour pouvoir taper directement sur les boutons.";
-
-/* (No Comment) */
-"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_HINT" = "Activez ceci pour commencer le test. Quand le test commence, tapez directement sur ce bouton quand vous entendez un son dans l’oreille gauche.";
-
-/* (No Comment) */
-"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_LABEL" = "Tapez pour l’oreille gauche";
-
-/* (No Comment) */
-"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_HINT" = "Activez ceci pour commencer le test. Quand le test commence, tapez directement sur ce bouton quand vous entendez un son dans l’oreille droite.";
-
-/* (No Comment) */
-"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_LABEL" = "Tapez pour l’oreille droite";
-
-/* This contains the visual text, followed by a VoiceOver-specific description, followed by the visual text on the following page (since VoiceOver users may not have a chance to hear the visual text before needing to perform the actions). */
-"AX_TONE_AUDIOMETRY_PREP_TEXT_VOICEOVER" = "%@Avec VoiceOver, explorez l’écran au toucher en apprenant où sont situés les boutons. Quand le test commence, vous pourrez taper directement sur les boutons. %@";
-
-/* (No Comment) */
 "AX_TOWER_OF_HANOI_INVALID_MOVE_FORMAT" = "Impossible de placer un disque de taille %@ sur un disque de taille %@";
 
 /* (No Comment) */
@@ -186,9 +147,6 @@
 
 /* (No Comment) */
 "AX_TOWER_OF_HANOI_TOWER_EMPTY" = "Vide";
-
-/* This contains the visual text, followed by a VoiceOver-specific description. */
-"AX_TRAILMAKING_CALL_TO_ACTION_VOICEOVER" = "%@ Avec VoiceOver, vous pouvez taper directement sur les boutons pendant le test.";
 
 /* (No Comment) */
 "AX_UNLABELED_IMAGE" = "Image sans étiquette";
@@ -455,7 +413,7 @@
 "dBHL_TONE_AUDIOMETRY_OPTION_NO_PREFERENCE" = "aucune préférence";
 
 /* (No Comment) */
-"dBHL_TONE_AUDIOMETRY_OPTION_RIGHT" = "droit";
+"dBHL_TONE_AUDIOMETRY_OPTION_RIGHT" = "droite";
 
 /* dBHL Tone audiometry active task. */
 "dBHL_TONE_AUDIOMETRY_TASK_TITLE" = "Audiométrie tonale";
@@ -467,7 +425,7 @@
 "DOB_FORM_ITEM_TITLE" = "Date de naissance";
 
 /* (No Comment) */
-"EMAIL_FORM_ITEM_PLACEHOLDER" = "jappleseed@example.com";
+"EMAIL_FORM_ITEM_PLACEHOLDER" = "gallain@example.com";
 
 /* Registration step */
 "EMAIL_FORM_ITEM_TITLE" = "Adresse e-mail";
@@ -728,10 +686,10 @@
 "MEASURING_UNIT_IN" = "po";
 
 /* (No Comment) */
-"MEASURING_UNIT_KG" = "kg";
+"MEASURING_UNIT_KG" = " kg";
 
 /* (No Comment) */
-"MEASURING_UNIT_LB" = "lb";
+"MEASURING_UNIT_LB" = " lb";
 
 /* (No Comment) */
 "MEASURING_UNIT_OZ" = "once";
@@ -1040,10 +998,10 @@
 "SPEECH_RECOGNITION_QUESTION_TITLE" = "Modification";
 
 /* (No Comment) */
-"SPEECH_RECOGNITION_START_RECORD_LABEL" = "Lancer l’enregistrement";
+"SPEECH_RECOGNITION_START_RECORD_LABEL" = "Enregistrer";
 
 /* (No Comment) */
-"SPEECH_RECOGNITION_STOP_RECORD_LABEL" = "Arrêter l’enregistrement";
+"SPEECH_RECOGNITION_STOP_RECORD_LABEL" = "Terminer";
 
 /* (No Comment) */
 "SPEECH_RECOGNITION_TRANSCRIPTION_LABEL" = "Votre transcription s’affichera ici.";
@@ -1310,7 +1268,7 @@
 "TRAILMAKING_TASK_TITLE" = "Test des tracés (TMT)";
 
 /* (No Comment) */
-"TRAILMAKING_TIMER" = "%.1f s";
+"TRAILMAKING_TIMER" = "%.1f s";
 
 /* (No Comment) */
 "TREMOR_SKIP_LEFT_HAND" = "Je ne peux pas effectuer cette activité avec ma main GAUCHE.";
