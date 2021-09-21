@@ -85,6 +85,12 @@
 /* (No Comment) */
 "AX_COMPLETION_ILLUSTRATION" = "Ilustración de una marca de verificación en un círculo azul para indicar que se ha hecho correctamente";
 
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_dBHL_TONE_AUDIOMETRY_INTRO_TEXT" = "%@ Con VoiceOver, el botón se podrá tocar directamente. Estará ubicado cerca del centro de la pantalla.";
+
+/* (No Comment) */
+"AX_DISMISS_KEYBOARD_CUSTOM_ACTION" = "Descartar teclado";
+
 /* (No Comment) */
 "AX_GRAPH_AND_SEPARATOR" = " y ";
 
@@ -119,13 +125,46 @@
 "AX_SIGNVIEW_UNSIGNED" = "Sin firmar";
 
 /* (No Comment) */
-"AX_SLIDER_LABEL" = "Regulador de respuesta que va del %@ al %@.";
+"AX_SLIDER_LABEL" = "Regulador de respuesta que va del %@ al %@";
 
 /* (No Comment) */
 "AX_SPEECH_RECOGNITION_START_RECORDING_HINT" = "Cuando comience la grabación, actívalo una segunda vez para detener la grabación.";
 
 /* (No Comment) */
 "AX_SPEECH_RECOGNITION_WAVEFORM" = "Forma de onda de habla";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_1_LABEL" = "Toque con un dedo";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_2_LABEL" = "Toque para otro dedo";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_DIRECT_TOUCH_ANNOUNCEMENT" = "Los botones ahora se pueden tocar directamente.";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_DIRECT_TOUCH_AREA" = "Botones que se pueden tocar";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_HINT" = "Actívelo para que los botones se puedan tocar directamente.";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_TAPPING_INSTRUCTION_VOICEOVER" = "%@ Con VoiceOver, explore la pantalla tocando para saber dónde están ubicados los botones. Active cualquiera de los botones para que los botones se puedan tocar directamente.";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_HINT" = "Activar para iniciar la prueba. Cuando comience la prueba, toque directamente este botón cuando escuche un sonido en su oído izquierdo.";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_LABEL" = "Toque para la oreja izquierda";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_HINT" = "Activar para iniciar la prueba. Cuando comience la prueba, toque directamente este botón cuando escuche un sonido en su oído derecho.";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_LABEL" = "Toque para la oreja derecha";
+
+/* This contains the visual text, followed by a VoiceOver-specific description, followed by the visual text on the following page (since VoiceOver users may not have a chance to hear the visual text before needing to perform the actions). */
+"AX_TONE_AUDIOMETRY_PREP_TEXT_VOICEOVER" = "%@ Con VoiceOver, explore la pantalla tocando para saber dónde se encuentran los botones de cada oído. Cuando comience la prueba, los botones se podrán tocar directamente.%@";
 
 /* (No Comment) */
 "AX_TOWER_OF_HANOI_INVALID_MOVE_FORMAT" = "No se puede colocar un disco de tamaño %@ en un disco de tamaño %@";
@@ -147,6 +186,9 @@
 
 /* (No Comment) */
 "AX_TOWER_OF_HANOI_TOWER_EMPTY" = "Vacía";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_TRAILMAKING_CALL_TO_ACTION_VOICEOVER" = "%@ Con VoiceOver, los botones de la prueba se podrán tocar directamente.";
 
 /* (No Comment) */
 "AX_UNLABELED_IMAGE" = "Imagen sin etiqueta";
@@ -206,7 +248,7 @@
 "BOOL_YES" = "Sí";
 
 /* Button titles */
-"BUTTON_AGREE" = "Acepto";
+"BUTTON_AGREE" = "Estoy de acuerdo";
 
 /* (No Comment) */
 "BUTTON_APPLY" = "Aplicar";
@@ -215,25 +257,25 @@
 "BUTTON_CANCEL" = "Cancelar";
 
 /* (No Comment) */
-"BUTTON_CLEAR" = "Borrar";
+"BUTTON_CLEAR" = "Limpiar";
 
 /* (No Comment) */
 "BUTTON_CLEAR_ANSWER" = "Borrar respuesta";
 
 /* (No Comment) */
-"BUTTON_COPYRIGHT" = "Copyright";
+"BUTTON_COPYRIGHT" = "Derechos de autor";
 
 /* (No Comment) */
-"BUTTON_DISAGREE" = "No acepto";
+"BUTTON_DISAGREE" = "No estoy de acuerdo";
 
 /* (No Comment) */
-"BUTTON_DONE" = "OK";
+"BUTTON_DONE" = "Listo";
 
 /* (No Comment) */
 "BUTTON_GET_STARTED" = "Empezar";
 
 /* (No Comment) */
-"BUTTON_LEARN_MORE" = "Más información";
+"BUTTON_LEARN_MORE" = "Aprender más";
 
 /* (No Comment) */
 "BUTTON_NEXT" = "Siguiente";
@@ -242,7 +284,7 @@
 "BUTTON_OK" = "Aceptar";
 
 /* (No Comment) */
-"BUTTON_OPTION_DISCARD" = "Descartar resultados";
+"BUTTON_OPTION_DISCARD" = "Desechar Resultados";
 
 /* (No Comment) */
 "BUTTON_OPTION_SAVE" = "Guardar para luego";
@@ -257,7 +299,7 @@
 "BUTTON_SAVE" = "Guardar";
 
 /* (No Comment) */
-"BUTTON_SKIP" = "Omitir";
+"BUTTON_SKIP" = "Saltar";
 
 /* (No Comment) */
 "BUTTON_SKIP_QUESTION" = "Omitir esta pregunta";
@@ -317,13 +359,13 @@
 "CONSENT_DOC_LINE_SIGNATURE" = "Firma del %@";
 
 /* (No Comment) */
-"CONSENT_LEARN_MORE_TITLE" = "Más información";
+"CONSENT_LEARN_MORE_TITLE" = "Aprender más";
 
 /* (No Comment) */
-"CONSENT_NAME_FAMILY" = "Apellidos";
+"CONSENT_NAME_FAMILY" = "Apellido";
 
 /* (No Comment) */
-"CONSENT_NAME_GIVEN" = "Nombre";
+"CONSENT_NAME_GIVEN" = "Primer Nombre";
 
 /* (No Comment) */
 "CONSENT_NAME_PLACEHOLDER" = "Obligatorio";
@@ -344,28 +386,28 @@
 "CONSENT_REVIEW_TITLE" = "Revisar";
 
 /* (No Comment) */
-"CONSENT_SECTION_DATA_GATHERING" = "Recopilación de datos";
+"CONSENT_SECTION_DATA_GATHERING" = "Recopilación de Datos";
 
 /* (No Comment) */
-"CONSENT_SECTION_DATA_USE" = "Utilización de datos";
+"CONSENT_SECTION_DATA_USE" = "Uso de Datos";
 
 /* (No Comment) */
 "CONSENT_SECTION_PRIVACY" = "Privacidad";
 
 /* (No Comment) */
-"CONSENT_SECTION_STUDY_SURVEY" = "Evaluación del estudio";
+"CONSENT_SECTION_STUDY_SURVEY" = "Estudio";
 
 /* (No Comment) */
-"CONSENT_SECTION_STUDY_TASKS" = "Tareas del estudio";
+"CONSENT_SECTION_STUDY_TASKS" = "Tareas del Estudio";
 
 /* (No Comment) */
-"CONSENT_SECTION_TIME_COMMITMENT" = "Tiempo dedicado";
+"CONSENT_SECTION_TIME_COMMITMENT" = "Compromiso de Tiempo";
 
 /* Consent section titles. */
 "CONSENT_SECTION_WELCOME" = "Bienvenido";
 
 /* (No Comment) */
-"CONSENT_SECTION_WITHDRAWING" = "Salida del estudio";
+"CONSENT_SECTION_WITHDRAWING" = "Abandonar";
 
 /* (No Comment) */
 "CONSENT_SHARE_ONLY_%@" = "Solo compartir mis datos con %@";
@@ -383,7 +425,7 @@
 "CONSENT_SIGNATURE_INSTRUCTION" = "Firma con el dedo en el recuadro siguiente.";
 
 /* (No Comment) */
-"CONSENT_SIGNATURE_PLACEHOLDER" = "Firma aquí";
+"CONSENT_SIGNATURE_PLACEHOLDER" = "Firme aquí";
 
 /* (No Comment) */
 "CONSENT_SIGNATURE_TITLE" = "Firma";
@@ -407,13 +449,13 @@
 "dBHL_TONE_AUDIOMETRY_ONBOARDING_QUESTION" = "Selecciona tu preferencia para “oído bueno”, si la tienes";
 
 /* (No Comment) */
-"dBHL_TONE_AUDIOMETRY_OPTION_LEFT" = "izquierdo";
+"dBHL_TONE_AUDIOMETRY_OPTION_LEFT" = "izquierda";
 
 /* (No Comment) */
 "dBHL_TONE_AUDIOMETRY_OPTION_NO_PREFERENCE" = "sin preferencia";
 
 /* (No Comment) */
-"dBHL_TONE_AUDIOMETRY_OPTION_RIGHT" = "derecho";
+"dBHL_TONE_AUDIOMETRY_OPTION_RIGHT" = "la derecha";
 
 /* dBHL Tone audiometry active task. */
 "dBHL_TONE_AUDIOMETRY_TASK_TITLE" = "Audiometría tonal";
@@ -425,7 +467,7 @@
 "DOB_FORM_ITEM_TITLE" = "Fecha de nacimiento";
 
 /* (No Comment) */
-"EMAIL_FORM_ITEM_PLACEHOLDER" = "juan@example.com";
+"EMAIL_FORM_ITEM_PLACEHOLDER" = "jappleseed@example.com";
 
 /* Registration step */
 "EMAIL_FORM_ITEM_TITLE" = "Correo electrónico";
@@ -509,7 +551,7 @@
 "FITZPATRICK_SKIN_TYPE_VI" = "Tipo VI";
 
 /* (No Comment) */
-"FORGOT_PASSWORD_BUTTON_TITLE" = "¿Has olvidado tu contraseña?";
+"FORGOT_PASSWORD_BUTTON_TITLE" = "¿Olvidó su contraseña?";
 
 /* Gender values. */
 "GENDER_FEMALE" = "Mujer";
@@ -518,7 +560,7 @@
 "GENDER_FORM_ITEM_PLACEHOLDER" = "Selecciona tu sexo";
 
 /* (No Comment) */
-"GENDER_FORM_ITEM_TITLE" = "Sexo";
+"GENDER_FORM_ITEM_TITLE" = "Género";
 
 /* (No Comment) */
 "GENDER_MALE" = "Hombre";
@@ -623,28 +665,28 @@
 "LEARN_MORE_CONSENT_SHARING" = "Más información sobre cómo se comparten los datos";
 
 /* Consent section learn more */
-"LEARN_MORE_DATA_GATHERING" = "Más información sobre la recopilación de los datos";
+"LEARN_MORE_DATA_GATHERING" = "Aprender más acerca de cómo se recopilan los datos";
 
 /* (No Comment) */
-"LEARN_MORE_DATA_USE" = "Más información sobre la utilización de los datos";
+"LEARN_MORE_DATA_USE" = "Aprender más acerca de cómo se emplean sus datos";
 
 /* (No Comment) */
-"LEARN_MORE_PRIVACY" = "Más información sobre la protección de la privacidad y la identidad";
+"LEARN_MORE_PRIVACY" = "Aprender más acerca de cómo se protege su identidad";
 
 /* (No Comment) */
-"LEARN_MORE_STUDY_SURVEY" = "Más información sobre la evaluación del estudio";
+"LEARN_MORE_STUDY_SURVEY" = "Aprender más acerca de la encuesta de estudio";
 
 /* (No Comment) */
-"LEARN_MORE_TASKS" = "Más información sobre las tareas del estudio";
+"LEARN_MORE_TASKS" = "Aprender más acerca de las tareas involucradas";
 
 /* (No Comment) */
 "LEARN_MORE_TIME_COMMITMENT" = "Más información sobre el impacto del estudio en tu tiempo";
 
 /* (No Comment) */
-"LEARN_MORE_WELCOME" = "Más información sobre el estudio";
+"LEARN_MORE_WELCOME" = "Aprender más acerca del estudio primero";
 
 /* (No Comment) */
-"LEARN_MORE_WITHDRAWING" = "Más información sobre cómo salir del estudio";
+"LEARN_MORE_WITHDRAWING" = "Aprender más acerca de cómo abandonar el estudio";
 
 /* Limb values. */
 "LIMB_LEFT" = "izquierda";
@@ -674,7 +716,7 @@
 "LOCATION_QUESTION_PLACEHOLDER" = "Introduce una dirección";
 
 /* Login step */
-"LOGIN_CONTINUE_BUTTON_TITLE" = "Iniciar sesión";
+"LOGIN_CONTINUE_BUTTON_TITLE" = "Inicio de Sesión";
 
 /* Measuring unit abbreviations */
 "MEASURING_UNIT_CM" = "cm";
@@ -740,7 +782,7 @@
 "MEMORY_GAME_TIMEOUT_TITLE" = "Se acabó el tiempo";
 
 /* (No Comment) */
-"NULL_ANSWER" = "Selecciona una respuesta";
+"NULL_ANSWER" = "Elija una respuesta";
 
 /* (No Comment) */
 "PASAT_INTRO_TEXT" = "La prueba de suma seriada auditiva por pasos mide tu velocidad de procesamiento de información auditiva y tu capacidad de cálculo.";
@@ -794,7 +836,7 @@
 "PASSCODE_TOUCH_ID_MESSAGE" = "Autentícate con Touch ID";
 
 /* (No Comment) */
-"PASSWORD_FORM_ITEM_PLACEHOLDER" = "Introduce la contraseña";
+"PASSWORD_FORM_ITEM_PLACEHOLDER" = "Introduzca su contraseña";
 
 /* (No Comment) */
 "PASSWORD_FORM_ITEM_TITLE" = "Contraseña";
@@ -1250,7 +1292,7 @@
 "TRAILMAKING_LETTER_A" = "A";
 
 /* (No Comment) */
-"TRAILMAKING_LETTER_B" = "B";
+"TRAILMAKING_LETTER_B" = "Az";
 
 /* (No Comment) */
 "TRAILMAKING_LETTER_C" = "C";
