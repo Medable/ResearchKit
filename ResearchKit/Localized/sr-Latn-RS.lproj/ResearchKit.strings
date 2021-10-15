@@ -884,10 +884,10 @@
 "PVSAT_TITLE" = "PVSAT";
 
 /* (No Comment) */
-"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1 $@ premašuje maksimalnu dozvoljenu vrednost (%2$@).";
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ premašuje maksimalnu dozvoljenu vrednost (%2$@).";
 
 /* (No Comment) */
-"RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1 $@ je manje od minimalne dozvoljene vrednosti (%2$@).";
+"RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ je manje od minimalne dozvoljene vrednosti (%2$@).";
 
 /* (No Comment) */
 "RANGE_ALERT_MESSAGE_OTHER" = "%@ nije važeća vrednost.";
