@@ -79,7 +79,7 @@
 
 /* Alert for out of range values. */
 "RANGE_ALERT_TITLE" = "Valeur non valide";
-"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ dépasse la valeur maximale autorisée (%2$@).";
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ est supérieur à la valeur maximale autorisée (%2$@).";
 "RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ est inférieur à la valeur minimale autorisée (%2$@).";
 "RANGE_ALERT_MESSAGE_OTHER" = "%@ n’est pas une valeur valide.";
 
