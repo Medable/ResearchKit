@@ -884,7 +884,7 @@
 "PVSAT_TITLE" = "PVSAT";
 
 /* (No Comment) */
-"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ അനുവദനീയമായ പരമാവധി മൂല്യം (%2$@) കവിയുന്നു.";
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ അനുവദനീയമായ പരമാവധി മൂല്യം (%2$@) കവിഞ്ഞു.";
 
 /* (No Comment) */
 "RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ അനുവദനീയമായ ഏറ്റവും കുറഞ്ഞ (%2$@) മൂല്യത്തേക്കാൾ കുറവാണ്.";
