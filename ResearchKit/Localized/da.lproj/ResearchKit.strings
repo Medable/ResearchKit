@@ -204,6 +204,7 @@
 "BUTTON_APPLY" = "Anvend";
 "BUTTON_DISAGREE" = "Uenig";
 "BUTTON_DONE" = "OK";
+"BUTTON_DONE_COMPLETION" = "Færdig";
 "BUTTON_GET_STARTED" = "Gå i gang";
 "BUTTON_LEARN_MORE" = "Læs mere";
 "BUTTON_NEXT" = "Næste";
