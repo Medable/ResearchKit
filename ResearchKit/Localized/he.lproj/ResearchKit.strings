@@ -204,6 +204,7 @@
 "BUTTON_APPLY" = "החל";
 "BUTTON_DISAGREE" = "איני מסכים/ה";
 "BUTTON_DONE" = "בוצע";
+"BUTTON_DONE_COMPLETION_AUTH" = "סיום";
 "BUTTON_GET_STARTED" = "התחלה";
 "BUTTON_LEARN_MORE" = "פרטים נוספים";
 "BUTTON_NEXT" = "הבא";
