@@ -155,6 +155,15 @@ static const CGFloat iPhoneStepTitleLabelFontSize = 28.0;
     
     if ([self isKindOfClass:[ORKCompletionStepViewController class]]) {
         completionButtonText = hasTranslation ? ORKLocalizedString(@"BUTTON_DONE_COMPLETION", nil) : ORKLocalizedString(@"BUTTON_DONE", nil);
+        
+        
+        if ([[NSLocale currentLocale].localeIdentifier isEqualToString:@"nl_BE"]) {
+            completionButtonText = @"Klaar";
+        }
+        
+        if ([[NSLocale currentLocale].localeIdentifier isEqualToString:@"pt_PT"]) {
+            completionButtonText = @"Concluido";
+        }
     }
     
     if ([NSStringFromClass([self class]) isEqualToString:@"MDORKAuthenticationFormStepViewController"]) {
@@ -162,8 +171,8 @@ static const CGFloat iPhoneStepTitleLabelFontSize = 28.0;
         if (hasAuthTranslation) {
             completionButtonText = ORKLocalizedString(@"BUTTON_DONE_COMPLETION_AUTH", nil);
         }
-
     }
+    
     _internalDoneButtonItem = [[UIBarButtonItem alloc] initWithTitle:completionButtonText style:UIBarButtonItemStyleDone target:self action:@selector(goForward)];
     _internalSkipButtonItem = [[UIBarButtonItem alloc] initWithTitle:ORKLocalizedString(@"BUTTON_SKIP", nil) style:UIBarButtonItemStylePlain target:self action:@selector(skip:)];
     _backButtonItem = _internalBackButtonItem;
