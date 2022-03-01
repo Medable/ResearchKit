@@ -186,7 +186,7 @@
 /* Button titles */
 "BUTTON_AGREE" = "Acepto";
 "BUTTON_CANCEL" = "Cancelar";
-"BUTTON_OK" = "OK";
+"BUTTON_OK" = "Listo";
 "BUTTON_CLEAR" = "Borrar";
 "BUTTON_DISAGREE" = "No acepto";
 "BUTTON_DONE" = "Listo";
