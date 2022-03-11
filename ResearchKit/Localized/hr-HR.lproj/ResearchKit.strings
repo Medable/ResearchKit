@@ -272,6 +272,9 @@
 "BUTTON_DONE" = "OK";
 
 /* (No Comment) */
+"BUTTON_DONE_COMPLETION" = "Gotovo";
+
+/* (No Comment) */
 "BUTTON_GET_STARTED" = "Pokreni";
 
 /* (No Comment) */
