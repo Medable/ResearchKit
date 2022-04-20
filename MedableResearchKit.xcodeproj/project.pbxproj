@@ -862,6 +862,7 @@
 		2EBFE11E1AE1B68800CB8254 /* ORKVoiceEngine_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKVoiceEngine_Internal.h; sourceTree = "<group>"; };
 		2EBFE11F1AE1B74100CB8254 /* ORKVoiceEngineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVoiceEngineTests.m; sourceTree = "<group>"; };
 		5216264B27CFC80000241BCB /* vi-VN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "vi-VN"; path = "vi-VN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
+		527E7F882810A714006B762B /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		5298494E271F5F2B006CCD10 /* ur-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ur-IN"; path = "ur-IN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		52A5D350252FD3290017A7BD /* lt-LT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "lt-LT"; path = "lt-LT.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		52ADDCD126E7E27E0080EFB5 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
@@ -3588,6 +3589,7 @@
 				"es-PE",
 				"ur-IN",
 				"vi-VN",
+				"hi-IN",
 			);
 			mainGroup = 3FFF18341829DB1D00167070;
 			productRefGroup = 3FFF183E1829DB1D00167070 /* Products */;
@@ -4097,6 +4099,7 @@
 				52FCCF2B26E9051E009F61D7 /* es-PE */,
 				5298494E271F5F2B006CCD10 /* ur-IN */,
 				5216264B27CFC80000241BCB /* vi-VN */,
+				527E7F882810A714006B762B /* hi-IN */,
 			);
 			name = ResearchKit.strings;
 			sourceTree = "<group>";
