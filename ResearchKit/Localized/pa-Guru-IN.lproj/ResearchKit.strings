@@ -1,0 +1,1479 @@
+/* (No Comment) */
+"ADDITIONAL_INFO_SECTION_TITLE" = "ਵਧੀਕ ਜਾਣਕਾਰੀ";
+
+/* (No Comment) */
+"AMSLER_GRID_INSTRUCTION_DETAIL_TEXT" = "ਆਪਣਾ %@ ਬੰਦ ਕਰੋ ਅਤੇ ਵਰਗ ਗਰਿੱਡ ਦੇ ਕੇਂਦਰ ਵਿੱਚ ਬਿੰਦੀ ਵੱਲ ਦੇਖੋ।\n\nਆਪਣੀ ਉਂਗਲੀ ਜਾਂ ਸਟਾਈਲ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ, ਕਿਸੇ ਵੀ ਵਿਗਾੜ ਨੂੰ ਮਾਰਕ ਕਰੋ ਜਿਵੇਂ ਕਿ ਧੁੰਦਲੀਆਂ ਜਾਂ ਲਹਿਰਦਾਰ ਲਾਈਨਾਂ।\n\nਜਦੋਂ ਤੁਸੀਂ ਪੂਰਾ ਕਰ ਲੈਂਦੇ ਹੋ, ਗਰਿੱਡ ਦੇ ਬਾਹਰ ਕਿਤੇ ਵੀ ਖੱਬੇ ਪਾਸੇ ਸਵਾਈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"AMSLER_GRID_INSTRUCTION_TEXT" = "ਪੂਰੇ ਟੈਸਟ ਦੌਰਾਨ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਚਿਹਰੇ ਤੋਂ ਅਤੇ ਅੱਖਾਂ ਦੇ ਪੱਧਰ ਤੋਂ 12 ਇੰਚ ਦੂਰ ਰੱਖੋ।";
+
+/* (No Comment) */
+"AMSLER_GRID_INTRO_TEXT" = "ਇਹ ਗਤੀਵਿਧੀ ਵਰਤੋਂਕਾਰ ਦੀ ਨਜ਼ਰ ਵਿੱਚ ਸਮੱਸਿਆਵਾਂ ਦਾ ਪਤਾ ਲਗਾਉਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਦੀ ਹੈ।";
+
+/* (No Comment) */
+"AMSLER_GRID_LEFT_EYE" = "ਖੱਬੀ ਅੱਖ";
+
+/* (No Comment) */
+"AMSLER_GRID_RIGHT_EYE" = "ਸੱਜੀ ਅੱਖ";
+
+/* Amsler Grid Task. */
+"AMSLER_GRID_TITLE" = "ਐਮਸਲਰ ਗਰਿੱਡ";
+
+/* (No Comment) */
+"AUDIO_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"AUDIO_GENERIC_ERROR_LABEL" = "ਆਡੀਓ ਰਿਕਾਰਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ";
+
+/* (No Comment) */
+"AUDIO_INSTRUCTION" = "ਜਿੰਨਾ ਚਿਰ ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ ਮਾਈਕ੍ਰੋਫੋਨ ਵਿੱਚ \"ਆਹ\" ਕਹੋ।";
+
+/* (No Comment) */
+"AUDIO_INTENDED_USE" = "ਇਹ ਗਤੀਵਿਧੀ ਤੁਹਾਡੀ ਆਵਾਜ਼ ਨੂੰ ਤੁਹਾਡੀ ਡੀਵਾਈਸ ਦੇ ਹੇਠਾਂ ਮਾਈਕ੍ਰੋਫੋਨ ਨਾਲ ਰਿਕਾਰਡ ਕਰਕੇ ਮੁਲਾਂਕਣ ਕਰਦੀ ਹੈ।";
+
+/* (No Comment) */
+"AUDIO_INTRO_TEXT" = "ਇੱਕ ਡੂੰਘਾ ਸਾਹ ਲਓ ਅਤੇ ਜਿੰਨਾ ਚਿਰ ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ ਮਾਈਕ੍ਰੋਫੋਨ ਵਿੱਚ \"ਆਹ\" ਕਹੋ। ਮੌਖਿਕ ਆਵਾਜ਼ ਸਥਿਰ ਰੱਖੋ ਤਾਂ ਜੋ ਆਡੀਓ ਬਾਰ ਨੀਲੇ ਬਣੇ ਰਹਿਣ।";
+
+/* (No Comment) */
+"AUDIO_LEVEL_CHECK_LABEL" = "ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ ਜਦੋਂ ਤੱਕ ਅਸੀਂ ਪਿਛੋਕੜ ਦੇ ਸ਼ੋਰ ਦੇ ਪੱਧਰ ਦੀ ਜਾਂਚ ਕਰਦੇ ਹਾਂ।";
+
+/* Audio active task. */
+"AUDIO_TASK_TITLE" = "ਆਵਾਜ਼";
+
+/* (No Comment) */
+"AUDIO_TOO_LOUD_ACTION_NEXT" = "ਤਿਆਰ ਹੋਣ 'ਤੇ ‘ਅੱਗੇ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"AUDIO_TOO_LOUD_LABEL" = "ਬਹੁਤ ਉੱਚਾ";
+
+/* (No Comment) */
+"AUDIO_TOO_LOUD_MESSAGE" = "ਤੁਹਾਡੀ ਆਵਾਜ਼ ਨੂੰ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਚੌਗਿਰਦੇ ਦਾ ਸ਼ੋਰ ਦਾ ਪੱਧਰ ਬਹੁਤ ਉੱਚਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਕਿਤੇ ਸ਼ਾਂਤ ਜਗ੍ਹਾ ‘ਤੇ ਜਾਓ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।";
+
+/* (No Comment) */
+"AX_AMSLER_GRID_HINT" = "ਗਰਿੱਡ ਨੂੰ ਸਿੱਧਾ ਨਿਸ਼ਾਨਬੱਧ ਕਰਨ ਲਈ ਆਪਣੀ ਉਂਗਲ ਜਾਂ ਸਟਾਈਲ ਦੀ ਵਰਤੋਂ ਕਰੋ, ਜਾਂ ਸਮਾਪਤ ਕਰਨ ਲਈ ਗਰਿੱਡ ਦੇ ਬਾਹਰ ਖੱਬੇ ਪਾਸੇ ਸਵਾਈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"AX_AMSLER_GRID_LABEL" = "ਐਮਸਲਰ ਗਰਿੱਡ";
+
+/* (No Comment) */
+"AX_ANNOUNCE_BEGIN_TASK" = "ਕਾਰਜ ਸ਼ੁਰੂ ਕਰੋ";
+
+/* (No Comment) */
+"AX_AUDIO_BAR_GRAPH" = "ਆਡੀਓ ਬਾਰ ਗ੍ਰਾਫ";
+
+/* (No Comment) */
+"AX_BUTTON_ANNOTATE" = "ਵਿਆਖਿਆ";
+
+/* Accessibility */
+"AX_BUTTON_BACK" = "ਪਿੱਛੇ";
+
+/* (No Comment) */
+"AX_BUTTON_HIDE_PDF_THUMBNAIL" = "PDF ਥੰਬਨੇਲ ਲੁਕਾਓ";
+
+/* (No Comment) */
+"AX_BUTTON_HIDE_SEARCH" = "ਸਰਚ ਬਾਰ ਲੁਕਾਓ";
+
+/* (No Comment) */
+"AX_BUTTON_SHARE" = "ਸਾਂਝਾ ਕਰੋ";
+
+/* (No Comment) */
+"AX_BUTTON_SHOW_PDF_THUMBNAIL" = "PDF ਥੰਬਨੇਲ ਦਿਖਾਓ";
+
+/* (No Comment) */
+"AX_BUTTON_SHOW_SEARCH" = "ਸਰਚ ਬਾਰ ਦਿਖਾਓ";
+
+/* (No Comment) */
+"AX_COMPLETION_ILLUSTRATION" = "ਸਫਲਤਾ ਦਾ ਸੰਕੇਤ ਦੇਣ ਵਾਲੇ ਨੀਲੇ ਚੱਕਰ ਵਿੱਚ ਠੀਕ ਦੇ ਨਿਸ਼ਾਨ ਦਾ ਉਦਾਹਰਣ";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_dBHL_TONE_AUDIOMETRY_INTRO_TEXT" = "%@ VoiceOver ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ, ਬਟਨ ਸਿੱਧੇ ਟੈਪ ਕਰਨ ਯੋਗ ਹੋਣਗੇ। ਇਹ ਸਕ੍ਰੀਨ ਦੇ ਕੇਂਦਰ ਦੇ ਨੇੜੇ ਸਥਿਤ ਹੋਵੇਗਾ।";
+
+/* (No Comment) */
+"AX_DISMISS_KEYBOARD_CUSTOM_ACTION" = "ਕੀਬੋਰਡ ਖਾਰਜ ਕਰੋ";
+
+/* (No Comment) */
+"AX_GRAPH_AND_SEPARATOR" = " ਅਤੇ";
+
+/* (No Comment) */
+"AX_GRAPH_POINT_%@" = "ਬਿੰਦੂ: %@";
+
+/* (No Comment) */
+"AX_GRAPH_RANGE_FORMAT_%@_%@" = "%@ ਤੋਂ %@ ਤੱਕ ਦੀ ਰੇਂਜ";
+
+/* (No Comment) */
+"AX_GRAPH_STACK_PREFIX" = "ਇਹਨਾਂ ਦਾ ਬਣਿਆ ਸਟੈਕ";
+
+/* (No Comment) */
+"AX_IMAGE_CAPTURE_LABEL" = "ਝਲਕ ਕੈਪਚਰ ਕਰੋ";
+
+/* (No Comment) */
+"AX_IMAGE_CAPTURED_LABEL" = "ਚਿੱਤਰ ਲਿਆ ਗਿਆ";
+
+/* (No Comment) */
+"AX_SELECTED" = "ਚੁਣਿਆ ਗਿਆ";
+
+/* (No Comment) */
+"AX_SIGNVIEW_HINT" = "ਸਕ੍ਰੀਨ ਨੂੰ ਛੁਹ ਅਤੇ ਦਸਤਖਤ ਕਰਨ ਲਈ ਆਪਣੀ ਉਂਗਲ ਨੂੰ ਹਿਲਾਓ";
+
+/* (No Comment) */
+"AX_SIGNVIEW_LABEL" = "ਮਨੋਨੀਤ ਦੇ ਦਸਤਖਤ ਲਈ ਖੇਤਰ";
+
+/* (No Comment) */
+"AX_SIGNVIEW_SIGNED" = "ਦਸਤਖਤ ਕੀਤੇ";
+
+/* (No Comment) */
+"AX_SIGNVIEW_UNSIGNED" = "ਬਿਨਾਂ ਦਸਤਖਤ ਤੋਂ";
+
+/* (No Comment) */
+"AX_SLIDER_LABEL" = "ਜਵਾਬ ਸਲਾਈਡਰ। %@ ਤੋਂ %@ ਤੱਕ ਦੀ ਰੇਂਜ";
+
+/* (No Comment) */
+"AX_SPEECH_RECOGNITION_START_RECORDING_HINT" = "ਜਦੋਂ ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ, ਰਿਕਾਰਡਿੰਗ ਨੂੰ ਰੋਕਣ ਲਈ ਦੂਜੀ ਵਾਰ ਕਿਰਿਆਸ਼ੀਲ ਕਰੋ।";
+
+/* (No Comment) */
+"AX_SPEECH_RECOGNITION_WAVEFORM" = "ਸਪੀਚ ਵੇਵਫਾਰਮ";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_1_LABEL" = "ਇੱਕ ਉਂਗਲ ਲਈ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_2_LABEL" = "ਹੋਰ ਉਂਗਲ ਲਈ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_DIRECT_TOUCH_ANNOUNCEMENT" = "ਬਟਨ ਹੁਣ ਸਿੱਧੇ ਟੈਪ ਕਰਨ ਯੋਗ ਹਨ।";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_DIRECT_TOUCH_AREA" = "ਟੈਪ ਕਰਨ ਯੋਗ ਬਟਨ";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_HINT" = "ਬਟਨਾਂ ਨੂੰ ਸਿੱਧਾ ਟੈਪ ਕਰਨ ਯੋਗ ਬਣਾਉਣ ਲਈ ਕਿਰਿਆਸ਼ੀਲ ਕਰੋ।";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_TAPPING_INSTRUCTION_VOICEOVER" = "%@ VoiceOver ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ, ਇਹ ਜਾਣਨ ਲਈ ਛੁਹ ਕੇ ਸਕ੍ਰੀਨ ਦੀ ਪੜਚੋਲ ਕਰੋ ਕਿ ਬਟਨ ਕਿੱਥੇ ਸਥਿਤ ਹਨ। ਬਟਨਾਂ ਨੂੰ ਸਿੱਧਾ ਟੈਪ ਕਰਨ ਯੋਗ ਬਣਾਉਣ ਲਈ ਕਿਸੇ ਵੀ ਬਟਨ ਨੂੰ ਕਿਰਿਆਸ਼ੀਲ ਕਰੋ।";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_HINT" = "ਟੈਸਟ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਕਿਰਿਆਸ਼ੀਲ ਕਰੋ। ਜਦੋਂ ਟੈਸਟ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਜਦੋਂ ਤੁਸੀਂ ਆਪਣੇ ਖੱਬੇ ਕੰਨ ਵਿੱਚ ਆਵਾਜ਼ ਸੁਣਦੇ ਹੋ ਤਾਂ ਇਸ ਬਟਨ 'ਤੇ ਸਿੱਧਾ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_LABEL" = "ਖੱਬੇ ਕੰਨ ਲਈ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_HINT" = "ਟੈਸਟ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਕਿਰਿਆਸ਼ੀਲ ਕਰੋ। ਜਦੋਂ ਟੈਸਟ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਜਦੋਂ ਤੁਸੀਂ ਆਪਣੇ ਸੱਜੇ ਕੰਨ ਵਿੱਚ ਆਵਾਜ਼ ਸੁਣਦੇ ਹੋ ਤਾਂ ਇਸ ਬਟਨ 'ਤੇ ਸਿੱਧਾ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_LABEL" = "ਸੱਜੇ ਕੰਨ ਲਈ ਟੈਪ ਕਰੋ";
+
+/* This contains the visual text, followed by a VoiceOver-specific description, followed by the visual text on the following page (since VoiceOver users may not have a chance to hear the visual text before needing to perform the actions). */
+"AX_TONE_AUDIOMETRY_PREP_TEXT_VOICEOVER" = "%@ VoiceOver ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ, ਇਹ ਜਾਣਨ ਲਈ ਛੁਹ ਕੇ ਸਕ੍ਰੀਨ ਦੀ ਪੜਚੋਲ ਕਰੋ ਕਿ ਹਰੇਕ ਕੰਨ ਲਈ ਬਟਨ ਕਿੱਥੇ ਸਥਿਤ ਹਨ। ਜਦੋਂ ਟੈਸਟ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਬਟਨ ਸਿੱਧੇ ਟੈਪ ਕਰਨ ਯੋਗ ਹੋਣਗੇ। %@";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_INVALID_MOVE_FORMAT" = "ਆਕਾਰ %@ ਵਾਲੀ ਡਿਸਕ ‘ਤੇ ਆਕਾਰ %@ ਵਾਲੀ ਡਿਸਕ ਰੱਖਣ ਵਿੱਚ ਅਸਮਰੱਥ";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_PLACE_DISK" = "ਡਿਸਕ ਰੱਖਣ ਲਈ ਦੋ ਵਾਰ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_SELECT_DISK" = "ਪ੍ਰਮੁੱਕ ਡਿਸਕ ਦੀ ਚੋਣ ਕਰਨ ਲਈ ਦੋ ਵਾਰ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TARGET_DISK" = "ਟੀਚਾ";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TOWER" = "ਬੁਰਜ";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TOWER_CONTAINS" = "ਆਕਾਰ %@ ਵਾਲੀ ਡਿਸਕ ਹੈ";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TOWER_EMPTY" = "ਖਾਲੀ";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_TRAILMAKING_CALL_TO_ACTION_VOICEOVER" = "%@ VoiceOver ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ, ਟੈਸਟ ਦੇ ਬਟਨ ਸਿੱਧੇ ਟੈਪ ਕਰਨ ਯੋਗ ਹੋਣਗੇ।";
+
+/* (No Comment) */
+"AX_UNLABELED_IMAGE" = "ਲੇਬਲ ਰਹਿਤ ਚਿੱਤਰ";
+
+/* (No Comment) */
+"AX_UNSELECTED" = "ਅਣ-ਚੁਣਿਆ";
+
+/* (No Comment) */
+"AX_VIDEO_CAPTURE_COMPLETE" = "ਵੀਡੀਓ ਕੈਪਚਰ ਕਰਨਾ ਮੁਕੰਮਲ";
+
+/* (No Comment) */
+"AX_VIDEO_CAPTURE_LABEL" = "ਵੀਡੀਓ ਕੈਪਚਰ ਦੀ ਝਲਕ";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.ACTIVE" = "ਕਿਰਿਆਸ਼ੀਲ";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.CORRECT" = "ਸਹੀ";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.INCORRECT" = "ਗਲਤ";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.LABEL" = "ਮੈਮੋਰੀ ਗੇਮ ਟਾਇਲ";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.QUIESCENT" = "ਸ਼ਾਂਤ";
+
+/* (No Comment) */
+"BLOOD_TYPE_A-" = "A-";
+
+/* Blood types */
+"BLOOD_TYPE_A+" = "A+";
+
+/* (No Comment) */
+"BLOOD_TYPE_AB-" = "AB-";
+
+/* (No Comment) */
+"BLOOD_TYPE_AB+" = "AB+";
+
+/* (No Comment) */
+"BLOOD_TYPE_B-" = "B-";
+
+/* (No Comment) */
+"BLOOD_TYPE_B+" = "B+";
+
+/* (No Comment) */
+"BLOOD_TYPE_O-" = "O-";
+
+/* (No Comment) */
+"BLOOD_TYPE_O+" = "O+";
+
+/* Boolean answer strings */
+"BOOL_NO" = "ਨਹੀਂ";
+
+/* (No Comment) */
+"BOOL_YES" = "ਹਾਂ";
+
+/* Button titles */
+"BUTTON_AGREE" = "ਸਹਿਮਤ";
+
+/* (No Comment) */
+"BUTTON_APPLY" = "ਲਾਗੂ ਕਰੋ";
+
+/* (No Comment) */
+"BUTTON_CANCEL" = "ਰੱਦ ਕਰੋ";
+
+/* (No Comment) */
+"BUTTON_CLEAR" = "ਸਾਫ਼ ਕਰੋ";
+
+/* (No Comment) */
+"BUTTON_CLEAR_ANSWER" = "ਜਵਾਬ ਕਲੀਅਰ ਕਰੋ";
+
+/* (No Comment) */
+"BUTTON_COPYRIGHT" = "ਕਾਪੀਰਾਈਟ";
+
+/* (No Comment) */
+"BUTTON_DISAGREE" = "ਅਸਹਿਮਤ";
+
+/* (No Comment) */
+"BUTTON_DONE" = "ਹੋ ਗਿਆ";
+
+/* (No Comment) */
+"BUTTON_GET_STARTED" = "ਸ਼ੁਰੂ ਕਰੋ";
+
+/* (No Comment) */
+"BUTTON_LEARN_MORE" = "ਜਿਆਦਾ ਜਾਣੋ";
+
+/* (No Comment) */
+"BUTTON_NEXT" = "ਅਗਲਾ";
+
+/* (No Comment) */
+"BUTTON_OK" = "ਠੀਕ ਹੈ";
+
+/* (No Comment) */
+"BUTTON_OPTION_DISCARD" = "ਨਤੀਜੇ ਰੱਦ ਕਰੋ";
+
+/* (No Comment) */
+"BUTTON_OPTION_SAVE" = "ਬਾਅਦ ਲਈ ਰੱਖਿਅਤ ਕਰੋ";
+
+/* (No Comment) */
+"BUTTON_OPTION_STOP_TASK" = "ਕਾਰਜ ਖਤਮ ਕਰੋ";
+
+/* (No Comment) */
+"BUTTON_READ_ONLY_MODE" = "ਇਸ ਜਵਾਬ ਨੂੰ ਸੋਧਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ।";
+
+/* (No Comment) */
+"BUTTON_SAVE" = "ਰੱਖਿਅਤ ਕਰੋ";
+
+/* (No Comment) */
+"BUTTON_SKIP" = "ਛੱਡੋ";
+
+/* (No Comment) */
+"BUTTON_SKIP_QUESTION" = "ਇਸ ਪ੍ਰਸ਼ਨ ਨੂੰ ਛੱਡੋ";
+
+/* (No Comment) */
+"BUTTON_START_TIMER" = "ਟਾਈਮਰ ਸ਼ੁਰੂ ਕਰੋ";
+
+/* Camera not available during multitasking */
+"CAMERA_UNAVAILABLE_MESSAGE" = "ਸਪਲਿਟ ਸਕ੍ਰੀਨ ‘ਤੇ ਕੈਮਰਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।";
+
+/* Image capture step. */
+"CAPTURE_BUTTON_CAPTURE_IMAGE" = "ਚਿੱਤਰ ਕੈਪਚਰ ਕਰੋ";
+
+/* Video capture step. */
+"CAPTURE_BUTTON_CAPTURE_VIDEO" = "ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰੋ";
+
+/* (No Comment) */
+"CAPTURE_BUTTON_RECAPTURE_IMAGE" = "ਚਿੱਤਰ ਮੁੜ ਕੈਪਚਰ ਕਰੋ";
+
+/* (No Comment) */
+"CAPTURE_BUTTON_RECAPTURE_VIDEO" = "ਵੀਡੀਓ ਮੁੜ ਕੈਪਚਰ ਕਰੋ";
+
+/* (No Comment) */
+"CAPTURE_BUTTON_STOP_CAPTURE_VIDEO" = "ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਕਰੋ";
+
+/* (No Comment) */
+"CAPTURE_ERROR_CAMERA_NOT_FOUND" = "ਕੋਈ ਕੈਮਰਾ ਨਹੀਂ ਮਿਲਿਆ।  ਇਹ ਪੜਾਅ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।";
+
+/* (No Comment) */
+"CAPTURE_ERROR_CANNOT_WRITE_FILE" = "ਕੈਪਚਰ ਕੀਤੇ ਚਿੱਤਰ ਨੂੰ ਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।";
+
+/* (No Comment) */
+"CAPTURE_ERROR_NO_OUTPUT_DIRECTORY" = "ਕੈਪਚਰ ਕੀਤੇ ਚਿੱਤਰ ਲਈ ਕੋਈ ਆਉਟਪੁੱਟ ਡਾਇਰੈਕਟਰੀ ਨਿਰਧਾਰਤ ਨਹੀਂ ਕੀਤੀ ਗਈ ਸੀ।";
+
+/* (No Comment) */
+"CAPTURE_ERROR_NO_PERMISSIONS" = "ਇਸ ਪੜਾਅ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ, ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਇਸ ਐਪ ਨੂੰ ਕੈਮਰੇ ਤੱਕ ਪਹੁੰਚ ਦੀ ਆਗਿਆ ਦਿਓ।";
+
+/* Charts */
+"CHART_NO_DATA_TEXT" = "ਕੋਈ ਡਾਟਾ ਨਹੀਂ";
+
+/* (No Comment) */
+"CONFIRM_PASSWORD_ERROR_MESSAGE" = "ਪਾਸਵਰਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦੇ.";
+
+/* (No Comment) */
+"CONFIRM_PASSWORD_FORM_ITEM_PLACEHOLDER" = "ਦੁਬਾਰਾ ਪਾਸਵਰਡ ਦਾਖਲ ਕਰੋ";
+
+/* (No Comment) */
+"CONFIRM_PASSWORD_FORM_ITEM_TITLE" = "ਪੁਸ਼ਟੀ ਕਰੋ";
+
+/* (No Comment) */
+"CONSENT_DOC_LINE_DATE" = "ਮਿਤੀ";
+
+/* Lines beneath typewritten signatures on documents. Argument is the title of the signatory, e.g. "Participant's Signature" */
+"CONSENT_DOC_LINE_PRINTED_NAME" = "%@ ਦਾ ਨਾਮ (ਪ੍ਰਿੰਟ ਕੀਤਾ)";
+
+/* (No Comment) */
+"CONSENT_DOC_LINE_SIGNATURE" = "%@ ਦੇ ਦਸਤਖਤ";
+
+/* (No Comment) */
+"CONSENT_LEARN_MORE_TITLE" = "ਜਿਆਦਾ ਜਾਣੋ";
+
+/* (No Comment) */
+"CONSENT_NAME_FAMILY" = "ਆਖਰੀ ਨਾਂਮ";
+
+/* (No Comment) */
+"CONSENT_NAME_GIVEN" = "ਪਹਿਲਾ ਨਾਮ";
+
+/* (No Comment) */
+"CONSENT_NAME_PLACEHOLDER" = "ਲੋੜੀਂਦਾ";
+
+/* Informed consent process. */
+"CONSENT_NAME_TITLE" = "ਸਹਿਮਤੀ";
+
+/* (No Comment) */
+"CONSENT_PAGE_NUMBER_FORMAT" = "ਪੰਨਾ %1$ld ਦਾ %2$ld";
+
+/* (No Comment) */
+"CONSENT_REVIEW_ALERT_TITLE" = "ਸਮੀਖਿਆ";
+
+/* (No Comment) */
+"CONSENT_REVIEW_INSTRUCTION" = "ਹੇਠਾਂ ਦਿੱਤੇ ਫਾਰਮ ਦੀ ਸਮੀਖਿਆ ਕਰੋ, ਅਤੇ ਜੇ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣ ਲਈ ਤਿਆਰ ਹੋ ਤਾਂ ਸਹਿਮਤ ਹੋ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"CONSENT_REVIEW_TITLE" = "ਸਮੀਖਿਆ";
+
+/* (No Comment) */
+"CONSENT_SECTION_DATA_GATHERING" = "ਡਾਟਾ ਇਕੱਤਰ ਕਰਨਾ";
+
+/* (No Comment) */
+"CONSENT_SECTION_DATA_USE" = "ਡਾਟੇ ਦੀ ਵਰਤੋਂ";
+
+/* (No Comment) */
+"CONSENT_SECTION_PRIVACY" = "ਗੋਪਨੀਯਤਾ";
+
+/* (No Comment) */
+"CONSENT_SECTION_STUDY_SURVEY" = "ਅਧਿਐਨ ਸਰਵੇਖਣ";
+
+/* (No Comment) */
+"CONSENT_SECTION_STUDY_TASKS" = "ਅਧਿਐਨ ਕਾਰਜ";
+
+/* (No Comment) */
+"CONSENT_SECTION_TIME_COMMITMENT" = "ਸਮੇਂ ਦੀ ਵਚਨਬੱਧਤਾ";
+
+/* Consent section titles. */
+"CONSENT_SECTION_WELCOME" = "ਸਵਾਗਤ ਹੈ";
+
+/* (No Comment) */
+"CONSENT_SECTION_WITHDRAWING" = "ਛੱਡਣਾ";
+
+/* (No Comment) */
+"CONSENT_SHARE_ONLY_%@" = "ਮੇਰਾ ਡਾਟਾ ਸਿਰਫ %@ ਨਾਲ ਸਾਂਝਾ ਕਰੋ";
+
+/* (No Comment) */
+"CONSENT_SHARE_WIDELY_%@" = "ਮੇਰਾ ਡਾਟਾ %@ ਅਤੇ ਵਿਸ਼ਵ ਭਰ ਦੇ ਯੋਗ ਖੋਜਕਰਤਾਵਾਂ ਨਾਲ ਸਾਂਝਾ ਕਰੋ";
+
+/* (No Comment) */
+"CONSENT_SHARING_DESCRIPTION_%@" = "%@ ਇਸ ਅਧਿਐਨ ਵਿੱਚ ਤੁਹਾਡੀ ਭਾਗੀਦਾਰੀ ਤੋਂ ਤੁਹਾਡਾ ਅਧਿਐਨ ਡਾਟਾ ਪ੍ਰਾਪਤ ਕਰੇਗਾ।\n\nਆਪਣੇ ਕੋਡ ਵਾਲੇ ਅਧਿਐਨ ਡਾਟਾ ਨੂੰ ਵਧੇਰੇ ਵਿਆਪਕ ਰੂਪ ਵਿੱਚ ਸਾਂਝਾ ਕਰਨਾ (ਜਾਣਕਾਰੀ ਦੇ ਬਿਨਾਂ ਜਿਵੇਂ ਕਿ ਤੁਹਾਡਾ ਨਾਮ) ਇਸ ਖੋਜ ਅਤੇ ਭਵਿੱਖ ਵਿੱਚ ਹੋਣ ਵਾਲੀ ਖੋਜ ਨੂੰ ਲਾਭ ਪਹੁੰਚਾ ਸਕਦਾ ਹੈ।";
+
+/* Consent sharing step */
+"CONSENT_SHARING_TITLE" = "ਸਾਂਝਾ ਕਰਨ ਦੇ ਵਿਕਲਪ";
+
+/* (No Comment) */
+"CONSENT_SIGNATURE_INSTRUCTION" = "ਕਿਰਪਾ ਕਰਕੇ ਹੇਠਾਂ ਦਿੱਤੇ ਬਾਕਸ ਵਿੱਚ ਆਪਣੀ ਉਂਗਲ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਦਸਤਖਤ ਕਰੋ।";
+
+/* (No Comment) */
+"CONSENT_SIGNATURE_PLACEHOLDER" = "ਇੱਥੇ ਸਾਈਨ ਕਰੋ";
+
+/* (No Comment) */
+"CONSENT_SIGNATURE_TITLE" = "ਦਸਤਖਤ";
+
+/* General active tasks. */
+"COUNTDOWN_LABEL" = "ਇੰਨੇ ਸਮੇਂ ਵਿੱਚ ਗਤੀਵਿਧੀ ਸ਼ੁਰੂ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ";
+
+/* (No Comment) */
+"COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ ਸਕਿੰਟ ਬਾਕੀ।";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_INTENDED_USE" = "ਇਹ ਗਤੀਵਿਧੀ dB HL ਸਕੇਲ ਵਿੱਚ ਕਿਸੇ ਵਿਅਕਤੀ ਦੇ ਸੁਣਨ ਦੇ ਥ੍ਰੈਸ਼ਹੋਲਡ ਪੱਧਰ ਦੀ ਪਛਾਣ ਕਰਦੀ ਹੈ।";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_INTRO_TEXT" = "ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਡੀਵਾਈਸ ਦੀ ਆਵਾਜ਼ ਵੱਧ ਤੋਂ ਵੱਧ ਪੱਧਰ ‘ਤੇ ਸੈਟ ਕੀਤੀ ਗਈ ਹੈ।\n\nਇਸ ਕਾਰਜ ਦੇ ਦੌਰਾਨ, ਇੱਕ ਸੂਖਮ ਧੁਨੀ ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਕੰਨ ਵਿੱਚ ਵਜੇਗੀ।\n\nਧਿਆਨ ਨਾਲ ਸੁਣੋ ਅਤੇ ਹਰ ਵਾਰ ਜਦੋਂ ਤੁਸੀਂ ਕੋਈ ਸੁਰ ਸੁਣਦੇ ਹੋ ਤਾਂ ਬਟਨ ਨੂੰ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_ONBOARDING" = "ਆਨਬੋਰਡਿੰਗ ਪ੍ਰਸ਼ਨਾਵਲੀ।";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_ONBOARDING_QUESTION" = "ਜੇ ਕੋਈ ਹੋਵੇ ਤਾਂ 'ਬਿਹਤਰ ਕੰਨ' ਲਈ ਆਪਣੀ ਪਸੰਦ ਦੀ ਚੋਣ ਕਰੋ";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_OPTION_LEFT" = "ਛੱਡੇ";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_OPTION_NO_PREFERENCE" = "ਕੋਈ ਤਰਜੀਹ ਨਹੀਂ";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_OPTION_RIGHT" = "ਸੱਜੇ";
+
+/* dBHL Tone audiometry active task. */
+"dBHL_TONE_AUDIOMETRY_TASK_TITLE" = "ਟੋਨ ਆਡੀਓਮੈਟਰੀ";
+
+/* (No Comment) */
+"DOB_FORM_ITEM_PLACEHOLDER" = "ਕੋਈ ਤਾਰੀਖ ਚੁਣੋ";
+
+/* (No Comment) */
+"DOB_FORM_ITEM_TITLE" = "ਜਨਮ ਤਾਰੀਖ";
+
+/* (No Comment) */
+"EMAIL_FORM_ITEM_PLACEHOLDER" = "jappleseed@example.com";
+
+/* Registration step */
+"EMAIL_FORM_ITEM_TITLE" = "ਈਮੇਲ";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_CALCULATING" = "ਗਣਨਾ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_INTRO_TEXT" = "ਇਹ ਗਤੀਵਿਧੀ ਵਾਤਾਵਰਣ ਵਿੱਚ ਆਵਾਜ਼ ਦੇ ਦਬਾਅ ਦੇ ਪੱਧਰ ਨੂੰ ਮਾਪਦੀ ਹੈ। ਜੇ ਸ਼ੋਰ ਦਾ ਪੱਧਰ ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਅੱਗੇ ਨਹੀਂ ਵੱਧ ਸਕੋਗੇ। ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਕਾਰਜ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਕਿਸੇ ਸ਼ਾਂਤ ਥਾਂ ‘ਤੇ ਜਾਓ ਜਾਂ ਬਾਅਦ ਵਿੱਚ ਇਸ ਗਤੀਵਿਧੀ ਨੂੰ ਦੁਬਾਰਾ ਕਰੋ।";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_THRESHOLD" = "ਥ੍ਰੈਸ਼ਹੋਲਡ: %@ dBA";
+
+/* Environment SPL */
+"ENVIRONMENTSPL_TITLE" = "SPL ਮੀਟਰ";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_UNIT" = "dBA";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_COULD_NOT_FREE_SPACE" = "ਥ੍ਰੈਸ਼ਹੋਲਡ ‘ਤੇ ਪਹੁੰਚਣ ਲਈ ਲੋੜੀਂਦੀਆਂ ਲੌਗ ਫਾਈਲਾਂ ਨੂੰ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_COULD_NOT_MAORK" = "ਫਾਈਲ ਨੂੰ ‘ਮਿਟਾਈ ਗਈ’ ਵਜੋਂ ਨਿਸ਼ਾਨਬੱਧ ਨਹੀਂ ਕੀਤਾ ਗਿਆ (ਅੱਪਲੋਡ ਕੀਤੇ ਵਜੋਂ ਨਿਸ਼ਾਨਬੱਧ ਨਹੀਂ ਕੀਤਾ ਗਿਆ)";
+
+/* Potentially user visible error messages. */
+"ERROR_DATALOGGER_CREATE_FILE" = "ਫ਼ਾਈਲ ਨਹੀਂ ਬਣਾਈ ਜਾ ਸਕੀ";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_MULTIPLE" = "ਲੌਗ ਨੂੰ ਹਟਾਉਣ ਵਿੱਚ ਕਈ ਗੜਬੜਾਂ";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_SET_ATTRIBUTE" = "ਗੁਣ ਸੈਟ ਕਰਨ ਵਿੱਚ ਗੜਬੜ";
+
+/* (No Comment) */
+"ERROR_RECORDER_NO_DATA" = "ਕੋਈ ਇਕੱਠਾ ਕੀਤਾ ਡਾਟਾ ਨਹੀਂ ਮਿਲਿਆ।";
+
+/* (No Comment) */
+"ERROR_RECORDER_NO_OUTPUT_DIRECTORY" = "ਕੋਈ ਆਉਟਪੁੱਟ ਡਾਇਰੈਕਟਰੀ ਨਿਰਧਾਰਤ ਨਹੀਂ ਕੀਤੀ ਗਈ";
+
+/* (No Comment) */
+"FAMILY_NAME_ITEM_PLACEHOLDER" = "ਸੇਬ ਦਾ ਬੀਜ (Appleseed)";
+
+/* (No Comment) */
+"FITNESS_DISTANCE_TITLE_FORMAT" = "ਦੂਰੀ (%@)";
+
+/* (No Comment) */
+"FITNESS_HEARTRATE_TITLE" = "ਦਿਲ ਦੀ ਗਤੀ (bpm)";
+
+/* (No Comment) */
+"FITNESS_INTRO_2_TEXT_FORMAT" = "%1$@ ਲਈ ਆਪਣੀ ਸੰਭਵ ਸਭ ਤੋਂ ਤੇਜ਼ ਗਤੀ ਨਾਲ ਬਾਹਰ ਸੈਰ ਕਰੋ। ਜਦੋਂ ਤੁਸੀਂ ਪੂਰਾ ਕਰ ਲੈਂਦੇ ਹੋ, ਤਾਂ ਬੈਠੋ ਅਤੇ %2$@ ਲਈ ਆਰਾਮ ਨਾਲ ਆਰਾਮ ਕਰੋ। ਅਰੰਭ ਕਰਨ ਲਈ, ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"FITNESS_INTRO_TEXT_FORMAT" = "ਇਹ ਗਤੀਵਿਧੀ ਤੁਹਾਡੇ ਦਿਲ ਦੀ ਗਤੀ ਦੀ ਨਿਗਰਾਨੀ ਕਰਦੀ ਹੈ ਅਤੇ ਮਾਪਦੀ ਹੈ ਕਿ ਤੁਸੀਂ %1$@ ਵਿੱਚ ਕਿੰਨੀ ਦੂਰ ਚੱਲ ਸਕਦੇ ਹੋ।";
+
+/* (No Comment) */
+"FITNESS_SIT_INSTRUCTION_FORMAT" = "%@ ਲਈ ਆਰਾਮ ਨਾਲ ਬੈਠੋ।";
+
+/* Fitness active task. */
+"FITNESS_TASK_TITLE" = "ਤੰਦਰੁਸਤੀ";
+
+/* (No Comment) */
+"FITNESS_WALK_INSTRUCTION_FORMAT" = "%@ ਲਈ ਜਿੰਨਾ ਤੇਜ ਹੋ ਸਕੇ ਤੁਰੋ।";
+
+/* Fitzpatrick Skin types */
+"FITZPATRICK_SKIN_TYPE_I" = "ਕਿਸਮ I";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_II" = "ਕਿਸਮ II";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_III" = "ਕਿਸਮ III";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_IV" = "ਕਿਸਮ IV";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_V" = "ਕਿਸਮ V";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_VI" = "ਕਿਸਮ VI";
+
+/* (No Comment) */
+"FORGOT_PASSWORD_BUTTON_TITLE" = "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ?";
+
+/* Gender values. */
+"GENDER_FEMALE" = "ਔਰਤ";
+
+/* (No Comment) */
+"GENDER_FORM_ITEM_PLACEHOLDER" = "ਇੱਕ ਲਿੰਗ ਚੁਣੋ";
+
+/* (No Comment) */
+"GENDER_FORM_ITEM_TITLE" = "ਲਿੰਗ";
+
+/* (No Comment) */
+"GENDER_MALE" = "ਮਰਦ";
+
+/* (No Comment) */
+"GENDER_OTHER" = "ਹੋਰ";
+
+/* (No Comment) */
+"GIVEN_NAME_ITEM_PLACEHOLDER" = "ਜੌਨ";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_INTRO_TEXT_%@" = "ਇਹ ਗਤੀਵਿਧੀ ਤੁਹਾਨੂੰ ਇੱਕ ਛੇਕ ਵਿੱਚ ਇੱਕ ਮੇਖ ਰੱਖਣ ਲਈ ਕਹਿ ਕੇ ਤੁਹਾਡੇ ਉਪਰਲੇ ਸਿਰੇ ਦੇ ਕਾਰਜ ਨੂੰ ਮਾਪਦੀ ਹੈ। ਤੁਹਾਨੂੰ ਇਹ %@ ਵਾਰ ਕਰਨ ਲਈ ਕਿਹਾ ਜਾਵੇਗਾ।";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_INTRO_TEXT_2_LEFT_HAND_FIRST_%@" = "ਤੁਹਾਡੇ ਖੱਬੇ ਅਤੇ ਸੱਜੇ ਦੋਵੇਂ ਹੱਥਾਂ ਦੀ ਜਾਂਚ ਕੀਤੀ ਜਾਏਗੀ।\nਤੁਹਾਨੂੰ ਜਿੰਨੀ ਛੇਤੀ ਹੋ ਸਕੇ ਮੇਖ ਨੂੰ ਚੁੱਕਣਾ ਚਾਹੀਦਾ ਹੈ, ਇਸਨੂੰ ਛੇਕ ਵਿੱਚ ਪਾਉਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ, %@ ਵਾਰ ਕੀਤੇ ਜਾਣ ‘ਤੇ, ਇਸਨੂੰ ਦੁਬਾਰਾ %@ ਵਾਰ ਹਟਾਉਣਾ ਚਾਹੀਦਾ ਹੈ।";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_INTRO_TEXT_2_RIGHT_HAND_FIRST_%@" = "ਤੁਹਾਡੇ ਸੱਜੇ ਅਤੇ ਖੱਬੇ ਦੋਵੇਂ ਹੱਥਾਂ ਦੀ ਜਾਂਚ ਕੀਤੀ ਜਾਏਗੀ।\nਤੁਹਾਨੂੰ ਜਿੰਨੀ ਛੇਤੀ ਹੋ ਸਕੇ ਮੇਖ ਨੂੰ ਚੁੱਕਣਾ ਚਾਹੀਦਾ ਹੈ, ਇਸਨੂੰ ਛੇਕ ਵਿੱਚ ਪਾਉਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ, %@ ਵਾਰ ਕੀਤੇ ਜਾਣ ‘ਤੇ, ਇਸਨੂੰ ਦੁਬਾਰਾ %@ ਵਾਰ ਹਟਾਉਣਾ ਚਾਹੀਦਾ ਹੈ।";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_PLACE_INSTRUCTION_LEFT_HAND" = "ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਮੇਖ ਨੂੰ ਛੇਕ ਵਿੱਚ ਰੱਖੋ।";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_PLACE_INSTRUCTION_RIGHT_HAND" = "ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਮੇਖ ਨੂੰ ਛੇਕ ਵਿੱਚ ਰੱਖੋ।";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_REMOVE_INSTRUCTION_LEFT_HAND" = "ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਮੇਖ ਨੂੰ ਲਾਈਨ ਦੇ ਪਿੱਛੇ ਰੱਖੋ।";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_REMOVE_INSTRUCTION_RIGHT_HAND" = "ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਮੇਖ ਨੂੰ ਲਾਈਨ ਦੇ ਪਿੱਛੇ ਰੱਖੋ।";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_TEXT" = "ਦੋ ਉਂਗਲਾਂ ਦੀ ਵਰਤੋਂ ਨਾਲ ਮੇਖ ਚੁੱਕੋ।";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_TEXT_2" = "ਮੇਖ ਸੁੱਟਣ ਲਈ ਉਂਗਲਾਂ ਚੁੱਕੋ।";
+
+/* Hole peg test active task. */
+"HOLE_PEG_TEST_TITLE_%@" = "%@- ਹੋਲ ਪੇਗ ਟੈਸਟ";
+
+/* Alert for invalid email address value */
+"INVALID_EMAIL_ALERT_MESSAGE" = "ਅਵੈਧ ਈਮੇਲ ਪਤਾ: %@";
+
+/* Keychain wrapper */
+"KEYCHAIN_ADD_ERROR_MESSAGE" = "ਕੀਚੈਨ ਆਈਟਮ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।";
+
+/* (No Comment) */
+"KEYCHAIN_DELETE_ERROR_MESSAGE" = "ਕੀਚੈਨ ਆਈਟਮ ਨੂੰ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।";
+
+/* (No Comment) */
+"KEYCHAIN_FIND_ERROR_MESSAGE" = "ਕੀਚੈਨ ਆਈਟਮ ਨਹੀਂ ਲੱਭੀ ਜਾ ਸਕੀ।";
+
+/* (No Comment) */
+"KEYCHAIN_UPDATE_ERROR_MESSAGE" = "ਕੀਚੈਨ ਆਈਟਮ ਨੂੰ ਅੱਪਡੇਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_LEFT" = "ਆਪਣੇ ਖੱਬੇ ਗੋਡੇ ਨੂੰ ਅੱਗੇ ਕਰੋ। ਫਿਰ ਕਿਤੇ ਵੀ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_RIGHT" = "ਆਪਣੇ ਸੱਜੇ ਗੋਡੇ ਨੂੰ ਅੱਗੇ ਕਰੋ। ਫਿਰ ਕਿਤੇ ਵੀ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_LEFT" = "ਇਹ ਗਤੀਵਿਧੀ ਮਾਪਦੀ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਖੱਬੇ ਗੋਡੇ ਨੂੰ ਕਿੰਨੀ ਦੂਰ ਤੱਕ ਲਿਜਾ ਸਕਦੇ ਹੋ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_RIGHT" = "ਇਹ ਗਤੀਵਿਧੀ ਮਾਪਦੀ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਸਜੇ ਗੋਡੇ ਨੂੰ ਕਿੰਨੀ ਦੂਰ ਤੱਕ ਲਿਜਾ ਸਕਦੇ ਹੋ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_LEFT" = "ਕੁਰਸੀ ਦੇ ਕਿਨਾਰੇ ‘ਤੇ ਬੈਠੋ। ਜਦੋਂ ਤੁਸੀਂ ਅਰੰਭ ਕਰਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਮਾਪ ਲਈ ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਗੋਡੇ 'ਤੇ ਰੱਖੋਗੇ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਡੀਵਾਈਸ ‘ਤੇ ਆਵਾਜ਼ ਚਾਲੂ ਕਰੋ ਤਾਂ ਜੋ ਤੁਸੀਂ ਨਿਰਦੇਸ਼ ਸੁਣ ਸਕੋ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_RIGHT" = "ਕੁਰਸੀ ਦੇ ਕਿਨਾਰੇ ‘ਤੇ ਬੈਠੋ। ਜਦੋਂ ਤੁਸੀਂ ਅਰੰਭ ਕਰੋਗੇ ਤਾਂ ਤੁਸੀਂ ਮਾਪ ਲਈ ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਗੋਡੇ 'ਤੇ ਰੱਖੋਗੇ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਡੀਵਾਈਸ ‘ਤੇ ਆਵਾਜ਼ ਚਾਲੂ ਕਰੋ ਤਾਂ ਜੋ ਤੁਸੀਂ ਨਿਰਦੇਸ਼ ਸੁਣ ਸਕੋ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_LEFT" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਗੋਡੇ 'ਤੇ ਰੱਖੋ ਜਿਸਦਾ ਸਕ੍ਰੀਨ ਬਾਹਰ ਵੱਲ ਹੈ, ਜਿਵੇਂ ਕਿ ਤਸਵੀਰ ਵਿੱਚ ਦਿਖਾਇਆ ਗਿਆ ਹੈ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_RIGHT" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਗੋਡੇ 'ਤੇ ਰੱਖੋ ਜਿਸਦਾ ਸਕ੍ਰੀਨ ਬਾਹਰ ਵੱਲ ਹੈ, ਜਿਵੇਂ ਕਿ ਤਸਵੀਰ ਵਿੱਚ ਦਿਖਾਇਆ ਗਿਆ ਹੈ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_LEFT" = "ਜਦੋਂ ਤਿਆਰ ਹੋਵੇ, ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸਕ੍ਰੀਨ ਨੂੰ ਟੈਪ ਕਰੋ ਅਤੇ ਆਪਣੇ ਖੱਬੇ ਗੋਡੇ ਨੂੰ ਜਿੰਨਾ ਹੋ ਸਕੇ ਅੱਗੇ ਲਿਜਾਓ। ਜਦੋਂ ਤੁਸੀਂ ਪੂਰਾ ਕਰ ਲਓ ਤਾਂ ਦੁਬਾਰਾ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_RIGHT" = "ਜਦੋਂ ਤਿਆਰ ਹੋਵੇ, ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸਕ੍ਰੀਨ ‘ਤੇ ਟੈਪ ਕਰੋ ਅਤੇ ਆਪਣੇ ਸੱਜੇ ਗੋਡੇ ਨੂੰ ਜਿੰਨਾ ਹੋ ਸਕੇ ਅੱਗੇ ਲਿਜਾਓ। ਜਦੋਂ ਤੁਸੀਂ ਪੂਰਾ ਕਰ ਲਓ ਤਾਂ ਦੁਬਾਰਾ ਟੈਪ ਕਰੋ।";
+
+/* Knee Range of Motion active task */
+"KNEE_RANGE_OF_MOTION_TITLE_LEFT" = "ਖੱਬੇ ਗੋਡੇ ਦੀ ਗਤੀ ਦੀ ਰੇਂਜ";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TITLE_RIGHT" = "ਸੱਜੇ ਗੋਡੇ ਦੀ ਗਤੀ ਦੀ ਰੇਂਜ";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_LEFT" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਗੋਡੇ 'ਤੇ ਰੱਖੋ";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_RIGHT" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਗੋਡੇ 'ਤੇ ਰੱਖੋ";
+
+/* (No Comment) */
+"LEARN_MORE_CONSENT_SHARING" = "ਡਾਟਾ ਸਾਂਝਾ ਕਰਨ ਬਾਰੇ ਹੋਰ ਜਾਣੋ";
+
+/* Consent section learn more */
+"LEARN_MORE_DATA_GATHERING" = "ਇਸ ਬਾਰੇ ਹੋਰ ਜਾਣੋ ਕਿ ਡੇਟਾ ਕਿਵੇਂ ਇਕੱਤਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ";
+
+/* (No Comment) */
+"LEARN_MORE_DATA_USE" = "ਇਸ ਬਾਰੇ ਹੋਰ ਜਾਣੋ ਕਿ ਡੇਟਾ ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ";
+
+/* (No Comment) */
+"LEARN_MORE_PRIVACY" = "ਇਸ ਬਾਰੇ ਹੋਰ ਜਾਣੋ ਕਿ ਤੁਹਾਡੀ ਗੋਪਨੀਯਤਾ ਅਤੇ ਪਛਾਣ ਕਿਵੇਂ ਸੁਰੱਖਿਅਤ ਹੈ";
+
+/* (No Comment) */
+"LEARN_MORE_STUDY_SURVEY" = "ਅਧਿਐਨ ਸਰਵੇਖਣ ਬਾਰੇ ਹੋਰ ਜਾਣੋ";
+
+/* (No Comment) */
+"LEARN_MORE_TASKS" = "ਸ਼ਾਮਲ ਕਾਰਜਾਂ ਬਾਰੇ ਹੋਰ ਜਾਣੋ";
+
+/* (No Comment) */
+"LEARN_MORE_TIME_COMMITMENT" = "ਆਪਣੇ ਸਮੇਂ 'ਤੇ ਅਧਿਐਨ ਦੇ ਪ੍ਰਭਾਵ ਬਾਰੇ ਹੋਰ ਜਾਣੋ";
+
+/* (No Comment) */
+"LEARN_MORE_WELCOME" = "ਪਹਿਲਾਂ ਅਧਿਐਨ ਬਾਰੇ ਹੋਰ ਜਾਣੋ";
+
+/* (No Comment) */
+"LEARN_MORE_WITHDRAWING" = "ਵਾਪਸ ਲੈਣ ਬਾਰੇ ਹੋਰ ਜਾਣੋ";
+
+/* Limb values. */
+"LIMB_LEFT" = "ਛੱਡੇ";
+
+/* (No Comment) */
+"LIMB_OPTION_LEFT_OR_RIGHT_ERROR" = "ਹੱਥ-ਲੱਤ ਵਿਕਲਪ ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ";
+
+/* (No Comment) */
+"LIMB_RIGHT" = "ਸੱਜੇ";
+
+/* (No Comment) */
+"LOCATION_ERROR_GEOCODE" = "ਦਾਖਲ ਕੀਤੇ ਪਤੇ ਲਈ ਨਤੀਜਾ ਨਹੀਂ ਲੱਭਿਆ ਜਾ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਪੱਕਾ ਕਰੋ ਕਿ ਪਤਾ ਵੈਧ ਹੈ।";
+
+/* (No Comment) */
+"LOCATION_ERROR_GEOCODE_NETWORK" = "ਜਾਂ ਤਾਂ ਤੁਸੀਂ ਇੰਟਰਨੈੱਟ ਨਾਲ ਜੁੜੇ ਨਹੀਂ ਹੋ ਜਾਂ ਤੁਸੀਂ ਪਤੇ ਦੀ ਖੋਜ ਬੇਨਤੀਆਂ ਦੀ ਅਧਿਕਤਮ ਮਾਤਰਾ ਨੂੰ ਪਾਰ ਕਰ ਲਿਆ ਹੈ। ਜੇ ਤੁਸੀਂ ਇੰਟਰਨੈਟ ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਹੋ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਪ੍ਰਸ਼ਨ ਦਾ ਉੱਤਰ ਦੇਣ ਲਈ ਆਪਣਾ ਵਾਈ-ਫਾਈ ਚਾਲੂ ਕਰੋ, ਜੇ ਸਕਿੱਪ ਬਟਨ ਉਪਲਬਧ ਹੋਵੇ ਤਾਂ ਇਸ ਪ੍ਰਸ਼ਨ ਨੂੰ ਛੱਡ ਦਿਓ, ਜਾਂ ਜਦੋਂ ਤੁਸੀਂ ਇੰਟਰਨੈੱਟ ਨਾਲ ਕਨੈਕਟ ਹੋਵੋ ਤਾਂ ਸਰਵੇਖਣ ‘ਤੇ ਵਾਪਸ ਆਓ। ਨਹੀਂ ਤਾਂ, ਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਮਿੰਟਾਂ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।";
+
+/* (No Comment) */
+"LOCATION_ERROR_MESSAGE_DENIED" = "ਟਿਕਾਣਾ ਸੇਵਾਵਾਂ ਤੱਕ ਪਹੁੰਚ ਤੋਂ ਇਨਕਾਰ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਐਪ ਨੂੰ ਸੈਟਿੰਗਾਂ ਦੁਆਰਾ ਸਥਾਨ ਸੇਵਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿਓ।";
+
+/* (No Comment) */
+"LOCATION_ERROR_MESSAGE_LOCATION_UNKNOWN" = "ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਸਥਿਤੀ ਦਾ ਹਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਪਤਾ ਟਾਈਪ ਕਰੋ ਜਾਂ ਜੇ ਲਾਗੂ ਹੋਵੇ ਤਾਂ ਬਿਹਤਰ GPS ਸਿਗਨਲ ਵਾਲੀ ਥਾਂ ‘ਤੇ ਜਾਓ।";
+
+/* (No Comment) */
+"LOCATION_ERROR_TITLE" = "ਨਿਰਧਾਰਤ ਪਤਾ ਨਹੀਂ ਲੱਭ ਸਕਿਆ";
+
+/* Alerts for invalid location coordinates */
+"LOCATION_QUESTION_PLACEHOLDER" = "ਇੱਕ ਪਤਾ ਦਾਖਲ ਕਰੋ";
+
+/* Login step */
+"LOGIN_CONTINUE_BUTTON_TITLE" = "ਲੌਗਇਨ";
+
+/* Measuring unit abbreviations */
+"MEASURING_UNIT_CM" = "cm";
+
+/* (No Comment) */
+"MEASURING_UNIT_FT" = "ft";
+
+/* (No Comment) */
+"MEASURING_UNIT_IN" = "in";
+
+/* (No Comment) */
+"MEASURING_UNIT_KG" = "kg";
+
+/* (No Comment) */
+"MEASURING_UNIT_LB" = "lb";
+
+/* (No Comment) */
+"MEASURING_UNIT_OZ" = "oz";
+
+/* (No Comment) */
+"MEMORY_GAME_COMPLETE" = "ਗੇਮ ਪੂਰੀ ਹੋਈ";
+
+/* (No Comment) */
+"MEMORY_GAME_COMPLETE_MESSAGE" = "ਜਾਰੀ ਰੱਖਣ ਲਈ, ‘ਅੱਗੇ’ ‘ਤੇ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"MEMORY_GAME_COMPLETE_TITLE" = "ਕ੍ਰਮ ਪੂਰਾ ਹੋਇਆ";
+
+/* (No Comment) */
+"MEMORY_GAME_COPYRIGHT_TEXT" = "ਮੈਮੋਰੀ ਗਤੀਵਿਧੀ ਕੈਥਰੀਨ ਪੋਸਿਨ, PhD ਅਤੇ ਜੋਏਲ ਕ੍ਰੈਮਰ, PhD ਕੈਲੀਫੋਰਨੀਆ ਯੂਨੀਵਰਸਿਟੀ, ਸੈਨ ਫਰਾਂਸਿਸਕੋ ਦੀ ਸਹਾਇਤਾ ਨਾਲ ਵਿਕਸਤ ਕੀਤੀ ਗਈ ਸੀ।";
+
+/* (No Comment) */
+"MEMORY_GAME_FAILED_MESSAGE" = "ਤੁਸੀਂ ਉਸ ਸਮੇਂ ਦੌਰਾਨ ਇਸ ਨੂੰ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ। ਜਾਰੀ ਰੱਖਣ ਲਈ, ‘ਅੱਗੇ’ ‘ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"MEMORY_GAME_FAILED_TITLE" = "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ";
+
+/* (No Comment) */
+"MEMORY_GAME_GAMEPLAY_REVERSE_TITLE_%@" = "%@ ਨੂੰ ਉਲਟ ਕ੍ਰਮ ਵਿੱਚ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"MEMORY_GAME_GAMEPLAY_TITLE_%@" = "%@ ਨੂੰ ਉਹਨਾਂ ਦੁਆਰਾ ਪ੍ਰਕਾਸ਼ਤ ਕੀਤੇ ਕ੍ਰਮ ਵਿੱਚ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"MEMORY_GAME_ITEM_COUNT_TITLE_%@" = "%@";
+
+/* (No Comment) */
+"MEMORY_GAME_PAUSED_MESSAGE" = "ਜਾਰੀ ਰੱਖਣ ਲਈ, ‘ਅੱਗੇ’ ‘ਤੇ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"MEMORY_GAME_PAUSED_TITLE" = "ਰੋਕਿਆ ਗਿਆ";
+
+/* (No Comment) */
+"MEMORY_GAME_PLAYBACK_TITLE_%@" = "%@ ਦੀ ਰੌਸ਼ਨੀ ਵੇਖੋ";
+
+/* (No Comment) */
+"MEMORY_GAME_SCORE_TITLE" = "ਸਕੋਰ";
+
+/* (No Comment) */
+"MEMORY_GAME_TIMEOUT_MESSAGE" = "ਤੁਹਾਡਾ ਸਮਾਂ ਖਤਮ ਹੋ ਗਿਆ ਹੈ।\nਜਾਰੀ ਰੱਖਣ ਲਈ, ‘ਅੱਗੇ’ ‘ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"MEMORY_GAME_TIMEOUT_TITLE" = "ਸਮਾਂ ਪੂਰਾ ਹੋ ਗਿਆ ਹੈ";
+
+/* (No Comment) */
+"NULL_ANSWER" = "ਇੱਕ ਜਵਾਬ ਚੁਣੋ";
+
+/* (No Comment) */
+"PASAT_INTRO_TEXT" = "ਪੇਸਡ ਆਡੀਟੋਰੀਅਲ ਸੀਰੀਅਲ ਐਡੀਸ਼ਨ ਟੈਸਟ ਤੁਹਾਡੀ ਸੁਣਨ ਸੰਬੰਧੀ ਜਾਣਕਾਰੀ ਦੀ ਪ੍ਰਕਿਰਿਆ ਦੀ ਗਤੀ ਅਤੇ ਗਣਨਾ ਦੀ ਯੋਗਤਾ ਨੂੰ ਮਾਪਦਾ ਹੈ।";
+
+/* PSAT active task. */
+"PASAT_TITLE" = "PASAT";
+
+/* (No Comment) */
+"PASSCODE_AUTHENTICATED_MESSAGE" = "ਪਾਸਕੋਡ ਪ੍ਰਮਾਣਿਤ";
+
+/* (No Comment) */
+"PASSCODE_CONFIRM_MESSAGE" = "ਪਾਸਕੋਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ";
+
+/* (No Comment) */
+"PASSCODE_CONFIRM_NEW_ENTRY_MESSAGE" = "ਆਪਣੇ ਨਵੇਂ ਪਾਸਕੋਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ";
+
+/* (No Comment) */
+"PASSCODE_FORGOT_BUTTON_TITLE" = "ਕੀ ਪਾਸਕੋਡ ਭੁੱਲ ਗਏ ਹੋ?";
+
+/* (No Comment) */
+"PASSCODE_INVALID_ALERT_MESSAGE" = "ਪਾਸਕੋਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦੇ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।";
+
+/* (No Comment) */
+"PASSCODE_INVALID_ALERT_TITLE" = "ਪਾਸਕੋਡ ਗਲਤ ਹੈ";
+
+/* (No Comment) */
+"PASSCODE_NEW_ENTRY_MESSAGE" = "ਆਪਣਾ ਨਵਾਂ ਪਾਸਕੋਡ ਦਾਖਲ ਕਰੋ";
+
+/* (No Comment) */
+"PASSCODE_OLD_ENTRY_MESSAGE" = "ਆਪਣਾ ਪੁਰਾਣਾ ਪਾਸਕੋਡ ਦਾਖਲ ਕਰੋ";
+
+/* Passcode step */
+"PASSCODE_PROMPT_MESSAGE" = "ਪਾਸਕੋਡ ਦਾਖਲ ਕਰੋ";
+
+/* (No Comment) */
+"PASSCODE_SAVED_MESSAGE" = "ਪਾਸਕੋਡ ਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ";
+
+/* (No Comment) */
+"PASSCODE_TEXTFIELD_ACCESSIBILITY_LABEL" = "ਪਾਸਕੋਡ ਦਾਖਲੇ ਸੰਬੰਧੀ ਪ੍ਰਗਤੀ ਸੂਚਕ";
+
+/* (No Comment) */
+"PASSCODE_TEXTFIELD_ACCESSIBILTIY_VALUE" = "%@ ਵਿੱਚੋਂ %@ ਅੰਕ ਦਾਖਲ ਕੀਤੇ ਗਏ";
+
+/* (No Comment) */
+"PASSCODE_TEXTFIELD_INVALID_INPUT_MESSAGE" = "ਸਿਰਫ ਸੰਖਿਆਤਮਕ ਅੱਖਰਾਂ ਦੀ ਆਗਿਆ ਹੈ।";
+
+/* (No Comment) */
+"PASSCODE_TOUCH_ID_ERROR_ALERT_TITLE" = "ਟੱਚ ID ਸੰਬੰਧੀ ਗੜਬੜ";
+
+/* (No Comment) */
+"PASSCODE_TOUCH_ID_MESSAGE" = "ਕਿਰਪਾ ਕਰਕੇ ਟੱਚ ID ਨਾਲ ਪ੍ਰਮਾਣਿਤ ਕਰੋ";
+
+/* (No Comment) */
+"PASSWORD_FORM_ITEM_PLACEHOLDER" = "ਪਾਸਵਰਡ ਦਾਖਲ ਕਰੋ";
+
+/* (No Comment) */
+"PASSWORD_FORM_ITEM_TITLE" = "ਪਾਸਵਰਡ";
+
+/* (No Comment) */
+"PAVSAT_INTRO_TEXT" = "ਪੇਸਡ ਆਡੀਟੋਰੀਅਲ ਅਤੇ ਵਿਜ਼ੁਅਲ ਸੀਰੀਅਲ ਐਡੀਸ਼ਨ ਟੈਸਟ ਤੁਹਾਡੀ ਸੁਣਨ ਅਤੇ ਦੇਖਣ ਸੰਬੰਧੀ ਜਾਣਕਾਰੀ ਦੀ ਪ੍ਰਕਿਰਿਆ ਦੀ ਗਤੀ ਅਤੇ ਗਣਨਾ ਦੀ ਯੋਗਤਾ ਨੂੰ ਮਾਪਦਾ ਹੈ।";
+
+/* (No Comment) */
+"PAVSAT_TITLE" = "PAVSAT";
+
+/* (No Comment) */
+"PHONE_NUMBER_FORM_ITEM_PLACEHOLDER" = "+1 (555) 555 5555";
+
+/* (No Comment) */
+"PHONE_NUMBER_FORM_ITEM_TITLE" = "ਫੋਨ ਨੰਬਰ";
+
+/* (No Comment) */
+"PLACEHOLDER_IMAGE_CHOICES" = "ਚੁਣਨ ਲਈ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"PLACEHOLDER_LONG_TEXT" = "ਲਿਖਣ ਲਈ ਟੈਪ ਕਰੋ";
+
+/* Default placeholders to request answers in a questionnaire. */
+"PLACEHOLDER_TEXT_OR_NUMBER" = "ਜਵਾਬ ਦੇਣ ਲਈ ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"PSAT_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"PSAT_INITIAL_INSTRUCTION" = "ਇਹ ਪਹਿਲਾ ਅੰਕ ਯਾਦ ਰੱਖੋ।";
+
+/* (No Comment) */
+"PSAT_INSTRUCTION" = "ਇਸ ਨਵੇਂ ਅੰਕ ਨੂੰ ਪਿਛਲੇ ਅੰਕ ਨਾਲ ਜੋੜੋ।";
+
+/* (No Comment) */
+"PSAT_INTRO_TEXT_2_%@" = "ਇਕਹਿਰੇ ਅੰਕ ਹਰ %@ ਸਕਿੰਟ ਵਿੱਚ ਪੇਸ਼ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।\nਤੁਹਾਨੂੰ ਹਰੇਕ ਨਵੇਂ ਅੰਕ ਨੂੰ ਉਸ ਤੋਂ ਤੁਰੰਤ ਪਹਿਲਾਂ ਜੋੜਨਾ ਚਾਹੀਦਾ ਹੈ।\nਧਿਆਨ ਦਿਓ, ਤੁਹਾਨੂੰ ਚੱਲ ਰਹੇ ਕੁੱਲ ਦੀ ਗਣਨਾ ਨਹੀਂ ਕਰਨੀ ਚਾਹੀਦੀ, ਪਰ ਸਿਰਫ ਪਿਛਲੇ ਦੋ ਅੰਕਾਂ ਦਾ ਜੋੜ।";
+
+/* (No Comment) */
+"PSAT_NO_DIGIT" = "-";
+
+/* (No Comment) */
+"PVSAT_INTRO_TEXT" = "Paced Visual Serial Addition (ਪੇਸਡ ਵਿਜ਼ੁਅਲ ਸੀਰੀਅਲ ਐਡੀਸ਼ਨ) ਟੈਸਟ ਤੁਹਾਡੀ ਦੇਖਣ ਸੰਬੰਧੀ ਜਾਣਕਾਰੀ ਦੀ ਪ੍ਰਕਿਰਿਆ ਦੀ ਗਤੀ ਅਤੇ ਗਣਨਾ ਦੀ ਯੋਗਤਾ ਨੂੰ ਮਾਪਦਾ ਹੈ।";
+
+/* (No Comment) */
+"PVSAT_TITLE" = "PVSAT";
+
+/* (No Comment) */
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ ਅਧਿਕਤਮ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਮਾਨ (%2$@) ਤੋਂ ਵੱਧ ਗਿਆ ਹੈ।";
+
+/* (No Comment) */
+"RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ ਨਿਊਨਤਮ ਮਨਜ਼ੂਰਸ਼ੁਦਾ ਮਾਨ (%2$@) ਤੋਂ ਘੱਟ ਹੈ।";
+
+/* (No Comment) */
+"RANGE_ALERT_MESSAGE_OTHER" = "%@ ਵੈਧ ਮਾਨ ਨਹੀਂ ਹੈ।";
+
+/* Alert for out of range values. */
+"RANGE_ALERT_TITLE" = "ਅਵੈਧ ਮਾਨ";
+
+/* Range of Motion active task */
+"RANGE_OF_MOTION_TITLE" = "ਗਤੀ ਦੀ ਰੇਂਜ";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_ACTIVE_STEP_TITLE" = "ਜਦੋਂ ਨੀਲਾ ਗੋਲਾ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ ਤਾਂ ਉਪਕਰਣ ਨੂੰ ਤੇਜ਼ੀ ਨਾਲ ਹਿਲਾਓ";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_ATTEMPTS_FORMAT" = "%@ ਵਿੱਚੋਂ %@ ਕੋਸ਼ਿਸ਼";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_INTENDED_USE" = "ਇਹ ਗਤੀਵਿਧੀ ਉਸ ਸਮੇਂ ਦਾ ਮੁਲਾਂਕਣ ਕਰਦੀ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਕਿਸੇ ਵਿਜ਼ੁਅਲ ਸੰਕੇਤ ਦਾ ਜਵਾਬ ਦੇਣ ਵਿੱਚ ਲੱਗਦਾ ਹੈ।";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_INTRO_TEXT_FORMAT" = "ਜਿਵੇਂ ਹੀ ਸਕ੍ਰੀਨ ‘ਤੇ ਨੀਲੀ ਬਿੰਦੀ ਦਿਖਾਈ ਦੇਵੇ ਡੀਵਾਈਸ ਨੂੰ ਕਿਸੇ ਵੀ ਦਿਸ਼ਾ ਵਿੱਚ ਹਿਲਾਓ। ਤੁਹਾਨੂੰ ਇਹ %D ਵਾਰ ਕਰਨ ਲਈ ਕਿਹਾ ਜਾਵੇਗਾ।";
+
+/* Reaction time active task. */
+"REACTION_TIME_TASK_TITLE" = "ਪ੍ਰਤੀਕਰਮ ਦਾ ਸਮਾਂ";
+
+/* (No Comment) */
+"RESEND_EMAIL_BUTTON_TITLE" = "ਪੁਸ਼ਟੀਕਰਨ ਈਮੇਲ ਦੁਬਾਰਾ ਭੇਜੋ";
+
+/* (No Comment) */
+"RESEND_EMAIL_LABEL_MESSAGE" = "ਜੇ ਤੁਹਾਨੂੰ ਕੋਈ ਪੁਸ਼ਟੀਕਰਨ ਈਮੇਲ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋਈ ਅਤੇ ਤੁਸੀਂ ਇਸਨੂੰ ਦੁਬਾਰਾ ਭੇਜਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਹੇਠਾਂ ਦਿੱਤੇ ਲਿੰਕ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_LEFT" = "ਆਪਣੀ ਖੱਬੀ ਬਾਂਹ ਨੂੰ ਉੱਪਰ ਚੁੱਕੋ। ਫਿਰ ਕਿਤੇ ਵੀ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_RIGHT" = "ਆਪਣੀ ਸੱਜੀ ਬਾਂਹ ਨੂੰ ਉੱਪਰ ਚੁੱਕੋ। ਫਿਰ ਕਿਤੇ ਵੀ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_LEFT" = "ਇਹ ਗਤੀਵਿਧੀ ਮਾਪਦੀ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਖੱਬੇ ਮੋਢੇ ਨੂੰ ਕਿੰਨੀ ਦੂਰ ਲਿਜਾ ਸਕਦੇ ਹੋ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_RIGHT" = "ਇਹ ਗਤੀਵਿਧੀ ਮਾਪਦੀ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਸੱਜੇ ਮੋਢੇ ਨੂੰ ਕਿੰਨੀ ਦੂਰ ਲਿਜਾ ਸਕਦੇ ਹੋ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_LEFT" = "ਜਦੋਂ ਤੁਸੀਂ ਅਰੰਭ ਕਰਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਮਾਪ ਲਈ ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਮੋਢੇ 'ਤੇ ਰੱਖੋਗੇ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਡੀਵਾਈਸ ‘ਤੇ ਆਵਾਜ਼ ਚਾਲੂ ਕਰੋ ਤਾਂ ਜੋ ਤੁਸੀਂ ਨਿਰਦੇਸ਼ ਸੁਣ ਸਕੋ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_RIGHT" = "ਜਦੋਂ ਤੁਸੀਂ ਅਰੰਭ ਕਰਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਮਾਪ ਲਈ ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਮੋਢੇ 'ਤੇ ਰੱਖੋਗੇ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਡੀਵਾਈਸ ‘ਤੇ ਆਵਾਜ਼ ਚਾਲੂ ਕਰੋ ਤਾਂ ਜੋ ਤੁਸੀਂ ਨਿਰਦੇਸ਼ ਸੁਣ ਸਕੋ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_LEFT" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਮੋਢੇ 'ਤੇ ਰੱਖੋ ਜਿਸਦਾ ਸਕ੍ਰੀਨ ਬਾਹਰ ਵੱਲ ਹੈ, ਜਿਵੇਂ ਕਿ ਤਸਵੀਰ ਵਿੱਚ ਦਿਖਾਇਆ ਗਿਆ ਹੈ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_RIGHT" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਮੋਢੇ 'ਤੇ ਰੱਖੋ ਜਿਸਦਾ ਸਕ੍ਰੀਨ ਬਾਹਰ ਵੱਲ ਹੈ, ਜਿਵੇਂ ਕਿ ਤਸਵੀਰ ਵਿੱਚ ਦਿਖਾਇਆ ਗਿਆ ਹੈ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_LEFT" = "ਜਦੋਂ ਤਿਆਰ ਹੋਵੇ, ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸਕ੍ਰੀਨ ‘ਤੇ ਟੈਪ ਕਰੋ ਅਤੇ ਆਪਣੇ ਖੱਬੀ ਬਾਂਹ ਨੂੰ ਜਿੰਨਾ ਹੋ ਸਕੇ ਦੂਰ ਲਿਜਾਓ। ਜਦੋਂ ਤੁਸੀਂ ਪੂਰਾ ਕਰ ਲਓ ਤਾਂ ਦੁਬਾਰਾ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_RIGHT" = "ਜਦੋਂ ਤਿਆਰ ਹੋਵੇ, ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸਕ੍ਰੀਨ ‘ਤੇ ਟੈਪ ਕਰੋ ਅਤੇ ਆਪਣੇ ਸੱਜੀ ਬਾਂਹ ਨੂੰ ਜਿੰਨਾ ਹੋ ਸਕੇ ਦੂਰ ਲਿਜਾਓ। ਜਦੋਂ ਤੁਸੀਂ ਪੂਰਾ ਕਰ ਲਓ ਤਾਂ ਦੁਬਾਰਾ ਟੈਪ ਕਰੋ।";
+
+/* Shoulder Range of Motion active task */
+"SHOULDER_RANGE_OF_MOTION_TITLE_LEFT" = "ਖੱਬੇ ਮੋਢੇ ਦੀ ਗਤੀ ਦੀ ਰੇਂਜ";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TITLE_RIGHT" = "ਸੱਜੇ ਮੋਢੇ ਦੀ ਗਤੀ ਦੀ ਰੇਂਜ";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_LEFT" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਮੋਢੇ 'ਤੇ ਰੱਖੋ";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_RIGHT" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਮੋਢੇ 'ਤੇ ਰੱਖੋ";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ, ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ, ਫਿਰ ਧਿਆਨ ਨਾਲ ਵੇਖੋ।";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_%@" = "ਕੁਝ %@ ਇੱਕ ਸਮੇਂ ਵਿੱਚ ਇੱਕ ਨੂੰ ਪ੍ਰਕਾਸ਼ਮਾਨ ਕਰਨਗੇ। ਉਨ੍ਹਾਂ %@ ਨੂੰ ਉਸੇ ਕ੍ਰਮ ਵਿੱਚ ਟੈਪ ਕਰੋ ਜਿਵੇਂ ਉਨ੍ਹਾਂ ਨੇ ਪ੍ਰਕਾਸ਼ ਕੀਤਾ।";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_REVERSE_%@" = "ਕੁਝ %@ ਇੱਕ ਸਮੇਂ ਵਿੱਚ ਇੱਕ ਨੂੰ ਪ੍ਰਕਾਸ਼ਮਾਨ ਕਰਨਗੇ। ਉਹਨਾਂ %@ ਨੂੰ ਉਹਨਾਂ ਦੇ ਕ੍ਰਮ ਦੇ ਉਲਟ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_INTRO_TEXT_%@" = "ਇਹ ਗਤੀਵਿਧੀ ਤੁਹਾਨੂੰ ਉਸ ਛੋਟੀ ਮਿਆਦ ਦੀ ਸਥਾਨਿਕ ਯਾਦਦਾਸ਼ਤ ਨੂੰ ਮਾਪਦੀ ਹੈ ਜਿਸ ਵਿੱਚ ਤੁਹਾਨੂੰ %@ ਦੇ ਕ੍ਰਮ ਨੂੰ ਦੁਹਰਾਉਣ ਲਈ ਕਿਹਾ ਜਾਂਦਾ ਹੈ।";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_TARGET_PLURAL" = "ਫੁੱਲ";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_TARGET_STANDALONE" = "ਫੁੱਲ";
+
+/* Spatial span memory active task. */
+"SPATIAL_SPAN_MEMORY_TITLE" = "ਸਥਾਨਿਕ ਯਾਦਦਾਸ਼ਤ";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_CALIBRATION_TEXT" = "‘ਆਡੀਓ ਚਲਾਓ' 'ਤੇ ਟੈਪ ਕਰੋ, ਆਪਣੀ ਆਵਾਜ਼ ਨੂੰ ਅਰਾਮਦਾਇਕ ਪੱਧਰ 'ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ ਅਤੇ ਫਿਰ ਅੱਗੇ ਵੱਧਣ ਲਈ ‘ਆਡੀਓ ਰੋਕੋ' 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_CALIBRATION_TITLE" = "ਆਵਾਜ਼ ਮਾਪਣਾ";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_DETAIL_TEXT" = "ਇਸ ਟੈਸਟ ਦੇ ਹਿੱਸੇ ਵਜੋਂ, ਤੁਸੀਂ ਇਹ ਕਰੋਗੇ:\n\nਇੱਕ ਵਾਕ ਸੁਣੋਗੇ।\n\nਜੋ ਤੁਸੀਂ ਸੁਣਿਆ ਹੈ ਉਸਨੂੰ ਸਪਸ਼ਟ ਰੂਪ ਵਿੱਚ ਦੁਹਰਾਓ ਜਾਂ ਕੀਬੋਰਡ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ ਜੋ ਤੁਸੀਂ ਸੁਣਿਆ ਹੈ ਉਸਨੂੰ ਟਾਈਪ ਕਰਨ ਲਈ ਅੱਗੇ ਲੰਘਾਓ। \n\nਜੇ ਤੁਸੀਂ ਜੋ ਸੁਣਿਆ ਹੈ ਉਸਨੂੰ ਦੁਹਰਾਉਂਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਕੋਲ ਸਪੀਚ ਰਿਕੋਗਨੀਸ਼ਨ ਇੰਜਨ ਦੁਆਰਾ ਉਤਪੰਨ ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ ਨੂੰ ਸੋਧਣ ਦਾ ਵਿਕਲਪ ਹੋਵੇਗਾ।";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_INTRO_TEXT" = "ਜਦੋਂ ਸ਼ੋਰ-ਸ਼ਰਾਬੇ ਵਾਲੇ ਮਾਹੌਲ ਵਿੱਚ ਪੇਸ਼ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਤਾਂ ਇਹ ਗਤੀਵਿਧੀ ਬੋਲੀ ਦੀ ਸੁਣਨਯੋਗਤਾ ਨੂੰ ਮਾਪਦੀ ਹੈ।";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_SPEAK_TEXT" = "ਜੋ ਤੁਸੀਂ ਸੁਣਿਆ ਉਸਨੂੰ ਦੁਹਰਾਓ।";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_SPEAK_TITLE" = "ਬੋਲੋ";
+
+/* Speech In Noise active task. */
+"SPEECH_IN_NOISE_START_AUDIO_LABEL" = "ਆਡੀਓ ਚਲਾਓ";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_STEP_TEXT" = "ਬੇਤਰਤੀਬੇ ਸਿਗਨਲ ਟੂ ਨੌਇਸ ਰੇਸ਼ਿਓ (SNR) ‘ਤੇ ਪਿਛੋਕੜ ਦੇ ਸ਼ੋਰ ਨਾਲ ਮਿਲਾਇਆ ਇੱਕ ਵਾਕ ਸਿਰਫ ਇੱਕ ਵਾਰ ਚਲਾਇਆ ਜਾਵੇਗਾ।";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_STEP_TITLE" = "ਸੁਣੋ";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_STOP_AUDIO_LABEL" = "ਆਡੀਓ ਰੋਕੋ";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_TITLE" = "ਸ਼ੋਰ ਵਿੱਚ ਬੋਲੀ";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_FAILED" = "ਬੋਲੀ ਪਛਾਨਣਾ ਅਸਫਲ ਰਿਹਾ।";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_INIT_FAILURE" = "ਬੋਲੀ ਪਛਾਣ ਨੂੰ ਅਰੰਭ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ।";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_INTRO_2_TEXT" = "ਬੋਲਣ ਤੋਂ ਪਹਿਲਾਂ ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਬਟਨ ਦਬਾਓ।";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_INTRO_TEXT" = "ਇਹ ਗਤੀਵਿਧੀ ਡੀਵਾਈਸ ਦੇ ਹੇਠਾਂ ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਨਾਲ ਤੁਹਾਡੇ ਭਾਸ਼ਣ ਨੂੰ ਰਿਕਾਰਡ ਕਰਦੀ ਹੈ, ਅਤੇ ਇਸਨੂੰ ਲਿਖਤ ਵਿੱਚ ਅਨੁਵਾਦ ਕਰਦੀ ਹੈ।";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_QUESTION_TEXT" = "ਭਾਸ਼ਣ ਦੀ ਕਿਸੇ ਵੀ ਗਲਤ ਵਿਆਖਿਆ ਨੂੰ ਠੀਕ ਕਰਨ ਲਈ ਟ੍ਰਾਂਸਕ੍ਰਿਪਟ ਲਿਖਤ ਦਾ ਸੰਪਾਦਨ ਕਰੋ।";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_QUESTION_TITLE" = "ਪ੍ਰਤੀਲਿਪੀ ਸੰਪਾਦਿਤ ਕਰੋ";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_START_RECORD_LABEL" = "ਰਿਕਾਰਡਿੰਗ ਸ਼ੁਰੂ ਕਰੋ";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_STOP_RECORD_LABEL" = "ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਕਰੋ";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_TRANSCRIPTION_LABEL" = "ਤੁਹਾਡਾ ਟ੍ਰਾਂਸਕ੍ਰਿਪਸ਼ਨ ਇੱਥੇ ਦਿਖਾਈ ਦੇਵੇਗਾ।";
+
+/* Speech Recognition active task. */
+"SPEECH_TASK_TITLE" = "ਬੋਲੀ ਪਛਾਣ";
+
+/* Progress indication (in navigation bar). */
+"STEP_PROGRESS_FORMAT" = "%1$@ ਦਾ %2$@";
+
+/* (No Comment) */
+"STROOP_COLOR_BLUE" = "ਨੀਲਾ";
+
+/* (No Comment) */
+"STROOP_COLOR_BLUE_INITIAL" = "B";
+
+/* (No Comment) */
+"STROOP_COLOR_GREEN" = "ਹਰਾ";
+
+/* (No Comment) */
+"STROOP_COLOR_GREEN_INITIAL" = "G";
+
+/* (No Comment) */
+"STROOP_COLOR_RED" = "ਲਾਲ";
+
+/* (No Comment) */
+"STROOP_COLOR_RED_INITIAL" = "R";
+
+/* (No Comment) */
+"STROOP_COLOR_YELLOW" = "ਪੀਲਾ";
+
+/* (No Comment) */
+"STROOP_COLOR_YELLOW_INITIAL" = "Y";
+
+/* (No Comment) */
+"STROOP_TASK_INTRO1_DETAIL_TEXT" = "ਹਰ ਵਾਰ ਜਦੋਂ ਕੋਈ ਸ਼ਬਦ ਪ੍ਰਗਟ ਹੁੰਦਾ ਹੈ, ਰੰਗ ਦੇ ਨਾਮ ਦਾ ਪਹਿਲਾ ਅੱਖਰ ਚੁਣੋ ਜੋ ਦਿਖਾਇਆ ਗਿਆ ਹੈ।";
+
+/* (No Comment) */
+"STROOP_TASK_INTRO2_DETAIL_TEXT" = "ਜਦੋਂ ਤੁਸੀਂ Stroop ਗਤੀਵਿਧੀ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋ ਤਾਂ ਸ਼ੁਰੂ ਕਰੋ ਤੇ ਟੈਪ ਕਰੋ.";
+
+/* (No Comment) */
+"STROOP_TASK_STEP_TEXT" = "ਦਿਖਾਏ ਗਏ ਰੰਗ ਦੇ ਨਾਮ ਦੇ ਪਹਿਲੇ ਅੱਖਰ ਦੀ ਚੋਣ ਕਰੋ।";
+
+/* Stroop active task. */
+"STROOP_TASK_TITLE" = "ਸਟ੍ਰੂਪ";
+
+/* (No Comment) */
+"TAP_BUTTON_TITLE" = "ਟੈਪ ਕਰੋ";
+
+/* (No Comment) */
+"TAPPING_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TAPPING_CALL_TO_ACTION_NEXT" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਅੱਗੇ’ ‘ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TAPPING_INSTRUCTION" = "ਦੋ ਉਂਗਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਬਟਨਾਂ ਨੂੰ ਨਿਰੰਤਰ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TAPPING_INSTRUCTION_LEFT" = "ਆਪਣੇ ‘ਖੱਬੇ’ ਹੱਥ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ ਬਟਨਾਂ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TAPPING_INSTRUCTION_RIGHT" = "ਆਪਣੇ ‘ਸੱਜੇ’ ਹੱਥ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ ਬਟਨਾਂ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT" = "ਇਹ ਗਤੀਵਿਧੀ ਤੁਹਾਡੀ ਟੈਪਿੰਗ ਗਤੀ ਨੂੰ ਮਾਪਦੀ ਹੈ।";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_FORMAT" = "ਇੱਕ ਉਂਗਲ 'ਤੇ ਟੈਪ ਕਰੋ, ਫਿਰ ਦੂਜੀ ‘ਤੇ। ਆਪਣੇ ਟੈਪ ਨੂੰ ਜਿੰਨਾ ਸੰਭਵ ਹੋ ਸਕੇ ਸਮਾਂ ਦੇਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ। %@ ਲਈ ਟੈਪ ਕਰਦੇ ਰਹੋ।";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_LEFT_FIRST" = "ਸਕ੍ਰੀਨ ਦੇ ਬਟਨਾਂ ਨੂੰ ਵਿਕਲਪਿਕ ਤੌਰ ‘ਤੇ ਟੈਪ ਕਰਨ ਲਈ ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਦੀਆਂ ਦੋ ਉਂਗਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_LEFT_SECOND" = "ਹੁਣ ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ ਉਹੀ ਟੈਸਟ ਦੁਹਰਾਓ।";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_MOST_AFFECTED" = "ਸਕ੍ਰੀਨ ਦੇ ਬਟਨਾਂ ਨੂੰ ਵਿਕਲਪਿਕ ਤੌਰ 'ਤੇ ਟੈਪ ਕਰਨ ਲਈ ਇੱਕੋ ਹੱਥ 'ਤੇ ਦੋ ਉਂਗਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_REST_PHONE" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਇੱਕ ਸਮਤਲ ਸਤਹ ‘ਤੇ ਰੱਖੋ।";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_RIGHT_FIRST" = "ਸਕ੍ਰੀਨ ਦੇ ਬਟਨਾਂ ਨੂੰ ਵਿਕਲਪਿਕ ਤੌਰ ‘ਤੇ ਟੈਪ ਕਰਨ ਲਈ ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਦੀਆਂ ਦੋ ਉਂਗਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_RIGHT_SECOND" = "ਹੁਣ ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ ਉਹੀ ਟੈਸਟ ਦੁਹਰਾਓ।";
+
+/* (No Comment) */
+"TAPPING_SKIP_TITLE" = "ਇਸ ਹੱਥ ਨੂੰ ਛੱਡੋ";
+
+/* Tapping active task. */
+"TAPPING_TASK_TITLE" = "ਟੈਪ ਕਰਨ ਦੀ ਗਤੀ";
+
+/* (No Comment) */
+"TAPPING_TASK_TITLE_LEFT" = "ਖੱਬੇ ਹੱਥ";
+
+/* (No Comment) */
+"TAPPING_TASK_TITLE_RIGHT" = "ਸੱਜਾ ਹੱਥ";
+
+/* (No Comment) */
+"TASK_COMPLETE_TEXT" = "ਤੁਹਾਡੇ ਡਾਟਾ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕੀਤਾ ਜਾਵੇਗਾ ਅਤੇ ਤੁਹਾਡੇ ਨਤੀਜੇ ਤਿਆਰ ਹੋਣ ‘ਤੇ ਤੁਹਾਨੂੰ ਸੂਚਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।";
+
+/* (No Comment) */
+"TASK_COMPLETE_TITLE" = "ਗਤੀਵਿਧੀ ਪੂਰੀ ਹੋਈ";
+
+/* Alert for exceeding length limit in text answer */
+"TEXT_ANSWER_EXCEEDING_MAX_LENGTH_ALERT_MESSAGE" = "ਲਿਖਤ ਸਮਗਰੀ ਅਧਿਕਤਮ ਲੰਬਾਈ ਤੋਂ ਵੱਧ: %@";
+
+/* (No Comment) */
+"TIMED_WALK_FORM_TEXT" = "ਹਰੇਕ ਟੈਸਟ ਲਈ ਇੱਕੋ ਸਹਾਇਕ ਡੀਵਾਈਸ ਦੀ ਵਰਤੋਂ ਕਰੋ।";
+
+/* (No Comment) */
+"TIMED_WALK_FORM_TITLE" = "ਸਹਾਇਕ ਡੀਵਾਈਸ";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_%@" = "ਸਿੱਧੀ ਲਾਈਨ ਵਿੱਚ %@ ਤੱਕ ਚੱਲੋ।";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_2" = "ਜਿੱਥੇ ਤੁਸੀਂ ਸ਼ੁਰੂ ਕੀਤਾ ਸੀ ਉੱਥੇ ਵਾਪਸ ਚਲੇ ਜਾਓ।";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_TEXT" = "ਪੂਰਾ ਹੋਣ 'ਤੇ ‘ਅੱਗੇ’ ‘ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_TURN" = "ਵਾਪਸ ਮੁੜੋ।";
+
+/* (No Comment) */
+"TIMED_WALK_INTRO_2_DETAIL" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਅੱਗੇ’ ‘ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TIMED_WALK_INTRO_2_TEXT_%@" = "ਇੱਕ ਅਜਿਹੀ ਜਗ੍ਹਾ ਲੱਭੋ, ਤਰਜੀਹੀ ਤੌਰ ‘ਤੇ ਬਾਹਰ, ਜਿੱਥੇ ਤੁਸੀਂ ਜਿੰਨੀ ਛੇਤੀ ਹੋ ਸਕੇ, ਪਰ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਇੱਕ ਸਿੱਧੀ ਲਾਈਨ ਵਿੱਚ %@ ਲਈ ਤੁਰ ਸਕਦੇ ਹੋ। ਸਮਾਪਤੀ ਸੀਮਾ ਪਾਰ ਕਰਨ ਤੱਕ ਹੌਲੀ ਨਾ ਚੱਲੋ।";
+
+/* (No Comment) */
+"TIMED_WALK_INTRO_DETAIL" = "ਇਹ ਗਤੀਵਿਧੀ ਤੁਹਾਡੇ ਹੇਠਲੇ ਸਿਰੇ ਦੇ ਕਾਰਜ ਨੂੰ ਮਾਪਦੀ ਹੈ.";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE" = "ਕੋਈ ਨਹੀਂ";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_2" = "ਇਕਤਰਫ਼ਾ ਸੋਟੀ";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_3" = "ਇਕਪਾਸੜ ਕਰਚ";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_4" = "ਦੁਵੱਲੀ ਸੋਟੀ";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_5" = "ਦੁਵੱਲੀ ਕਰਚ";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_6" = "ਵਾਕਰ/ਰੋਲੇਟਰ";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_TEXT" = "ਜਵਾਬ ਚੁਣਨ ਲਈ ਇੱਥੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_TITLE" = "ਕੀ ਤੁਸੀਂ ਸਹਾਇਕ ਡੀਵਾਈਸ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋ?";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_TEXT" = "ਕੀ ਤੁਸੀਂ ਗਿੱਟੇ ਦੇ ਪੈਰਾਂ ਦੇ ਆਰਥੋਸਿਸ ਪਾਉਂਦੇ ਹੋ?";
+
+/* Timed walk active task. */
+"TIMED_WALK_TITLE" = "ਸਮਾਬੱਧ ਸੈਰ";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_INSTRUCTION" = "ਹਰ ਵਾਰ ਜਦੋਂ ਤੁਸੀਂ ਕੋਈ ਅਵਾਜ਼ ਸੁਣਨਾ ਸ਼ੁਰੂ ਕਰਦੇ ਹੋ, ਇਹ ਦੱਸਣ ਲਈ ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਬਟਨ ਨੂੰ ਟੈਪ ਕਰੋ ਕਿ ਤੁਸੀਂ ਕਿਸ ਕੰਨ ਵਿੱਚ ਆਵਾਜ਼ ਸੁਣਦੇ ਹੋ।";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_INTENDED_USE" = "ਇਹ ਗਤੀਵਿਧੀ ਵੱਖੋ ਵੱਖਰੀਆਂ ਆਵਾਜ਼ਾਂ ਸੁਣਨ ਦੀ ਤੁਹਾਡੀ ਯੋਗਤਾ ਨੂੰ ਮਾਪਦੀ ਹੈ।";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_INTRO_TEXT" = "ਇਸ ਤੋਂ ਪਹਿਲਾਂ ਕਿ ਤੁਸੀਂ ਅਰੰਭ ਕਰੋ, ਪਲੱਗਇਨ ਕਰੋ ਅਤੇ ਆਪਣੇ ਹੈੱਡਫੋਨ ਲਗਾਓ।\n\nਆਵਾਜ਼ ਬਹੁਤ ਸੂਖਮ ਹੋਵੇਗੀ ਅਤੇ ਇੱਕ ਨਿਯਮਤ ਚੇਤਾਵਨੀ ਟੋਨ ਵਰਗੀ ਨਹੀਂ ਹੈ। ਆਵਾਜ਼ ਧੀਮੀ ਸ਼ੁਰੂ ਹੋਵੇਗੀ ਅਤੇ ਫਿਰ ਹੌਲੀ ਹੌਲੀ ਆਵਾਜ਼ ਵਿੱਚ ਵਾਧਾ ਹੋਵੇਗਾ। ਕਿਰਪਾ ਕਰਕੇ ਧਿਆਨ ਦਿਓ ਅਤੇ ਇਹ ਦੱਸਣ ਲਈ ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਬਟਨ ਨੂੰ ਟੈਪ ਕਰੋ ਕਿ ਤੁਸੀਂ ਇਸਨੂੰ ਕਿਸ ਕੰਨ ਵਿੱਚ ਸੁਣਦੇ ਹੋ।";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_LABEL_LEFT_EAR" = "ਖੱਬਾ ਕੰਨ";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_LABEL_RIGHT_EAR" = "ਸੱਜਾ ਕੰਨ";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_PREP_TEXT" = "ਤੁਹਾਨੂੰ ਹੁਣ ਇੱਕ ਸੁਰ ਸੁਣਨੀ ਚਾਹੀਦੀ ਹੈ। ਆਪਣੀ ਡੀਵਾਈਸ ਦੇ ਪਾਸੇ ਦੇ ਨਿਯੰਤਰਣਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ ਆਵਾਜ਼ ਨੂੰ ਵਿਵਸਥਤ ਕਰੋ।\n\nਜਦੋਂ ਤੁਸੀਂ ਅਰੰਭ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋਵੋ ਤਾਂ ਕਿਸੇ ਵੀ ਬਟਨ ਨੂੰ ਟੈਪ ਕਰੋ।";
+
+/* Tone audiometry active task. */
+"TONE_AUDIOMETRY_TASK_TITLE" = "ਟੋਨ ਆਡੀਓਮੈਟਰੀ";
+
+/* (No Comment) */
+"TONE_LABEL_%@_LEFT" = "%@ Hz, ਖੱਬਾ";
+
+/* (No Comment) */
+"TONE_LABEL_%@_RIGHT" = "%@ Hz, ਸੱਜਾ";
+
+/* (No Comment) */
+"TOTAL_TAPS_LABEL" = "ਕੁੱਲ ਟੈਪ";
+
+/* (No Comment) */
+"TOUCH_ANYWHERE_LABEL" = "ਜਾਰੀ ਰੱਖਣ ਲਈ ਕਿਤੇ ਵੀ ਛੁਹੋ";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_ACTIVE_STEP_INTRO_TEXT" = "ਬੁਝਾਰਤ ਨੂੰ ਹੱਲ ਕਰੋ";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_ACTIVE_STEP_PROGRESS_TEXT" = "ਹਲਚਲ ਦੀ ਸੰਖਿਆ: %@ \n %@";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_ACTIVE_STEP_SKIP_BUTTON_TITLE" = "ਮੈਂ ਇਸ ਬੁਝਾਰਤ ਨੂੰ ਹੱਲ ਨਹੀਂ ਕਰ ਸਕਦਾ/ਸਕਦੀ";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_INTENDED_USE" = "ਇਹ ਗਤੀਵਿਧੀ ਤੁਹਾਡੇ ਬੁਝਾਰਤ ਨੂੰ ਸੁਲਝਾਉਣ ਦੇ ਹੁਨਰ ਦਾ ਮੁਲਾਂਕਣ ਕਰਦੀ ਹੈ।";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_INTRO_TEXT" = "ਜਿੰਨੇ ਸੰਭਵ ਹੋ ਸਕੇ ਕੁਝ ਚਾਲਾਂ ਵਿੱਚ ਪੂਰੇ ਸਟੈਕ ਨੂੰ ਹਾਈਲਾਈਟ ਕੀਤੇ ਪਲੇਟਫਾਰਮ ‘ਤੇ ਭੇਜੋ।";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_TASK_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* Tower of Hanoi active task */
+"TOWER_OF_HANOI_TASK_TITLE" = "ਹਨੋਈ ਦਾ ਬੁਰਜ";
+
+/* (No Comment) */
+"TRAILMAKING_CALL_TO_ACTION" = "ਅਰੰਭ ਕਰਨ ਲਈ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TRAILMAKING_ERROR" = "%@ (%d ਗੜਬੜ)";
+
+/* (No Comment) */
+"TRAILMAKING_ERROR_PLURAL" = "%@ (%d ਗੜਬੜਾਂ)";
+
+/* (No Comment) */
+"TRAILMAKING_INTENDED_USE" = "ਕ੍ਰਮ ਵਿੱਚ ਬਿੰਦੀਆਂ ਦੀ ਇੱਕ ਲੜੀ ਨੂੰ ਟੈਪ ਕਰਨ ਲਈ ਲੋੜੀਂਦੇ ਸਮੇਂ ਨੂੰ ਰਿਕਾਰਡ ਕਰਕੇ ਇਹ ਗਤੀਵਿਧੀ ਤੁਹਾਡੀ ਨਜ਼ਰ ਦੇ ਧਿਆਨ ਅਤੇ ਕਾਰਜ ਬਦਲਣ ਦਾ ਮੁਲਾਂਕਣ ਕਰਦੀ ਹੈ।";
+
+/* (No Comment) */
+"TRAILMAKING_INTENDED_USE2_A" = "ਉਲਟੀ ਗਿਣਤੀ ਤੋਂ ਬਾਅਦ, ਸੰਖਿਆਵਾਂ ਅਤੇ ਅੱਖਰਾਂ ਦੇ ਵਿਚਕਾਰ ਬਦਲਵੇਂ ਕ੍ਰਮ ਵਿੱਚ ਬਿੰਦੀਆਂ 'ਤੇ ਟੈਪ ਕਰੋ। ਪਹਿਲੇ ਨੰਬਰ '1' 'ਤੇ ਟੈਪ ਕਰਕੇ ਅਰੰਭ ਕਰੋ, ਇਸਦੇ ਬਾਅਦ ਨੰਬਰ' 2 ' -' 3 ' -' 4 '... ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ '7' ਨੰਬਰ ‘ਤੇ ਨਹੀਂ ਪਹੁੰਚ ਜਾਂਦੇ।";
+
+/* (No Comment) */
+"TRAILMAKING_INTENDED_USE2_B" = "ਉਲਟੀ ਗਿਣਤੀ ਤੋਂ ਬਾਅਦ, ਸੰਖਿਆਵਾਂ ਅਤੇ ਅੱਖਰਾਂ ਦੇ ਵਿਚਕਾਰ ਬਦਲਵੇਂ ਕ੍ਰਮ ਵਿੱਚ ਬਿੰਦੀਆਂ 'ਤੇ ਟੈਪ ਕਰੋ। ਪਹਿਲੇ ਨੰਬਰ '1' 'ਤੇ ਟੈਪ ਕਰਕੇ ਅਰੰਭ ਕਰੋ ਅਤੇ ਪਹਿਲੇ ਅੱਖਰ 'A' ‘ਤੇ ਟੈਪ ਕਰੋ, ਅਤੇ ਫਿਰ '2' - 'B' - '3' - 'C' ... ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ '7' ਨੰਬਰ ‘ਤੇ ਨਹੀਂ ਪਹੁੰਚ ਜਾਂਦੇ।";
+
+/* (No Comment) */
+"TRAILMAKING_INTRO_TEXT" = "ਇਸ ਨੂੰ ਜਿੰਨੀ ਜਲਦੀ ਹੋ ਸਕੇ ਬਿਨਾਂ ਗਲਤੀ ਕੀਤੇ ਕਰੋ। \n";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_A" = "A";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_B" = "B";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_C" = "C";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_D" = "D";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_E" = "E";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_F" = "F";
+
+/* Trail making task. */
+"TRAILMAKING_TASK_TITLE" = "ਟ੍ਰੇਲ ਮੇਕਿੰਗ ਟੈਸਟ";
+
+/* (No Comment) */
+"TRAILMAKING_TIMER" = "%.1f s";
+
+/* (No Comment) */
+"TREMOR_SKIP_LEFT_HAND" = "ਮੈਂ ਇਹ ਗਤੀਵਿਧੀ ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਨਾਲ ਨਹੀਂ ਕਰ ਸਕਦਾ/ਸਕਦੀ।";
+
+/* (No Comment) */
+"TREMOR_SKIP_NEITHER" = "ਮੈਂ ਇਹ ਗਤੀਵਿਧੀ ਦੋਵਾਂ ਹੱਥਾਂ ਨਾਲ ਕਰ ਸਕਦਾ/ਸਕਦੀ।";
+
+/* (No Comment) */
+"TREMOR_SKIP_RIGHT_HAND" = "ਮੈਂ ਇਹ ਗਤੀਵਿਧੀ ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਨਾਲ ਨਹੀਂ ਕਰ ਸਕਦਾ/ਸਕਦੀ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INSTRUCTION_%ld" = "ਆਪਣੇ ਫੋਨ ਨੂੰ ਆਪਣੀ ਮੁੜੀ ਹੋਈ ਕੂਹਣੀ ਦੇ ਨਾਲ %ld ਸਕਿੰਟ ਲਈ ਫੜੀ ਰੱਖੋ";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INTRO" = "ਹੁਣ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਮੋਢੇ ਦੀ ਉਚਾਈ 'ਤੇ ਆਪਣੀ ਕੂਹਣੀ ਨੂੰ ਮੋੜ ਕੇ ਰੱਖੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INTRO_LEFT" = "ਹੁਣ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਨਾਲ ਮੋਢੇ ਦੀ ਉਚਾਈ 'ਤੇ ਰੱਖੋ ਅਤੇ ਆਪਣੀ ਕੂਹਣੀ ਮੋੜੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INTRO_RIGHT" = "ਹੁਣ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਨਾਲ ਮੋਢੇ ਦੀ ਉਚਾਈ 'ਤੇ ਰੱਖੋ ਅਤੇ ਆਪਣੀ ਕੂਹਣੀ ਮੋੜੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INSTRUCTION_%ld" = "ਆਪਣੇ ਫੋਨ ਨੂੰ ਆਪਣੇ ਵਧਾਏ ਹੋਏ ਹੱਥ ਦੇ ਨਾਲ %ld ਸਕਿੰਟ ਲਈ ਫੜੀ ਰੱਖੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INTRO" = "ਹੁਣ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਬਾਹਰ ਵੱਲ ਵਧਾਏ ਹੱਥ ਨਾਲ ਮੋਢੇ ਦੀ ਉਚਾਈ ‘ਤੇ ਫੜੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INTRO_LEFT" = "ਹੁਣ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਬਾਹਰ ਵੱਲ ਵਧਾਏ ਖੱਬੇ ਹੱਥ ਨਾਲ ਮੋਢੇ ਦੀ ਉਚਾਈ ‘ਤੇ ਫੜੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INTRO_RIGHT" = "ਹੁਣ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਬਾਹਰ ਵੱਲ ਵਧਾਏ ਸੱਜੇ ਹੱਥ ਨਾਲ ਮੋਢੇ ਦੀ ਉਚਾਈ ‘ਤੇ ਫੜੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_FINISHED_INSTRUCTION" = "ਅਗਲੇ ਕਾਰਜ ਲਈ ਜਾਰੀ ਰੱਖੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INSTRUCTION_%ld" = "ਆਪਣੇ ਫੋਨ ਨੂੰ ਆਪਣੀ ਗੋਦੀ ਵਿੱਚ %ld ਸਕਿੰਟਾਂ ਲਈ ਫੜੀ ਰੱਖੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INTRO" = "ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਆਪਣੀ ਗੋਦੀ ਵਿੱਚ ਰੱਖਣ ਦੀ ਤਿਆਰੀ ਕਰੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INTRO_LEFT" = "ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਨਾਲ ਆਪਣੇ ਫੋਨ ਨੂੰ ਆਪਣੀ ਗੋਦ ਵਿੱਚ ਰੱਖਣ ਦੀ ਤਿਆਰੀ ਕਰੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INTRO_RIGHT" = "ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਨਾਲ ਆਪਣੇ ਫੋਨ ਨੂੰ ਆਪਣੀ ਗੋਦ ਵਿੱਚ ਰੱਖਣ ਦੀ ਤਿਆਰੀ ਕਰੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_INTRO_TEXT" = "ਅੱਗੇ ਵਧਣ ਲਈ ‘ਅੱਗੇ’ ‘ਤੇ ਟੈਪ ਕਰੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_SWITCH_HANDS_LEFT_INSTRUCTION" = "ਹੁਣ ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਵਿੱਚ ਫੜੋ ਅਤੇ ਅਗਲੇ ਕਾਰਜ ਨੂੰ ਜਾਰੀ ਰੱਖੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_SWITCH_HANDS_RIGHT_INSTRUCTION" = "ਹੁਣ ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਵਿੱਚ ਫੜੋ ਅਤੇ ਅਗਲੇ ਕਾਰਜ ਨੂੰ ਜਾਰੀ ਰੱਖੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INSTRUCTION_%ld" = "%ld ਸਕਿੰਟਾਂ ਲਈ ਆਪਣੇ ਨੱਕ ਨਾਲ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਛੂੰਹਦੇ ਰਹੋ";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INTRO" = "ਹੁਣ ਆਪਣੀ ਕੂਹਣੀ ਨੂੰ ਝੁਕਾ ਕੇ ਰੱਖੋ, ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਵਾਰ ਵਾਰ ਆਪਣੇ ਨੱਕ ਨਾਲ ਛੂਹੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INTRO_LEFT" = "ਹੁਣ ਆਪਣੀ ਕੂਹਣੀ ਨੂੰ ਆਪਣੇ ਫੋਨ ਨਾਲ ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਵਿੱਚ ਰੱਖਦੇ ਹੋਏ, ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਵਾਰ ਵਾਰ ਆਪਣੇ ਨੱਕ ਨਾਲ ਛੂਹੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INTRO_RIGHT" = "ਹੁਣ ਆਪਣੀ ਕੂਹਣੀ ਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਨਾਲ ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਵਿੱਚ ਰੱਖਦੇ ਹੋਏ, ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਵਾਰ ਵਾਰ ਆਪਣੇ ਨੱਕ ਨਾਲ ਛੂਹੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INSTRUCTION_%ld" = "%ld ਸਕਿੰਟਾਂ ਲਈ ਸੁਚੱਜੇ ਢੰਗ ਨਾਲ ਕਰਦੇ ਰਹੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INTRO" = "ਸੁਚੱਜੇ ਢੰਗ ਨਾਲ (ਆਪਣੇ ਗੁੱਟ ਨੂੰ ਮੋੜ ਕੇ ਹਿਲਾਉਣਾ) ਕਰਨ ਦੀ ਤਿਆਰੀ ਕਰੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INTRO_LEFT" = "ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਵਿੱਚ ਆਪਣੇ ਫੋਨ ਨਾਲ ਸੁਚੱਜੇ ਢੰਗ ਨਾਲ ਕਰਨ ਦੀ ਤਿਆਰੀ ਕਰੋ (ਆਪਣੇ ਗੁੱਟ ਨੂੰ ਮੋੜ ਕੇ ਹਿਲਾਉਣਾ)।";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INTRO_RIGHT" = "ਆਪਣੇ ਫੋਨ ਨਾਲ ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਵਿੱਚ ਸੁਚੱਜੇ ਢੰਗ ਨਾਲ ਕਰਨ ਦੀ ਤਿਆਰੀ ਕਰੋ (ਆਪਣੇ ਗੁੱਟ ਨੂੰ ਮੋੜ ਕੇ ਹਿਲਾਉਣਾ)।";
+
+/* (No Comment) */
+"TREMOR_TEST_COMPLETED_INSTRUCTION" = "ਗਤੀਵਿਧੀ ਪੂਰੀ ਹੋ ਗਈ।";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_1_DETAIL" = "ਇਹ ਗਤੀਵਿਧੀ ਵੱਖ ਵੱਖ ਅਹੁਦਿਆਂ 'ਤੇ ਤੁਹਾਡੇ ਹੱਥਾਂ ਦੀ ਕੰਬਣੀ ਨੂੰ ਮਾਪਦੀ ਹੈ। ਅਜਿਹੀ ਜਗ੍ਹਾ ਲੱਭੋ ਜਿੱਥੇ ਤੁਸੀਂ ਇਸ ਗਤੀਵਿਧੀ ਦੇ ਸਮੇਂ ਆਰਾਮ ਨਾਲ ਬੈਠ ਸਕੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DEFAULT_TEXT" = "ਹੇਠਾਂ ਚਿੱਤਰ ਵਿੱਚ ਦਿਖਾਏ ਅਨੁਸਾਰ ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਵਧੇਰੇ ਪ੍ਰਭਾਵਿਤ ਹੱਥ ਵਿੱਚ ਫੜੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_1_TASK" = "ਇੱਕ ਕਾਰਜ";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_2_TASK" = "ਦੋ ਕਾਰਜ";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_3_TASK" = "ਤਿੰਨ ਕਾਰਜ";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_4_TASK" = "ਚਾਰ ਕਾਰਜ";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_5_TASK" = "ਪੰਜ ਕਾਰਜ";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_DEFAULT_%@" = "ਆਪਣੇ ਹੱਥ ਵਿੱਚ ਫ਼ੋਨ ਲੈ ਕੇ ਬੈਠੇ ਹੋਏ ਤੁਹਾਨੂੰ %@ ਪ੍ਰਦਰਸ਼ਨ ਕਰਨ ਲਈ ਕਿਹਾ ਜਾਵੇਗਾ।";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_LEFT_HAND_TEXT" = "ਹੇਠਾਂ ਦਿੱਤੇ ਚਿੱਤਰ ਵਿੱਚ ਦਿਖਾਏ ਅਨੁਸਾਰ ਫੋਨ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਵਿੱਚ ਫੜੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_RIGHT_HAND_TEXT" = "ਹੇਠਾਂ ਦਿੱਤੇ ਚਿੱਤਰ ਵਿੱਚ ਦਿਖਾਏ ਅਨੁਸਾਰ ਫ਼ੋਨ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਵਿੱਚ ਫੜੋ।";
+
+/* (No Comment) */
+"TREMOR_TEST_SKIP_QUESTION_BOTH_HANDS_%@" = "ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਇੱਕ ਹੱਥ ਨਾਲ ਫ਼ੋਨ ਲੈ ਕੇ ਬੈਠੇ ਹੋਏ %@ ਪ੍ਰਦਰਸ਼ਨ ਕਰਨ ਲਈ ਕਿਹਾ ਜਾਵੇਗਾ, ਫਿਰ ਦੂਜੇ ਹੱਥ ਨਾਲ।";
+
+/* Tremor test active task. */
+"TREMOR_TEST_TITLE" = "ਕੰਬਣੀ ਗਤੀਵਿਧੀ";
+
+/* Verification step */
+"VERIFICATION_NAV_TITLE" = "ਪੁਸ਼ਟੀਕਰਨ";
+
+/* (No Comment) */
+"VERIFICATION_STEP_TITLE" = "ਆਪਣੀ ਈਮੇਲ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ";
+
+/* (No Comment) */
+"WALK_BACK_AND_FORTH_FINISHED_VOICE" = "ਤੁਸੀਂ ਗਤੀਵਿਧੀ ਪੂਰੀ ਕਰ ਲਈ ਹੈ।";
+
+/* (No Comment) */
+"WALK_BACK_AND_FORTH_INSTRUCTION_FORMAT" = "%@ ਲਈ ਇੱਕ ਸਿੱਧੀ ਲਾਈਨ ਵਿੱਚ ਅੱਗੇ -ਪਿੱਛੇ ਚੱਲੋ। ਜਿਵੇਂ ਤੁਸੀਂ ਆਮ ਤੌਰ ‘ਤੇ ਚੱਲਦੇ ਹੋ ਉਸੇ ਤਰ੍ਹਾਂ ਚੱਲੋ।";
+
+/* (No Comment) */
+"WALK_BACK_AND_FORTH_STAND_INSTRUCTION_FORMAT" = "ਪੂਰੇ ਚੱਕਰ ਵਿੱਚ ਘੁੰਮੋ ਅਤੇ ਫਿਰ %@ ਲਈ ਖੜ੍ਹੇ ਰਹੋ।";
+
+/* (No Comment) */
+"WALK_INTRO_2_DETAIL" = "ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਜੇਬ ਜਾਂ ਬੈਗ ਵਿੱਚ ਰੱਖੋ ਅਤੇ ਆਡੀਓ ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।";
+
+/* (No Comment) */
+"WALK_INTRO_2_DETAIL_BACK_AND_FORTH_INSTRUCTION" = "ਜਦੋਂ ਤੁਸੀਂ ਅਰੰਭ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋਵੋ ਤਾਂ ‘ਸ਼ੁਰੂ ਕਰੋ’ 'ਤੇ ਟੈਪ ਕਰੋ।\nਫਿਰ ਆਪਣੀ ਡੀਵਾਈਸ ਨੂੰ ਜੇਬ ਜਾਂ ਬੈਗ ਵਿੱਚ ਰੱਖੋ ਅਤੇ ਆਡੀਓ ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।";
+
+/* (No Comment) */
+"WALK_INTRO_2_TEXT_%ld" = "ਇੱਕ ਅਜਿਹੀ ਜਗ੍ਹਾ ਲੱਭੋ ਜਿੱਥੇ ਤੁਸੀਂ ਸਿੱਧੀ ਲਾਈਨ ਵਿੱਚ ਤਕਰੀਬਨ %ld ਕਦਮਾਂ ਲਈ ਬਿਨਾਂ ਸਹਾਇਤਾ ਦੇ ਤੁਰ ਸਕੋ।";
+
+/* Short walk back and forth. */
+"WALK_INTRO_2_TEXT_BACK_AND_FORTH_INSTRUCTION" = "ਇੱਕ ਅਜਿਹੀ ਜਗ੍ਹਾ ਲੱਭੋ ਜਿੱਥੇ ਤੁਸੀਂ ਸਿੱਧੀ ਲਾਈਨ ਵਿੱਚ ਅੱਗੇ ਅਤੇ ਪਿੱਛੇ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਚੱਲ ਸਕੋ। ਆਪਣੇ ਰਸਤੇ ਦੇ ਸਿਰੇ ‘ਤੇ ਮੋੜ ਕੇ ਲਗਾਤਾਰ ਚੱਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਜਿਵੇਂ ਕਿ ਤੁਸੀਂ ਇੱਕ ਕੋਨ ਦੇ ਦੁਆਲੇ ਘੁੰਮ ਰਹੇ ਹੋ।\n\nਅੱਗੇ ਤੁਹਾਨੂੰ ਇੱਕ ਪੂਰੇ ਚੱਕਰ ਵਿੱਚ ਘੁੰਮਣ ਦੀ ਹਿਦਾਇਤ ਦਿੱਤੀ ਜਾਵੇਗੀ, ਫਿਰ ਆਪਣੀਆਂ ਬਾਹਾਂ ਆਪਣੇ ਹੱਥਾਂ ਨਾਲ ਅਤੇ ਆਪਣੇ ਪੈਰਾਂ ਨੂੰ ਮੋਢੇ ਦੀ ਚੌੜਾਈ ਜਿੰਨਾ ਖੋਲ੍ਹ ਕੇ ਖੜ੍ਹੇ ਰਹੋ।";
+
+/* (No Comment) */
+"WALK_INTRO_TEXT" = "ਜਦੋਂ ਤੁਸੀਂ ਚੱਲਦੇ ਅਤੇ ਖੜ੍ਹੇ ਹੁੰਦੇ ਹੋ ਤਾਂ ਇਹ ਗਤੀਵਿਧੀ ਤੁਹਾਡੀ ਚਾਲ ਅਤੇ ਸੰਤੁਲਨ ਨੂੰ ਮਾਪਦੀ ਹੈ। ਜੇ ਤੁਸੀਂ ਬਿਨਾਂ ਸਹਾਇਤਾ ਦੇ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਨਹੀਂ ਚੱਲ ਸਕਦੇ ਤਾਂ ਜਾਰੀ ਨਾ ਰੱਖੋ।";
+
+/* (No Comment) */
+"WALK_OUTBOUND_INSTRUCTION_FORMAT" = "ਇੱਕ ਸਿੱਧੀ ਲਾਈਨ ਵਿੱਚ %ld ਕਦਮਾਂ ਤੱਕ ਚੱਲੋ।";
+
+/* (No Comment) */
+"WALK_RETURN_INSTRUCTION_FORMAT" = "ਆਲੇ ਦੁਆਲੇ ਮੁੜੋ, ਅਤੇ ਜਿੱਥੇ ਤੁਸੀਂ ਅਰੰਭ ਕੀਤਾ ਸੀ ਉੱਥੇ ਵਾਪਸ ਚਲੇ ਜਾਓ।";
+
+/* (No Comment) */
+"WALK_STAND_INSTRUCTION_FORMAT" = "%@ ਲਈ ਖੜ੍ਹੇ ਰਹੋ।";
+
+/* (No Comment) */
+"WALK_STAND_VOICE_INSTRUCTION_FORMAT" = "ਹੁਣ %@ ਲਈ ਖੜ੍ਹੇ ਰਹੋ।";
+
+/* Short walk active task. */
+"WALK_TASK_TITLE" = "ਚਾਲ ਅਤੇ ਸੰਤੁਲਨ";
+
