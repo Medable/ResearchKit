@@ -32,10 +32,10 @@
 "AUDIO_INTENDED_USE" = "Lesi sivivinyo sihlola izwi lakho ngokulirekhoda ngombhobho ongezansi kwedivayisi yakho.";
 
 /* (No Comment) */
-"AUDIO_INTRO_TEXT" = "Donsa umoya bese uthi “Aaaaah” embhobheni isikhathi eside ngokunokwenzeka. Kwenze ngevolumu yezwi ezinzile ukuze amabha omsindo ahlale esasibhakabhaka. ";
+"AUDIO_INTRO_TEXT" = "Donsa umoya bese uthi “Aaaaah” embhobheni isikhathi eside ngokunokwenzeka. Kwenze ngevolumu yezwi ezinzile ukuze amabha omsindo ahlale esasibhakabhaka.";
 
 /* (No Comment) */
-"AUDIO_LEVEL_CHECK_LABEL" = "Sicela ulinde ngenkathi sihlola izinga lomsindo  ongemuva.";
+"AUDIO_LEVEL_CHECK_LABEL" = "Sicela ulinde ngenkathi sihlola izinga lomsindo ongemuva.";
 
 /* Audio active task. */
 "AUDIO_TASK_TITLE" = "Izwi";
@@ -326,7 +326,7 @@
 "CAPTURE_BUTTON_STOP_CAPTURE_VIDEO" = "Yeka Ukurekhoda";
 
 /* (No Comment) */
-"CAPTURE_ERROR_CAMERA_NOT_FOUND" = "Ayikho ikhamera etholiwe.  Lesi sinyathelo asikwazi ukuqedelwa.";
+"CAPTURE_ERROR_CAMERA_NOT_FOUND" = "Ayikho ikhamera etholiwe. Lesi sinyathelo asikwazi ukuqedelwa.";
 
 /* (No Comment) */
 "CAPTURE_ERROR_CANNOT_WRITE_FILE" = "Isithombe esithathiwe asikwazanga ukulondolozwa.";
@@ -350,7 +350,7 @@
 "CONFIRM_PASSWORD_FORM_ITEM_TITLE" = "Qinisekisa";
 
 /* (No Comment) */
-"CONSENT_DOC_LINE_DATE" = "Usuku  ";
+"CONSENT_DOC_LINE_DATE" = "Usuku";
 
 /* Lines beneath typewritten signatures on documents. Argument is the title of the signatory, e.g. "Participant's Signature" */
 "CONSENT_DOC_LINE_PRINTED_NAME" = "Igama Lika-%@ (elibhalwe ngokuhlukanisa)";
@@ -770,7 +770,7 @@
 "MEMORY_GAME_PAUSED_TITLE" = "Kumiswe Isikhashana";
 
 /* (No Comment) */
-"MEMORY_GAME_PLAYBACK_TITLE_%@" = "Buka %@ ukukhanya okuphezulu ";
+"MEMORY_GAME_PLAYBACK_TITLE_%@" = "Buka %@ ukukhanya okuphezulu";
 
 /* (No Comment) */
 "MEMORY_GAME_SCORE_TITLE" = "Iphuzu";
@@ -1121,7 +1121,7 @@
 "TAPPING_INTRO_TEXT_2_LEFT_SECOND" = "Manje phinda ukuhlola okufanayo usebenzisa isandla sakho sesobunxele.";
 
 /* (No Comment) */
-"TAPPING_INTRO_TEXT_2_MOST_AFFECTED" = "Use two fingers on the same hand to alternately tap the buttons on the screen.";
+"TAPPING_INTRO_TEXT_2_MOST_AFFECTED" = "Sebenzisa iminwe emibili ngasesandleni esifanayo ukuze ushintshe izinkinobho esibukweni.";
 
 /* (No Comment) */
 "TAPPING_INTRO_TEXT_2_REST_PHONE" = "Beka idivayisi yakho endaweni eyisicaba.";
@@ -1463,7 +1463,7 @@
 "WALK_INTRO_TEXT" = "Lesi sivivinyo sikala ukuhamba nobhalansa kwakho njengoba futhi uma unganyakazi. Ungaqhubeki uma ungakwazi ukuqhubeka ngokuphephile ngaphandle kokusizo.";
 
 /* (No Comment) */
-"WALK_OUTBOUND_INSTRUCTION_FORMAT" = "Hamba kuze kube izinyathelo ezingu-%@ emugqeni oqondile.";
+"WALK_OUTBOUND_INSTRUCTION_FORMAT" = "Hamba kuze kube izinyathelo ezingu-%ld emugqeni oqondile.";
 
 /* (No Comment) */
 "WALK_RETURN_INSTRUCTION_FORMAT" = "Phenduka, futhi ubuyele emuva lapho oqale khona.";
