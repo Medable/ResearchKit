@@ -326,7 +326,7 @@
 "CAPTURE_BUTTON_STOP_CAPTURE_VIDEO" = "Hou op opneem";
 
 /* (No Comment) */
-"CAPTURE_ERROR_CAMERA_NOT_FOUND" = "Geen kamera gevind nie.  Kon nie hierdie stap voltooi nie.";
+"CAPTURE_ERROR_CAMERA_NOT_FOUND" = "Geen kamera gevind nie. Kon nie hierdie stap voltooi nie.";
 
 /* (No Comment) */
 "CAPTURE_ERROR_CANNOT_WRITE_FILE" = "Kon nie die afgeneemde prent stoor nie.";
@@ -740,7 +740,7 @@
 "MEMORY_GAME_COMPLETE" = "Speletjie voltooi";
 
 /* (No Comment) */
-"MEMORY_GAME_COMPLETE_MESSAGE" = "Om voort te gaan, druk Volgende ";
+"MEMORY_GAME_COMPLETE_MESSAGE" = "Om voort te gaan, druk Volgende";
 
 /* (No Comment) */
 "MEMORY_GAME_COMPLETE_TITLE" = "Volgorde voltooi";
@@ -764,7 +764,7 @@
 "MEMORY_GAME_ITEM_COUNT_TITLE_%@" = "%@";
 
 /* (No Comment) */
-"MEMORY_GAME_PAUSED_MESSAGE" = "Om voort te gaan, druk Volgende ";
+"MEMORY_GAME_PAUSED_MESSAGE" = "Om voort te gaan, druk Volgende";
 
 /* (No Comment) */
 "MEMORY_GAME_PAUSED_TITLE" = "Gelaat wag";
@@ -1220,7 +1220,7 @@
 "TONE_AUDIOMETRY_INTENDED_USE" = "Hierdie aktiwiteit meet jou vermoë om verskillende geluide te hoor.";
 
 /* (No Comment) */
-"TONE_AUDIOMETRY_INTRO_TEXT" = "Voordat jy begin, prop die kopoorfone in en sit dit op.\n\nDie klank sal baie subtiel wees en is anders as ’n gewone waarskuwingstoon.  Die klank sal sag begin en dan stadig harder word.  Let mooi op en druk die linker- of regterknoppie om aan te dui in watter oor jy dit hoor.";
+"TONE_AUDIOMETRY_INTRO_TEXT" = "Voordat jy begin, prop die kopoorfone in en sit dit op.\n\nDie klank sal baie subtiel wees en is anders as ’n gewone waarskuwingstoon. Die klank sal sag begin en dan stadig harder word. Let mooi op en druk die linker- of regterknoppie om aan te dui in watter oor jy dit hoor.";
 
 /* (No Comment) */
 "TONE_AUDIOMETRY_LABEL_LEFT_EAR" = "Linkeroor";
@@ -1280,10 +1280,10 @@
 "TRAILMAKING_INTENDED_USE" = "Hierdie aktiwiteit evalueer jou visuele aandag en taakwisseling deur te meet hoe lank dit nodig is om ’n reeks stippel in volgorde te druk.";
 
 /* (No Comment) */
-"TRAILMAKING_INTENDED_USE2_A" = "Sodra die aftelling verby is, druk stippels in volgorde wat wissel tussen getalle en letters. Begin deur die eerste nommer “1” te druk, gevolg deur die nommers “2”, dan “3”, dan “4”... totdat jy die nommer “7” bereik.";
+"TRAILMAKING_INTENDED_USE2_A" = "Sodra die aftelling verby is, druk stippels in volgorde wat wissel tussen getalle en letters. Begin deur die eerste nommer “1” te druk, gevolg deur die nommers “2”, dan “3”, dan “4”… totdat jy die nommer “7” bereik.";
 
 /* (No Comment) */
-"TRAILMAKING_INTENDED_USE2_B" = "Sodra die aftelling verby is, druk stippels in volgorde wat wissel tussen getalle en letters. Begin deur die eerste nommer “1”1 te druk, gevolg deur die eerste letter “A”, gevolg deur “2”, dan “B”, dan “3”, dan “C”... totdat jy die nommer “7” bereik.";
+"TRAILMAKING_INTENDED_USE2_B" = "Sodra die aftelling verby is, druk stippels in volgorde wat wissel tussen getalle en letters. Begin deur die eerste nommer “1” te druk, gevolg deur die eerste letter “A”, gevolg deur “2”, dan “B”, dan “3”, dan “C”… totdat jy die nommer “7” bereik.";
 
 /* (No Comment) */
 "TRAILMAKING_INTRO_TEXT" = "Doen dit so vinnig as moontlik sonder om foute te maak. \n ";
