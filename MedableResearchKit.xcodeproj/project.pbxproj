@@ -1438,7 +1438,6 @@
 		D0E466822543874800711EEB /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		D0E466832543874800711EEB /* zu-ZA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zu-ZA"; path = "zu-ZA.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		D0E466842543874800711EEB /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
-		D0E466852543874800711EEB /* pa-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pa-IN"; path = "pa-IN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		D0FB60EE2373334000FBF8D0 /* bg-BG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bg-BG"; path = "bg-BG.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		D42FEFB61AF7557000A124F8 /* ORKImageCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKImageCaptureView.h; sourceTree = "<group>"; };
 		D42FEFB71AF7557000A124F8 /* ORKImageCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ORKImageCaptureView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -1448,6 +1447,7 @@
 		D442397C1AF17F7600559D96 /* ORKImageCaptureStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKImageCaptureStepViewController.m; sourceTree = "<group>"; };
 		D45852081AF6CCFA00A2DE13 /* ORKImageCaptureCameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKImageCaptureCameraPreviewView.h; sourceTree = "<group>"; };
 		D45852091AF6CCFA00A2DE13 /* ORKImageCaptureCameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKImageCaptureCameraPreviewView.m; sourceTree = "<group>"; };
+		F1250A96283592EC00CEF431 /* pa-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pa-IN"; path = "pa-IN.lproj/ResearchKit.strings"; sourceTree = "<group>"; };
 		FA7A9D2A1B082688005A2BEA /* ORKConsentDocumentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKConsentDocumentTests.m; sourceTree = "<group>"; };
 		FA7A9D2D1B083DD3005A2BEA /* ORKConsentSectionFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKConsentSectionFormatter.h; sourceTree = "<group>"; };
 		FA7A9D2E1B083DD3005A2BEA /* ORKConsentSectionFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKConsentSectionFormatter.m; sourceTree = "<group>"; };
@@ -3580,7 +3580,6 @@
 				"mr-IN",
 				"zu-ZA",
 				"ar-SA",
-				"pa-IN",
 				"de-AT",
 				"bn-IN",
 				"en-IN",
@@ -3590,6 +3589,7 @@
 				"ur-IN",
 				"vi-VN",
 				"hi-IN",
+				"pa-IN",
 			);
 			mainGroup = 3FFF18341829DB1D00167070;
 			productRefGroup = 3FFF183E1829DB1D00167070 /* Products */;
@@ -4090,7 +4090,6 @@
 				D0E466822543874800711EEB /* mr-IN */,
 				D0E466832543874800711EEB /* zu-ZA */,
 				D0E466842543874800711EEB /* ar-SA */,
-				D0E466852543874800711EEB /* pa-IN */,
 				A3E409F725A9198600D5EF3B /* de-AT */,
 				A3E40A0B25A91A4600D5EF3B /* bn-IN */,
 				52ADDCD126E7E27E0080EFB5 /* en-IN */,
@@ -4100,6 +4099,7 @@
 				5298494E271F5F2B006CCD10 /* ur-IN */,
 				5216264B27CFC80000241BCB /* vi-VN */,
 				527E7F882810A714006B762B /* hi-IN */,
+				F1250A96283592EC00CEF431 /* pa-IN */,
 			);
 			name = ResearchKit.strings;
 			sourceTree = "<group>";
