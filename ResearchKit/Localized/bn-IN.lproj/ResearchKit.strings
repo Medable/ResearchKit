@@ -269,7 +269,7 @@
 "BUTTON_DISAGREE" = "ভিন্নমত পোষণ করুন";
 
 /* (No Comment) */
-"BUTTON_DONE" = "সম্পন্ন হয়েছে";
+"BUTTON_DONE" = "শেষ হয়েছে";
 
 /* (No Comment) */
 "BUTTON_GET_STARTED" = "শুরু করতে";
@@ -431,7 +431,7 @@
 "CONSENT_SIGNATURE_TITLE" = "স্বাক্ষর";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "কার্যকলাপ শুরু করা হচ্ছে";
+"COUNTDOWN_LABEL" = "অ্যাক্টিভিটি শুরু হতে বাকি আছে";
 
 /* (No Comment) */
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ সেকেন্ড অবশিষ্ট আছে।";
