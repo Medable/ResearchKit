@@ -431,7 +431,7 @@
 "CONSENT_SIGNATURE_TITLE" = "ಸಹಿ";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "ಇದರಲ್ಲಿ ಚಟುವಟಿಕೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ";
+"COUNTDOWN_LABEL" = "ನಲ್ಲಿ ಚಟುವಟಿಕೆಯನ್ನು ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ";
 
 /* (No Comment) */
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ ಸೆಕೆಂಡುಗಳು ಉಳಿದಿವೆ.";
