@@ -501,6 +501,7 @@ static const CGFloat iPhoneStepTitleLabelFontSize = 28.0;
 
 - (void)updateNavLeftBarButtonItem {
     self.navigationItem.leftBarButtonItem = _backButtonItem;
+    self.navigationItem.leftBarButtonItem.enabled = !self.taskViewController.isTransitioning;
 }
 
 - (void)setCancelButtonItem:(UIBarButtonItem *)cancelButton {

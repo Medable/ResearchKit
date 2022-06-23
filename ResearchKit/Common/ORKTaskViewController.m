@@ -255,6 +255,7 @@ static void *_ORKViewControllerToolbarObserverContext = &_ORKViewControllerToolb
     
     NSString *_restoredTaskIdentifier;
     NSString *_restoredStepIdentifier;
+    BOOL _navigationBarHidden;
 }
 
 @property (nonatomic, strong) UIImageView *hairline;
@@ -1051,27 +1052,38 @@ static NSString *const _ChildNavigationControllerRestorationKey = @"childNavigat
         }
     }
     
-    ORKWeakTypeOf(self) weakSelf = self;
-    [self.pageViewController setViewControllers:@[viewController] direction:direction animated:animated completion:^(BOOL finished) {
-        
-        if (weakSelf == nil) {
-            ORK_Log_Debug(@"Task VC has been dismissed, skipping block code");
-            return;
-        }
-        
-        ORKStrongTypeOf(weakSelf) strongSelf = weakSelf;
-        
-        ORK_Log_Debug(@"%@ %@", strongSelf, viewController);
-        
-        // Set the progress label only if non-nil or if it is nil having previously set a progress label.
-        if (progressLabel || strongSelf->_hasSetProgressLabel) {
-            strongSelf.pageViewController.navigationItem.rightBarButtonItem = [strongSelf rightBarItemWithText:progressLabel];
-        }
-        
-        strongSelf->_hasSetProgressLabel = (progressLabel != nil);
-        
-        // Collect toolbarItems
-        [strongSelf collectToolbarItemsFromViewController:viewController];
+    [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+        self.transitioning = YES;
+        ORKWeakTypeOf(self) weakSelf = self;
+
+        [self.pageViewController setViewControllers:@[viewController] direction:direction animated:animated completion:^(BOOL finished) {
+            
+            if (weakSelf == nil) {
+                ORK_Log_Debug(@"Task VC has been dismissed, skipping block code");
+                return;
+            }
+            
+            ORKStrongTypeOf(weakSelf) strongSelf = weakSelf;
+            
+            ORK_Log_Debug(@"%@ %@", strongSelf, viewController);
+            
+            if (finished) {
+               strongSelf.transitioning = NO;
+               [strongSelf setNavigationBarHidden:_navigationBarHidden];
+               [strongSelf.currentStepViewController updateNavLeftBarButtonItem];
+            }
+
+            
+            // Set the progress label only if non-nil or if it is nil having previously set a progress label.
+            if (progressLabel || strongSelf->_hasSetProgressLabel) {
+                strongSelf.pageViewController.navigationItem.rightBarButtonItem = [strongSelf rightBarItemWithText:progressLabel];
+            }
+            
+            strongSelf->_hasSetProgressLabel = (progressLabel != nil);
+            
+            // Collect toolbarItems
+            [strongSelf collectToolbarItemsFromViewController:viewController];
+        }];
     }];
 }
 
@@ -1653,6 +1665,10 @@ static NSString *const _ORKPresentedDate = @"presentedDate";
 #pragma mark UINavigationController pass-throughs
 
 - (void)setNavigationBarHidden:(BOOL)navigationBarHidden {
+    if (self.isTransitioning) {
+        _navigationBarHidden = navigationBarHidden;
+        return;
+    }
     self.childNavigationController.navigationBarHidden = navigationBarHidden;
 }
 
@@ -1661,6 +1677,10 @@ static NSString *const _ORKPresentedDate = @"presentedDate";
 }
 
 - (void)setNavigationBarHidden:(BOOL)hidden animated:(BOOL)animated {
+    if (self.isTransitioning) {
+        _navigationBarHidden = hidden;
+        return;
+    }
     [self.childNavigationController setNavigationBarHidden:hidden animated:YES];
 }
 

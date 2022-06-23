@@ -486,6 +486,7 @@ ORK_CLASS_AVAILABLE
  You can use this method to customize the appearance of the task view controller's navigation bar.
  */
 @property (nonatomic, readonly) UINavigationBar *navigationBar;
+@property (nonatomic, getter=isTransitioning) BOOL transitioning;
 
 @end
 
