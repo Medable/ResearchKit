@@ -176,7 +176,7 @@
 
 /* Boolean answer strings */
 "BOOL_NO" = "לא";
-"BOOL_YES" = "כן";
+"BOOL_YES" = "כן.";
 
 /* Measuring unit abbreviations */
 "MEASURING_UNIT_CM" = "ס״מ";
