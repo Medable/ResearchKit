@@ -198,7 +198,7 @@
 
 /* Button titles */
 "BUTTON_AGREE" = "Kabul Ediyorum";
-"BUTTON_CANCEL" = "Vazgeç";
+"BUTTON_CANCEL" = "İptal";
 "BUTTON_OK" = "Tamam";
 "BUTTON_CLEAR" = "Sil";
 "BUTTON_APPLY" = "Uygula";
@@ -206,7 +206,7 @@
 "BUTTON_DONE" = "Bitti";
 "BUTTON_GET_STARTED" = "Başla";
 "BUTTON_LEARN_MORE" = "Daha fazla bilgi";
-"BUTTON_NEXT" = "İleri";
+"BUTTON_NEXT" = "Sonraki";
 "BUTTON_SKIP" = "Atla";
 "BUTTON_SKIP_QUESTION" = "Bu soruyu atla";
 "BUTTON_START_TIMER" = "Sayacı Başlat";
