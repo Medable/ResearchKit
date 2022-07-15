@@ -227,7 +227,7 @@
 
 /* Image capture step. */
 "CAPTURE_BUTTON_CAPTURE_IMAGE" = "Capturar imagen";
-"CAPTURE_BUTTON_RECAPTURE_IMAGE" = "Volver a capturar imagen";
+"CAPTURE_BUTTON_RECAPTURE_IMAGE" = "Recapturar imagen";
 "CAPTURE_ERROR_CAMERA_NOT_FOUND" = "No se ha encontrado ninguna cámara. Este paso no se puede completar.";
 "CAPTURE_ERROR_NO_PERMISSIONS" = "Para completar este paso, ve a Ajustes para conceder a la app acceso a la cámara.";
 "CAPTURE_ERROR_NO_OUTPUT_DIRECTORY" = "No se ha especificado ningún directorio de salida para las imágenes capturadas.";
