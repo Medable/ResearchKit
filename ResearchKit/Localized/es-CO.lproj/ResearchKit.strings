@@ -431,7 +431,7 @@
 "CONSENT_SIGNATURE_TITLE" = "Firma";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "Iniciar actividad en";
+"COUNTDOWN_LABEL" = "Comenzando la actividad en";
 
 /* (No Comment) */
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ segundos restantes.";
