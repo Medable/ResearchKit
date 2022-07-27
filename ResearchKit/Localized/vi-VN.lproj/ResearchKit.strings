@@ -254,7 +254,7 @@
 "BUTTON_APPLY" = "Áp dụng";
 
 /* (No Comment) */
-"BUTTON_CANCEL" = "Hủy bỏ";
+"BUTTON_CANCEL" = "Hủy";
 
 /* (No Comment) */
 "BUTTON_CLEAR" = "Xóa";
@@ -269,7 +269,7 @@
 "BUTTON_DISAGREE" = "Không chấp thuận";
 
 /* (No Comment) */
-"BUTTON_DONE" = "Hoàn tất";
+"BUTTON_DONE" = "Xong";
 
 /* (No Comment) */
 "BUTTON_GET_STARTED" = "Bắt đầu";
@@ -278,7 +278,7 @@
 "BUTTON_LEARN_MORE" = "Tìm hiểu thêm";
 
 /* (No Comment) */
-"BUTTON_NEXT" = "Tiếp theo";
+"BUTTON_NEXT" = "Tiếp";
 
 /* (No Comment) */
 "BUTTON_OK" = "OK";
