@@ -219,7 +219,7 @@
 "BUTTON_COPYRIGHT" = "कॉपीराइट";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "गतिविधि शुरू होने में शेष समय";
+"COUNTDOWN_LABEL" = "में गतिविधि आरंभ";
 "TASK_COMPLETE_TITLE" = "गतिविधि पूर्ण";
 "TASK_COMPLETE_TEXT" = "आपके डेटा का विश्लेषण किया जाएगा और परिणाम के तैयार होते ही आपको सूचित किया जाएगा।";
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ सेकंड शेष।";
