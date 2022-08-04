@@ -1,0 +1,1470 @@
+/* (No Comment) */
+"ADDITIONAL_INFO_SECTION_TITLE" = "Lisätietoja";
+
+/* (No Comment) */
+"AMSLER_GRID_INSTRUCTION_DETAIL_TEXT" = "Sulje %@ ja tuijota neliöruudukon keskellä olevaa pistettä.\n\nMerkitse sormella tai kynällä kaikki näkemäsi vääristymät, esim. epäselvät tai aaltoilevat viivat.\n\nKun olet valmis, pyyhkäise vasemmalle ruudukon ulkopuolelta.";
+
+/* (No Comment) */
+"AMSLER_GRID_INSTRUCTION_TEXT" = "Pidä laitetta 12 tuuman päässä kasvoistasi ja silmien tasolla koko testin ajan.";
+
+/* (No Comment) */
+"AMSLER_GRID_INTRO_TEXT" = "Tämä aktiviteetti auttaa havaitsemaan ongelmia käyttäjän näössä.";
+
+/* (No Comment) */
+"AMSLER_GRID_LEFT_EYE" = "Vasen silmä";
+
+/* (No Comment) */
+"AMSLER_GRID_RIGHT_EYE" = "Oikea silmä";
+
+/* Amsler Grid Task. */
+"AMSLER_GRID_TITLE" = "Amslerin ruudukko";
+
+/* (No Comment) */
+"AUDIO_CALL_TO_ACTION" = "Aloita napauttamalla Aloita-painiketta.";
+
+/* (No Comment) */
+"AUDIO_GENERIC_ERROR_LABEL" = "Ei voida äänittää";
+
+/* (No Comment) */
+"AUDIO_INSTRUCTION" = "Sano ”aaa” mikrofoniin niin kauan kuin voit.";
+
+/* (No Comment) */
+"AUDIO_INTENDED_USE" = "Tämä aktiviteetti arvioi ääntäsi tallentamalla sitä laitteen alareunassa olevalla mikrofonilla.";
+
+/* (No Comment) */
+"AUDIO_INTRO_TEXT" = "Hengitä syvään ja sano ”Aaaaa\" mikrofoniin niin pitkään kuin pystyt. Pidä äänenvoimakkuus tasaisena siten, että äänipalkit pysyvät sinisinä.";
+
+/* (No Comment) */
+"AUDIO_LEVEL_CHECK_LABEL" = "Odota, taustamelun tasoa tarkistetaan.";
+
+/* Audio active task. */
+"AUDIO_TASK_TITLE" = "Ääni";
+
+/* (No Comment) */
+"AUDIO_TOO_LOUD_ACTION_NEXT" = "Napauta Seuraava, kun olet valmis.";
+
+/* (No Comment) */
+"AUDIO_TOO_LOUD_LABEL" = "Liian kovaa";
+
+/* (No Comment) */
+"AUDIO_TOO_LOUD_MESSAGE" = "Ympäristön melutaso on liian korkea, jotta ääntäsi voitaisiin tallentaa. Siirry hiljaisempaan paikkaan ja yritä uudelleen.";
+
+/* (No Comment) */
+"AX_AMSLER_GRID_HINT" = "Merkitse suoraan ruudukkoon sormellasi tai kynällä, tai lopeta pyyhkäisemällä ruudukon ulkopuolella.";
+
+/* (No Comment) */
+"AX_AMSLER_GRID_LABEL" = "Amslerin ruudukko";
+
+/* (No Comment) */
+"AX_ANNOUNCE_BEGIN_TASK" = "Aloita tehtävä";
+
+/* (No Comment) */
+"AX_AUDIO_BAR_GRAPH" = "Äänipalkin graafi";
+
+/* (No Comment) */
+"AX_BUTTON_ANNOTATE" = "Merkitse";
+
+/* Accessibility */
+"AX_BUTTON_BACK" = "Takaisin";
+
+/* (No Comment) */
+"AX_BUTTON_HIDE_PDF_THUMBNAIL" = "Kätke PDF:n miniatyyri";
+
+/* (No Comment) */
+"AX_BUTTON_HIDE_SEARCH" = "Kätke hakupalkki";
+
+/* (No Comment) */
+"AX_BUTTON_SHARE" = "Jaa";
+
+/* (No Comment) */
+"AX_BUTTON_SHOW_PDF_THUMBNAIL" = "Näytä PDF:n miniatyyri";
+
+/* (No Comment) */
+"AX_BUTTON_SHOW_SEARCH" = "Näytä hakupalkki";
+
+/* (No Comment) */
+"AX_COMPLETION_ILLUSTRATION" = "Onnistumista tarkoittava kuva valintamerkistä sinisessä ympyrässä";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_dBHL_TONE_AUDIOMETRY_INTRO_TEXT" = "%@ VoiceOverin avulla painike on suoraan napautettavissa. Se sijaitsee lähellä näytön keskiosaa.";
+
+/* (No Comment) */
+"AX_DISMISS_KEYBOARD_CUSTOM_ACTION" = "Sulje näppäimistö";
+
+/* (No Comment) */
+"AX_GRAPH_AND_SEPARATOR" = " ja ";
+
+/* (No Comment) */
+"AX_GRAPH_POINT_%@" = "Piste: %@";
+
+/* (No Comment) */
+"AX_GRAPH_RANGE_FORMAT_%@_%@" = "Alue välillä %@– %@";
+
+/* (No Comment) */
+"AX_GRAPH_STACK_PREFIX" = "Pino, joka koostuu arvoista";
+
+/* (No Comment) */
+"AX_IMAGE_CAPTURE_LABEL" = "Kaappauksen esikatselu";
+
+/* (No Comment) */
+"AX_IMAGE_CAPTURED_LABEL" = "Kaapattu kuva";
+
+/* (No Comment) */
+"AX_SELECTED" = "Valittu";
+
+/* (No Comment) */
+"AX_SIGNVIEW_HINT" = "Allekirjoita koskettamalla näyttöä ja liikuttamalla sormea";
+
+/* (No Comment) */
+"AX_SIGNVIEW_LABEL" = "Määritetty allekirjoituskenttä";
+
+/* (No Comment) */
+"AX_SIGNVIEW_SIGNED" = "Allekirjoitettu";
+
+/* (No Comment) */
+"AX_SIGNVIEW_UNSIGNED" = "Ei allekirjoitettu";
+
+/* (No Comment) */
+"AX_SLIDER_LABEL" = "Vastausliukusäädin. Asteikko %@– %@";
+
+/* (No Comment) */
+"AX_SPEECH_RECOGNITION_START_RECORDING_HINT" = "Kun äänitys alkaa, aktivoi toiseen kertaan sen lopettamiseksi.";
+
+/* (No Comment) */
+"AX_SPEECH_RECOGNITION_WAVEFORM" = "Puheen aaltomuoto";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_1_LABEL" = "Napautus, yksi sormi";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_2_LABEL" = "Napautus, toinen sormi";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_DIRECT_TOUCH_ANNOUNCEMENT" = "Painikkeet ovat nyt suoraan napautettavissa.";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_DIRECT_TOUCH_AREA" = "Napautettavat painikkeet";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_HINT" = "Aktivoi tehdäksesi painikkeista suoraan napautettavia.";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_TAPPING_INSTRUCTION_VOICEOVER" = "%@ Tutustu VoiceOverin avulla näyttöön koskettamalla, jotta tiedät, missä painikkeet sijaitsevat. Aktivoi jompikumpi painike tehdäksesi painikkeista suoraan napautettavia.";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_HINT" = "Aktivoi aloittaaksesi testin. Kun testi alkaa, napauta suoraan tätä painiketta, kun kuulet äänen vasemmasta korvastasi.";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_LABEL" = "Napautus, vasen korva";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_HINT" = "Aktivoi aloittaaksesi testin. Kun testi alkaa, napauta suoraan tätä painiketta, kun kuulet äänen oikeasta korvastasi.";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_LABEL" = "Napautus, oikea korva";
+
+/* This contains the visual text, followed by a VoiceOver-specific description, followed by the visual text on the following page (since VoiceOver users may not have a chance to hear the visual text before needing to perform the actions). */
+"AX_TONE_AUDIOMETRY_PREP_TEXT_VOICEOVER" = " %@ Tutustu VoiceOverin avulla näyttöön koskettamalla, jotta tiedät, missä kunkin korvan painikkeet sijaitsevat. Kun testi alkaa, painikkeet ovat suoraan napautettavia. %@";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_INVALID_MOVE_FORMAT" = "Koon %@ levyä ei voida laittaa koon %@ levyn päälle";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_PLACE_DISK" = "Aseta levy kaksoisnapauttamalla";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_SELECT_DISK" = "Valitse päällimmäinen levy kaksoisnapauttamalla";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TARGET_DISK" = "Kohde";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TOWER" = "Torni";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TOWER_CONTAINS" = "Sisältää levyjä, joiden koko on %@";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TOWER_EMPTY" = "Tyhjä";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_TRAILMAKING_CALL_TO_ACTION_VOICEOVER" = "%@ VoiceOverin avulla testin painikkeet ovat suoraan napautettavissa.";
+
+/* (No Comment) */
+"AX_UNLABELED_IMAGE" = "Merkitsemätön kuva";
+
+/* (No Comment) */
+"AX_UNSELECTED" = "Valitsematon";
+
+/* (No Comment) */
+"AX_VIDEO_CAPTURE_COMPLETE" = "Videon tallennus on valmis";
+
+/* (No Comment) */
+"AX_VIDEO_CAPTURE_LABEL" = "Videokaappauksen esikatselu";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.ACTIVE" = "aktiivinen";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.CORRECT" = "oikein";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.INCORRECT" = "väärin";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.LABEL" = "Muistipelin ruutu";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.QUIESCENT" = "lepotilassa";
+
+/* (No Comment) */
+"BLOOD_TYPE_A-" = "A-";
+
+/* Blood types */
+"BLOOD_TYPE_A+" = "A+";
+
+/* (No Comment) */
+"BLOOD_TYPE_AB-" = "AB-";
+
+/* (No Comment) */
+"BLOOD_TYPE_AB+" = "AB+";
+
+/* (No Comment) */
+"BLOOD_TYPE_B-" = "B-";
+
+/* (No Comment) */
+"BLOOD_TYPE_B+" = "B+";
+
+/* (No Comment) */
+"BLOOD_TYPE_O-" = "O-";
+
+/* (No Comment) */
+"BLOOD_TYPE_O+" = "O+";
+
+/* Boolean answer strings */
+"BOOL_NO" = "Ei";
+
+/* (No Comment) */
+"BOOL_YES" = "Kyllä";
+
+/* Button titles */
+"BUTTON_AGREE" = "Hyväksy";
+
+/* (No Comment) */
+"BUTTON_APPLY" = "Käytä";
+
+/* (No Comment) */
+"BUTTON_CANCEL" = "Kumoa";
+
+/* (No Comment) */
+"BUTTON_CLEAR" = "Tyhjennä";
+
+/* (No Comment) */
+"BUTTON_CLEAR_ANSWER" = "Tyhjennä vastaus";
+
+/* (No Comment) */
+"BUTTON_COPYRIGHT" = "Tekijänoikeudet";
+
+/* (No Comment) */
+"BUTTON_DISAGREE" = "Hylkää";
+
+/* (No Comment) */
+"BUTTON_DONE" = "Valmis";
+
+/* (No Comment) */
+"BUTTON_GET_STARTED" = "Aloita";
+
+/* (No Comment) */
+"BUTTON_LEARN_MORE" = "Lisätietoja";
+
+/* (No Comment) */
+"BUTTON_NEXT" = "Seuraava";
+
+/* (No Comment) */
+"BUTTON_OK" = "OK";
+
+/* (No Comment) */
+"BUTTON_OPTION_DISCARD" = "Hylkää tulokset";
+
+/* (No Comment) */
+"BUTTON_OPTION_SAVE" = "Jatka tästä myöhemmin";
+
+/* (No Comment) */
+"BUTTON_OPTION_STOP_TASK" = "Lopeta tehtävä";
+
+/* (No Comment) */
+"BUTTON_READ_ONLY_MODE" = "Tätä vastausta ei voida muuttaa.";
+
+/* (No Comment) */
+"BUTTON_SAVE" = "Tallenna";
+
+/* (No Comment) */
+"BUTTON_SKIP" = "Ohita";
+
+/* (No Comment) */
+"BUTTON_SKIP_QUESTION" = "Ohita tämä kysymys";
+
+/* (No Comment) */
+"BUTTON_START_TIMER" = "Käynnistä ajastin";
+
+/* Camera not available during multitasking */
+"CAMERA_UNAVAILABLE_MESSAGE" = "Kamera ei ole käytettävissä jaetulla näytöllä.";
+
+/* Image capture step. */
+"CAPTURE_BUTTON_CAPTURE_IMAGE" = "Kaappaa kuva";
+
+/* Video capture step. */
+"CAPTURE_BUTTON_CAPTURE_VIDEO" = "Aloita tallentaminen";
+
+/* (No Comment) */
+"CAPTURE_BUTTON_RECAPTURE_IMAGE" = "Kaappaa kuva uudelleen";
+
+/* (No Comment) */
+"CAPTURE_BUTTON_RECAPTURE_VIDEO" = "Kaappaa video uudelleen";
+
+/* (No Comment) */
+"CAPTURE_BUTTON_STOP_CAPTURE_VIDEO" = "Lopeta tallentaminen";
+
+/* (No Comment) */
+"CAPTURE_ERROR_CAMERA_NOT_FOUND" = "Kameraa ei löydy. Tätä vaihetta ei voida suorittaa.";
+
+/* (No Comment) */
+"CAPTURE_ERROR_CANNOT_WRITE_FILE" = "Kaapattua kuvaa ei voitu tallentaa.";
+
+/* (No Comment) */
+"CAPTURE_ERROR_NO_OUTPUT_DIRECTORY" = "Kaapatuille kuville ei ole määritetty kohdehakemistoa.";
+
+/* (No Comment) */
+"CAPTURE_ERROR_NO_PERMISSIONS" = "Jotta tämä vaihe voidaan suorittaa, anna Asetuksissa tälle ohjelmalle käyttöoikeus kameraan.";
+
+/* Charts */
+"CHART_NO_DATA_TEXT" = "Ei dataa";
+
+/* (No Comment) */
+"CONFIRM_PASSWORD_ERROR_MESSAGE" = "Salasanat eivät täsmää.";
+
+/* (No Comment) */
+"CONFIRM_PASSWORD_FORM_ITEM_PLACEHOLDER" = "Syötä salasana uudelleen";
+
+/* (No Comment) */
+"CONFIRM_PASSWORD_FORM_ITEM_TITLE" = "Vahvista";
+
+/* (No Comment) */
+"CONSENT_DOC_LINE_DATE" = "Päivämäärä";
+
+/* Lines beneath typewritten signatures on documents. Argument is the title of the signatory, e.g. "Participant's Signature" */
+"CONSENT_DOC_LINE_PRINTED_NAME" = "%@n nimi (tulostettu)";
+
+/* (No Comment) */
+"CONSENT_DOC_LINE_SIGNATURE" = "%@ – allekirjoitus";
+
+/* (No Comment) */
+"CONSENT_LEARN_MORE_TITLE" = "Lisätietoja";
+
+/* (No Comment) */
+"CONSENT_NAME_FAMILY" = "Sukunimi";
+
+/* (No Comment) */
+"CONSENT_NAME_GIVEN" = "Etunimi";
+
+/* (No Comment) */
+"CONSENT_NAME_PLACEHOLDER" = "Vaaditaan";
+
+/* Informed consent process. */
+"CONSENT_NAME_TITLE" = "Suostumus";
+
+/* (No Comment) */
+"CONSENT_PAGE_NUMBER_FORMAT" = "Sivu %1$ld / %2$ld";
+
+/* (No Comment) */
+"CONSENT_REVIEW_ALERT_TITLE" = "Tarkasta";
+
+/* (No Comment) */
+"CONSENT_REVIEW_INSTRUCTION" = "Tarkasta alla oleva lomake ja napauta ”Hyväksy”, jos olet valmis jatkamaan.";
+
+/* (No Comment) */
+"CONSENT_REVIEW_TITLE" = "Tarkasta";
+
+/* (No Comment) */
+"CONSENT_SECTION_DATA_GATHERING" = "Tietojen kerääminen";
+
+/* (No Comment) */
+"CONSENT_SECTION_DATA_USE" = "Tietojen käyttö";
+
+/* (No Comment) */
+"CONSENT_SECTION_PRIVACY" = "Tietosuoja";
+
+/* (No Comment) */
+"CONSENT_SECTION_STUDY_SURVEY" = "Tutkimuskysely";
+
+/* (No Comment) */
+"CONSENT_SECTION_STUDY_TASKS" = "Tutkimustehtävät";
+
+/* (No Comment) */
+"CONSENT_SECTION_TIME_COMMITMENT" = "Ajankäyttö";
+
+/* Consent section titles. */
+"CONSENT_SECTION_WELCOME" = "Tervetuloa";
+
+/* (No Comment) */
+"CONSENT_SECTION_WITHDRAWING" = "Peruuttaminen";
+
+/* (No Comment) */
+"CONSENT_SHARE_ONLY_%@" = "Jaa datani vain kohteen %@ kanssa";
+
+/* (No Comment) */
+"CONSENT_SHARE_WIDELY_%@" = "Jaa datani kohteen %@ ja hyväksyttyjen tutkijoiden kanssa maailmanlaajuisesti";
+
+/* (No Comment) */
+"CONSENT_SHARING_DESCRIPTION_%@" = "%@ vastaanottaa tutkimusdatasi tästä tutkimuksesta.\n\nKoodatun tutkimusdatan jakaminen laajemmalle käyttäjäkunnalle (ilman nimi ym. tietoja) voi edesauttaa tätä ja tulevia tutkimuksia.";
+
+/* Consent sharing step */
+"CONSENT_SHARING_TITLE" = "Jakovalinnat";
+
+/* (No Comment) */
+"CONSENT_SIGNATURE_INSTRUCTION" = "Allekirjoita sormellasi alla olevaan laatikkoon.";
+
+/* (No Comment) */
+"CONSENT_SIGNATURE_PLACEHOLDER" = "Allekirjoitus tähän";
+
+/* (No Comment) */
+"CONSENT_SIGNATURE_TITLE" = "Allekirjoitus";
+
+/* General active tasks. */
+"COUNTDOWN_LABEL" = "Aktiviteetti alkaa";
+
+/* (No Comment) */
+"COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ sekuntia jäljellä.";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_INTENDED_USE" = "Tämä aktiviteetti osoittaa henkilön kuulon kynnystasoja dB HL -asteikolla.";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_INTRO_TEXT" = "Varmista, että laitteen äänenvoimakkuus on asetettu suurimpaan arvoonsa.\n\nTämän tehtävän aikana hiljainen ääni toistetaan joko vasempaan tai oikeaan korvaan.\n\nKuuntele tarkasti ja napauta painiketta aina, kun kuulet äänen.";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_ONBOARDING" = "Aloituskysely.";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_ONBOARDING_QUESTION" = "Valitse ”parempi korva”, jos tarpeen";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_OPTION_LEFT" = "vasen";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_OPTION_NO_PREFERENCE" = "ei asetusta";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_OPTION_RIGHT" = "oikea";
+
+/* dBHL Tone audiometry active task. */
+"dBHL_TONE_AUDIOMETRY_TASK_TITLE" = "Audiometria";
+
+/* (No Comment) */
+"DOB_FORM_ITEM_PLACEHOLDER" = "Valitse päiväys";
+
+/* (No Comment) */
+"DOB_FORM_ITEM_TITLE" = "Syntymäaika";
+
+/* (No Comment) */
+"EMAIL_FORM_ITEM_PLACEHOLDER" = "jappleseed@example.com";
+
+/* Registration step */
+"EMAIL_FORM_ITEM_TITLE" = "Sähköposti";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_CALCULATING" = "Lasketaan";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_INTRO_TEXT" = "Tämä aktiviteetti mittaa ympäristön äänenpaineen. Jos melutaso on liian korkea, et voi jatkaa. Suorita tämä tehtävä siirtymällä hiljaisempaan ympäristöön tai myöhemmin.";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_THRESHOLD" = "Kynnys: %@ dBA";
+
+/* Environment SPL */
+"ENVIRONMENTSPL_TITLE" = "SPL-mittari";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_UNIT" = "dBA";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_COULD_NOT_FREE_SPACE" = "Ei voitu poistaa riittävästi lokitiedostoja raja-arvon saavuttamiseksi.";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_COULD_NOT_MAORK" = "Tiedostoa ei ole merkitty poistetuksi (ei merkitty lähetetyksi)";
+
+/* Potentially user visible error messages. */
+"ERROR_DATALOGGER_CREATE_FILE" = "Tiedostoa ei voitu luoda";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_MULTIPLE" = "Useita virheitä poistettaessa lokeja";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_SET_ATTRIBUTE" = "Virhe asetettaessa attribuuttia";
+
+/* (No Comment) */
+"ERROR_RECORDER_NO_DATA" = "Kerättyjä tietoja ei löytynyt.";
+
+/* (No Comment) */
+"ERROR_RECORDER_NO_OUTPUT_DIRECTORY" = "Ei määritettyä tulostehakemistoa";
+
+/* (No Comment) */
+"FAMILY_NAME_ITEM_PLACEHOLDER" = "Appleseed";
+
+/* (No Comment) */
+"FITNESS_DISTANCE_TITLE_FORMAT" = "Matka (%@)";
+
+/* (No Comment) */
+"FITNESS_HEARTRATE_TITLE" = "Syke (bpm)";
+
+/* (No Comment) */
+"FITNESS_INTRO_2_TEXT_FORMAT" = "Kävele ulkona kovinta mahdollista vauhtia %1$@. Kun olet valmis, istu ja lepää %2$@. Aloita napauttamalla Aloita.";
+
+/* (No Comment) */
+"FITNESS_INTRO_TEXT_FORMAT" = "Tämä aktiviteetti seuraa sykettäsi ja mittaa kuinka kauas voit kävellä, kun aikaa on %1$@.";
+
+/* (No Comment) */
+"FITNESS_SIT_INSTRUCTION_FORMAT" = "Istu %@.";
+
+/* Fitness active task. */
+"FITNESS_TASK_TITLE" = "Kuntoilu";
+
+/* (No Comment) */
+"FITNESS_WALK_INSTRUCTION_FORMAT" = "Kävele niin nopeasti kuin voit %@.";
+
+/* Fitzpatrick Skin types */
+"FITZPATRICK_SKIN_TYPE_I" = "Tyyppi I";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_II" = "Tyyppi II";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_III" = "Tyyppi III";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_IV" = "Tyyppi IV";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_V" = "Tyyppi V";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_VI" = "Tyyppi VI";
+
+/* (No Comment) */
+"FORGOT_PASSWORD_BUTTON_TITLE" = "Unohditko salasanan?";
+
+/* Gender values. */
+"GENDER_FEMALE" = "Nainen";
+
+/* (No Comment) */
+"GENDER_FORM_ITEM_PLACEHOLDER" = "Valitse sukupuoli";
+
+/* (No Comment) */
+"GENDER_FORM_ITEM_TITLE" = "Sukupuoli";
+
+/* (No Comment) */
+"GENDER_MALE" = "Mies";
+
+/* (No Comment) */
+"GENDER_OTHER" = "Muu";
+
+/* (No Comment) */
+"GIVEN_NAME_ITEM_PLACEHOLDER" = "John";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_CALL_TO_ACTION" = "Aloita napauttamalla Aloita-painiketta.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_INTRO_TEXT_%@" = "Tämä aktiviteetti mittaa yläraajojen toimintaa pyytämällä sinua asettamaan palikan reikään. Tämä toistetaan %@ kertaa.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_INTRO_TEXT_2_LEFT_HAND_FIRST_%@" = "Sekä vasen että oikea käsi testataan.\nSinun on poimittava palikka mahdollisimman nopeasti, asetettava se reikään, ja tehtyäsi tämän %@ kertaa, poistettava se jälleen %@ kertaa.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_INTRO_TEXT_2_RIGHT_HAND_FIRST_%@" = "Sekä oikea että vasen käsi testataan.\nSinun on poimittava palikka mahdollisimman nopeasti, asetettava se reikään, ja tehtyäsi tämän %@ kertaa, poistettava se jälleen %@ kertaa.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_PLACE_INSTRUCTION_LEFT_HAND" = "Laita palikka reikään vasemmalla kädellä.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_PLACE_INSTRUCTION_RIGHT_HAND" = "Laita palikka reikään oikealla kädellä.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_REMOVE_INSTRUCTION_LEFT_HAND" = "Laita palikka viivan taakse vasemmalla kädellä.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_REMOVE_INSTRUCTION_RIGHT_HAND" = "Laita palikka viivan taakse oikealla kädellä.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_TEXT" = "Poimi palikka kahdella sormella.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_TEXT_2" = "Pudota palikka nostamalla sormia.";
+
+/* Hole peg test active task. */
+"HOLE_PEG_TEST_TITLE_%@" = "%@ reiän palikkatesti";
+
+/* Alert for invalid email address value */
+"INVALID_EMAIL_ALERT_MESSAGE" = "Virheellinen sähköpostiosoite: %@";
+
+/* Keychain wrapper */
+"KEYCHAIN_ADD_ERROR_MESSAGE" = "Avainnipun kohdetta ei voitu lisätä.";
+
+/* (No Comment) */
+"KEYCHAIN_DELETE_ERROR_MESSAGE" = "Avainnipun kohdetta ei voitu poistaa.";
+
+/* (No Comment) */
+"KEYCHAIN_FIND_ERROR_MESSAGE" = "Avainnipun kohdetta ei löydy.";
+
+/* (No Comment) */
+"KEYCHAIN_UPDATE_ERROR_MESSAGE" = "Avainnipun kohdetta ei voitu päivittää.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_LEFT" = "Ojenna vasen polvi suoraksi. Napauta sitten johonkin.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_RIGHT" = "Ojenna oikea polvi suoraksi. Napauta sitten johonkin.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_LEFT" = "Tämä aktiviteetti mittaa kuinka pitkälle voit ojentaa vasemman polvesi.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_RIGHT" = "Tämä aktiviteetti mittaa kuinka pitkälle voit ojentaa oikean polvesi.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_LEFT" = "Istu tuolin reunalle. Aloitettaessa laite asetetaan mittausta varten vasemmalle polvelle. Laita laitteesi ääni päälle, jotta kuulet ohjeet.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_RIGHT" = "Istu tuolin reunalle. Aloitettaessa laite asetetaan mittausta varten oikealle polvelle. Laita laitteesi ääni päälle, jotta kuulet ohjeet.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_LEFT" = "Aseta laite vasemmalle polvelle näyttö ulospäin, kuten kuvassa.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_RIGHT" = "Aseta laite oikealle polvelle näyttö ulospäin, kuten kuvassa.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_LEFT" = "Kun olet valmis, napauta näyttöä ja ojenna vasen polvi niin pitkälle kuin pystyt. Kun olet tehnyt tämän, napauta uudelleen.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_RIGHT" = "Kun olet valmis, napauta näyttöä ja ojenna oikea polvi niin pitkälle kuin pystyt. Kun olet tehnyt tämän, napauta uudelleen.";
+
+/* Knee Range of Motion active task */
+"KNEE_RANGE_OF_MOTION_TITLE_LEFT" = "Vasemman polven liikealue";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TITLE_RIGHT" = "Oikean polven liikealue";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_LEFT" = "Aseta laite vasemmalle polvelle";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_RIGHT" = "Aseta laite oikealle polvelle";
+
+/* (No Comment) */
+"LEARN_MORE_CONSENT_SHARING" = "Lisätietoja datajaosta";
+
+/* Consent section learn more */
+"LEARN_MORE_DATA_GATHERING" = "Lisätietoja tietojen keräämisestä";
+
+/* (No Comment) */
+"LEARN_MORE_DATA_USE" = "Lisätietoja tietojen käytöstä";
+
+/* (No Comment) */
+"LEARN_MORE_PRIVACY" = "Lisätietoja siitä, kuinka yksityisyyttäsi ja identiteettiäsi suojataan.";
+
+/* (No Comment) */
+"LEARN_MORE_STUDY_SURVEY" = "Lisätietoja tutkimuskyselystä";
+
+/* (No Comment) */
+"LEARN_MORE_TASKS" = "Lisätietoja tutkimukseen liittyvistä tehtävistä";
+
+/* (No Comment) */
+"LEARN_MORE_TIME_COMMITMENT" = "Lisätietoja tutkimuksen vaatimasta ajasta";
+
+/* (No Comment) */
+"LEARN_MORE_WELCOME" = "Lisätietoja tutkimuksesta";
+
+/* (No Comment) */
+"LEARN_MORE_WITHDRAWING" = "Lisätietoja peruuttamisesta";
+
+/* Limb values. */
+"LIMB_LEFT" = "vasen";
+
+/* (No Comment) */
+"LIMB_OPTION_LEFT_OR_RIGHT_ERROR" = "limbOption on oltava vasen tai oikea";
+
+/* (No Comment) */
+"LIMB_RIGHT" = "oikea";
+
+/* (No Comment) */
+"LOCATION_ERROR_GEOCODE" = "Syötetyllä osoitteella ei löydy tuloksia. Varmista, että osoite on oikein.";
+
+/* (No Comment) */
+"LOCATION_ERROR_GEOCODE_NETWORK" = "Joko et ole yhteydessä internetiin tai olet ylittänyt osoitehakupyyntöjen enimmäismäärän. Jos et ole yhteydessä internetiin, laita Wi-Fi päälle vastataksesi tähän kysymykseen, ohita tämä kysymys (jos ohituspainike on käytettävissä), tai palaa kyselyyn, kun olet internet-yhteydessä. Muussa tapauksessa yritä muutaman minuutin päästä uudelleen.";
+
+/* (No Comment) */
+"LOCATION_ERROR_MESSAGE_DENIED" = "Sijaintipalveluiden käyttö on kielletty. Anna Asetuksissa tälle ohjelmalle oikeus käyttää Sijaintipalveluita.";
+
+/* (No Comment) */
+"LOCATION_ERROR_MESSAGE_LOCATION_UNKNOWN" = "Nykyistä sijaintiasi ei voida määrittää. Kirjoita osoite tai, jos mahdollista, siirry paikkaan, jossa GPS-signaali on parempi.";
+
+/* (No Comment) */
+"LOCATION_ERROR_TITLE" = "Määritettyä osoitetta ei löydy";
+
+/* Alerts for invalid location coordinates */
+"LOCATION_QUESTION_PLACEHOLDER" = "Syötä osoite";
+
+/* Login step */
+"LOGIN_CONTINUE_BUTTON_TITLE" = "Kirjaudu sisään";
+
+/* Measuring unit abbreviations */
+"MEASURING_UNIT_CM" = "cm";
+
+/* (No Comment) */
+"MEASURING_UNIT_FT" = "ft";
+
+/* (No Comment) */
+"MEASURING_UNIT_IN" = "in";
+
+/* (No Comment) */
+"MEASURING_UNIT_KG" = "kg";
+
+/* (No Comment) */
+"MEASURING_UNIT_LB" = "lb";
+
+/* (No Comment) */
+"MEASURING_UNIT_OZ" = "oz";
+
+/* (No Comment) */
+"MEMORY_GAME_COMPLETE" = "Peli päättyi";
+
+/* (No Comment) */
+"MEMORY_GAME_COMPLETE_MESSAGE" = "Jatka napauttamalla Seuraava";
+
+/* (No Comment) */
+"MEMORY_GAME_COMPLETE_TITLE" = "Jakso valmis";
+
+/* (No Comment) */
+"MEMORY_GAME_COPYRIGHT_TEXT" = "Muisti-aktiviteetti on kehitetty University of California, San Franciscon PhD Katherine Possinin ja PhD Joel Kramerin avustuksella.";
+
+/* (No Comment) */
+"MEMORY_GAME_FAILED_MESSAGE" = "Et onnistunut tällä kertaa. Jatka napauttamalla Seuraava.";
+
+/* (No Comment) */
+"MEMORY_GAME_FAILED_TITLE" = "Yritä uudelleen";
+
+/* (No Comment) */
+"MEMORY_GAME_GAMEPLAY_REVERSE_TITLE_%@" = "Napauta %@ käänteisessä järjestyksessä";
+
+/* (No Comment) */
+"MEMORY_GAME_GAMEPLAY_TITLE_%@" = "Napauta %@ siinä järjestyksessä, kun ne syttyivät";
+
+/* (No Comment) */
+"MEMORY_GAME_ITEM_COUNT_TITLE_%@" = "%@";
+
+/* (No Comment) */
+"MEMORY_GAME_PAUSED_MESSAGE" = "Jatka napauttamalla Seuraava";
+
+/* (No Comment) */
+"MEMORY_GAME_PAUSED_TITLE" = "Keskeytetty";
+
+/* (No Comment) */
+"MEMORY_GAME_PLAYBACK_TITLE_%@" = "Katso %@, kun niihin syttyy valo.";
+
+/* (No Comment) */
+"MEMORY_GAME_SCORE_TITLE" = "Tulos";
+
+/* (No Comment) */
+"MEMORY_GAME_TIMEOUT_MESSAGE" = "Aika loppui.\nJatka napauttamalla Seuraava.";
+
+/* (No Comment) */
+"MEMORY_GAME_TIMEOUT_TITLE" = "Aika loppui";
+
+/* (No Comment) */
+"NULL_ANSWER" = "Valitse vastaus";
+
+/* (No Comment) */
+"PASAT_INTRO_TEXT" = "PASAT-testi (Paced Auditory Serial Addition Test) mittaa kuullun informaation käsittelynopeuttasi ja laskutaitoasi.";
+
+/* PSAT active task. */
+"PASAT_TITLE" = "PASAT";
+
+/* (No Comment) */
+"PASSCODE_AUTHENTICATED_MESSAGE" = "Pääsykoodi todennettu";
+
+/* (No Comment) */
+"PASSCODE_CONFIRM_MESSAGE" = "Vahvista pääsykoodi";
+
+/* (No Comment) */
+"PASSCODE_CONFIRM_NEW_ENTRY_MESSAGE" = "Vahvista uusi pääsykoodi";
+
+/* (No Comment) */
+"PASSCODE_FORGOT_BUTTON_TITLE" = "Unohditko pääsykoodin?";
+
+/* (No Comment) */
+"PASSCODE_INVALID_ALERT_MESSAGE" = "Pääsykoodit eivät täsmää. Yritä uudelleen.";
+
+/* (No Comment) */
+"PASSCODE_INVALID_ALERT_TITLE" = "Virheellinen pääsykoodi";
+
+/* (No Comment) */
+"PASSCODE_NEW_ENTRY_MESSAGE" = "Syötä uusi pääsykoodi";
+
+/* (No Comment) */
+"PASSCODE_OLD_ENTRY_MESSAGE" = "Syötä vanha pääsykoodi";
+
+/* Passcode step */
+"PASSCODE_PROMPT_MESSAGE" = "Syötä pääsykoodi";
+
+/* (No Comment) */
+"PASSCODE_SAVED_MESSAGE" = "Pääsykoodi tallennettu";
+
+/* (No Comment) */
+"PASSCODE_TEXTFIELD_ACCESSIBILITY_LABEL" = "Pääsykoodin syötön edistymisen osoitin";
+
+/* (No Comment) */
+"PASSCODE_TEXTFIELD_ACCESSIBILTIY_VALUE" = "%@ merkkiä yhteensä %@ merkistä syötetty";
+
+/* (No Comment) */
+"PASSCODE_TEXTFIELD_INVALID_INPUT_MESSAGE" = "Vain numerot ovat sallittuja.";
+
+/* (No Comment) */
+"PASSCODE_TOUCH_ID_ERROR_ALERT_TITLE" = "Touch ID -virhe";
+
+/* (No Comment) */
+"PASSCODE_TOUCH_ID_MESSAGE" = "Tunnistaudu Touch ID:llä";
+
+/* (No Comment) */
+"PASSWORD_FORM_ITEM_PLACEHOLDER" = "Syötä salasana";
+
+/* (No Comment) */
+"PASSWORD_FORM_ITEM_TITLE" = "Salasana";
+
+/* (No Comment) */
+"PAVSAT_INTRO_TEXT" = "PAVSAT-testi (Paced Auditory and Visual Serial Addition Test) mittaa kuullun ja nähdyn informaation käsittelynopeuttasi ja laskutaitoasi.";
+
+/* (No Comment) */
+"PAVSAT_TITLE" = "PAVSAT";
+
+/* (No Comment) */
+"PHONE_NUMBER_FORM_ITEM_PLACEHOLDER" = "+1 (555) 555 5555";
+
+/* (No Comment) */
+"PHONE_NUMBER_FORM_ITEM_TITLE" = "Puhelinnumero";
+
+/* (No Comment) */
+"PLACEHOLDER_IMAGE_CHOICES" = "Valitse napauttamalla";
+
+/* (No Comment) */
+"PLACEHOLDER_LONG_TEXT" = "Kirjoita napauttamalla";
+
+/* Default placeholders to request answers in a questionnaire. */
+"PLACEHOLDER_TEXT_OR_NUMBER" = "Vastaa napauttamalla";
+
+/* (No Comment) */
+"PSAT_CALL_TO_ACTION" = "Aloita napauttamalla Aloita-painiketta.";
+
+/* (No Comment) */
+"PSAT_INITIAL_INSTRUCTION" = "Muista tämä ensimmäinen numero.";
+
+/* (No Comment) */
+"PSAT_INSTRUCTION" = "Lisää tämä uusi numero edelliseen.";
+
+/* (No Comment) */
+"PSAT_INTRO_TEXT_2_%@" = "Yksittäisiä numeroita näytetään %@ sekunnin välein.\nKukin uusi numero on lisättävä sitä edeltäneeseen.\nHuomaa, että ei ole tarkoitus laskea jatkuvaa summaa, vaan vain kahden viimeisen numeron summa.";
+
+/* (No Comment) */
+"PSAT_NO_DIGIT" = "-";
+
+/* (No Comment) */
+"PVSAT_INTRO_TEXT" = "PVSAT-testi (Paced Visual Serial Addition Test) mittaa nähdyn informaation käsittelynopeuttasi ja laskutaitoasi.";
+
+/* (No Comment) */
+"PVSAT_TITLE" = "PVSAT";
+
+/* (No Comment) */
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ ylittää sallitun enimmäisarvon (%2$@).";
+
+/* (No Comment) */
+"RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ on alle sallitun vähimmäisarvon (%2$@).";
+
+/* (No Comment) */
+"RANGE_ALERT_MESSAGE_OTHER" = "%@ ei ole kelvollinen arvo.";
+
+/* Alert for out of range values. */
+"RANGE_ALERT_TITLE" = "Virheellinen arvo";
+
+/* Range of Motion active task */
+"RANGE_OF_MOTION_TITLE" = "Liikeulottuvuus";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_ACTIVE_STEP_TITLE" = "Kun sininen ympyrä tulee näkyviin, ravista nopeasti laitetta";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_ATTEMPTS_FORMAT" = "Yritys %@ / %@";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_CALL_TO_ACTION" = "Aloita napauttamalla Aloita-painiketta.";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_INTENDED_USE" = "Tämä aktiviteetti mittaa aikaa, joka sinulta kuluu vastata visuaaliseen tapahtumaan.";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_INTRO_TEXT_FORMAT" = "Ravista laitetta mihin tahansa suuntaan heti, kun sininen piste tulee näkyviin. Sinua pyydetään tekemään tämä %D kertaa.";
+
+/* Reaction time active task. */
+"REACTION_TIME_TASK_TITLE" = "Reaktioaika";
+
+/* (No Comment) */
+"RESEND_EMAIL_BUTTON_TITLE" = "Lähetä uusi vahvistussähköposti";
+
+/* (No Comment) */
+"RESEND_EMAIL_LABEL_MESSAGE" = "Napauta alla olevaa linkkiä, jos et saanut vahvistussähköpostia ja haluat, että se lähetetään uudelleen.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_LEFT" = "Nosta vasen käsi ylös. Napauta sitten johonkin.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_RIGHT" = "Nosta oikea käsi ylös. Napauta sitten johonkin.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_LEFT" = "Tämä aktiviteetti mittaa kuinka pitkälle voit ojentaa vasemman olkapääsi.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_RIGHT" = "Tämä aktiviteetti mittaa kuinka pitkälle voit ojentaa oikean olkapääsi.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_LEFT" = "Aloitettaessa laite asetetaan mittausta varten vasemmalle olkapäälle. Laita laitteesi ääni päälle, jotta kuulet ohjeet.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_RIGHT" = "Aloitettaessa laite asetetaan mittausta varten oikealle olkapäälle. Laita laitteesi ääni päälle, jotta kuulet ohjeet.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_LEFT" = "Aseta laite vasemmalle olkapäälle näyttö ulospäin, kuten kuvassa.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_RIGHT" = "Aseta laite oikealle olkapäälle näyttö ulospäin, kuten kuvassa.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_LEFT" = "Kun olet valmis, napauta näyttöä ja nosta vasen käsi niin korkealle kuin pystyt. Kun olet tehnyt tämän, napauta uudelleen.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_RIGHT" = "Kun olet valmis, napauta näyttöä ja nosta oikea käsi niin korkealle kuin pystyt. Kun olet tehnyt tämän, napauta uudelleen.";
+
+/* Shoulder Range of Motion active task */
+"SHOULDER_RANGE_OF_MOTION_TITLE_LEFT" = "Vasemman olkapään liikealue";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TITLE_RIGHT" = "Oikean olkapään liikealue";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_LEFT" = "Aseta laite vasemmalle olkapäälle";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_RIGHT" = "Aseta laite oikealle olkapäälle";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_CALL_TO_ACTION" = "Aloita napauttamalla Aloita ja katso tarkasti.";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_%@" = "Näet yksi kerrallaan syttyviä %@. Napauta %@ samassa järjestyksessä kuin ne syttyivät.";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_REVERSE_%@" = "Näet yksi kerrallaan syttyviä %@. Napauta %@ käänteisessä syttymisjärjestyksessä.";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_INTRO_TEXT_%@" = "Tämä aktiiviteetti mittaa lyhytaikaista avaruudellista muistiasi. Toista järjestys, jossa %@ syttyy.";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_TARGET_PLURAL" = "kukkia";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_TARGET_STANDALONE" = "kukkia";
+
+/* Spatial span memory active task. */
+"SPATIAL_SPAN_MEMORY_TITLE" = "Avaruudellinen muisti";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_CALIBRATION_TEXT" = "Napauta Toista ääni, säädä äänenvoimakkuus sopivalle tasolle ja jatka napauttamalla Pysäytä ääni.";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_CALIBRATION_TITLE" = "Äänenvoimakkuuden kalibrointi";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_INTRO_TEXT" = "Tämä aktiviteetti mittaa puheen havaitsemista meluisassa ympäristössä.";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_SPEAK_TEXT" = "Toista kuulemasi.";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_SPEAK_TITLE" = "Puhu";
+
+/* Speech In Noise active task. */
+"SPEECH_IN_NOISE_START_AUDIO_LABEL" = "Toista ääni";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_STEP_TEXT" = "Virke, johon on sekoitettu taustakohinaa satunnaisessa signaali-kohinasuhteessa (SNR), toistetaan vain kerran.";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_STEP_TITLE" = "Kuuntele";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_STOP_AUDIO_LABEL" = "Pysäytä ääni";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_TITLE" = "Puhe kohinan seassa";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_CALL_TO_ACTION" = "Aloita napauttamalla Aloita-painiketta.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_FAILED" = "Puheentunnistus epäonnistui.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_INIT_FAILURE" = "Puheentunnistuksen alustaminen epäonnistui.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_INTRO_2_TEXT" = "Aloita äänitys ennen puhumista painamalla painiketta.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_INTRO_TEXT" = "Tämä aktiviteetti tallentaa puhettasi laitteen alareunassa olevalla mikrofonilla ja muuntaa sen tekstiksi.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_QUESTION_TEXT" = "Korjaa mahdolliset väärintunnistetut kohdat muokkaamalla muunnettua tekstiä.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_QUESTION_TITLE" = "Muokkaa tekstiä";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_START_RECORD_LABEL" = "Aloita tallentaminen";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_STOP_RECORD_LABEL" = "Lopeta tallentaminen";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_TRANSCRIPTION_LABEL" = "Muunnettu teksti näkyy tässä.";
+
+/* Speech Recognition active task. */
+"SPEECH_TASK_TITLE" = "Puheentunnistus";
+
+/* Progress indication (in navigation bar). */
+"STEP_PROGRESS_FORMAT" = "%1$@ / %2$@";
+
+/* (No Comment) */
+"STROOP_COLOR_BLUE" = "SININEN";
+
+/* (No Comment) */
+"STROOP_COLOR_BLUE_INITIAL" = "S";
+
+/* (No Comment) */
+"STROOP_COLOR_GREEN" = "VIHREÄ";
+
+/* (No Comment) */
+"STROOP_COLOR_GREEN_INITIAL" = "V";
+
+/* (No Comment) */
+"STROOP_COLOR_RED" = "PUNAINEN";
+
+/* (No Comment) */
+"STROOP_COLOR_RED_INITIAL" = "P";
+
+/* (No Comment) */
+"STROOP_COLOR_YELLOW" = "KELTAINEN";
+
+/* (No Comment) */
+"STROOP_COLOR_YELLOW_INITIAL" = "K";
+
+/* (No Comment) */
+"STROOP_TASK_INTRO1_DETAIL_TEXT" = "Kun sana tulee näkyviin, valitse näytettävän VÄRIN nimen ensimmäinen kirjain.";
+
+/* (No Comment) */
+"STROOP_TASK_INTRO2_DETAIL_TEXT" = "Kun olet valmis aloittamaan Stroop-aktiviteetin, napauta Aloita.";
+
+/* (No Comment) */
+"STROOP_TASK_STEP_TEXT" = "Valitse näytettävän VÄRIN nimen ensimmäinen kirjain.";
+
+/* Stroop active task. */
+"STROOP_TASK_TITLE" = "Stroop";
+
+/* (No Comment) */
+"TAP_BUTTON_TITLE" = "Napauta";
+
+/* (No Comment) */
+"TAPPING_CALL_TO_ACTION" = "Aloita napauttamalla Aloita-painiketta.";
+
+/* (No Comment) */
+"TAPPING_CALL_TO_ACTION_NEXT" = "Aloita napauttamalla Seuraava.";
+
+/* (No Comment) */
+"TAPPING_INSTRUCTION" = "Napauta painikkeita niin tasaisesti kuin pystyt kahdella sormella.";
+
+/* (No Comment) */
+"TAPPING_INSTRUCTION_LEFT" = "Napauta painikkeita VASEMMALLA kädellä.";
+
+/* (No Comment) */
+"TAPPING_INSTRUCTION_RIGHT" = "Napauta painikkeita OIKEALLA kädellä.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT" = "Tämä aktiviteetti mittaa napautusnopeuttasi.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_FORMAT" = "Napauta yhtä sormea ja sitten toista. Yritä ajoittaa napautukset mahdollisimman tasaisesti. Napauttele %@.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_LEFT_FIRST" = "Käytä vasemman käden kahta sormea näytön painikkeiden napauttamiseen vuorotellen.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_LEFT_SECOND" = "Suorita nyt sama testi vasemmalla kädellä.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_MOST_AFFECTED" = "Käytä saman käden kahta sormea näytön painikkeiden napauttamiseen vuorotellen.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_REST_PHONE" = "Laita laite tasaiselle alustalle.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_RIGHT_FIRST" = "Käytä oikean käden kahta sormea näytön painikkeiden napauttamiseen vuorotellen.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_RIGHT_SECOND" = "Suorita nyt sama testi oikealla kädellä.";
+
+/* (No Comment) */
+"TAPPING_SKIP_TITLE" = "Ohita tämä käsi";
+
+/* Tapping active task. */
+"TAPPING_TASK_TITLE" = "Napautusnopeus";
+
+/* (No Comment) */
+"TAPPING_TASK_TITLE_LEFT" = "Vasen käsi";
+
+/* (No Comment) */
+"TAPPING_TASK_TITLE_RIGHT" = "Oikea käsi";
+
+/* (No Comment) */
+"TASK_COMPLETE_TEXT" = "Datasi analysoidaan ja sinulle ilmoitetaan, kun tuloksesi ovat valmiina.";
+
+/* (No Comment) */
+"TASK_COMPLETE_TITLE" = "Aktiviteetti valmis";
+
+/* Alert for exceeding length limit in text answer */
+"TEXT_ANSWER_EXCEEDING_MAX_LENGTH_ALERT_MESSAGE" = "Tekstisisältö ylittää maksimipituuden: %@";
+
+/* (No Comment) */
+"TIMED_WALK_FORM_TEXT" = "Käytä samaa apuvälinettä kaikissa testeissä.";
+
+/* (No Comment) */
+"TIMED_WALK_FORM_TITLE" = "Apuväline";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_%@" = "Kävele %@ suoraan.";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_2" = "Kävele takaisin alkupisteeseen.";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_TEXT" = "Kun se on tehty, napauta Seuraava.";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_TURN" = "Käänny ympäri.";
+
+/* (No Comment) */
+"TIMED_WALK_INTRO_2_DETAIL" = "Aloita napauttamalla Seuraava.";
+
+/* (No Comment) */
+"TIMED_WALK_INTRO_2_TEXT_%@" = "Etsi mieluiten ulkoa paikka, jossa voit turvallisesti kävellä suoraan noin %@ niin nopeasti kuin mahdollista. Älä hidasta ennen kuin olet ylittänyt maaliviivan.";
+
+/* (No Comment) */
+"TIMED_WALK_INTRO_DETAIL" = "Tämä aktiviteetti mittaa alaraajojen toimintaa.";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE" = "Ei mitään";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_2" = "Yksi kävelykeppi";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_3" = "Yksi kainalosauva";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_4" = "Kaksi kävelykeppiä";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_5" = "Kaksi kainalosauvaa";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_6" = "Kävelytuki/rollaattori";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_TEXT" = "Valitse vastaus napauttamalla tähän.";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_TITLE" = "Käytätkö apuvälinettä?";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_TEXT" = "Käytätkö nilkkatukea?";
+
+/* Timed walk active task. */
+"TIMED_WALK_TITLE" = "Ajoitettu kävely";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_CALL_TO_ACTION" = "Aloita napauttamalla Aloita-painiketta.";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_INSTRUCTION" = "Kun kuulet äänen, napauta vasenta tai oikeaa painiketta riippuen siitä, kummalla korvalla kuulet äänen.";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_INTENDED_USE" = "Tämä aktiviteetti mittaa kykyäsi kuulla erilaisia ääniä.";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_INTRO_TEXT" = "Ennen kuin aloitat, liitä kuulokkeet ja laita ne päälle.\n\nÄäni on hyvin huomaamaton ja erilainen kuin tavalliset merkkiäänet. Ääni alkaa hiljaisena ja vahvistuu sitten. Ole tarkkaavainen ja napauta vasenta tai oikeaa painiketta riippuen siitä, kummalla korvalla kuulet äänen.";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_LABEL_LEFT_EAR" = "Vasen korva";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_LABEL_RIGHT_EAR" = "Oikea korva";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_PREP_TEXT" = "Sinun pitäisi nyt kuulla ääni. Säädä voimakkuutta laitteen sivussa olevilla säätimillä.\n\nNapauta jotakin painiketta kun olet valmis aloittamaan.";
+
+/* Tone audiometry active task. */
+"TONE_AUDIOMETRY_TASK_TITLE" = "Audiometria";
+
+/* (No Comment) */
+"TONE_LABEL_%@_LEFT" = "%@ Hz, vasen";
+
+/* (No Comment) */
+"TONE_LABEL_%@_RIGHT" = "%@ Hz, oikea";
+
+/* (No Comment) */
+"TOTAL_TAPS_LABEL" = "Napautuksia yhteensä";
+
+/* (No Comment) */
+"TOUCH_ANYWHERE_LABEL" = "Jatka koskettamalla mihin tahansa";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_ACTIVE_STEP_INTRO_TEXT" = "Ratkaise tehtävä";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_ACTIVE_STEP_SKIP_BUTTON_TITLE" = "En osaa ratkaista tätä tehtävää";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_INTENDED_USE" = "Tämä aktiviteetti arvioi ongelmanratkaisukykyä.";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_INTRO_TEXT" = "Siirrä koko pino korostetulle alustalle mahdollisimman vähillä siirroilla.";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_TASK_CALL_TO_ACTION" = "Aloita napauttamalla Aloita-painiketta.";
+
+/* Tower of Hanoi active task */
+"TOWER_OF_HANOI_TASK_TITLE" = "Hanoin torni";
+
+/* (No Comment) */
+"TRAILMAKING_CALL_TO_ACTION" = "Aloita napauttamalla Aloita-painiketta.";
+
+/* (No Comment) */
+"TRAILMAKING_ERROR" = "%@ (%d virhe)";
+
+/* (No Comment) */
+"TRAILMAKING_ERROR_PLURAL" = "%@ (%d virhettä)";
+
+/* (No Comment) */
+"TRAILMAKING_INTENDED_USE" = "Tämä aktiviteetti arvioi visuaalista tarkkaavaisuutta ja tehtävänvaihtoa mittaamalla aikaa, joka kuluu pisteiden napautteluun järjestyksessä.";
+
+/* (No Comment) */
+"TRAILMAKING_INTENDED_USE2_A" = "Napauta lähtölaskennan jälkeen vuorotellen pisteitä numeroiden ja kirjainten välillä. Aloita napauttamalla ensimmäistä numeroa ’1’ ja sen jälkeen numeroita ’2’ – ’3’ – ’4’…, kunnes saavutat numeron ’7’.";
+
+/* (No Comment) */
+"TRAILMAKING_INTENDED_USE2_B" = "Napauta lähtölaskennan jälkeen vuorotellen pisteitä numeroiden ja kirjainten välillä. Aloita napauttamalla ensimmäistä numeroa ’1’ ja sen jälkeen ensimmäistä kirjainta ’A’, ja sitten ’2’ – ’B’ – ’3’ – ’C’…, kunnes saavutat numeron ’7’.";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_A" = "A";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_B" = "S";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_C" = "C";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_D" = "D";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_E" = "E";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_F" = "F";
+
+/* Trail making task. */
+"TRAILMAKING_TASK_TITLE" = "Trail Making Test";
+
+/* (No Comment) */
+"TRAILMAKING_TIMER" = "%.1f s";
+
+/* (No Comment) */
+"TREMOR_SKIP_LEFT_HAND" = "En voi suorittaa tätä aktiviteettia VASEMMALLA kädellä.";
+
+/* (No Comment) */
+"TREMOR_SKIP_NEITHER" = "Voin suorittaa tämän aktiviteetin molemmilla käsillä.";
+
+/* (No Comment) */
+"TREMOR_SKIP_RIGHT_HAND" = "En voi suorittaa tätä aktiviteettia OIKEALLA kädellä.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INSTRUCTION_%ld" = "Pidä puhelinta kyynärpää taivutettuna %ld sekuntia";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INTRO" = "Pidä puhelinta nyt olkapään korkeudella kyynärpää taivutettuna.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INTRO_LEFT" = "Pidä puhelinta nyt VASEMMALLA kädellä olkapään korkeudella kyynärpää taivutettuna.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INTRO_RIGHT" = "Pidä puhelinta nyt OIKEALLA kädellä olkapään korkeudella kyynärpää taivutettuna.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INSTRUCTION_%ld" = "Pidä puhelinta käsi suorana %ld sekuntia.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INTRO" = "Pidä puhelinta nyt käsi suorana olkapään korkeudella.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INTRO_LEFT" = "Pidä puhelinta nyt VASEN käsi suorana olkapään korkeudella.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INTRO_RIGHT" = "Pidä puhelinta nyt OIKEA käsi suorana olkapään korkeudella.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_FINISHED_INSTRUCTION" = "Jatka seuraavaan tehtävään.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INSTRUCTION_%ld" = "Pidä puhelinta sylissäsi %ld sekuntia.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INTRO" = "Valmistaudu pitämään puhelinta sylissäsi.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INTRO_LEFT" = "Valmistaudu pitämään puhelinta sylissäsi VASEMMALLA kädellä.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INTRO_RIGHT" = "Valmistaudu pitämään puhelinta sylissäsi OIKEALLA kädellä.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_INTRO_TEXT" = "Jatka napauttamalla Seuraava.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_SWITCH_HANDS_LEFT_INSTRUCTION" = "Vaihda puhelin nyt VASEMPAAN käteen ja jatka seuraavaan tehtävään.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_SWITCH_HANDS_RIGHT_INSTRUCTION" = "Vaihda puhelin nyt OIKEAAN käteen ja jatka seuraavaan tehtävään.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INSTRUCTION_%ld" = "Kosketa puhelimella nenääsi toistuvasti %ld sekuntia";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INTRO" = "Kosketa nyt puhelimella nenääsi toistuvasti pitäen kyynärpäätä taivutettuna.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INTRO_LEFT" = "Kosketa nyt puhelimella nenääsi toistuvasti pitäen puhelinta VASEMMASSA kädessä ja kyynärpäätä taivutettuna.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INTRO_RIGHT" = "Kosketa nyt puhelimella nenääsi toistuvasti pitäen puhelinta OIKEASSA kädessä ja kyynärpäätä taivutettuna.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INSTRUCTION_%ld" = "Vilkuta kuninkaallisesti %ld sekuntia.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INTRO" = "Valmistaudu vilkuttamaan kuninkaallisesti (vilkuttamaan rannetta pyörittämällä).";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INTRO_LEFT" = "Valmistaudu puhelin VASEMMASSA kädessä vilkuttamaan kuninkaallisesti (vilkuttamaan rannetta pyörittämällä).";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INTRO_RIGHT" = "Valmistaudu puhelin OIKEASSA kädessä vilkuttamaan kuninkaallisesti (vilkuttamaan rannetta pyörittämällä).";
+
+/* (No Comment) */
+"TREMOR_TEST_COMPLETED_INSTRUCTION" = "Aktiviteetti valmis.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_1_DETAIL" = "Tämä aktiviteetti mittaa käsiesi vapinaa eri asennoissa. Etsi paikka, jossa voit istua mukavasti tämän aktiviteetin keston ajan.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DEFAULT_TEXT" = "Pidä puhelinta alla olevan kuvan mukaisesti kädessä, jossa vaikutus on voimakkaampi.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_1_TASK" = "tehtävä";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_2_TASK" = "kaksi tehtävää";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_3_TASK" = "kolme tehtävää";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_4_TASK" = "neljä tehtävää";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_5_TASK" = "viisi tehtävää";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_DEFAULT_%@" = "Sinua pyydetään suorittamaan %@ puhelin kädessä istuen.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_LEFT_HAND_TEXT" = "Pidä puhelinta alla olevan kuvan mukaisesti VASEMMASSA kädessä.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_RIGHT_HAND_TEXT" = "Pidä puhelinta alla olevan kuvan mukaisesti OIKEASSA kädessä.";
+
+/* (No Comment) */
+"TREMOR_TEST_SKIP_QUESTION_BOTH_HANDS_%@" = "Sinua pyydetään suorittamaan %@ istuen, ensin puhelin toisessa kädessä ja sitten toisessa.";
+
+/* Tremor test active task. */
+"TREMOR_TEST_TITLE" = "Vapina-aktiviteetti";
+
+/* Verification step */
+"VERIFICATION_NAV_TITLE" = "Vahvistus";
+
+/* (No Comment) */
+"VERIFICATION_STEP_TITLE" = "Vahvista sähköpostisi";
+
+/* (No Comment) */
+"WALK_BACK_AND_FORTH_FINISHED_VOICE" = "Aktiviteetti on suoritettu.";
+
+/* (No Comment) */
+"WALK_BACK_AND_FORTH_INSTRUCTION_FORMAT" = "Kävele suoraa reittiä edestakaisin %@. Kävele, kuten kävelisit tavallisesti.";
+
+/* (No Comment) */
+"WALK_BACK_AND_FORTH_STAND_INSTRUCTION_FORMAT" = "Käänny kokonaan ympäri ja seiso paikallasi %@.";
+
+/* (No Comment) */
+"WALK_INTRO_2_DETAIL" = "Laita laite taskuun tai laukkuun ja seuraa ääniohjeita.";
+
+/* (No Comment) */
+"WALK_INTRO_2_DETAIL_BACK_AND_FORTH_INSTRUCTION" = "Kun olet valmis, napauta Aloita.\nLaita sitten laite taskuun tai laukkuun ja seuraa ääniohjeita.";
+
+/* (No Comment) */
+"WALK_INTRO_2_TEXT_%ld" = "Etsi paikka, jossa voit turvallisesti kävellä avustamatta noin %ld askelta suoraan.";
+
+/* Short walk back and forth. */
+"WALK_INTRO_2_TEXT_BACK_AND_FORTH_INSTRUCTION" = "Etsi paikka, jossa voit turvallisesti kävellä suoraa reittiä edestakaisin. Yritä kävellä jatkuvasti kääntyen reitin päissä ikään kuin kiertäisit liikenteenohjainta.\n\nSeuraavaksi sinua pyydetään kääntymään ympäri täysi kierros, ja sitten seisomaan paikallasi kädet sivuilla ja jalat noin hartianleveyden etäisyydellä toisistaan.";
+
+/* (No Comment) */
+"WALK_INTRO_TEXT" = "Tämä aktiviteetti arvioi askellustasi ja tasapainoasi, kun kävelet tasaisesti ja seisot. Älä jatka, jos et pysty turvallisesti kävelemään avustamatta.";
+
+/* (No Comment) */
+"WALK_OUTBOUND_INSTRUCTION_FORMAT" = "Kävele enintään %ld askelta suoraan.";
+
+/* (No Comment) */
+"WALK_RETURN_INSTRUCTION_FORMAT" = "Käänny ympäri ja kävele takaisin alkupisteeseen.";
+
+/* (No Comment) */
+"WALK_STAND_INSTRUCTION_FORMAT" = "Seiso paikoillaan %@.";
+
+/* (No Comment) */
+"WALK_STAND_VOICE_INSTRUCTION_FORMAT" = "Seiso nyt paikoillaan %@.";
+
+/* Short walk active task. */
+"WALK_TASK_TITLE" = "Askeleet ja tasapaino";
+
