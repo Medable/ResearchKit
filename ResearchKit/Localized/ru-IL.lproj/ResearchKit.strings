@@ -1,0 +1,1479 @@
+/* (No Comment) */
+"ADDITIONAL_INFO_SECTION_TITLE" = "Дополнительная информация";
+
+/* (No Comment) */
+"AMSLER_GRID_INSTRUCTION_DETAIL_TEXT" = "Закройте %@ и смотрите на точку в центре сетки.\n\nИспользуя стилус или палец, отметьте любые дефекты сетки, которые заметите, например, волны или искривления линий сетки.\n\nКогда будете готовы, смахните влево в любом месте, где нет сетки.";
+
+/* (No Comment) */
+"AMSLER_GRID_INSTRUCTION_TEXT" = "Во время теста держите устройство на уровне глаз и в 30 сантиметрах от лица.";
+
+/* (No Comment) */
+"AMSLER_GRID_INTRO_TEXT" = "Это задание позволяет установить наличие проблем со зрением.";
+
+/* (No Comment) */
+"AMSLER_GRID_LEFT_EYE" = "левый глаз";
+
+/* (No Comment) */
+"AMSLER_GRID_RIGHT_EYE" = "правый глаз";
+
+/* Amsler Grid Task. */
+"AMSLER_GRID_TITLE" = "Сетка Амслера";
+
+/* (No Comment) */
+"AUDIO_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать».";
+
+/* (No Comment) */
+"AUDIO_GENERIC_ERROR_LABEL" = "Не удается записать аудио";
+
+/* (No Comment) */
+"AUDIO_INSTRUCTION" = "Произносите «Ааааа» в микрофон как можно дольше.";
+
+/* (No Comment) */
+"AUDIO_INTENDED_USE" = "Во время выполнения этого задания оцениваются характеристики Вашего голоса, который записывается микрофоном, расположенным в нижней части устройства.";
+
+/* (No Comment) */
+"AUDIO_INTRO_TEXT" = "Сделайте глубокий вдох и произнесите «Ааааа» в микрофон как можно дольше. Сохраняйте такую громкость голоса, чтобы полоски звука на диаграмме оставались синими.";
+
+/* (No Comment) */
+"AUDIO_LEVEL_CHECK_LABEL" = "Подождите, пока устройство измерит уровень фонового шума.";
+
+/* Audio active task. */
+"AUDIO_TASK_TITLE" = "Голос";
+
+/* (No Comment) */
+"AUDIO_TOO_LOUD_ACTION_NEXT" = "Коснитесь «Далее», когда будете готовы.";
+
+/* (No Comment) */
+"AUDIO_TOO_LOUD_LABEL" = "Слишком громко";
+
+/* (No Comment) */
+"AUDIO_TOO_LOUD_MESSAGE" = "Уровень фонового шума слишком большой и не позволяет записать Ваш голос. Найдите более тихое место и повторите попытку.";
+
+/* (No Comment) */
+"AX_AMSLER_GRID_HINT" = "Отметьте участки сетки стилусом или пальцем или смахните влево в любом месте, где нет сетки, чтобы закончить тест.";
+
+/* (No Comment) */
+"AX_AMSLER_GRID_LABEL" = "Сетка Амслера";
+
+/* (No Comment) */
+"AX_ANNOUNCE_BEGIN_TASK" = "Приступить";
+
+/* (No Comment) */
+"AX_AUDIO_BAR_GRAPH" = "Столбчатый график звука";
+
+/* (No Comment) */
+"AX_BUTTON_ANNOTATE" = "Добавить пометку";
+
+/* Accessibility */
+"AX_BUTTON_BACK" = "Назад";
+
+/* (No Comment) */
+"AX_BUTTON_HIDE_PDF_THUMBNAIL" = "Скрыть миниатюру PDF";
+
+/* (No Comment) */
+"AX_BUTTON_HIDE_SEARCH" = "Скрыть строку поиска";
+
+/* (No Comment) */
+"AX_BUTTON_SHARE" = "Поделиться";
+
+/* (No Comment) */
+"AX_BUTTON_SHOW_PDF_THUMBNAIL" = "Показать миниатюру PDF";
+
+/* (No Comment) */
+"AX_BUTTON_SHOW_SEARCH" = "Показать строку поиска";
+
+/* (No Comment) */
+"AX_COMPLETION_ILLUSTRATION" = "Обозначение в виде галочки в синем кружке, означающее успешное выполнение";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_dBHL_TONE_AUDIOMETRY_INTRO_TEXT" = "%@ При использовании VoiceOver кнопка будет активна и расположена рядом с центром экрана.";
+
+/* (No Comment) */
+"AX_DISMISS_KEYBOARD_CUSTOM_ACTION" = "Сбросить клавиатуру";
+
+/* (No Comment) */
+"AX_GRAPH_AND_SEPARATOR" = " и ";
+
+/* (No Comment) */
+"AX_GRAPH_POINT_%@" = "Точка: %@";
+
+/* (No Comment) */
+"AX_GRAPH_RANGE_FORMAT_%@_%@" = "Диапазон от %@ до %@";
+
+/* (No Comment) */
+"AX_GRAPH_STACK_PREFIX" = "Набор, состоящий из";
+
+/* (No Comment) */
+"AX_IMAGE_CAPTURE_LABEL" = "Просмотр изображения";
+
+/* (No Comment) */
+"AX_IMAGE_CAPTURED_LABEL" = "Отснятое изображение";
+
+/* (No Comment) */
+"AX_SELECTED" = "Выбрано";
+
+/* (No Comment) */
+"AX_SIGNVIEW_HINT" = "Прикоснитесь к экрану и проведите по нему пальцем, чтобы оставить подпись";
+
+/* (No Comment) */
+"AX_SIGNVIEW_LABEL" = "Место для подписи";
+
+/* (No Comment) */
+"AX_SIGNVIEW_SIGNED" = "Подписано";
+
+/* (No Comment) */
+"AX_SIGNVIEW_UNSIGNED" = "Не подписано";
+
+/* (No Comment) */
+"AX_SLIDER_LABEL" = "Бегунок ответа. Диапазон от %@ до %@";
+
+/* (No Comment) */
+"AX_SPEECH_RECOGNITION_START_RECORDING_HINT" = "После того как запись начнется, для ее остановки нажмите кнопку записи еще раз.";
+
+/* (No Comment) */
+"AX_SPEECH_RECOGNITION_WAVEFORM" = "Речь в виде формы волны";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_1_LABEL" = "Нажмите одним пальцем";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_2_LABEL" = "Нажмите другим пальцем";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_DIRECT_TOUCH_ANNOUNCEMENT" = "Теперь кнопки активны.";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_DIRECT_TOUCH_AREA" = "Активные кнопки";
+
+/* (No Comment) */
+"AX_TAP_BUTTON_HINT" = "Необходима активация кнопок.";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_TAPPING_INSTRUCTION_VOICEOVER" = "%@ Используя VoiceOver, изучите экран и ознакомьтесь с расположением кнопок. Активируйте любую из кнопок, чтобы их можно было нажимать.";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_HINT" = "Активируйте кнопку, чтобы приступить к исследованию. Когда оно начнется и в левом ухе прозвучит звуковой сигнал, нажмите эту кнопку.";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_LEFT_EAR_LABEL" = "Левое ухо";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_HINT" = "Активируйте кнопку, чтобы приступить к исследованию. Когда оно начнется и в правом ухе прозвучит звуковой сигнал, нажмите эту кнопку.";
+
+/* (No Comment) */
+"AX_TONE_AUDIOMETRY_BUTTON_RIGHT_EAR_LABEL" = "Правое ухо";
+
+/* This contains the visual text, followed by a VoiceOver-specific description, followed by the visual text on the following page (since VoiceOver users may not have a chance to hear the visual text before needing to perform the actions). */
+"AX_TONE_AUDIOMETRY_PREP_TEXT_VOICEOVER" = "%@ Используя VoiceOver, изучите экран и ознакомьтесь с расположением кнопок для каждого уха. Когда исследование начнется, кнопки активируются. %@";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_INVALID_MOVE_FORMAT" = "Нельзя положить кольцо размера %@ на кольцо размера %@";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_PLACE_DISK" = "Коснитесь дважды, чтобы положить кольцо";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_SELECT_DISK" = "Коснитесь дважды, чтобы выбрать самое верхнее кольцо";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TARGET_DISK" = "Цель";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TOWER" = "Башня";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TOWER_CONTAINS" = "Содержит кольцо размеров: %@";
+
+/* (No Comment) */
+"AX_TOWER_OF_HANOI_TOWER_EMPTY" = "Пусто";
+
+/* This contains the visual text, followed by a VoiceOver-specific description. */
+"AX_TRAILMAKING_CALL_TO_ACTION_VOICEOVER" = "%@ При использовании VoiceOver кнопки будут активированы.";
+
+/* (No Comment) */
+"AX_UNLABELED_IMAGE" = "Изображение без подписи";
+
+/* (No Comment) */
+"AX_UNSELECTED" = "Не выбрано";
+
+/* (No Comment) */
+"AX_VIDEO_CAPTURE_COMPLETE" = "Запись видео завершена";
+
+/* (No Comment) */
+"AX_VIDEO_CAPTURE_LABEL" = "Просмотр записанного видео";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.ACTIVE" = "активно";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.CORRECT" = "верно";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.INCORRECT" = "неверно";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.LABEL" = "Игра на проверку памяти";
+
+/* (No Comment) */
+"AX.MEMORY.TILE.QUIESCENT" = "неподвижно";
+
+/* (No Comment) */
+"BLOOD_TYPE_A-" = "A(II)Rh‑";
+
+/* Blood types */
+"BLOOD_TYPE_A+" = "A(II)Rh+";
+
+/* (No Comment) */
+"BLOOD_TYPE_AB-" = "AB(IV)Rh‑";
+
+/* (No Comment) */
+"BLOOD_TYPE_AB+" = "AB(IV)Rh+";
+
+/* (No Comment) */
+"BLOOD_TYPE_B-" = "B(III)Rh‑";
+
+/* (No Comment) */
+"BLOOD_TYPE_B+" = "B(III)Rh+";
+
+/* (No Comment) */
+"BLOOD_TYPE_O-" = "O(I)Rh‑";
+
+/* (No Comment) */
+"BLOOD_TYPE_O+" = "O(I)Rh+";
+
+/* Boolean answer strings */
+"BOOL_NO" = "Нет";
+
+/* (No Comment) */
+"BOOL_YES" = "Да";
+
+/* Button titles */
+"BUTTON_AGREE" = "Принимаю";
+
+/* (No Comment) */
+"BUTTON_APPLY" = "Применить";
+
+/* (No Comment) */
+"BUTTON_CANCEL" = "Отменить";
+
+/* (No Comment) */
+"BUTTON_CLEAR" = "Очистить";
+
+/* (No Comment) */
+"BUTTON_CLEAR_ANSWER" = "Очистить ответ";
+
+/* (No Comment) */
+"BUTTON_COPYRIGHT" = "Авторские права";
+
+/* (No Comment) */
+"BUTTON_DISAGREE" = "Не принимаю";
+
+/* (No Comment) */
+"BUTTON_DONE" = "Готово";
+
+/* (No Comment) */
+"BUTTON_GET_STARTED" = "Начать";
+
+/* (No Comment) */
+"BUTTON_LEARN_MORE" = "Подробнее";
+
+/* (No Comment) */
+"BUTTON_NEXT" = "Далее";
+
+/* (No Comment) */
+"BUTTON_OK" = "ОК";
+
+/* (No Comment) */
+"BUTTON_OPTION_DISCARD" = "Сбросить результаты";
+
+/* (No Comment) */
+"BUTTON_OPTION_SAVE" = "Сохранить на потом";
+
+/* (No Comment) */
+"BUTTON_OPTION_STOP_TASK" = "Завершить";
+
+/* (No Comment) */
+"BUTTON_READ_ONLY_MODE" = "Этот ответ нельзя изменить.";
+
+/* (No Comment) */
+"BUTTON_SAVE" = "Сохранить";
+
+/* (No Comment) */
+"BUTTON_SKIP" = "Пропустить";
+
+/* (No Comment) */
+"BUTTON_SKIP_QUESTION" = "Пропустить этот вопрос";
+
+/* (No Comment) */
+"BUTTON_START_TIMER" = "Запустить таймер";
+
+/* Camera not available during multitasking */
+"CAMERA_UNAVAILABLE_MESSAGE" = "Камера недоступна в разделенном экране.";
+
+/* Image capture step. */
+"CAPTURE_BUTTON_CAPTURE_IMAGE" = "Захват изображения";
+
+/* Video capture step. */
+"CAPTURE_BUTTON_CAPTURE_VIDEO" = "Начать запись";
+
+/* (No Comment) */
+"CAPTURE_BUTTON_RECAPTURE_IMAGE" = "Повторный захват изображения";
+
+/* (No Comment) */
+"CAPTURE_BUTTON_RECAPTURE_VIDEO" = "Снять видео еще раз";
+
+/* (No Comment) */
+"CAPTURE_BUTTON_STOP_CAPTURE_VIDEO" = "Остановить запись";
+
+/* (No Comment) */
+"CAPTURE_ERROR_CAMERA_NOT_FOUND" = "Камера не найдена. Данный этап не может быть завершен.";
+
+/* (No Comment) */
+"CAPTURE_ERROR_CANNOT_WRITE_FILE" = "Не удается сохранить полученное изображение.";
+
+/* (No Comment) */
+"CAPTURE_ERROR_NO_OUTPUT_DIRECTORY" = "Не указана папка для сохранения полученных изображений.";
+
+/* (No Comment) */
+"CAPTURE_ERROR_NO_PERMISSIONS" = "Для выполнения этого шага необходимо в Настройках разрешить этой программе доступ к камере.";
+
+/* Charts */
+"CHART_NO_DATA_TEXT" = "Нет данных";
+
+/* (No Comment) */
+"CONFIRM_PASSWORD_ERROR_MESSAGE" = "Пароли не совпадают.";
+
+/* (No Comment) */
+"CONFIRM_PASSWORD_FORM_ITEM_PLACEHOLDER" = "Введите пароль снова";
+
+/* (No Comment) */
+"CONFIRM_PASSWORD_FORM_ITEM_TITLE" = "Подтверждение";
+
+/* (No Comment) */
+"CONSENT_DOC_LINE_DATE" = "Дата";
+
+/* Lines beneath typewritten signatures on documents. Argument is the title of the signatory, e.g. "Participant's Signature" */
+"CONSENT_DOC_LINE_PRINTED_NAME" = "%@ (расшифровка подписи)";
+
+/* (No Comment) */
+"CONSENT_DOC_LINE_SIGNATURE" = "%@ (подпись)";
+
+/* (No Comment) */
+"CONSENT_LEARN_MORE_TITLE" = "Подробнее";
+
+/* (No Comment) */
+"CONSENT_NAME_FAMILY" = "Фамилия";
+
+/* (No Comment) */
+"CONSENT_NAME_GIVEN" = "Имя";
+
+/* (No Comment) */
+"CONSENT_NAME_PLACEHOLDER" = "Обязательно";
+
+/* Informed consent process. */
+"CONSENT_NAME_TITLE" = "Согласие";
+
+/* (No Comment) */
+"CONSENT_PAGE_NUMBER_FORMAT" = "Стр. %1$ld из %2$ld";
+
+/* (No Comment) */
+"CONSENT_REVIEW_ALERT_TITLE" = "Проверка";
+
+/* (No Comment) */
+"CONSENT_REVIEW_INSTRUCTION" = "Проверьте приведенную ниже форму и коснитесь «Принимаю», если Вы готовы продолжить.";
+
+/* (No Comment) */
+"CONSENT_REVIEW_TITLE" = "Проверка";
+
+/* (No Comment) */
+"CONSENT_SECTION_DATA_GATHERING" = "Сбор данных";
+
+/* (No Comment) */
+"CONSENT_SECTION_DATA_USE" = "Использование данных";
+
+/* (No Comment) */
+"CONSENT_SECTION_PRIVACY" = "Личные данные";
+
+/* (No Comment) */
+"CONSENT_SECTION_STUDY_SURVEY" = "Опрос";
+
+/* (No Comment) */
+"CONSENT_SECTION_STUDY_TASKS" = "Задачи";
+
+/* (No Comment) */
+"CONSENT_SECTION_TIME_COMMITMENT" = "Соглашение о времени";
+
+/* Consent section titles. */
+"CONSENT_SECTION_WELCOME" = "Добро пожаловать";
+
+/* (No Comment) */
+"CONSENT_SECTION_WITHDRAWING" = "Отказ от участия";
+
+/* (No Comment) */
+"CONSENT_SHARE_ONLY_%@" = "Предоставлять мои данные только %@";
+
+/* (No Comment) */
+"CONSENT_SHARE_WIDELY_%@" = "Предоставлять мои данные %@ и мировому научному сообществу";
+
+/* (No Comment) */
+"CONSENT_SHARING_DESCRIPTION_%@" = "Организация %@ получит данные исследования на основании вашего участия в нем.\n\nПредоставление закодированных данных более широкому кругу исследователей (без конфиденциальной информации, такой как ваше имя) позволит улучшить как данное, так и будущие исследования.";
+
+/* Consent sharing step */
+"CONSENT_SHARING_TITLE" = "Параметры предоставления данных";
+
+/* (No Comment) */
+"CONSENT_SIGNATURE_INSTRUCTION" = "Распишитесь пальцем в поле ниже.";
+
+/* (No Comment) */
+"CONSENT_SIGNATURE_PLACEHOLDER" = "Место для подписи";
+
+/* (No Comment) */
+"CONSENT_SIGNATURE_TITLE" = "Подпись";
+
+/* General active tasks. */
+"COUNTDOWN_LABEL" = "Задание начинается через";
+
+/* (No Comment) */
+"COUNTDOWN_SPOKEN_REMAINING_%@" = "Осталось %@ с.";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_INTENDED_USE" = "Это задание позволяет определить порог слышимости (ПС) по шкале дБ ПС.";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_INTRO_TEXT" = "Убедитесь, что громкость устройства установлена на максимальном уровне.\n\nВо время выполнения этого задания в левом или правом ухе будет звучать слабый сигнал.\n\nПрислушайтесь и нажимайте кнопку каждый раз, когда слышите звук.";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_ONBOARDING" = "Вводный опрос.";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_ONBOARDING_QUESTION" = "Каким ухом Вы слышите лучше? (Если замечаете разницу)";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_OPTION_LEFT" = "левым";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_OPTION_NO_PREFERENCE" = "не замечаю разницы";
+
+/* (No Comment) */
+"dBHL_TONE_AUDIOMETRY_OPTION_RIGHT" = "правым";
+
+/* dBHL Tone audiometry active task. */
+"dBHL_TONE_AUDIOMETRY_TASK_TITLE" = "Аудиометрия";
+
+/* (No Comment) */
+"DOB_FORM_ITEM_PLACEHOLDER" = "Выберите дату";
+
+/* (No Comment) */
+"DOB_FORM_ITEM_TITLE" = "Дата рождения";
+
+/* (No Comment) */
+"EMAIL_FORM_ITEM_PLACEHOLDER" = "jappleseed@example.com";
+
+/* Registration step */
+"EMAIL_FORM_ITEM_TITLE" = "Е‑mail";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_CALCULATING" = "Вычисление";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_INTRO_TEXT" = "Это задание направлено на измерение звукового давления окружающей среды. Если уровень шума слишком высокий, выполнить задание не удастся. Потребуется пройти в тихое место или выполнить это задание в другое время.";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_THRESHOLD" = "Порог: %@ дБА";
+
+/* Environment SPL */
+"ENVIRONMENTSPL_TITLE" = "Шумомер";
+
+/* (No Comment) */
+"ENVIRONMENTSPL_UNIT" = "дБА";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_COULD_NOT_FREE_SPACE" = "Не удалось удалить файлы журналов, чтобы освободить достаточно места";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_COULD_NOT_MAORK" = "Файл не помечен как удаленный (выгруженный)";
+
+/* Potentially user visible error messages. */
+"ERROR_DATALOGGER_CREATE_FILE" = "Не удалось создать файл";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_MULTIPLE" = "Несколько ошибок при удалении журналов";
+
+/* (No Comment) */
+"ERROR_DATALOGGER_SET_ATTRIBUTE" = "Ошибка при установке атрибута";
+
+/* (No Comment) */
+"ERROR_RECORDER_NO_DATA" = "Собранные данные не найдены.";
+
+/* (No Comment) */
+"ERROR_RECORDER_NO_OUTPUT_DIRECTORY" = "Не был указан ни один выходной каталог";
+
+/* (No Comment) */
+"FAMILY_NAME_ITEM_PLACEHOLDER" = "Арсентьев";
+
+/* (No Comment) */
+"FITNESS_DISTANCE_TITLE_FORMAT" = "Расстояние (%@)";
+
+/* (No Comment) */
+"FITNESS_HEARTRATE_TITLE" = "Пульс (уд/мин)";
+
+/* (No Comment) */
+"FITNESS_INTRO_2_TEXT_FORMAT" = "Идите %1$@ по улице с максимальной скоростью. После этого удобно сядьте и отдыхайте %2$@. Коснитесь «Начать», чтобы приступить.";
+
+/* (No Comment) */
+"FITNESS_INTRO_TEXT_FORMAT" = "Во время выполнения этого задания программа следит за частотой Вашего пульса и измеряет расстояние, которое Вы пройдете за %1$@.";
+
+/* (No Comment) */
+"FITNESS_SIT_INSTRUCTION_FORMAT" = "Сядьте поудобнее и сидите %@.";
+
+/* Fitness active task. */
+"FITNESS_TASK_TITLE" = "Выносливость";
+
+/* (No Comment) */
+"FITNESS_WALK_INSTRUCTION_FORMAT" = "Идите %@ с максимальной скоростью.";
+
+/* Fitzpatrick Skin types */
+"FITZPATRICK_SKIN_TYPE_I" = "Тип I";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_II" = "Тип II";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_III" = "Тип III";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_IV" = "Тип IV";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_V" = "Тип V";
+
+/* (No Comment) */
+"FITZPATRICK_SKIN_TYPE_VI" = "Тип VI";
+
+/* (No Comment) */
+"FORGOT_PASSWORD_BUTTON_TITLE" = "Забыли пароль?";
+
+/* Gender values. */
+"GENDER_FEMALE" = "Женский";
+
+/* (No Comment) */
+"GENDER_FORM_ITEM_PLACEHOLDER" = "Выберите пол";
+
+/* (No Comment) */
+"GENDER_FORM_ITEM_TITLE" = "Пол";
+
+/* (No Comment) */
+"GENDER_MALE" = "Мужской";
+
+/* (No Comment) */
+"GENDER_OTHER" = "Другой";
+
+/* (No Comment) */
+"GIVEN_NAME_ITEM_PLACEHOLDER" = "Иван";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать».";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_INTRO_TEXT_%@" = "Во время выполнения этого задания оценивается работоспособность верхних конечностей. Вам предложат поместить колышек в лунку %@ раз(а).";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_INTRO_TEXT_2_LEFT_HAND_FIRST_%@" = "Будут проверены обе ваши руки.\nВы должны как можно быстрее поднять колышек, вставить его в отверстие, и после того, как вы сделали это %@ раз(а), вытащить его %@ раз(а).";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_INTRO_TEXT_2_RIGHT_HAND_FIRST_%@" = "Будут проверены обе ваши руки.\nВы должны как можно быстрее поднять колышек, вставить его в отверстие, и после того, как вы сделали это %@ раз(а), вытащить его %@ раз(а).";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_PLACE_INSTRUCTION_LEFT_HAND" = "Поместите колышек в лунку левой рукой.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_PLACE_INSTRUCTION_RIGHT_HAND" = "Поместите колышек в лунку правой рукой.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_REMOVE_INSTRUCTION_LEFT_HAND" = "Поместите колышек за линию левой рукой.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_REMOVE_INSTRUCTION_RIGHT_HAND" = "Поместите колышек за линию правой рукой.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_TEXT" = "Поднимите колышек двумя пальцами.";
+
+/* (No Comment) */
+"HOLE_PEG_TEST_TEXT_2" = "Приподнимите пальцы, чтобы бросить колышек.";
+
+/* Hole peg test active task. */
+"HOLE_PEG_TEST_TITLE_%@" = "Тест «Вставляем %@ колышков»";
+
+/* Alert for invalid email address value */
+"INVALID_EMAIL_ALERT_MESSAGE" = "Недействительный адрес e-mail: %@";
+
+/* Keychain wrapper */
+"KEYCHAIN_ADD_ERROR_MESSAGE" = "Не удалось добавить объект связки ключей.";
+
+/* (No Comment) */
+"KEYCHAIN_DELETE_ERROR_MESSAGE" = "Не удалось удалить объект связки ключей.";
+
+/* (No Comment) */
+"KEYCHAIN_FIND_ERROR_MESSAGE" = "Не удалось найти объект связки ключей.";
+
+/* (No Comment) */
+"KEYCHAIN_UPDATE_ERROR_MESSAGE" = "Не удалось обновить объект связки ключей.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_LEFT" = "Разогните левую ногу. Затем коснитесь экрана в любом месте.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_RIGHT" = "Разогните правую ногу. Затем коснитесь экрана в любом месте.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_LEFT" = "Во время выполнения этого задания оценивается подвижность левого коленного сустава.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_RIGHT" = "Во время выполнения этого задания оценивается подвижность правого коленного сустава.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_LEFT" = "Сядьте на край стула. Сперва положите устройство на левую ногу, ближе к колену: это необходимо для оценивания. Включите звук на устройстве для прослушивания инструкций.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_RIGHT" = "Сядьте на край стула. Сперва положите устройство на правую ногу, ближе к колену: это необходимо для оценивания. Включите звук на устройстве для прослушивания инструкций.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_LEFT" = "Положите устройство экраном вниз на левую ногу, ближе к колену, как показано на картинке.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_RIGHT" = "Положите устройство экраном вниз на правую ногу, ближе к колену, как показано на картинке.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_LEFT" = "Когда будете готовы, коснитесь экрана, чтобы начать, и максимально разогните левую ногу в коленном суставе. Коснитесь экрана еще раз, когда закончите.";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_RIGHT" = "Когда будете готовы, коснитесь экрана, чтобы начать, и максимально разогните правую ногу в коленном суставе. Коснитесь экрана еще раз, когда закончите.";
+
+/* Knee Range of Motion active task */
+"KNEE_RANGE_OF_MOTION_TITLE_LEFT" = "Амплитуда движений левого коленного сустава";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TITLE_RIGHT" = "Амплитуда движений правого коленного сустава";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_LEFT" = "Положите устройство на левую ногу, ближе к колену";
+
+/* (No Comment) */
+"KNEE_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_RIGHT" = "Положите устройство на правую ногу, ближе к колену";
+
+/* (No Comment) */
+"LEARN_MORE_CONSENT_SHARING" = "Подробнее о предоставлении данных";
+
+/* Consent section learn more */
+"LEARN_MORE_DATA_GATHERING" = "Подробнее о сборе данных";
+
+/* (No Comment) */
+"LEARN_MORE_DATA_USE" = "Подробнее об использовании данных";
+
+/* (No Comment) */
+"LEARN_MORE_PRIVACY" = "Подробнее о конфиденциальности и защите личной информации";
+
+/* (No Comment) */
+"LEARN_MORE_STUDY_SURVEY" = "Подробнее об опросе";
+
+/* (No Comment) */
+"LEARN_MORE_TASKS" = "Подробнее о задачах, включенных в исследование";
+
+/* (No Comment) */
+"LEARN_MORE_TIME_COMMITMENT" = "Подробнее о том, сколько времени занимает исследование";
+
+/* (No Comment) */
+"LEARN_MORE_WELCOME" = "Подробнее об исследовании";
+
+/* (No Comment) */
+"LEARN_MORE_WITHDRAWING" = "Подробнее об отказе от участия";
+
+/* Limb values. */
+"LIMB_LEFT" = "левая";
+
+/* (No Comment) */
+"LIMB_OPTION_LEFT_OR_RIGHT_ERROR" = "Необходимо указать, оценка какой конечности выполняется — левой или правой";
+
+/* (No Comment) */
+"LIMB_RIGHT" = "правая";
+
+/* (No Comment) */
+"LOCATION_ERROR_GEOCODE" = "Не удается найти результат по введенному адресу. Убедитесь, что адрес действителен.";
+
+/* (No Comment) */
+"LOCATION_ERROR_GEOCODE_NETWORK" = "Вы не подключены к Интернету или превысили максимальное количество запросов на поиск адресов. Если Вы не подключены к Интернету, включите Wi‑Fi, чтобы ответить на это вопрос; пропустите этот вопрос, если кнопка «Пропустить» доступна; или вернитесь к опросу после подключения к Интернету. В противном случае, повторите попытку через несколько минут.";
+
+/* (No Comment) */
+"LOCATION_ERROR_MESSAGE_DENIED" = "Отказано в доступе к службам определения местоположения. Предоставьте этому приложению доступ к местоположению.";
+
+/* (No Comment) */
+"LOCATION_ERROR_MESSAGE_LOCATION_UNKNOWN" = "Не удается устранить проблему с текущей геопозицией. Введите адрес или переместитесь в геопозицию с лучшим GPS‑сигналом, если возможно.";
+
+/* (No Comment) */
+"LOCATION_ERROR_TITLE" = "Указанный адрес не найден";
+
+/* Alerts for invalid location coordinates */
+"LOCATION_QUESTION_PLACEHOLDER" = "Введите адрес";
+
+/* Login step */
+"LOGIN_CONTINUE_BUTTON_TITLE" = "Вход";
+
+/* Measuring unit abbreviations */
+"MEASURING_UNIT_CM" = "см";
+
+/* (No Comment) */
+"MEASURING_UNIT_FT" = "фт";
+
+/* (No Comment) */
+"MEASURING_UNIT_IN" = "дюйм";
+
+/* (No Comment) */
+"MEASURING_UNIT_KG" = "кг";
+
+/* (No Comment) */
+"MEASURING_UNIT_LB" = "фнт";
+
+/* (No Comment) */
+"MEASURING_UNIT_OZ" = "унц";
+
+/* (No Comment) */
+"MEMORY_GAME_COMPLETE" = "Игра завершена";
+
+/* (No Comment) */
+"MEMORY_GAME_COMPLETE_MESSAGE" = "Нажмите «Далее», чтобы продолжить";
+
+/* (No Comment) */
+"MEMORY_GAME_COMPLETE_TITLE" = "Задание выполнено";
+
+/* (No Comment) */
+"MEMORY_GAME_COPYRIGHT_TEXT" = "Задание для оценки памяти было подготовлено при участии доктора философских наук Кэтрин Поссин и доктора философских наук Джоэла Крамера из Калифорнийского университета в Сан-Франциско.";
+
+/* (No Comment) */
+"MEMORY_GAME_FAILED_MESSAGE" = "В этот раз Вы не совсем справились с заданием. Коснитесь «Далее», чтобы продолжить.";
+
+/* (No Comment) */
+"MEMORY_GAME_FAILED_TITLE" = "Повторить";
+
+/* (No Comment) */
+"MEMORY_GAME_GAMEPLAY_REVERSE_TITLE_%@" = "Коснитесь изображений (%@) в обратном порядке";
+
+/* (No Comment) */
+"MEMORY_GAME_GAMEPLAY_TITLE_%@" = "Нажимайте на %@ в том порядке, в котором они загораются";
+
+/* (No Comment) */
+"MEMORY_GAME_ITEM_COUNT_TITLE_%@" = "%@";
+
+/* (No Comment) */
+"MEMORY_GAME_PAUSED_MESSAGE" = "Нажмите «Далее», чтобы продолжить";
+
+/* (No Comment) */
+"MEMORY_GAME_PAUSED_TITLE" = "Пауза";
+
+/* (No Comment) */
+"MEMORY_GAME_PLAYBACK_TITLE_%@" = "Следите за тем, как подсвечиваются %@";
+
+/* (No Comment) */
+"MEMORY_GAME_SCORE_TITLE" = "Счет";
+
+/* (No Comment) */
+"MEMORY_GAME_TIMEOUT_MESSAGE" = "Время истекло.\nНажмите «Далее», чтобы продолжить.";
+
+/* (No Comment) */
+"MEMORY_GAME_TIMEOUT_TITLE" = "Время вышло";
+
+/* (No Comment) */
+"NULL_ANSWER" = "Выберите ответ";
+
+/* (No Comment) */
+"PASAT_INTRO_TEXT" = "В слуховом тесте на сложение с заданным темпом измеряются способность обрабатывать аудиальную информацию, а также способность к вычислениям.";
+
+/* PSAT active task. */
+"PASAT_TITLE" = "PASAT";
+
+/* (No Comment) */
+"PASSCODE_AUTHENTICATED_MESSAGE" = "Код‑пароль аутентифицирован";
+
+/* (No Comment) */
+"PASSCODE_CONFIRM_MESSAGE" = "Подтвердите код‑пароль";
+
+/* (No Comment) */
+"PASSCODE_CONFIRM_NEW_ENTRY_MESSAGE" = "Подтвердите новый код-пароль";
+
+/* (No Comment) */
+"PASSCODE_FORGOT_BUTTON_TITLE" = "Забыли код‑пароль?";
+
+/* (No Comment) */
+"PASSCODE_INVALID_ALERT_MESSAGE" = "Код‑пароли не совпали. Повторите попытку.";
+
+/* (No Comment) */
+"PASSCODE_INVALID_ALERT_TITLE" = "Неверный код‑пароль";
+
+/* (No Comment) */
+"PASSCODE_NEW_ENTRY_MESSAGE" = "Введите новый код‑пароль";
+
+/* (No Comment) */
+"PASSCODE_OLD_ENTRY_MESSAGE" = "Введите старый код‑пароль";
+
+/* Passcode step */
+"PASSCODE_PROMPT_MESSAGE" = "Введите код‑пароль";
+
+/* (No Comment) */
+"PASSCODE_SAVED_MESSAGE" = "Код‑пароль сохранен";
+
+/* (No Comment) */
+"PASSCODE_TEXTFIELD_ACCESSIBILITY_LABEL" = "Индикатор хода ввода код‑пароля";
+
+/* (No Comment) */
+"PASSCODE_TEXTFIELD_ACCESSIBILTIY_VALUE" = "Введено цифр: %@ из %@";
+
+/* (No Comment) */
+"PASSCODE_TEXTFIELD_INVALID_INPUT_MESSAGE" = "Можно использовать только цифры.";
+
+/* (No Comment) */
+"PASSCODE_TOUCH_ID_ERROR_ALERT_TITLE" = "Ошибка Touch ID";
+
+/* (No Comment) */
+"PASSCODE_TOUCH_ID_MESSAGE" = "Выполните аутентификацию с Touch ID";
+
+/* (No Comment) */
+"PASSWORD_FORM_ITEM_PLACEHOLDER" = "Введите пароль";
+
+/* (No Comment) */
+"PASSWORD_FORM_ITEM_TITLE" = "Пароль";
+
+/* (No Comment) */
+"PAVSAT_INTRO_TEXT" = "В слуховом и визуальном тестах на сложение с заданным темпом измеряются способности обрабатывать аудиальную и визуальную информацию, а также способность к вычислениям.";
+
+/* (No Comment) */
+"PAVSAT_TITLE" = "PAVSAT";
+
+/* (No Comment) */
+"PHONE_NUMBER_FORM_ITEM_PLACEHOLDER" = "+1 (555) 555 5555";
+
+/* (No Comment) */
+"PHONE_NUMBER_FORM_ITEM_TITLE" = "Номер телефона";
+
+/* (No Comment) */
+"PLACEHOLDER_IMAGE_CHOICES" = "Коснитесь, чтобы выбрать";
+
+/* (No Comment) */
+"PLACEHOLDER_LONG_TEXT" = "Коснитесь, чтобы написать";
+
+/* Default placeholders to request answers in a questionnaire. */
+"PLACEHOLDER_TEXT_OR_NUMBER" = "Коснитесь, чтобы ответить";
+
+/* (No Comment) */
+"PSAT_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать».";
+
+/* (No Comment) */
+"PSAT_INITIAL_INSTRUCTION" = "Запомните эту первую цифру.";
+
+/* (No Comment) */
+"PSAT_INSTRUCTION" = "Прибавьте это новое число к предыдущему.";
+
+/* (No Comment) */
+"PSAT_INTRO_TEXT_2_%@" = "С частотой в %@ с будет показано однозначное число.\nПрибавляйте каждое новое число к предыдущему.\nВнимание! Вычислять общую сумму не нужно — просто складывайте два последних числа.";
+
+/* (No Comment) */
+"PSAT_NO_DIGIT" = "-";
+
+/* (No Comment) */
+"PVSAT_INTRO_TEXT" = "В визуальном тесте на сложение с заданным темпом измеряются способность обрабатывать визуальную информацию, а также способность к вычислениям.";
+
+/* (No Comment) */
+"PVSAT_TITLE" = "PVSAT";
+
+/* (No Comment) */
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ превышает максимально допустимое значение (%2$@).";
+
+/* (No Comment) */
+"RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ меньше минимально допустимого значения (%2$@).";
+
+/* (No Comment) */
+"RANGE_ALERT_MESSAGE_OTHER" = "Недопустимое значение: %@.";
+
+/* Alert for out of range values. */
+"RANGE_ALERT_TITLE" = "Недопустимое значение";
+
+/* Range of Motion active task */
+"RANGE_OF_MOTION_TITLE" = "Подвижность";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_ACTIVE_STEP_TITLE" = "При появлении синего круга быстро встряхните устройство";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_ATTEMPTS_FORMAT" = "Попытка %@ из %@";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать».";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_INTENDED_USE" = "Во время выполнения этого задания измеряется время реакции на визуальный сигнал.";
+
+/* (No Comment) */
+"REACTION_TIME_TASK_INTRO_TEXT_FORMAT" = "Как только на экране появится синяя точка, встряхните устройство в любом направлении. Количество повторений этого задания: %D.";
+
+/* Reaction time active task. */
+"REACTION_TIME_TASK_TITLE" = "Время реакции";
+
+/* (No Comment) */
+"RESEND_EMAIL_BUTTON_TITLE" = "Повторно отправить e‑mail";
+
+/* (No Comment) */
+"RESEND_EMAIL_LABEL_MESSAGE" = "Нажмите ссылку ниже, если Вы не получили e‑mail с подтверждением и хотите, чтобы он был отправлен повторно.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_LEFT" = "Поднимите левую руку. Затем коснитесь экрана в любом месте.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_RIGHT" = "Поднимите правую руку. Затем коснитесь экрана в любом месте.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_LEFT" = "Во время выполнения этого задания оценивается подвижность левого плечевого сустава.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_0_RIGHT" = "Во время выполнения этого задания оценивается подвижность правого плечевого сустава.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_LEFT" = "Сперва положите устройство на левое надплечье, ближе к плечу: это необходимо для оценивания. Включите звук на устройстве для прослушивания инструкций.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_1_RIGHT" = "Сперва положите устройство на правое надплечье, ближе к плечу: это необходимо для оценивания. Включите звук на устройстве для прослушивания инструкций.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_LEFT" = "Положите устройство экраном вниз на левое надплечье, ближе к плечу, как показано на картинке.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_2_RIGHT" = "Положите устройство экраном вниз на правое надплечье, ближе к плечу, как показано на картинке.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_LEFT" = "Когда будете готовы, коснитесь экрана, чтобы начать, и максимально поднимите левую руку. Коснитесь экрана еще раз, когда закончите.";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TEXT_INSTRUCTION_3_RIGHT" = "Когда будете готовы, коснитесь экрана, чтобы начать, и максимально поднимите правую руку. Коснитесь экрана еще раз, когда закончите.";
+
+/* Shoulder Range of Motion active task */
+"SHOULDER_RANGE_OF_MOTION_TITLE_LEFT" = "Амплитуда движений левого плечевого сустава";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TITLE_RIGHT" = "Амплитуда движений правого плечевого сустава";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_LEFT" = "Положите устройство на левое надплечье, ближе к плечу";
+
+/* (No Comment) */
+"SHOULDER_RANGE_OF_MOTION_TOUCH_ANYWHERE_STEP_INSTRUCTION_RIGHT" = "Положите устройство на правое надплечье, ближе к плечу";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать» и внимательно смотрите на экран.";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_%@" = "Некоторые из %@ будут подсвечиваться поочередно в определенном порядке. Касайтесь %@ в том же порядке.";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_INTRO_2_TEXT_REVERSE_%@" = "Некоторые из %@ будут подсвечиваться поочередно в определенном порядке. Касайтесь %@ в обратном порядке.";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_INTRO_TEXT_%@" = "Во время выполнения этого задания оцениваются возможности Вашей кратковременной пространственной памяти. Программа попросит Вас повторить последовательность, в которой подсвечиваются %@.";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_TARGET_PLURAL" = "цветов";
+
+/* (No Comment) */
+"SPATIAL_SPAN_MEMORY_TARGET_STANDALONE" = "цветов";
+
+/* Spatial span memory active task. */
+"SPATIAL_SPAN_MEMORY_TITLE" = "Пространственная память";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_CALIBRATION_TEXT" = "Коснитесь «Воспроизвести аудио», отрегулируйте громкость до нужного уровня, а затем коснитесь «Остановить аудио», чтобы продолжить.";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_CALIBRATION_TITLE" = "Калибровка громкости";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_DETAIL_TEXT" = "Во время этого теста от Вас потребуется:\n\nПрослушать предложение.\n\nЧетко и ясно повторить то, что услышали, или пропустить эту часть и ввести услышанный текст с помощью клавиатуры. \n\nЕсли Вы произнесете то, что услышали, Вы сможете внести изменения в расшифровку, созданную системой распознавания речи.";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_INTRO_TEXT" = "Во время выполнения этого задания оценивается четкость и ясность речи в шумном окружении.";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_SPEAK_TEXT" = "Повторите то, что услышали.";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_SPEAK_TITLE" = "Проговаривание";
+
+/* Speech In Noise active task. */
+"SPEECH_IN_NOISE_START_AUDIO_LABEL" = "Воспроизвести аудио";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_STEP_TEXT" = "Предложение, записанное на фоне шума и с измененным отношением сигнала к шуму, будет воспроизведено один раз.";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_STEP_TITLE" = "Прослушивание";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_STOP_AUDIO_LABEL" = "Остановить аудио";
+
+/* (No Comment) */
+"SPEECH_IN_NOISE_TITLE" = "Проговаривание на фоне шума";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать».";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_FAILED" = "Не удалось распознать речь.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_INIT_FAILURE" = "Не удалось начать распознавание речи.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_INTRO_2_TEXT" = "Нажмите кнопку, чтобы начать запись до проговаривания.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_INTRO_TEXT" = "Во время выполнения этого задания Ваша речь записывается микрофоном, расположенным в нижней части устройства, и переводится в текст.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_QUESTION_TEXT" = "Если Вы произносили не то, что написано в расшифровке, исправьте ее.";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_QUESTION_TITLE" = "Правка";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_START_RECORD_LABEL" = "Начать запись";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_STOP_RECORD_LABEL" = "Остановить запись";
+
+/* (No Comment) */
+"SPEECH_RECOGNITION_TRANSCRIPTION_LABEL" = "Расшифровка отобразится здесь.";
+
+/* Speech Recognition active task. */
+"SPEECH_TASK_TITLE" = "Распознавание речи";
+
+/* Progress indication (in navigation bar). */
+"STEP_PROGRESS_FORMAT" = "%1$@ из %2$@";
+
+/* (No Comment) */
+"STROOP_COLOR_BLUE" = "СИНИЙ";
+
+/* (No Comment) */
+"STROOP_COLOR_BLUE_INITIAL" = "С";
+
+/* (No Comment) */
+"STROOP_COLOR_GREEN" = "ЗЕЛЕНЫЙ";
+
+/* (No Comment) */
+"STROOP_COLOR_GREEN_INITIAL" = "З";
+
+/* (No Comment) */
+"STROOP_COLOR_RED" = "КРАСНЫЙ";
+
+/* (No Comment) */
+"STROOP_COLOR_RED_INITIAL" = "К";
+
+/* (No Comment) */
+"STROOP_COLOR_YELLOW" = "ЖЕЛТЫЙ";
+
+/* (No Comment) */
+"STROOP_COLOR_YELLOW_INITIAL" = "Ж";
+
+/* (No Comment) */
+"STROOP_TASK_INTRO1_DETAIL_TEXT" = "Каждый раз, когда появляется слово, выбирайте первую букву названия ЦВЕТА, который Вы видите на экране.";
+
+/* (No Comment) */
+"STROOP_TASK_INTRO2_DETAIL_TEXT" = "Когда будете готовы приступить к тесту Струпа, коснитесь «Начать».";
+
+/* (No Comment) */
+"STROOP_TASK_STEP_TEXT" = "Выберите первую букву названия того ЦВЕТА, который видите на экране.";
+
+/* Stroop active task. */
+"STROOP_TASK_TITLE" = "Тест Струпа";
+
+/* (No Comment) */
+"TAP_BUTTON_TITLE" = "Коснитесь";
+
+/* (No Comment) */
+"TAPPING_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать».";
+
+/* (No Comment) */
+"TAPPING_CALL_TO_ACTION_NEXT" = "Для продолжения нажмите «Далее».";
+
+/* (No Comment) */
+"TAPPING_INSTRUCTION" = "Касайтесь кнопок двумя пальцами с одинаковой скоростью.";
+
+/* (No Comment) */
+"TAPPING_INSTRUCTION_LEFT" = "Касайтесь кнопок пальцами ЛЕВОЙ руки.";
+
+/* (No Comment) */
+"TAPPING_INSTRUCTION_RIGHT" = "Касайтесь кнопок пальцами ПРАВОЙ руки.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT" = "Во время выполнения этого задания оценивается скорость касания пальцами.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_FORMAT" = "Коснитесь одним пальцем, затем другим. Старайтесь, чтобы касания были максимально регулярными. Продолжайте в течение %@.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_LEFT_FIRST" = "Двумя пальцами левой руки попеременно касайтесь появляющихся кнопок на экране.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_LEFT_SECOND" = "Теперь повторите это упражнение левой рукой.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_MOST_AFFECTED" = "Двумя пальцами одной руки попеременно касайтесь появляющихся кнопок на экране.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_REST_PHONE" = "Положите устройство на ровную поверхность.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_RIGHT_FIRST" = "Двумя пальцами правой руки попеременно касайтесь появляющихся кнопок на экране.";
+
+/* (No Comment) */
+"TAPPING_INTRO_TEXT_2_RIGHT_SECOND" = "Теперь повторите это упражнение правой рукой.";
+
+/* (No Comment) */
+"TAPPING_SKIP_TITLE" = "Пропустить эту руку";
+
+/* Tapping active task. */
+"TAPPING_TASK_TITLE" = "Скорость касания";
+
+/* (No Comment) */
+"TAPPING_TASK_TITLE_LEFT" = "Левая рука";
+
+/* (No Comment) */
+"TAPPING_TASK_TITLE_RIGHT" = "Правая рука";
+
+/* (No Comment) */
+"TASK_COMPLETE_TEXT" = "Данные будут проанализированы. Вы получите уведомление, когда результаты будут готовы.";
+
+/* (No Comment) */
+"TASK_COMPLETE_TITLE" = "Задание выполнено";
+
+/* Alert for exceeding length limit in text answer */
+"TEXT_ANSWER_EXCEEDING_MAX_LENGTH_ALERT_MESSAGE" = "Превышены максимальная длина текста: %@";
+
+/* (No Comment) */
+"TIMED_WALK_FORM_TEXT" = "Используйте одно и тоже вспомогательное приспособление для всех упражнений.";
+
+/* (No Comment) */
+"TIMED_WALK_FORM_TITLE" = "Вспомогательные приспособления";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_%@" = "Пройдите прямо %@.";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_2" = "Вернитесь на исходное место.";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_TEXT" = "Коснитесь «Далее» после завершения.";
+
+/* (No Comment) */
+"TIMED_WALK_INSTRUCTION_TURN" = "Развернитесь.";
+
+/* (No Comment) */
+"TIMED_WALK_INTRO_2_DETAIL" = "Для продолжения нажмите «Далее».";
+
+/* (No Comment) */
+"TIMED_WALK_INTRO_2_TEXT_%@" = "Найдите место, предпочтительно на улице, где Вы смогли бы безопасно идти %@ по прямой линии с максимальной скоростью. Не замедляйте шаг, пока не дойдете до финиша.";
+
+/* (No Comment) */
+"TIMED_WALK_INTRO_DETAIL" = "Во время выполнения этого задания оценивается работоспособность нижних конечностей.";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE" = "Нет";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_2" = "Одна трость";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_3" = "Один костыль";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_4" = "Трости";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_5" = "Костыли";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_CHOICE_6" = "Ходунки/ролятор";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_TEXT" = "Коснитесь, чтобы выбрать ответ.";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_2_TITLE" = "Вы пользуетесь вспомогательными приспособлениями?";
+
+/* (No Comment) */
+"TIMED_WALK_QUESTION_TEXT" = "Вы носите голеностопный ортез?";
+
+/* Timed walk active task. */
+"TIMED_WALK_TITLE" = "Ходьба на время";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать».";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_INSTRUCTION" = "Каждый раз, когда слышите звук, определяйте, каким ухом Вы слышите его, и с учетом этого касайтесь левой или правой кнопки.";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_INTENDED_USE" = "Во время выполнения этого задания оценивается способность слышать различные звуки.";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_INTRO_TEXT" = "Сначала подключите наушники к устройству, а затем наденьте их.\n\nЗвук будет очень слабым, не похожим на обычный сигнал предупреждения.  Сначала звук будет тихим, а затем громкость будет постепенно нарастать.  Сосредоточьтесь и касайтесь левой или правой кнопки в зависимости от того, каким ухом Вы слышите сигнал.";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_LABEL_LEFT_EAR" = "Левое ухо";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_LABEL_RIGHT_EAR" = "Правое ухо";
+
+/* (No Comment) */
+"TONE_AUDIOMETRY_PREP_TEXT" = "Сейчас Вы должны слышать сигнал. Отрегулируйте громкость при помощи боковых кнопок устройства.\n\nКоснитесь любой кнопки, когда будете готовы начать.";
+
+/* Tone audiometry active task. */
+"TONE_AUDIOMETRY_TASK_TITLE" = "Аудиометрия";
+
+/* (No Comment) */
+"TONE_LABEL_%@_LEFT" = "%@ Гц, левый";
+
+/* (No Comment) */
+"TONE_LABEL_%@_RIGHT" = "%@ Гц, правый";
+
+/* (No Comment) */
+"TOTAL_TAPS_LABEL" = "Всего касаний";
+
+/* (No Comment) */
+"TOUCH_ANYWHERE_LABEL" = "Коснитесь экрана в любом месте, чтобы продолжить";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_ACTIVE_STEP_INTRO_TEXT" = "Решить задачу";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_ACTIVE_STEP_PROGRESS_TEXT" = "Число ходов: %@ \n %@";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_ACTIVE_STEP_SKIP_BUTTON_TITLE" = "Я не могу решить эту задачу";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_INTENDED_USE" = "Во время выполнения этого задания проверяется способность решать сложные вопросы.";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_INTRO_TEXT" = "Переместите всю стопку на отмеченное цветом место за наименьшее число ходов.";
+
+/* (No Comment) */
+"TOWER_OF_HANOI_TASK_TASK_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать».";
+
+/* Tower of Hanoi active task */
+"TOWER_OF_HANOI_TASK_TITLE" = "Ханойская башня";
+
+/* (No Comment) */
+"TRAILMAKING_CALL_TO_ACTION" = "Чтобы приступить, коснитесь «Начать».";
+
+/* (No Comment) */
+"TRAILMAKING_ERROR" = "%@ (ошибок: %d)";
+
+/* (No Comment) */
+"TRAILMAKING_ERROR_PLURAL" = "%@ (ошибок: %d)";
+
+/* (No Comment) */
+"TRAILMAKING_INTENDED_USE" = "Во время выполнения этого задания оцениваются зрительное сосредоточение и способность переключаться с одной задачи на другую. Основанием для оценки служит время, затраченное на то, чтобы коснуться всех точек по порядку.";
+
+/* (No Comment) */
+"TRAILMAKING_INTENDED_USE2_A" = "После обратного отсчета нажимайте на точки, появляющиеся между числами и буквами. Начните с первого числа 1, затем 2 – 3 – 4… и так далее до 7.";
+
+/* (No Comment) */
+"TRAILMAKING_INTENDED_USE2_B" = "После обратного отсчета нажимайте на точки попеременно на числах и на буквах. Начните с первого числа — 1, затем нажмите первую букву — A, затем 2 – B, 3 – C… и так далее до 7.";
+
+/* (No Comment) */
+"TRAILMAKING_INTRO_TEXT" = "Сделайте это как можно быстрее, не совершая ошибок.\n";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_A" = "А";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_B" = "Б";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_C" = "В";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_D" = "Г";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_E" = "Д";
+
+/* (No Comment) */
+"TRAILMAKING_LETTER_F" = "Е";
+
+/* Trail making task. */
+"TRAILMAKING_TASK_TITLE" = "Маршрут";
+
+/* (No Comment) */
+"TRAILMAKING_TIMER" = "%.1f с";
+
+/* (No Comment) */
+"TREMOR_SKIP_LEFT_HAND" = "Я не могу выполнить это задание ЛЕВОЙ рукой.";
+
+/* (No Comment) */
+"TREMOR_SKIP_NEITHER" = "Я могу выполнить это задание обеими руками.";
+
+/* (No Comment) */
+"TREMOR_SKIP_RIGHT_HAND" = "Я не могу выполнить это задание ПРАВОЙ рукой.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INSTRUCTION_%ld" = "Удерживайте телефон в руке, согнутой в локте, в течение %ld с";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INTRO" = "Теперь держите телефон в согнутой в локте руке на уровне плеч.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INTRO_LEFT" = "Теперь держите телефон в согнутой в локте ЛЕВОЙ руке на уровне плеч.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_BEND_ARM_INTRO_RIGHT" = "Теперь держите телефон в согнутой в локте ПРАВОЙ руке на уровне плеч.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INSTRUCTION_%ld" = "Продолжайте держать телефон, зажатый в области локтевого сгиба, в течение %ld секунд.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INTRO" = "Теперь держите телефон в вытянутой руке на уровне плеч.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INTRO_LEFT" = "Теперь держите телефон в вытянутой ЛЕВОЙ руке на уровне плеч.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_EXTEND_ARM_INTRO_RIGHT" = "Теперь держите телефон в вытянутой ПРАВОЙ руке на уровне плеч.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_FINISHED_INSTRUCTION" = "Перейдите к следующему заданию.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INSTRUCTION_%ld" = "Держите телефон на коленях в течение %ld с.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INTRO" = "Приготовьтесь держать телефон на коленях.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INTRO_LEFT" = "Приготовьтесь держать телефон на коленях в ЛЕВОЙ руке.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_IN_LAP_INTRO_RIGHT" = "Приготовьтесь держать телефон на коленях в ПРАВОЙ руке.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_INTRO_TEXT" = "Коснитесь «Далее», чтобы продолжить.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_SWITCH_HANDS_LEFT_INSTRUCTION" = "Теперь возьмите телефон ЛЕВОЙ рукой и перейдите к следующему заданию.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_SWITCH_HANDS_RIGHT_INSTRUCTION" = "Теперь возьмите телефон ПРАВОЙ рукой и перейдите к следующему заданию.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INSTRUCTION_%ld" = "Касайтесь телефоном своего носа в течение %ld с";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INTRO" = "Теперь держите телефон в согнутой в локте руке и несколько раз коснитесь им своего носа.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INTRO_LEFT" = "Теперь держите телефон в согнутой в локте ЛЕВОЙ руке и несколько раз коснитесь им своего носа.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TOUCH_NOSE_INTRO_RIGHT" = "Теперь держите телефон в согнутой в локте ПРАВОЙ руке и несколько раз коснитесь им своего носа.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INSTRUCTION_%ld" = "Продолжайте махать рукой в течение %ld с.";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INTRO" = "Приготовьтесь махать ладонью (машите, поворачивая запястье).";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INTRO_LEFT" = "Приготовьтесь махать ЛЕВОЙ ладонью, держа в ней телефон (машите, поворачивая запястье).";
+
+/* (No Comment) */
+"TREMOR_TEST_ACTIVE_STEP_TURN_WRIST_INTRO_RIGHT" = "Приготовьтесь махать ПРАВОЙ ладонью, держа в ней телефон (машите, поворачивая запястье).";
+
+/* (No Comment) */
+"TREMOR_TEST_COMPLETED_INSTRUCTION" = "Завершено.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_1_DETAIL" = "Во время выполнения этого задания оценивается дрожание рук в различных положениях. Найдите удобное место, где бы Вы могли сидеть во время выполнения задания.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DEFAULT_TEXT" = "Держите телефон, как показано на изображении ниже, той рукой, дрожь которой сильнее.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_1_TASK" = "одно задание";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_2_TASK" = "два задания";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_3_TASK" = "три задания";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_4_TASK" = "четыре задания";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_5_TASK" = "пять заданий";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_DETAIL_DEFAULT_%@" = "Вам нужно будет выполнить %@ в сидячем положении, держа телефон в руке.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_LEFT_HAND_TEXT" = "Держите телефон ЛЕВОЙ рукой, как показано на изображении ниже.";
+
+/* (No Comment) */
+"TREMOR_TEST_INTRO_2_RIGHT_HAND_TEXT" = "Держите телефон ПРАВОЙ рукой, как показано на изображении ниже.";
+
+/* (No Comment) */
+"TREMOR_TEST_SKIP_QUESTION_BOTH_HANDS_%@" = "Вам нужно будет выполнить %@ в сидячем положении, держа телефон сначала в одной руке, затем в другой.";
+
+/* Tremor test active task. */
+"TREMOR_TEST_TITLE" = "Измерение дрожания рук";
+
+/* Verification step */
+"VERIFICATION_NAV_TITLE" = "Проверка";
+
+/* (No Comment) */
+"VERIFICATION_STEP_TITLE" = "Проверка e‑mail";
+
+/* (No Comment) */
+"WALK_BACK_AND_FORTH_FINISHED_VOICE" = "Задание завершено.";
+
+/* (No Comment) */
+"WALK_BACK_AND_FORTH_INSTRUCTION_FORMAT" = "Походите по прямой вперед и назад в течение %@. Идите нормальной походкой.";
+
+/* (No Comment) */
+"WALK_BACK_AND_FORTH_STAND_INSTRUCTION_FORMAT" = "Развернитесь на 360 градусов и стойте спокойно %@.";
+
+/* (No Comment) */
+"WALK_INTRO_2_DETAIL" = "Поместите устройство в карман или сумку и следуйте звуковым указаниям.";
+
+/* (No Comment) */
+"WALK_INTRO_2_DETAIL_BACK_AND_FORTH_INSTRUCTION" = "Коснитесь «Начать», когда будете готовы приступить к выполнению задания.\nЗатем положите устройство в карман или сумку и следуйте звуковым указаниям.";
+
+/* (No Comment) */
+"WALK_INTRO_2_TEXT_%ld" = "Найдите место, где Вы можете безопасно пройти %ld шагов по прямой линии без посторонней помощи.";
+
+/* Short walk back and forth. */
+"WALK_INTRO_2_TEXT_BACK_AND_FORTH_INSTRUCTION" = "Найдите место, где бы Вы могли ходить по прямой линии вперед и назад. Постарайтесь идти не останавливаясь. Разворачивайтесь в конце пути так, будто обходите острый угол.\n\nЗатем Вы получите указание развернуться на 360 градусов и просто стоять, опустив руки вдоль тела и расставив ноги на ширине плеч.";
+
+/* (No Comment) */
+"WALK_INTRO_TEXT" = "Во время выполнения этого задания оценивается координация движений при ходьбе и в положении стоя. Не выполняйте это задание, если Вы не можете передвигаться без посторонней помощи.";
+
+/* (No Comment) */
+"WALK_OUTBOUND_INSTRUCTION_FORMAT" = "Пройдите прямо %ld шагов.";
+
+/* (No Comment) */
+"WALK_RETURN_INSTRUCTION_FORMAT" = "Развернитесь и пройдите на исходное место.";
+
+/* (No Comment) */
+"WALK_STAND_INSTRUCTION_FORMAT" = "Стойте спокойно %@.";
+
+/* (No Comment) */
+"WALK_STAND_VOICE_INSTRUCTION_FORMAT" = "Теперь стойте спокойно %@.";
+
+/* Short walk active task. */
+"WALK_TASK_TITLE" = "Координация";
+
