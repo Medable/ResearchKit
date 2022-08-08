@@ -203,7 +203,7 @@
 "BUTTON_CLEAR" = "Cancella";
 "BUTTON_APPLY" = "Applica";
 "BUTTON_DISAGREE" = "Rifiuto";
-"BUTTON_DONE" = "Fine";
+"BUTTON_DONE" = "Completato";
 "BUTTON_GET_STARTED" = "Inizia";
 "BUTTON_LEARN_MORE" = "Scopri di più";
 "BUTTON_NEXT" = "Avanti";
@@ -219,7 +219,7 @@
 "BUTTON_COPYRIGHT" = "Copyright";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "Inizio attività tra";
+"COUNTDOWN_LABEL" = "Avvio dell’attività tra";
 "TASK_COMPLETE_TITLE" = "Attività completata";
 "TASK_COMPLETE_TEXT" = "I dati verranno analizzati, riceverai una notifica quando i risultati saranno pronti.";
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ secondi rimanenti.";
