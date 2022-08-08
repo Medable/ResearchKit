@@ -269,7 +269,7 @@
 "BUTTON_DISAGREE" = "不同意";
 
 /* (No Comment) */
-"BUTTON_DONE" = "完成";
+"BUTTON_DONE" = "已完成";
 
 /* (No Comment) */
 "BUTTON_GET_STARTED" = "开始";
@@ -431,7 +431,7 @@
 "CONSENT_SIGNATURE_TITLE" = "签名";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "将在";
+"COUNTDOWN_LABEL" = "活动开始于";
 
 /* (No Comment) */
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "剩余的 %@ 秒后开始活动。";
