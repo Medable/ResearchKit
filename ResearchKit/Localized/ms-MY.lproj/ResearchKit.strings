@@ -431,7 +431,7 @@
 "CONSENT_SIGNATURE_TITLE" = "Tandatangan";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "Memulakan aktiviti masa";
+"COUNTDOWN_LABEL" = "Mulakan aktiviti dalam masa";
 
 /* (No Comment) */
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ saat lagi.";
