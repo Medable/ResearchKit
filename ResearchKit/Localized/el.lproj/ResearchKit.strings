@@ -203,8 +203,8 @@
 "BUTTON_CLEAR" = "Εκκαθάριση";
 "BUTTON_APPLY" = "Εφαρμογή";
 "BUTTON_DISAGREE" = "Απόρριψη";
-"BUTTON_DONE" = "Τέλος";
-"BUTTON_GET_STARTED" = "Έναρξη";
+"BUTTON_DONE" = "Έγινε";
+"BUTTON_GET_STARTED" = "Ξεκινήστε";
 "BUTTON_LEARN_MORE" = "Μάθετε περισσότερα";
 "BUTTON_NEXT" = "Επόμενο";
 "BUTTON_SKIP" = "Παράλειψη";
