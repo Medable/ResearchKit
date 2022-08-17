@@ -199,12 +199,12 @@
 /* Button titles */
 "BUTTON_AGREE" = "De acord";
 "BUTTON_CANCEL" = "Anulați";
-"BUTTON_OK" = "OK";
+"BUTTON_OK" = "Efectuat";
 "BUTTON_CLEAR" = "Degajați";
 "BUTTON_APPLY" = "Aplicați";
 "BUTTON_DISAGREE" = "Nu sunt de acord";
 "BUTTON_DONE" = "OK";
-"BUTTON_GET_STARTED" = "Start";
+"BUTTON_GET_STARTED" = "Incepeti";
 "BUTTON_LEARN_MORE" = "Aflați mai multe";
 "BUTTON_NEXT" = "Înainte";
 "BUTTON_SKIP" = "Omiteți";
