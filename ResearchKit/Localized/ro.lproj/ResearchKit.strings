@@ -203,8 +203,8 @@
 "BUTTON_CLEAR" = "Degajați";
 "BUTTON_APPLY" = "Aplicați";
 "BUTTON_DISAGREE" = "Nu sunt de acord";
-"BUTTON_DONE" = "OK";
-"BUTTON_GET_STARTED" = "Incepeti";
+"BUTTON_DONE" = "Efectuat";
+"BUTTON_GET_STARTED" = "Începeți";
 "BUTTON_LEARN_MORE" = "Aflați mai multe";
 "BUTTON_NEXT" = "Înainte";
 "BUTTON_SKIP" = "Omiteți";
@@ -219,7 +219,7 @@
 "BUTTON_COPYRIGHT" = "Copyright";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "Activitatea începe în";
+"COUNTDOWN_LABEL" = "Începerea activității în";
 "TASK_COMPLETE_TITLE" = "Activitate finalizată";
 "TASK_COMPLETE_TEXT" = "Datele dvs. vor fi analizate și veți primi o notificare atunci când rezultatele vor fi disponibile.";
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "timp rămas: %@ secunde.";
