@@ -470,7 +470,7 @@
 "EMAIL_FORM_ITEM_PLACEHOLDER" = "jappleseed@example.com";
 
 /* Registration step */
-"EMAIL_FORM_ITEM_TITLE" = "Email";
+"EMAIL_FORM_ITEM_TITLE" = "Imeili";
 
 /* (No Comment) */
 "ENVIRONMENTSPL_CALCULATING" = "Eya Kopanya";
@@ -605,7 +605,7 @@
 "HOLE_PEG_TEST_TITLE_%@" = "%@-Tlhahlobo ya Phekse Lesobeng";
 
 /* Alert for invalid email address value */
-"INVALID_EMAIL_ALERT_MESSAGE" = "Aterese ya email ha e tshebetsong : %@";
+"INVALID_EMAIL_ALERT_MESSAGE" = "Aterese ya imeili ha e tshebetsong : %@";
 
 /* Keychain wrapper */
 "KEYCHAIN_ADD_ERROR_MESSAGE" = "E hlolehile ho kenya ntho ya Keychain.";
@@ -917,10 +917,10 @@
 "REACTION_TIME_TASK_TITLE" = "Nako ya Karabelo";
 
 /* (No Comment) */
-"RESEND_EMAIL_BUTTON_TITLE" = "Romela Email ya ho Netefatsa Hape";
+"RESEND_EMAIL_BUTTON_TITLE" = "Romela Imeili ya ho Netefatsa Hape";
 
 /* (No Comment) */
-"RESEND_EMAIL_LABEL_MESSAGE" = "Tobetsa ho linki e tlaase mona haeba o sa amohela email ya ho netefatsa mme o lakatsa hore e romelwe hape.";
+"RESEND_EMAIL_LABEL_MESSAGE" = "Tobetsa ho linki e tlaase mona haeba o sa amohela imeili ya ho netefatsa mme o lakatsa hore e romelwe hape.";
 
 /* (No Comment) */
 "SHOULDER_RANGE_OF_MOTION_SPOKEN_INSTRUCTION_LEFT" = "Phahamisetsa letshoho la hao le letshehadi hodimo. Ebe  o tobetsa kae kapa kae.";
@@ -1436,7 +1436,7 @@
 "VERIFICATION_NAV_TITLE" = "Netefatso";
 
 /* (No Comment) */
-"VERIFICATION_STEP_TITLE" = "Netefatsa Email ya hao";
+"VERIFICATION_STEP_TITLE" = "Netefatsa Imeili ya hao";
 
 /* (No Comment) */
 "WALK_BACK_AND_FORTH_FINISHED_VOICE" = "O phethile mosebetsi.";
