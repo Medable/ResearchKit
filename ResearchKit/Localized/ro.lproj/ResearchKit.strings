@@ -198,7 +198,7 @@
 
 /* Button titles */
 "BUTTON_AGREE" = "De acord";
-"BUTTON_CANCEL" = "Anulați";
+"BUTTON_CANCEL" = "Anulare";
 "BUTTON_OK" = "Efectuat";
 "BUTTON_CLEAR" = "Degajați";
 "BUTTON_APPLY" = "Aplicați";
