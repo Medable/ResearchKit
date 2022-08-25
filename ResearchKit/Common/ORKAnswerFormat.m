@@ -1725,6 +1725,14 @@ static NSArray *ork_processTextChoices(NSArray<ORKTextChoice *> *textChoices) {
     ORKThrowMethodUnavailableException();
 }
 
++ (void)configureLocaleForNumberFormatter:(NSNumberFormatter *)numberFormatter {
+    NSString *locale = [[NSLocale currentLocale] localeIdentifier];
+    NSRange range = NSMakeRange(locale.length - 2, 2);
+    NSString *region = [locale substringWithRange: range];
+    NSString *localeId = [NSString stringWithFormat:@"en_%@", region];
+    numberFormatter.locale = [NSLocale localeWithLocaleIdentifier:localeId];
+}
+
 - (instancetype)initWithMaximumValue:(NSInteger)maximumValue
                         minimumValue:(NSInteger)minimumValue
                         defaultValue:(NSInteger)defaultValue
@@ -1801,9 +1809,9 @@ static NSArray *ork_processTextChoices(NSArray<ORKTextChoice *> *textChoices) {
     if (!_numberFormatter) {
         _numberFormatter = [[NSNumberFormatter alloc] init];
         _numberFormatter.numberStyle = NSNumberFormatterDecimalStyle;
-        _numberFormatter.locale = [NSLocale autoupdatingCurrentLocale];
         _numberFormatter.maximumFractionDigits = 0;
     }
+    [ORKScaleAnswerFormat configureLocaleForNumberFormatter:_numberFormatter];
     return _numberFormatter;
 }
 
@@ -2018,6 +2026,7 @@ static NSArray *ork_processTextChoices(NSArray<ORKTextChoice *> *textChoices) {
         _numberFormatter.numberStyle = ORKNumberFormattingStyleConvert(_numberStyle);
         _numberFormatter.maximumFractionDigits = _maximumFractionDigits;
     }
+    [ORKScaleAnswerFormat configureLocaleForNumberFormatter:_numberFormatter];
     return _numberFormatter;
 }
 
@@ -2212,6 +2221,7 @@ static NSArray *ork_processTextChoices(NSArray<ORKTextChoice *> *textChoices) {
         _numberFormatter.locale = [NSLocale autoupdatingCurrentLocale];
         _numberFormatter.maximumFractionDigits = 0;
     }
+    [ORKScaleAnswerFormat configureLocaleForNumberFormatter:_numberFormatter];
     return _numberFormatter;
 }
 
