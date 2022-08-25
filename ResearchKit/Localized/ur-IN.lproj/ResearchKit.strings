@@ -1052,7 +1052,7 @@
 "SPEECH_TASK_TITLE" = "اسپیچ کی شناخت";
 
 /* Progress indication (in navigation bar). */
-"STEP_PROGRESS_FORMAT" = "⁦%1$@⁩ میں سے⁦%2$@⁩";
+"STEP_PROGRESS_FORMAT" = "⁦%1$@⁩ کا ⁦%2$@⁩";
 
 /* (No Comment) */
 "STROOP_COLOR_BLUE" = "نیلا";
