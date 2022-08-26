@@ -269,7 +269,7 @@
 "BUTTON_DISAGREE" = "అంగీకరించకపోవడం ";
 
 /* (No Comment) */
-"BUTTON_DONE" = "పూర్తి చేయబడింది ";
+"BUTTON_DONE" = "పూర్తయింది";
 
 /* (No Comment) */
 "BUTTON_GET_STARTED" = "ప్రారంభించడం ";
@@ -431,7 +431,7 @@
 "CONSENT_SIGNATURE_TITLE" = "సంతకం ";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = " లో కార్యకలాపం ప్రారంభించడం";
+"COUNTDOWN_LABEL" = "దీనిలో యాక్టివిటీ ప్రారంభిస్తోంది";
 
 /* (No Comment) */
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ సెకండ్లు మిగిలాయి. ";
