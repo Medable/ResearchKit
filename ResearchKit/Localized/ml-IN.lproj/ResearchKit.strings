@@ -269,10 +269,10 @@
 "BUTTON_DISAGREE" = "വിയോജിക്കുന്നു";
 
 /* (No Comment) */
-"BUTTON_DONE" = "പൂർത്തിയായി";
+"BUTTON_DONE" = "ചെയ്‌തു";
 
 /* (No Comment) */
-"BUTTON_GET_STARTED" = "ആരംഭിക്കുക";
+"BUTTON_GET_STARTED" = "ആരംഭിക്കാം";
 
 /* (No Comment) */
 "BUTTON_LEARN_MORE" = "കൂടുതൽ അറിയുക";
@@ -431,7 +431,7 @@
 "CONSENT_SIGNATURE_TITLE" = "ഒപ്പ്";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "പ്രവർത്തനം ആരംഭിക്കുന്നു";
+"COUNTDOWN_LABEL" = "ഇനിപ്പറയുന്ന സമയത്തിൽ ആക്‌റ്റിവിറ്റി ആരംഭിക്കുന്നു";
 
 /* (No Comment) */
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "%@ സെക്കൻഡ് ശേഷിക്കുന്നു.";
