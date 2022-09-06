@@ -227,7 +227,7 @@
 
 /* Image capture step. */
 "CAPTURE_BUTTON_CAPTURE_IMAGE" = "Καταγραφή εικόνας";
-"CAPTURE_BUTTON_RECAPTURE_IMAGE" = "Επανάληψη καταγραφής εικόνας";
+"CAPTURE_BUTTON_RECAPTURE_IMAGE" = "Λήψη ξανά";
 "CAPTURE_ERROR_CAMERA_NOT_FOUND" = "Δεν βρέθηκε κάμερα. Δεν είναι δυνατή η ολοκλήρωση αυτού του βήματος.";
 "CAPTURE_ERROR_NO_PERMISSIONS" = "Για να ολοκληρώσετε αυτό το βήμα, επιτρέψτε σε αυτήν την εφαρμογή να προσπελάζει την κάμερα στις Ρυθμίσεις.";
 "CAPTURE_ERROR_NO_OUTPUT_DIRECTORY" = "Δεν καθορίστηκε κατάλογος εξόδου για καταγραμμένες εικόνες.";
