@@ -269,10 +269,10 @@
 "BUTTON_DISAGREE" = "En desacuerdo";
 
 /* (No Comment) */
-"BUTTON_DONE" = "Hecho";
+"BUTTON_DONE" = "Terminado";
 
 /* (No Comment) */
-"BUTTON_GET_STARTED" = "Empezar";
+"BUTTON_GET_STARTED" = "Comenzar";
 
 /* (No Comment) */
 "BUTTON_LEARN_MORE" = "Más información";
@@ -431,7 +431,7 @@
 "CONSENT_SIGNATURE_TITLE" = "Firma";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "Empezando la actividad en";
+"COUNTDOWN_LABEL" = "Comenzando la actividad en";
 
 /* (No Comment) */
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "Quedan %@ segundos.";
