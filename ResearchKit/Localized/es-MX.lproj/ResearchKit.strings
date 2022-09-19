@@ -203,8 +203,8 @@
 "BUTTON_CLEAR" = "Borrar";
 "BUTTON_APPLY" = "Aplicar";
 "BUTTON_DISAGREE" = "No acepto";
-"BUTTON_DONE" = "Aceptar";
-"BUTTON_GET_STARTED" = "Empezar";
+"BUTTON_DONE" = "Terminado";
+"BUTTON_GET_STARTED" = "Comenzar";
 "BUTTON_LEARN_MORE" = "Más información";
 "BUTTON_NEXT" = "Siguiente";
 "BUTTON_SKIP" = "Omitir";
