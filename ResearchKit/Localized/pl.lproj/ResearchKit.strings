@@ -219,7 +219,7 @@
 "BUTTON_COPYRIGHT" = "Prawa autorskie";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "Początek ćwiczenia za:";
+"COUNTDOWN_LABEL" = "Rozpoczęcie czynności za";
 "TASK_COMPLETE_TITLE" = "Koniec ćwiczenia";
 "TASK_COMPLETE_TEXT" = "Twoje dane zostaną przeanalizowane i otrzymasz powiadomienie o wynikach.";
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "Pozostało: %@ s.";
