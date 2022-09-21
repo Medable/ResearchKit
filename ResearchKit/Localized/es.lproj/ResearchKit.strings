@@ -204,6 +204,7 @@
 "BUTTON_APPLY" = "Aplicar";
 "BUTTON_DISAGREE" = "No acepto";
 "BUTTON_DONE" = "OK";
+"COMPLETION_BUTTON_DONE" = "LISTO";
 "BUTTON_GET_STARTED" = "Empezar";
 "BUTTON_LEARN_MORE" = "Más información";
 "BUTTON_NEXT" = "Siguiente";

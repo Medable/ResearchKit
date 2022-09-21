@@ -146,6 +146,17 @@ static const CGFloat TickViewSize = 122;
     ORKCompletionStepView *_completionStepView;
 }
 
+- (void)initializeInternalButtonItems
+{
+    [super initializeInternalButtonItems];
+    
+    NSString *doneButtonTitle = ORKLocalizedString(@"COMPLETION_BUTTON_DONE", nil);
+    
+    if(![doneButtonTitle isEqualToString:@"COMPLETION_BUTTON_DONE"]) {
+        self.continueButtonTitle = doneButtonTitle;
+    }
+}
+
 - (void)stepDidChange {
     [super stepDidChange];
     
