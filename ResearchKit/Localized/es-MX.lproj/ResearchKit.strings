@@ -219,7 +219,7 @@
 "BUTTON_COPYRIGHT" = "Copyright";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "Comenzar la actividad en";
+"COUNTDOWN_LABEL" = "Comenzando la actividad en";
 "TASK_COMPLETE_TITLE" = "Actividad completada";
 "TASK_COMPLETE_TEXT" = "Se analizarán tus datos y se te avisará cuando tus resultados estén listos.";
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "Quedan %@ segundos.";
