@@ -194,6 +194,15 @@
         _slider.translatesAutoresizingMaskIntoConstraints = NO;
         
         [self setUpConstraints];
+        
+        // NNS-4933 this is a fix that forces the _rightRangeDescriptionLabel to be right aligned
+        if (!isVertical) {
+            NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
+            [style setAlignment:NSTextAlignmentRight];
+            NSAttributedString *attributedText = [[NSMutableAttributedString alloc] initWithString:_rightRangeDescriptionLabel.text
+                                                                                   attributes:@{NSParagraphStyleAttributeName: style}];
+            _rightRangeDescriptionLabel.attributedText = attributedText;
+        }
     }
     return self;
 }
