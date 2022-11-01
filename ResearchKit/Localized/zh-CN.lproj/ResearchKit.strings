@@ -219,7 +219,7 @@
 "BUTTON_COPYRIGHT" = "版权";
 
 /* General active tasks. */
-"COUNTDOWN_LABEL" = "即将开始活动";
+"COUNTDOWN_LABEL" = "在以下时间内开始活动";
 "TASK_COMPLETE_TITLE" = "活动完成";
 "TASK_COMPLETE_TEXT" = "将对您的数据进行分析并在结果可用时通知您。";
 "COUNTDOWN_SPOKEN_REMAINING_%@" = "还剩 %@ 秒钟。";
