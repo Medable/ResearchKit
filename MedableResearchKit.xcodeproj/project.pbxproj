@@ -3577,7 +3577,7 @@
 				"pa-IN",
 				"de-AT",
 				"bn-IN",
-				"zh-Hans-MY",
+				"zh-Hans-MY"
 			);
 			mainGroup = 3FFF18341829DB1D00167070;
 			productRefGroup = 3FFF183E1829DB1D00167070 /* Products */;
@@ -4081,7 +4081,7 @@
 				D0E466852543874800711EEB /* pa-IN */,
 				A3E409F725A9198600D5EF3B /* de-AT */,
 				A3E40A0B25A91A4600D5EF3B /* bn-IN */,
-				D50A487D29AF70C600769E53 /* zh-Hans-MY */,
+				D50A487D29AF70C600769E53 /* zh-Hans-MY */
 			);
 			name = ResearchKit.strings;
 			sourceTree = "<group>";
