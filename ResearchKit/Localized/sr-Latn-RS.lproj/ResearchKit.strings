@@ -518,10 +518,10 @@
 "FITNESS_HEARTRATE_TITLE" = "Otkucaji srca (otkucaji u minuti)";
 
 /* (No Comment) */
-"FITNESS_INTRO_2_TEXT_FORMAT" = "Hodajte napolju svojom najbržom mogućom brzinom %1 $@. Kada završite, sedite i odmorite se %2 $@. Da počnete dodirnite Započnite.";
+"FITNESS_INTRO_2_TEXT_FORMAT" = "Hodajte napolju svojom najbržom mogućom brzinom %1$@. Kada završite, sedite i odmorite se %2$@. Da počnete dodirnite Započnite.";
 
 /* (No Comment) */
-"FITNESS_INTRO_TEXT_FORMAT" = "Ova aktivnost prati otkucaje vašeg srca i meri koliko daleko možete da hodate u %1 $@.";
+"FITNESS_INTRO_TEXT_FORMAT" = "Ova aktivnost prati otkucaje vašeg srca i meri koliko daleko možete da hodate u %1$@.";
 
 /* (No Comment) */
 "FITNESS_SIT_INSTRUCTION_FORMAT" = "Sedite %@.";
@@ -884,10 +884,10 @@
 "PVSAT_TITLE" = "PVSAT";
 
 /* (No Comment) */
-"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1 $@ premašuje maksimalnu dozvoljenu vrednost (%2$@).";
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ premašuje maksimalnu dozvoljenu vrednost (%2$@).";
 
 /* (No Comment) */
-"RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1 $@ je manje od minimalne dozvoljene vrednosti (%2$@).";
+"RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ je manje od minimalne dozvoljene vrednosti (%2$@).";
 
 /* (No Comment) */
 "RANGE_ALERT_MESSAGE_OTHER" = "%@ nije važeća vrednost.";
@@ -1052,7 +1052,7 @@
 "SPEECH_TASK_TITLE" = "Prepoznavanje govora";
 
 /* Progress indication (in navigation bar). */
-"STEP_PROGRESS_FORMAT" = "%1 $@ od %2 $@";
+"STEP_PROGRESS_FORMAT" = "%1$@ od %2$@";
 
 /* (No Comment) */
 "STROOP_COLOR_BLUE" = "PLAVA";
