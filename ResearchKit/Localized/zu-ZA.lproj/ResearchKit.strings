@@ -884,7 +884,7 @@
 "PVSAT_TITLE" = "I-PVSAT";
 
 /* (No Comment) */
-"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ yeqa umkhawulo wenani elivunyelwe (%2$@).";
+"RANGE_ALERT_MESSAGE_ABOVE_MAXIMUM" = "%1$@ weqa umkhawulo wenani elivunyelwe (%2$@).";
 
 /* (No Comment) */
 "RANGE_ALERT_MESSAGE_BELOW_MAXIMUM" = "%1$@ ingaphansi kwenani eliphansi elivunyelwe (%2$@).";
