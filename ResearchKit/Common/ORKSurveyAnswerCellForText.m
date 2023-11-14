@@ -157,7 +157,10 @@
 
 - (BOOL)shouldContinue {
     ORKTextAnswerFormat *answerFormat = (ORKTextAnswerFormat *)[self.step impliedAnswerFormat];
-    if (![answerFormat isAnswerValidWithString:self.textView.text]) {
+    if (![answerFormat isAnswerValidWithString:self.textView.text]
+        || [self.textView.text containsString:@"\\"]
+        || [self.textView.text containsString:@"/"]
+        ) {
         [self showValidityAlertWithMessage:[[self.step impliedAnswerFormat] localizedInvalidValueStringWithAnswerString:self.answer]];
         return NO;
     }

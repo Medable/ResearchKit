@@ -616,6 +616,9 @@ static const CGFloat iPhoneStepTitleLabelFontSize = 28.0;
 }
 
 - (void)showValidityAlertWithMessage:(NSString *)text {
+    if (text.length == 0) {
+        text = @"Please use standard English characters only - no symbols";
+    }
     [self showValidityAlertWithTitle:ORKLocalizedString(@"RANGE_ALERT_TITLE", nil) message:text];
 }
 
