@@ -35,6 +35,8 @@
 
 #import "ORKHelpers_Internal.h"
 
+#import <MedableUI/MedableUI.h>
+
 
 @interface ORKDateTimePicker ()
 
@@ -72,6 +74,7 @@
 - (UIDatePicker *)pickerView {
     if (_pickerView == nil) {
         _pickerView = [[UIDatePicker alloc] init];
+        [_pickerView setLocale:[NSLocale currentAppLocale]];
         [_pickerView addTarget:self action:@selector(valueDidChange:) forControlEvents:UIControlEventValueChanged];
         self.answerFormat = _answerFormat;
         self.answer = _answer;

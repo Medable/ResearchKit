@@ -127,6 +127,7 @@ static const CGFloat HorizontalMargin = 15.0;
         _labelLabel = [[ORKCaption1Label alloc] init];
         _labelLabel.text = formItem.text;
         _labelLabel.numberOfLines = 0;
+        _labelLabel.textAlignment = NSTextAlignmentNatural;
         [self setBackgroundColor:[UIColor clearColor]];
         _containerView = [UIView new];
         [_containerView addSubview:_labelLabel];
