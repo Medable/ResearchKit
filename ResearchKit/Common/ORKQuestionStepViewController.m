@@ -65,6 +65,17 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
 };
 
 
+@interface ORKQuestionStepViewControllerAccessibility : NSObject
+@end
+
+@implementation ORKQuestionStepViewControllerAccessibility
+
++ (NSString * _Nonnull)stepDescription { return @"Step Description"; }
++ (NSString * _Nonnull)stepQuestion { return @"Step Question"; }
+
+@end
+
+
 @interface ORKQuestionStepViewController () <UITableViewDataSource,UITableViewDelegate, ORKSurveyAnswerCellDelegate> {
     id _answer;
     
@@ -187,8 +198,11 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
             }
             else {
                 _headerView.captionLabel.text = self.questionStep.question;
+                _headerView.captionLabel.accessibilityIdentifier = ORKQuestionStepViewControllerAccessibility.stepQuestion;
             }
             _headerView.instructionLabel.text = self.questionStep.text;
+            _headerView.instructionLabel.accessibilityIdentifier = ORKQuestionStepViewControllerAccessibility.stepDescription;
+            
             _headerView.learnMoreButtonItem = self.learnMoreButtonItem;
             
 
@@ -241,6 +255,9 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
             
             _questionView.translatesAutoresizingMaskIntoConstraints = NO;
             _questionView.headerView.learnMoreButtonItem = self.learnMoreButtonItem;
+            
+            _questionView.headerView.captionLabel.accessibilityIdentifier = ORKQuestionStepViewControllerAccessibility.stepQuestion;
+            _questionView.headerView.instructionLabel.accessibilityIdentifier = ORKQuestionStepViewControllerAccessibility.stepDescription;
             
             if (self.readOnlyMode) {
                 _navigationFooterView.optional = YES;
@@ -586,8 +603,6 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
 }
 
 - (void)notifyDelegateOnResultChange {
-    [super notifyDelegateOnResultChange];
-    
     if (self.hasNextStep == NO) {
         self.continueButtonItem = self.internalDoneButtonItem;
     } else {
@@ -604,6 +619,8 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
     }
     
     [self.tableView reloadData];
+    
+    [super notifyDelegateOnResultChange];
 }
 
 - (id<NSCopying, NSCoding, NSObject>)answer {
