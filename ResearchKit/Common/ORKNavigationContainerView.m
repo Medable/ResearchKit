@@ -33,6 +33,19 @@
 #import "ORKHelpers_Internal.h"
 #import "ORKSkin.h"
 
+
+@interface ORKNavigationAccessibility : NSObject
+@end
+
+@implementation ORKNavigationAccessibility
+
++ (NSString * _Nonnull)continueButton { return @"Step Continue button"; }
++ (NSString * _Nonnull)skipButton { return @"Step Skip button"; }
++ (NSString * _Nonnull)cancelButton { return @"Step Cancel button"; }
+
+@end
+
+
 static const CGFloat ORKStackViewSpacing = 10.0;
 static const CGFloat shadowHeight = 0.75;
 
@@ -90,10 +103,8 @@ static const CGFloat shadowHeight = 0.75;
     _continueButton.exclusiveTouch = YES;
     _continueButton.translatesAutoresizingMaskIntoConstraints = NO;
     [_continueButton addTarget:self action:@selector(continueButtonAction:) forControlEvents:UIControlEventTouchUpInside];
-    if (_appTintColor) {
-        _continueButton.normalTintColor = _appTintColor;
-    }
     
+    _continueButton.accessibilityIdentifier = ORKNavigationAccessibility.continueButton;
 }
 
 - (void)setupCancelButton {
@@ -107,10 +118,9 @@ static const CGFloat shadowHeight = 0.75;
     _cancelButtonView.translatesAutoresizingMaskIntoConstraints = NO;
 
     [_cancelButtonView addSubview:_cancelButton];
-    if (_appTintColor) {
-        _cancelButton.normalTintColor = _appTintColor;
-    }
     [self setCancelButtonConstraints];
+    
+    _cancelButton.accessibilityIdentifier = ORKNavigationAccessibility.cancelButton;
 }
 
 - (void)setCancelButtonConstraints {
@@ -179,10 +189,9 @@ static const CGFloat shadowHeight = 0.75;
     _skipButton.translatesAutoresizingMaskIntoConstraints = NO;
     _skipButtonView.translatesAutoresizingMaskIntoConstraints = NO;
     [_skipButtonView addSubview:_skipButton];
-    if (_appTintColor) {
-        _skipButton.normalTintColor = _appTintColor;
-    }
     [self setSkipButtonConstraints];
+    
+    _skipButton.accessibilityIdentifier = ORKNavigationAccessibility.skipButton;
 }
 
 - (void)setSkipButtonConstraints {
