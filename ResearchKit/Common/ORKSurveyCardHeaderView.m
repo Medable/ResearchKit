@@ -76,8 +76,11 @@ static const CGFloat HeadlineViewTitleLeftRightPadding = 10.0;
     _titleLabel.numberOfLines = 0;
     _titleLabel.textColor = [UIColor blackColor];
     _titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
-    _titleLabel.text = _title;
+    _titleLabel.minimumScaleFactor = 0.5;
+    _titleLabel.adjustsFontSizeToFitWidth = YES;
     [_titleLabel setFont:[UIFont systemFontOfSize:ORKCardDefaultFontSize weight:UIFontWeightBold]];
+    _titleLabel.text = _title;
+    _titleLabel.lineBreakMode = NSLineBreakByTruncatingTail;
 }
 
 - (void)layoutSubviews {
