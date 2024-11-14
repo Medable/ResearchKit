@@ -136,8 +136,8 @@
         ORKDateAnswerFormat *dateAnswerFormat = (ORKDateAnswerFormat *)answerFormat;
         [self setDate:[dateAnswerFormat pickerDefaultDate]];
         
-        _pickerView.calendar = [dateAnswerFormat currentCalendar];
-        _pickerView.timeZone = _pickerView.calendar.timeZone;
+        _pickerView.calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
+        _pickerView.timeZone = [NSTimeZone localTimeZone];
         
         // Medable ---
         /*
@@ -147,7 +147,7 @@
 //        _pickerView.timeZone = [NSTimeZone localTimeZone];
         // Medable ---
         
-        _calendar = [dateAnswerFormat currentCalendar];
+        _calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
         
         [_pickerView setMinimumDate:[dateAnswerFormat pickerMinimumDate]];
         [_pickerView setMaximumDate:[dateAnswerFormat pickerMaximumDate]];
