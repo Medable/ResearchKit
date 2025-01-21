@@ -65,6 +65,17 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
 };
 
 
+@interface ORKQuestionStepViewControllerAccessibility : NSObject
+@end
+
+@implementation ORKQuestionStepViewControllerAccessibility
+
++ (NSString * _Nonnull)stepDescription { return @"Step Description"; }
++ (NSString * _Nonnull)stepQuestion { return @"Step Question"; }
+
+@end
+
+
 @interface ORKQuestionStepViewController () <UITableViewDataSource,UITableViewDelegate, ORKSurveyAnswerCellDelegate> {
     id _answer;
     
@@ -72,10 +83,7 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
     ORKStepHeaderView *_headerView;
     ORKNavigationContainerView *_navigationFooterView;
     ORKAnswerDefaultSource *_defaultSource;
-    
-    NSCalendar *_savedSystemCalendar;
-    NSTimeZone *_savedSystemTimeZone;
-    
+        
     ORKTextChoiceCellGroup *_choiceCellGroup;
     ORKQuestionStepCellHolderView *_cellHolderView;
     
@@ -115,8 +123,9 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
 }
 
 - (instancetype)initWithStep:(ORKStep *)step result:(ORKResult *)result {
-    self = [self initWithStep:step];
+    self = [super initWithStep:step];
     if (self) {
+        _defaultSource = [ORKAnswerDefaultSource sourceWithHealthStore:[HKHealthStore new]];
 		ORKStepResult *stepResult = (ORKStepResult *)result;
 		if (stepResult && [stepResult results].count > 0) {
             ORKQuestionResult *questionResult = ORKDynamicCast([stepResult results].firstObject, ORKQuestionResult);
@@ -187,8 +196,11 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
             }
             else {
                 _headerView.captionLabel.text = self.questionStep.question;
+                _headerView.captionLabel.accessibilityIdentifier = ORKQuestionStepViewControllerAccessibility.stepQuestion;
             }
             _headerView.instructionLabel.text = self.questionStep.text;
+            _headerView.instructionLabel.accessibilityIdentifier = ORKQuestionStepViewControllerAccessibility.stepDescription;
+            
             _headerView.learnMoreButtonItem = self.learnMoreButtonItem;
             
 
@@ -241,6 +253,9 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
             
             _questionView.translatesAutoresizingMaskIntoConstraints = NO;
             _questionView.headerView.learnMoreButtonItem = self.learnMoreButtonItem;
+            
+            _questionView.headerView.captionLabel.accessibilityIdentifier = ORKQuestionStepViewControllerAccessibility.stepQuestion;
+            _questionView.headerView.instructionLabel.accessibilityIdentifier = ORKQuestionStepViewControllerAccessibility.stepDescription;
             
             if (self.readOnlyMode) {
                 _navigationFooterView.optional = YES;
@@ -538,9 +553,8 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
         if ([impliedAnswerFormat isKindOfClass:[ORKDateAnswerFormat class]]) {
             ORKDateQuestionResult *dateQuestionResult = (ORKDateQuestionResult *)result;
             if (dateQuestionResult.dateAnswer) {
-                NSCalendar *usedCalendar = [(ORKDateAnswerFormat *)impliedAnswerFormat calendar] ? : _savedSystemCalendar;
-                dateQuestionResult.calendar = [NSCalendar calendarWithIdentifier:usedCalendar.calendarIdentifier ? : [NSCalendar currentCalendar].calendarIdentifier];
-                dateQuestionResult.timeZone = _savedSystemTimeZone ? : [NSTimeZone systemTimeZone];
+                dateQuestionResult.calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
+                dateQuestionResult.timeZone = [NSTimeZone systemTimeZone];
             }
         } else if ([impliedAnswerFormat isKindOfClass:[ORKNumericAnswerFormat class]]) {
             ORKNumericQuestionResult *nqr = (ORKNumericQuestionResult *)result;
@@ -571,8 +585,6 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
 
 - (void)saveAnswer:(id)answer {
     self.answer = answer;
-    _savedSystemCalendar = [NSCalendar currentCalendar];
-    _savedSystemTimeZone = [NSTimeZone systemTimeZone];
     [self notifyDelegateOnResultChange];
 }
 
@@ -586,8 +598,6 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
 }
 
 - (void)notifyDelegateOnResultChange {
-    [super notifyDelegateOnResultChange];
-    
     if (self.hasNextStep == NO) {
         self.continueButtonItem = self.internalDoneButtonItem;
     } else {
@@ -604,6 +614,8 @@ typedef NS_ENUM(NSInteger, ORKQuestionSection) {
     }
     
     [self.tableView reloadData];
+    
+    [super notifyDelegateOnResultChange];
 }
 
 - (id<NSCopying, NSCoding, NSObject>)answer {
