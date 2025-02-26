@@ -1071,6 +1071,15 @@ static NSArray *ork_processTextChoices(NSArray<ORKTextChoice *> *textChoices) {
 @end
 
 
+@interface ORKTextChoiceAccessiblity : NSObject
+@end
+
+@implementation ORKTextChoiceAccessiblity
++ (NSString * _Nonnull)booleanYesAnswer { return @"Boolean Yes answer"; }
++ (NSString * _Nonnull)booleanNoAnswer { return @"Boolean No answer"; }
+@end
+
+
 #pragma mark - ORKImageChoice
 
 @implementation ORKImageChoice {
@@ -1182,9 +1191,13 @@ static NSArray *ork_processTextChoices(NSArray<ORKTextChoice *> *textChoices) {
         _no = ORKLocalizedString(@"BOOL_NO", nil);
     }
     
-    return [ORKAnswerFormat choiceAnswerFormatWithStyle:ORKChoiceAnswerStyleSingleChoice
-                                            textChoices:@[[ORKTextChoice choiceWithText:_yes value:@(YES)],
-                                                          [ORKTextChoice choiceWithText:_no value:@(NO)]]];
+    ORKTextChoice *yesAnswer = [ORKTextChoice choiceWithText:_yes value:@(YES)];
+    yesAnswer.accessibilityIdentifier = ORKTextChoiceAccessiblity.booleanYesAnswer;
+
+    ORKTextChoice *noAnswer = [ORKTextChoice choiceWithText:_no value:@(NO)];
+    noAnswer.accessibilityIdentifier = ORKTextChoiceAccessiblity.booleanNoAnswer;
+
+    return [ORKAnswerFormat choiceAnswerFormatWithStyle:ORKChoiceAnswerStyleSingleChoice textChoices:@[ yesAnswer, noAnswer]];
 }
 
 - (Class)questionResultClass {
@@ -1268,7 +1281,7 @@ static NSArray *ork_processTextChoices(NSArray<ORKTextChoice *> *textChoices) {
         return ORKTimeOfDayDateFromComponents(self.defaultComponents);
     }
     
-    NSDateComponents *dateComponents = [[NSCalendar currentCalendar] componentsInTimeZone:[NSTimeZone systemTimeZone] fromDate:[NSDate date]];
+    NSDateComponents *dateComponents = [[NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian] componentsInTimeZone:[NSTimeZone systemTimeZone] fromDate:[NSDate date]];
     NSDateComponents *newDateComponents = [[NSDateComponents alloc] init];
     newDateComponents.calendar = ORKTimeOfDayReferenceCalendar();
     newDateComponents.hour = dateComponents.hour;
@@ -1369,7 +1382,7 @@ static NSArray *ork_processTextChoices(NSArray<ORKTextChoice *> *textChoices) {
 }
 
 - (NSCalendar *)currentCalendar {
-    return (_calendar ? : [NSCalendar currentCalendar]);
+    return (_calendar ? : [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian]);
 }
 
 - (NSDateFormatter *)resultDateFormatter {
@@ -1409,7 +1422,7 @@ static NSArray *ork_processTextChoices(NSArray<ORKTextChoice *> *textChoices) {
 {
     if (!self.defaultDate)
     {
-        NSCalendar *calendar = [NSCalendar currentCalendar];
+        NSCalendar *calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
         NSCalendarUnit unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth |  NSCalendarUnitDay;
         if (self.questionType == ORKQuestionTypeDateAndTime)
         {
