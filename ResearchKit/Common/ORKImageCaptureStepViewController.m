@@ -89,6 +89,8 @@
         
         _imageCaptureView.translatesAutoresizingMaskIntoConstraints = NO;
         [self setUpConstraints];
+        
+        _preserveImageDataOnRetakeAction = NO;
     }
     return self;
 }
@@ -303,9 +305,11 @@
     _imageCaptureView.capturedImage = capturedImageData ? [UIImage imageWithData:capturedImageData] : nil;
     
     // Remove the old file, if it exists, now that new data was acquired or reset
-    if (_fileURL) {
+    if (_fileURL && !_preserveImageDataOnRetakeAction) {
         [[NSFileManager defaultManager] removeItemAtURL:_fileURL error:nil];
         // Force the file to be rewritten the next time the result is requested
+        _fileURL = nil;
+    } else if (_preserveImageDataOnRetakeAction) {
         _fileURL = nil;
     }
     
@@ -313,7 +317,7 @@
 }
 
 - (NSURL *)writeCapturedDataWithError:(NSError **)error {
-    NSURL *URL = [self.outputDirectory URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.jpg",self.step.identifier]];
+    NSURL *URL = [self.outputDirectory URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.jpg", [[NSUUID UUID] UUIDString]]];
     // Confirm the outputDirectory was set properly
     if (!URL) {
         if (error) {
@@ -335,6 +339,26 @@
     }
     
     return URL;
+}
+
+- (void)goForward {
+    // if we were perserving image for editing purpose, we want to delete it at this point, and write new data if necessary
+    // - if new image is captured, we want to save it on disk
+    // - if step is skipped, we only delete old file
+    if (_preserveImageDataOnRetakeAction) {
+        [[NSFileManager defaultManager] removeItemAtURL:_fileURL error:nil];
+        _fileURL = nil;
+        
+        if (_capturedImageData) {
+            NSError *error = nil;
+            _fileURL = [self writeCapturedDataWithError:&error];
+            if (error) {
+                [self handleError:error];
+            }
+        }
+    }
+    
+    [super goForward];
 }
 
 - (ORKStepResult *)result {
