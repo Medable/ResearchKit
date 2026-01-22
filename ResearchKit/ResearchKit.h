@@ -122,5 +122,7 @@
 // Medable ---
 // Extra headers
 #import <ResearchKit/MedableResearchKit.h>
+#import <ResearchKit/ORKSelectionSubTitleLabel.h>
+#import <ResearchKit/ORKSelectionTitleLabel.h>
 // Medable ---
 
